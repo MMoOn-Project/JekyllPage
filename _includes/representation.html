@@ -1,0 +1,20 @@
+{% assign orthographic = representation | rdf_property: "mmoon:orthographicRepresentation" %}
+{% assign vocalized = representation | rdf_property: "heb_schema:vocalizedRepresentation" %}
+{% assign unvocalized = representation | rdf_property: "heb_schema:unvocalizedRepresentation" %}
+
+  <dl>
+    {% if orthographic %}
+    <dt>Orthographic Representation</dt>
+    <dd>{{ orthographic }}</dd>
+    {% endif %}
+
+    {% if vocalized %}
+    <dt>Vocalized Representation</dt>
+    <dd>{{ vocalized }}</dd>
+    {% endif %}
+
+    {% if unvocalized %}
+    <dt>Unvocalized Representation</dt>
+    <dd>{{ unvocalized }}</dd>
+    {% endif %}
+  </dl>

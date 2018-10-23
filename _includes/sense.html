@@ -1,0 +1,9 @@
+{% assign definition = sense | rdf_property: "mmoon:senseDefinition" %}
+{% assign language = sense | rdf_property: "dc:language" %}
+
+  <dl>
+    {% if definition %}
+    <dt>Definition {% if language %}({{ language }}){% endif %}</dt>
+    <dd>{{ definition }}</dd>
+    {% endif %}
+  </dl>
