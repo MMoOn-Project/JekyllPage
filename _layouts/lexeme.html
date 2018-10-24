@@ -50,12 +50,12 @@ title: "Lexeme"
 
     <dt>Morph (heb_schema:consistsOfMorph)</dt>
     {% for morph in heb_schema_morphs %}
-    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdf:label" }}</a></dd>
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
     {% endfor %}
 
     <dt>Morph (mmoon:consistsOfMorph)</dt>
     {% for morph in mmoon_morphs %}
-    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdf:label" }}</a></dd>
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
     {% endfor %}
   </dl>
 

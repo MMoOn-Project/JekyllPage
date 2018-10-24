@@ -250,6 +250,10 @@ dl.bildunterschrift dd {
     text-align: left;
 }
 
+dd.representation {
+    font-size: 300%
+}
+
 @media screen and (max-width: 600px) {
     .post-header
     .poststempel svg {
