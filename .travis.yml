@@ -5,6 +5,12 @@ rvm:
 env:
   - JEKYLL_ENV=production
 
+services:
+  - docker
+
+before_install:
+  - docker run -p 3030:3030 -v $PWD/_data/:/staging -d stain/jena-fuseki /jena-fuseki/fuseki-server --file=/staging/heb_inventory.ttl /openhebrew
+
 script:
   - bundle install
   - travis_wait 40 bundle exec jekyll build
