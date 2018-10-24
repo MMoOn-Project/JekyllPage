@@ -22,7 +22,7 @@ title: "Root"
 {% assign morphs = page.rdf | rdf_inverse_property: "heb_schema:consistsOfMorph", true %}
 
 {% for link in seeAlso %}
-<a href="{{link}}">{{link}}</a>,
+<a href="{{ link }}">{{link}}</a>,
 {% endfor %}
 
 {% for lemon_link in lemon_sense %}
@@ -39,7 +39,7 @@ title: "Root"
 
     <dt>Belongs To</dt>
     {% for belongsTo_ in belongsTo %}
-    <dd><a href="{{ belongsTo_.page_url }}">{{ belongsTo_ }}</a></dd>
+    <dd><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ }}</a></dd>
     {% endfor %}
 
     <dt>Representations</dt>
@@ -49,7 +49,7 @@ title: "Root"
 
     <dt>Lexemes consisting of this Morph</dt>
     {% for morph in morphs %}
-    <dd><a href="{{ morph.page_url }}">{{ morph.iri }}</a></dd>
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph.iri }}</a></dd>
     {% endfor %}
   </dl>
 

@@ -16,6 +16,6 @@ SELECT ?root ?label WHERE {
 {% assign results = page.rdf | sparql_query: root_query %}
 <ul>
   {% for row in results %}
-  <li><a href="{{ row.root.page_url }}">{{ row.label }}</a></li>
+  <li><a href="{{ row.root.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
   {% endfor %}
 </ul>

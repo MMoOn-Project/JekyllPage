@@ -49,7 +49,7 @@ title: "Lexeme"
 
     <dt>Morph</dt>
     {% for morph in morphs %}
-    <dd>{{ morph.iri }}</dd>
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdf:label" }}</a></dd>
     {% endfor %}
   </dl>
 
