@@ -1,0 +1,56 @@
+---
+layout: default
+rdf_prefix_path: "_data/prefix.sparql"
+title: "Root"
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
+    {% assign types = page.rdf | rdf_property: "rdf:type", nil, true %}
+    <div>
+      Type:
+      {% for type in types %}
+      <span>{{ type }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+{% assign roots = page.rdf | rdf_property: "heb_schema:consistsOfRoot", nil, true %}
+{% assign belongsTo = page.rdf | rdf_property: "mmoon:belongsTo", nil, true %}
+{% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
+{% assign morphs = page.rdf | rdf_inverse_property: "heb_schema:consistsOfMorph", true %}
+
+{% for link in seeAlso %}
+<a href="{{link}}">{{link}}</a>,
+{% endfor %}
+
+{% for lemon_link in lemon_sense %}
+<a href="{{ lemon_link }}">{{ lemon_link }}</a>,
+{% endfor %}
+
+
+  <dl>
+    <dt>Consists of Root</dt>
+    {% for root in roots %}
+    <dd>{{ root.iri }}</dd>
+    {% endfor %}
+
+
+    <dt>Belongs To</dt>
+    {% for belongsTo_ in belongsTo %}
+    <dd><a href="{{ belongsTo_.page_url }}">{{ belongsTo_ }}</a></dd>
+    {% endfor %}
+
+    <dt>Representations</dt>
+    {% for representation in representations %}
+    <dd>{{ representation.iri }}</dd>
+    {% endfor %}
+
+    <dt>Lexemes consisting of this Morph</dt>
+    {% for morph in morphs %}
+    <dd><a href="{{ morph.page_url }}">{{ morph.iri }}</a></dd>
+    {% endfor %}
+  </dl>
+
+</div>

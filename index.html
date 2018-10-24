@@ -1,2 +1,21 @@
+---
+rdf_prefix_path: "_data/prefix.sparql"
+---
 This page is built from the MMoOn Open Hebrew Inventory.
 
+The Roots:
+
+{% capture root_query %}
+SELECT ?root ?label WHERE {
+  ?root a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot> ;
+    rdfs:label ?label .
+  }
+} ORDER BY ?label
+{% endcapture %}
+
+{% assign results = page.rdf | sparql_query: root_query %}
+<ul>
+  {% for row in results %}
+  <li><a href="{{ row.root.page_url }}">{{ row.label }}</a></li>
+  {% endfor %}
+</ul>
