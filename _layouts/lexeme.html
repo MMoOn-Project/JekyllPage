@@ -12,7 +12,8 @@ title: "Lexeme"
 {% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
 {% assign senses = page.rdf | rdf_property: "mmoon:hasSense", nil, true %}
 {% assign wordclasses = page.rdf | rdf_property: "mmoon:hasWordclassAffiliation", nil, true %}
-{% assign morphs = page.rdf | rdf_property: "mmoon:consistsOfMorph", nil, true %}
+{% assign mmoon_morphs = page.rdf | rdf_property: "mmoon:consistsOfMorph", nil, true %}
+{% assign heb_schema_morphs = page.rdf | rdf_property: "heb_schema:consistsOfMorph", nil, true %}
 
 {% assign lemon_sense = page.rdf | rdf_property: "lemon:sense", nil, true %}
 {% assign seeAlso = page.rdf | rdf_property: "rdfs:seeAlso", nil, true %}
@@ -47,8 +48,13 @@ title: "Lexeme"
     <dd>{{ class.iri }}</dd>
     {% endfor %}
 
-    <dt>Morph</dt>
-    {% for morph in morphs %}
+    <dt>Morph (heb_schema:consistsOfMorph)</dt>
+    {% for morph in heb_schema_morphs %}
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdf:label" }}</a></dd>
+    {% endfor %}
+
+    <dt>Morph (mmoon:consistsOfMorph)</dt>
+    {% for morph in mmoon_morphs %}
     <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdf:label" }}</a></dd>
     {% endfor %}
   </dl>
