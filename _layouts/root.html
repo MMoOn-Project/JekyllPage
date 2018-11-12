@@ -21,11 +21,11 @@ title: "Root"
 {% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
 
 {% for link in seeAlso %}
-<a href="{{ link }}">{{link}}</a>,
+<a href="{{ link }}">{{ link | url_decode }}</a>,
 {% endfor %}
 
 {% for lemon_link in lemon_sense %}
-<a href="{{ lemon_link }}">{{ lemon_link }}</a>,
+<a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>,
 {% endfor %}
 
 
