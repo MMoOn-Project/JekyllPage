@@ -14,7 +14,6 @@ title: "Lexeme"
 {% assign wordclasses = page.rdf | rdf_property: "mmoon:hasWordclassAffiliation", nil, true %}
 {% assign mmoon_morphs = page.rdf | rdf_property: "mmoon:consistsOfMorph", nil, true %}
 {% assign heb_schema_morphs = page.rdf | rdf_property: "heb_schema:consistsOfMorph", nil, true %}
-{% assign morphs = mmoon_morphs | concat: heb_schema_morphs %}
 
 {% assign lemon_sense = page.rdf | rdf_property: "lemon:sense", nil, true %}
 {% assign seeAlso = page.rdf | rdf_property: "rdfs:seeAlso", nil, true %}
@@ -22,7 +21,7 @@ title: "Lexeme"
 {% if wordclasses.first %}
 <div>
 {% for class in wordclasses %}
-<strong>{{ class.iri | rdf_property: "rdfs:label", "en" }}/{{ class.iri | rdf_property: "rdfs:label", "he" }}</strong>
+<strong>{{ class | rdf_property: "rdfs:label", "en" }}/{{ class | rdf_property: "rdfs:label", "he" }}</strong>
 {% endfor %}
 <em>Wordclass Affiliation</em>
 </div>
@@ -31,16 +30,19 @@ title: "Lexeme"
 {% if inflections.first %}
 <div>
 {% for category in inflections %}
-<strong>{{ category.iri | rdf_property: "rdfs:label", "en" }}/{{ category.iri | rdf_property: "rdfs:label", "he" }}</strong>
+<strong>{{ category | rdf_property: "rdfs:label", "en" }}/{{ category | rdf_property: "rdfs:label", "he" }}</strong>
 {% endfor %}
 <em>Inflection Category</em>
 </div>
 {% endif %}
 
-{% if morphs.first %}
+{% if mmoon_morphs.first or heb_schema_morphs.first %}
 <div>
     <dt>Morph (heb_schema:consistsOfMorph and mmoon:consistsOfMorph)</dt>
-    {% for morph in morphs %}
+    {% for morph in mmoon_morphs %}
+    <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
+    {% endfor %}
+    {% for morph in heb_schema_morphs %}
     <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
     {% endfor %}
 </div>
