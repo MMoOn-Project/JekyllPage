@@ -1,0 +1,50 @@
+---
+layout: default
+rdf_prefix_path: "_data/prefix.sparql"
+title: "Word"
+---
+<div class="post">
+  <header class="post-header">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
+  </header>
+
+{% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
+{% assign senses = page.rdf | rdf_property: "mmoon:hasSense", nil, true %}
+{% assign wordclasses = page.rdf | rdf_property: "mmoon:hasWordclassAffiliation", nil, true %}
+{% assign mmoon_morphs = page.rdf | rdf_property: "mmoon:consistsOfMorph", nil, true %}
+
+{% assign lemon_sense = page.rdf | rdf_property: "lemon:sense", nil, true %}
+{% assign seeAlso = page.rdf | rdf_property: "rdfs:seeAlso", nil, true %}
+
+{% for link in seeAlso %}
+<a href="{{link}}">{{link}}</a>,
+{% endfor %}
+
+{% for lemon_link in lemon_sense %}
+<a href="{{ lemon_link }}">{{ lemon_link }}</a>,
+{% endfor %}
+
+
+  <dl>
+    <dt>Representation</dt>
+    {% for representation in representations %}
+    <dd>{% include representation.html representation=representation %}</dd>
+    {% endfor %}
+
+    <dt>Sense</dt>
+    {% for sense in senses %}
+    <dd>{% include sense.html sense=sense %}</dd>
+    {% endfor %}
+
+    <dt>Word Classes</dt>
+    {% for class in wordclasses %}
+    <dd>{{ class.iri }}</dd>
+    {% endfor %}
+
+    <dt>Morph (heb_schema:consistsOfMorph)</dt>
+    {% for morph in heb_schema_morphs %}
+    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
+    {% endfor %}
+  </dl>
+
+</div>

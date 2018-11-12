@@ -19,7 +19,6 @@ title: "Root"
 {% assign roots = page.rdf | rdf_property: "heb_schema:consistsOfRoot", nil, true %}
 {% assign belongsTo = page.rdf | rdf_property: "mmoon:belongsTo", nil, true %}
 {% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
-{% assign morphs = page.rdf | rdf_inverse_property: "heb_schema:consistsOfMorph", true %}
 
 {% for link in seeAlso %}
 <a href="{{ link }}">{{link}}</a>,
@@ -36,7 +35,6 @@ title: "Root"
     <dd>{{ root.iri }}</dd>
     {% endfor %}
 
-
     <dt>Belongs To</dt>
     {% for belongsTo_ in belongsTo %}
     <dd><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ }}</a></dd>
@@ -45,11 +43,6 @@ title: "Root"
     <dt>Representations</dt>
     {% for representation in representations %}
     <dd>{{ representation.iri }}</dd>
-    {% endfor %}
-
-    <dt>Lexemes consisting of this Morph</dt>
-    {% for morph in morphs %}
-    <dd><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph.iri }}</a></dd>
     {% endfor %}
   </dl>
 
