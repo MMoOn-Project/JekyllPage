@@ -10,7 +10,7 @@ title: "Binyan"
   </header>
 
   {% capture word_query %}
-  SELECT ?root ?label WHERE {
+  SELECT ?word ?label WHERE {
     ?word mmoon:consistsOfMorph ?resourceUri ;
       rdfs:label ?label .
   } ORDER BY ?label
@@ -19,7 +19,7 @@ title: "Binyan"
 {% assign results = page.rdf | sparql_query: word_query %}
 <ul>
   {% for row in results %}
-  <li><a href="{{ word.page_url | prepend: site.baseurl }}">{{ word.label }}</a></li>
+  <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.word.label }}</a></li>
   {% endfor %}
 </ul>
 
