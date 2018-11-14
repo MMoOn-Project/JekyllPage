@@ -18,7 +18,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 jekyll_rdf:
-    baseiri: "http://mmoon.org/lang/heb/"
+    baseiri: "http://mmoon.org/lang/heb"
     #path: "_data/heb_inventory.ttl"
     remote:
       endpoint: http://localhost:3030/openhebrew/query
