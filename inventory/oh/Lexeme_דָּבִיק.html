@@ -330,6 +330,26 @@
     </div>
     <script src="/JekyllPage/scripts/jquery.min.js" type="text/javascript"></script>
 <script src="/JekyllPage/scripts/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var filterTrigger = function(that) {
+  //var that = this;
+  $.each($('li'),
+  function(i, val) {
+      if ($(val).text().indexOf($(that).val()) == -1) {
+          $('li').eq(i).hide();
+      } else {
+          $('li').eq(i).show();
+      }
+  });
+}
+$('#inputFilter').keyup(function() {filterTrigger(this)});
+$('.alphabet span').click(function() {
+  var that = this;
+  value = $('#inputFilter').val();
+  $('#inputFilter').val(value + $(this).text());
+  filterTrigger($('#inputFilter'));
+});
+</script>
 
     </body>
 </html>
