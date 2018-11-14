@@ -9,12 +9,14 @@ title: "Binyan"
     <h1>{{ page.rdf | rdf_property: "rdfs:label", nil, true | join: ", " }}</h1>
   </header>
 
-  {% capture word_query %}
-  SELECT ?word ?label WHERE {
-    ?word mmoon:consistsOfMorph ?resourceUri ;
-      rdfs:label ?label .
-  } ORDER BY ?label
-  {% endcapture %}
+{% include filter.html %}
+
+{% capture word_query %}
+SELECT ?word ?label WHERE {
+  ?word mmoon:consistsOfMorph ?resourceUri ;
+    rdfs:label ?label .
+} ORDER BY ?label
+{% endcapture %}
 
 {% assign results = page.rdf | sparql_query: word_query %}
 <ul>
