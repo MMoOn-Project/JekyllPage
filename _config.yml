@@ -22,8 +22,9 @@ jekyll_rdf:
     #path: "_data/heb_inventory.ttl"
     remote:
       endpoint: http://localhost:3030/openhebrew/query
-    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . { ?resourceUri a <http://mmoon.org/lang/heb/schema/oh/Lexeme> } UNION { ?resourceUri a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot> } UNION { ?resourceUri a <http://mmoon.org/mmoon/core/Word> } FILTER regex(str(?resourceUri), \"http://mmoon.org/lang/heb/inventory/oh\") }"
+    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . { ?resourceUri a <http://mmoon.org/lang/heb/schema/oh/Lexeme> } UNION { ?resourceUri a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot> } UNION { ?resourceUri a <http://mmoon.org/lang/heb/schema/oh/Binyan> } UNION { ?resourceUri a <http://mmoon.org/mmoon/core/Word> } FILTER regex(str(?resourceUri), \"http://mmoon.org/lang/heb/inventory/oh\") }"
     class_template_mappings:
         "http://mmoon.org/lang/heb/schema/oh/Lexeme" : "lexeme"
         "http://mmoon.org/lang/heb/schema/oh/Root" : "root"
+        "http://mmoon.org/lang/heb/schema/oh/Binyan" : "binyan"
         "http://mmoon.org/mmoon/core/Word" : "word"

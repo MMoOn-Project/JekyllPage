@@ -5,8 +5,8 @@
     {% if page.title %}
      {% assign page_title = page.title %}
     {% endif %}
-    {% if meta_title %}
-     {% assign page_title = meta_title%}
+    {% if page.rdf %}
+     {% assign page_title = page.rdf | rdf_property: "rdfs:label" %}
     {% endif %}
     <title>{{ site.title }}{% if page_title %}{{ page_title | prepend: ": " }}{% endif %}</title>
     {% if page.description %}

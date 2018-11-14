@@ -20,30 +20,38 @@ title: "Root"
 {% assign belongsTo = page.rdf | rdf_property: "mmoon:belongsTo", nil, true %}
 {% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
 
-{% for link in seeAlso %}
-<a href="{{ link }}">{{ link | url_decode }}</a>,
-{% endfor %}
-
-{% for lemon_link in lemon_sense %}
-<a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>,
-{% endfor %}
-
-
   <dl>
+
+    <dt>Representations</dt>
+    {% for representation in representations %}
+    <dd class="representation">{{ representation | rdf_property: "rdfs:label" }}</dd>
+    {% endfor %}
+
+    {% if roots.first %}
     <dt>Consists of Root</dt>
     {% for root in roots %}
     <dd>{{ root.iri }}</dd>
     {% endfor %}
+    {% endif %}
 
     <dt>Belongs To</dt>
     {% for belongsTo_ in belongsTo %}
-    <dd><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ }}</a></dd>
+    <dd class="representation"><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ | rdf_property: "rdfs:label" }}</a></dd>
     {% endfor %}
 
-    <dt>Representations</dt>
-    {% for representation in representations %}
-    <dd>{{ representation.iri }}</dd>
+    {% if seeAlso.first %}
+    <dt>See Also</dt>
+    {% for link in seeAlso %}
+    <a href="{{link}}">{{ link | url_decode }}</a>,
     {% endfor %}
+    {% endif %}
+
+    {% if lemon_sense.first %}
+    <dt>Lemon Links</dt>
+    {% for lemon_link in lemon_sense %}
+    <a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>,
+    {% endfor %}
+    {% endif %}
   </dl>
 
 </div>
