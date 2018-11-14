@@ -19,7 +19,7 @@ title: "Binyan"
 {% assign results = page.rdf | sparql_query: word_query %}
 <ul>
   {% for row in results %}
-  <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.word.label }}</a></li>
+  <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
   {% endfor %}
 </ul>
 
