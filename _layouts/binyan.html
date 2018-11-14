@@ -1,0 +1,26 @@
+---
+layout: default
+rdf_prefix_path: "_data/prefix.sparql"
+title: "Binyan"
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label", nil, true | join: ", " }}</h1>
+  </header>
+
+  {% capture word_query %}
+  SELECT ?root ?label WHERE {
+    ?word mmoon:consistsOfMorph ?resourceUri ;
+      rdfs:label ?label .
+  } ORDER BY ?label
+  {% endcapture %}
+
+{% assign results = page.rdf | sparql_query: word_query %}
+<ul>
+  {% for row in results %}
+  <li><a href="{{ word.page_url | prepend: site.baseurl }}">{{ word.label }}</a></li>
+  {% endfor %}
+</ul>
+
+</div>

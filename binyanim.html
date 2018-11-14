@@ -1,0 +1,24 @@
+---
+layout: default
+rdf_prefix_path: "_data/prefix.sparql"
+---
+<p>This page is built from the MMoOn Open Hebrew Inventory.</p>
+
+<h2>The Binyanim</h2>
+
+{% capture binyan_query %}
+SELECT ?binyan ?label_he ?label_en {
+  ?binyan a heb_schema:Binyan ;
+    rdfs:label ?label_he, ?label_en .
+    FILTER (lang(?label_he) = 'he')
+    FILTER (lang(?label_en) = 'en')
+} ORDER BY ?label_he
+{% endcapture %}
+
+{% assign results = page.rdf | sparql_query: binyan_query %}
+<ul>
+  {% for row in results %}
+  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.label_en }}/{{ row.label_he }}</a></li>
+  {% endfor %}
+</ul>
+<p>Sorry, there is some duplication and the <em>Barkali</em> types are currently not linked.</p>
