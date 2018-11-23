@@ -8,6 +8,11 @@ env:
 services:
   - docker
 
+addons:
+  apt:
+    packages:
+      - raptor2-utils
+
 before_install:
   - docker run -p 3030:3030 -v $PWD/_data/:/staging -d stain/jena-fuseki /jena-fuseki/fuseki-server --file=/staging/heb_inventory.ttl /openhebrew
 
@@ -16,6 +21,10 @@ script:
   - travis_wait 40 bundle exec jekyll build
   - cd _site/
   - ../provisioning/extract.py --file ../_data/heb_inventory.ttl --base "http://mmoon.org/lang/heb/"
+  - cd ../../schema/oh/
+  - for res in *.ttl; do echo $res; rapper -i turtle -o json $res > ${res%.ttl}.json ; done
+  - cd inventory/oh/
+  - for res in *.ttl; do echo $res; rapper -i turtle -o json $res > ${res%.ttl}.json ; done
 
 deploy:
   provider: pages
