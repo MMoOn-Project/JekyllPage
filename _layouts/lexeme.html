@@ -40,7 +40,7 @@ title: "Lexeme"
 <div>
     <dt>Morph (heb_schema:consistsOfMorph and mmoon:consistsOfMorph)</dt>
     {% for morph in mmoon_morphs %}
-    <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
+    <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label", "he" }}</a></dd>
     {% endfor %}
     {% for morph in heb_schema_morphs %}
     <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
