@@ -1,7 +1,8 @@
 html, body {
     /*background-color: #36b2d9;*/
     /* akzente: #e3c085 */
-    font-family: "Open Sans Regular", "Open Sans", "open_sansregular"
+    font-family: "Open Sans Regular", "Open Sans", "open_sansregular";
+    background-color: rgb(251, 251, 250)
 }
 
 h1, h2, h3, h4, h5, h6 {
