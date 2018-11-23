@@ -1,4 +1,4 @@
-<head>
+<head xmlns:pingback="http://purl.org/net/pingback/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,9 +23,20 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <link rel="resourcehostingservice" href="http://resource.feedback.aksw.org/" />
+    <link rel="pingback:to" href="{{ site.pingback_to }}" />
+    <link rel="pingback:service" href="{{ site.pingback_service }}" />
+    <link rel="pingback" href="{{ site.pingback_to }}" />
+
+    {% if page.rdf %}
+    <link rel="foaf:primarytopic" href="{{ page.rdf.iri }}" />
+    <link rel="alternate" type="application/rdf+json" href="{{ page.url | replace: '.html','' | prepend: site.baseurl | prepend: site.url | append: '.json' }}" />
+    {% endif %}
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/annotationclient.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/fonts/OpenSans-Regular-stylesheet.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/fonts/Lato-stylesheet.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/fonts/Underwood_champion-stylesheet.css" | prepend: site.baseurl }}">

@@ -4,6 +4,8 @@ email:
 description: ""
 baseurl: "/JekyllPage"
 url: "http://mmoon.org"
+pingback_to: "http://pingback.feedback.aksw.org/"
+pingback_service: "http://pingback.feedback.aksw.org/"
 
 # Build settings
 markdown: kramdown
