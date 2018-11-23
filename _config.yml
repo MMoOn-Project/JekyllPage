@@ -19,6 +19,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - provisioning
 jekyll_rdf:
     baseiri: "http://mmoon.org/lang/heb"
     #path: "_data/heb_inventory.ttl"

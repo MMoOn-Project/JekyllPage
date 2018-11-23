@@ -14,6 +14,8 @@ before_install:
 script:
   - bundle install
   - travis_wait 40 bundle exec jekyll build
+  - cd _site/
+  - ../provisioning/extract.py --file ../_data/heb_inventory.ttl --base "http://mmoon.org/lang/heb/"
 
 deploy:
   provider: pages
