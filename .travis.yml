@@ -12,6 +12,7 @@ addons:
   apt:
     packages:
       - raptor2-utils
+      - python3-pip
 
 before_install:
   - docker run -p 3030:3030 -v $PWD/_data/:/staging -d stain/jena-fuseki /jena-fuseki/fuseki-server --file=/staging/heb_inventory.ttl /openhebrew
