@@ -22,15 +22,10 @@ before_install:
 
 script:
   - bundle install
-  - travis_wait 40 bundle exec jekyll build
+  #- travis_wait 40 bundle exec jekyll build
+  - mkdir _site
   - cd _site/
-  - ../provisioning/extract.py --file ../_data/heb_inventory.ttl --base "http://mmoon.org/lang/heb/"
-  - echo "Convert schema ttls to json"
-  - cd ./schema/oh/
-  - for res in *.ttl; rapper -i turtle -o json $res > ${res%.ttl}.json 2> /dev/null ; done
-  - echo "Convert inventory ttls to json"
-  - cd ../../inventory/oh/
-  - for res in *.ttl; rapper -i turtle -o json $res > ${res%.ttl}.json 2> /dev/null ; done
+  - provisioning/createRdfFiles.sh
 
 deploy:
   provider: pages
