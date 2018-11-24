@@ -22,11 +22,10 @@ before_install:
 
 script:
   - bundle install
-  #- travis_wait 40 bundle exec jekyll build
+  - travis_wait 40 bundle exec jekyll build
   - mkdir _site
   - cd _site/
   - ../provisioning/createRdfFiles.sh
-  - exit 1
 
 deploy:
   provider: pages
