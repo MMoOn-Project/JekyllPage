@@ -26,10 +26,10 @@ script:
   - cd _site/
   - ../provisioning/extract.py --file ../_data/heb_inventory.ttl --base "http://mmoon.org/lang/heb/"
   - echo "Convert schema ttls to json"
-  - cd ../../schema/oh/
+  - cd ./schema/oh/
   - for res in *.ttl; rapper -i turtle -o json $res > ${res%.ttl}.json 2> /dev/null ; done
   - echo "Convert inventory ttls to json"
-  - cd inventory/oh/
+  - cd ../../inventory/oh/
   - for res in *.ttl; rapper -i turtle -o json $res > ${res%.ttl}.json 2> /dev/null ; done
 
 deploy:
