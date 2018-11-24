@@ -25,7 +25,7 @@ script:
   #- travis_wait 40 bundle exec jekyll build
   - mkdir _site
   - cd _site/
-  - provisioning/createRdfFiles.sh
+  - ../provisioning/createRdfFiles.sh
   - exit 1
 
 deploy:
