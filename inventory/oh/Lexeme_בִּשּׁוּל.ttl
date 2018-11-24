@@ -1,6 +1,6 @@
 @prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,13 +9,13 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּשּׁוּל> a ns1:Lexeme ;
     rdfs:label "בִּשּׁוּל"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׁל> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּשּׁוּל>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּשּׁוּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בישול> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cooking>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cooking>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%B0%D1%80%D0%BA%D0%B0>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%B8%D1%89%D0%B8%3B%20%D0%B3%D0%BE%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%BF%D0%B0%D1%81> ;
-    ns3:hasWordclassAffiliation ns1:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%B4%D6%BC%D7%A9%D6%BC%D7%81%D7%95%D6%BC%D7%9C_HE/s00022412n>,
+    ns2:hasWordclassAffiliation ns1:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%91%D6%B4%D6%BC%D7%A9%D6%BC%D7%81%D7%95%D6%BC%D7%9C_HE/s00022412n>,
         <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%A9%D6%BC%D7%81%D7%95%D6%BC%D7%9C_HE/s00022412n>,
         <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%A9%D6%BC%D7%81%D7%95%D6%BC%D7%9C_HE/s00024323n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%B4%D6%BC%D7%A9%D6%BC%D7%81%D7%95%D6%BC%D7%9C_n_HE>,

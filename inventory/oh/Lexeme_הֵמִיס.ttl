@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵמִיס> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵמִיס> a ns2:Lexeme ;
     rdfs:label "הֵמִיס"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מוס> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵמִיס>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מוס> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵמִיס>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_המיס> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dissolve>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dissolve>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thaw%3B%20to%20weaken>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cause%20to%20melt> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

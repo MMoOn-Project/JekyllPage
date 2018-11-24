@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bewegung%20russicher%20Juden%20zur%20Kolonialisierung%20Pal%C3%A4stinas//BILU%20%D6%BE%20Zionist%20Organization%20from%20the%20end%20of%20the%2019th%20century> a ns1:Sense ;
-    ns1:senseDefinition "Bewegung russicher Juden zur Kolonialisierung Palästinas//BILU ־ Zionist Organization from the end of the 19th century"@de ;
-    ns2:language "de" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bewegung%20russicher%20Juden%20zur%20Kolonialisierung%20Pal%C3%A4stinas//BILU%20%D6%BE%20Zionist%20Organization%20from%20the%20end%20of%20the%2019th%20century> a ns2:Sense ;
+    ns2:senseDefinition "Bewegung russicher Juden zur Kolonialisierung Palästinas//BILU ־ Zionist Organization from the end of the 19th century"@de ;
+    ns1:language "de" .
 

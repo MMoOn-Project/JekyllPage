@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_color%3B%20hue%20%3B%20shade%20%28of%20color%29%20%3B%20nuance%20%3B%20%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D%20-%20dyed%20hair%20tips> a ns1:Sense ;
-    ns1:senseDefinition "color; hue ; shade (of color) ; nuance ; גוונים - dyed hair tips"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_color%3B%20hue%20%3B%20shade%20%28of%20color%29%20%3B%20nuance%20%3B%20%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D%20-%20dyed%20hair%20tips> a ns2:Sense ;
+    ns2:senseDefinition "color; hue ; shade (of color) ; nuance ; גוונים - dyed hair tips"@en ;
+    ns1:language "en" .
 

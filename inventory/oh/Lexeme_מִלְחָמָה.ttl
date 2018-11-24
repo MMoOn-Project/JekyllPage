@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִלְחָמָה> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִלְחָמָה> a ns1:Lexeme ;
     rdfs:label "מִלְחָמָה"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לחםא> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִלְחָמָה>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לחםא> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִלְחָמָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מלחמה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Krieg>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Krieg>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_war>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns2:hasWordclassAffiliation ns1:CommonNoun ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%9C%D6%B0%D7%97%D6%B8%D7%9E%D6%B8%D7%94_HE/s00009080n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%9C%D6%B0%D7%97%D6%B8%D7%9E%D6%B8%D7%94_HE/s00080439n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%9C%D6%B0%D7%97%D6%B8%D7%9E%D6%B8%D7%94_n_HE> .

@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20necessitate%20%3B%20%28accounting%29%20to%20debit%3B%20to%20charge%20%3B%20to%20bind%20%28be%20binding%29%3B%3B%3B%20force%3B%20debit> a ns2:Sense ;
-    ns2:senseDefinition "to necessitate ; (accounting) to debit; to charge ; to bind (be binding);;; force; debit"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20necessitate%20%3B%20%28accounting%29%20to%20debit%3B%20to%20charge%20%3B%20to%20bind%20%28be%20binding%29%3B%3B%3B%20force%3B%20debit> a ns1:Sense ;
+    ns1:senseDefinition "to necessitate ; (accounting) to debit; to charge ; to bind (be binding);;; force; debit"@en ;
+    ns2:language "en" .
 

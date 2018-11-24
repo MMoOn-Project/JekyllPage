@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נַעַר> a ns3:Lexeme ;
     rdfs:label "נַעַר"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נער> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נַעַר>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נַעַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נער> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eadolescent>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eadolescent>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ejuvenile>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Estripling%3B%20boy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_garcon>,
@@ -22,7 +22,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_teenager>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_youngster>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_youth> ;
-    ns1:hasWordclassAffiliation ns3:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A0%D6%B7%D7%A2%D6%B7%D7%A8_HE/s00048690n> ;
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A0%D6%B7%D7%A2%D6%B7%D7%A8_HE/s00048690n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B7%D7%A2%D6%B7%D7%A8_n_HE> .
 

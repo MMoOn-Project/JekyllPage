@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָקֵן> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָקֵן> a ns2:Lexeme ;
     rdfs:label "זָקֵן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זקן> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָקֵן>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זקן> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָקֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זקן> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Greis>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Greis>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_alt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_greis%3B%20Alter>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_aged>,
@@ -20,6 +20,6 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wise%20man%3B%3B%3B%20old%20%28animate%29%3B%3B%3B%20old%20%28beings%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wise%20man%3B%3B%3B%20old%20%28animate%29%3B%3B%3B%20old%20%28beings%29%3B%3B%3B%20elder%20%28title%20of%20honor%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D1%82%D0%B0%D1%80%D0%B8%D0%BA> ;
-    ns2:hasWordclassAffiliation ns1:Adjective,
-        ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun .
 

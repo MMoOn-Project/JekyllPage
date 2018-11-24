@@ -1,25 +1,25 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַחֲלָה> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַחֲלָה> a ns3:Lexeme ;
     rdfs:label "מַחֲלָה"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חלי> ;
-    ns1:hasInflectionalCategory ns2:Feminine ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַחֲלָה>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חלי> ;
+    ns2:hasInflectionalCategory ns3:Feminine ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַחֲלָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מחלה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ailment>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ailment>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_disease>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_illness>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_invalidism%3B%3B%3B%20sickness>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_malady>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sickness>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8C> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B2%D7%9C%D6%B8%D7%94_HE/s00045952n> ;
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B2%D7%9C%D6%B8%D7%94_HE/s00045952n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B2%D7%9C%D6%B8%D7%94_n_HE> .
 

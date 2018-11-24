@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_התכוונות> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_התכוונות> a ns3:Lexeme ;
     rdfs:label "התכוונות"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כון> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כון> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_התכוונות> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%94%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%95%D7%AA_%28%D7%90%D7%99%D7%A0%D7%98%D7%A0%D7%A6%D7%99%D7%95%D7%A0%D7%90%D7%9C%D7%99%D7%95%D7%AA%29_HE/s01088660n>,
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%94%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%95%D7%AA_%28%D7%90%D7%99%D7%A0%D7%98%D7%A0%D7%A6%D7%99%D7%95%D7%A0%D7%90%D7%9C%D7%99%D7%95%D7%AA%29_HE/s01088660n>,
         <http://babelnet.org/rdf/%D7%94%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%95%D7%AA_%28%D7%90%D7%9C%D7%91%D7%95%D7%9D%29_HE/s05046711n>,
         <http://babelnet.org/rdf/%D7%94%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%95%D7%AA_%28%D7%90%D7%9C%D7%91%D7%95%D7%9D_%D7%A9%D7%9C_%D7%99%D7%95%D7%A0%D7%99_%D7%A8%D7%9B%D7%98%D7%A8%29_HE/s05046711n>,
         <http://babelnet.org/rdf/%D7%94%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%95%D7%AA_%28%D7%A4%D7%99%D7%9C%D7%95%D7%A1%D7%95%D7%A4%D7%99%D7%94%29_HE/s01088660n>,

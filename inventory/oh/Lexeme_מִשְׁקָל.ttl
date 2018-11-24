@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִשְׁקָל> a ns3:Lexeme ;
     rdfs:label "מִשְׁקָל"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁקל> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִשְׁקָל>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִשְׁקָל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_משקל> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weight>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weight>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_scale> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%A7%D6%B8%D7%9C_HE/s00025743n>,
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%A7%D6%B8%D7%9C_HE/s00025743n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%A7%D6%B8%D7%9C_HE/s00080831n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%A7%D6%B8%D7%9C_n_HE> .
 

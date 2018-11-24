@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּוֶךְ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּוֶךְ> a ns1:Lexeme ;
     rdfs:label "תָּוֶךְ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תוך> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּוֶךְ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תוך> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּוֶךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תווך> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_center>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_center>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20middle%3B%3Cbr%20/%3Einside>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_interior>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inward>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_middle%3B%20%28physics%29%20medium%3B%20%28art%29%20solvent%3B%20%D7%91%D7%AA%D7%95%D7%95%D7%9A%20-%20in%20between>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_midst%3B%20in%3B%20content> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

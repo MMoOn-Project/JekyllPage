@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִתֵּל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִתֵּל> a ns1:Lexeme ;
     rdfs:label "חִתֵּל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חתל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִתֵּל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חתל> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִתֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיתל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_windeln>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_windeln>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_put%20a%20diaper%20on%20someone> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

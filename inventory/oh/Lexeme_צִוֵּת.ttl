@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִוֵּת> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִוֵּת> a ns2:Lexeme ;
     rdfs:label "צִוֵּת"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צות> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִוֵּת>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צות> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִוֵּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ציוות> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20commend>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20commend>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%28%D1%8B%D0%B2%29%D0%B0%D1%82%D1%8C> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

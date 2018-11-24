@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְיֻמָּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מְיֻמָּן"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְיֻמָּן>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְיֻמָּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיומן> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proficient%3B%3B%3B%20skilled>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proficient%3B%3B%3B%20skilled>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_seasoned>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_skilled> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%99%D6%BB%D7%9E%D6%BC%D6%B8%D7%9F_HE/s00110711a> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%99%D6%BB%D7%9E%D6%BC%D6%B8%D7%9F_HE/s00110711a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%99%D6%BB%D7%9E%D6%BC%D6%B8%D7%9F_a_HE> .
 

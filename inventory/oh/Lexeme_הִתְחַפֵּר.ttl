@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַפֵּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַפֵּר> a ns2:Lexeme ;
     rdfs:label "הִתְחַפֵּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חפר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַפֵּר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28military%29%20to%20entrench%20oneself%20%28in%20a%20trench>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חפר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַפֵּר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28military%29%20to%20entrench%20oneself%20%28in%20a%20trench>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bunker%29%3B%20%28colloquial%29%20to%20curl%20up%20in>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_covers%29%3B%20%28colloquial%29%20to%20stand%20firm%20%28in%20one%27s%20beliefs>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_opinions%29%3B%3B%3B%20dig%20in%3B%20stick%20to%20an%20opinion>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20burrow%20under%20%28blankets>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20wrap%20oneself%20up%20in> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 
