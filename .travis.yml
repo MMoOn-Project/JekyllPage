@@ -23,7 +23,6 @@ before_install:
 script:
   - bundle install
   - travis_wait 40 bundle exec jekyll build
-  - mkdir _site
   - cd _site/
   - ../provisioning/createRdfFiles.sh
 
