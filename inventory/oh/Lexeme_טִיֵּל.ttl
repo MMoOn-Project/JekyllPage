@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִיֵּל> a ns2:Lexeme ;
+    rdfs:label "טִיֵּל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טיל> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טִיֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_טייל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-Ausflug-machen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_spazieren>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_go%20on%20a%20trip>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_travel%3B%3B%3B%20hike%3B%20stroll%3B%20take%20a%20walk> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

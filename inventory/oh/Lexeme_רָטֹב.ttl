@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָטֹב> a ns2:Lexeme ;
+    rdfs:label "רָטֹב"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רטב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָטֹב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רטוב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_feucht>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_na%C3%9F>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_moist%20%28%D7%A8%D7%98%D7%99%D7%91%20moisture%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%BE%D0%BA%D1%80%D0%BE>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%BE%D0%BA%D1%80%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

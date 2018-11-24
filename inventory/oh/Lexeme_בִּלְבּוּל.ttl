@@ -1,0 +1,32 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּלְבּוּל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "בִּלְבּוּל"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּלְבּוּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בלבול> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bafflement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bedevilment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_befuddl>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_confusion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_derangement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_disorder>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_disorientation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flester>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fuddle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fuzziness%3B%20perplexity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_imbroglio>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_incoherence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jumble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mixup>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_muddle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obfuscation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wooziness> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%BC%D7%9C_HE/s00021792n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%BC%D7%9C_n_HE> .
+

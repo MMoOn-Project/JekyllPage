@@ -1,0 +1,85 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D4\u05D5\u05B9\u05E8\u05B4\u05D9\u05D3" : {
+    "http://mmoon.org/lang/heb/schema/oh/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Root_\u05D9\u05E8\u05D3",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/hif%27il",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D4\u05D5\u05B9\u05E8\u05B4\u05D9\u05D3",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D4\u05D5\u05E8\u05D9\u05D3",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_lower",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20drop%20off%20a%20passenger%3B%20%3Cbr%20/%3E%28colloquial%29%20to%20remove%3B%20%28colloquial%29%20to%20lose%20weight%3B%20%3Cbr%20/%3E%28colloquial%29%20to%20lower%20the%20price",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20lower%3B%20to%20remove%20a%20piece%20of%20clothing%3B%20to%20reduce%3B%20%3Cbr%20/%3Eto%20enable%20a%20passenger%20to%20alight",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20reduce%20the%20cost%3B%20%3Cbr%20/%3E%28computing%29%20to%20download%3B%3B%3B%20take%20off",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Verb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_HE/s00087203v",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_HE/s00090497v",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D4\u05D5\u05B9\u05E8\u05B4\u05D9\u05D3",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_v_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

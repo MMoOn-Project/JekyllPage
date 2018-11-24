@@ -1,0 +1,47 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E4\u05BC\u05B5\u05D0\u05B8\u05D4" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E4\u05BC\u05B5\u05D0\u05B8\u05D4",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E4\u05D0\u05D4",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A4%D6%B5%D6%BC%D7%90%D6%B8%D7%94_HE/s13725232n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E4\u05BC\u05B5\u05D0\u05B8\u05D4",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A4%D6%B5%D6%BC%D7%90%D6%B8%D7%94_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

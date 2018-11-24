@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_תּוֹךְ> a ns1:Word ;
+    rdfs:label "תּוֹךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תוך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inside>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_within>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Eat%20the%20same%20time>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Emidst%3B%20in%3B%20content%3B%3Cbr%3E%3Cbr%20/%3Ealso%20prep.%3Cbr%3Ewithin%3B%3Cbr%3Ewhile>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Ewhile%20at%20the%20same%20time>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_inside>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_interior>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_inward> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Preposition> .
+

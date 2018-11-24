@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָעֵב> a ns2:Lexeme ;
+    rdfs:label "רָעֵב"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רעב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָעֵב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רעב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Verbaladjektiv>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_hungrig%3B%20hungrig%20gsein>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_famished>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hungry>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ravenous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_starving>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

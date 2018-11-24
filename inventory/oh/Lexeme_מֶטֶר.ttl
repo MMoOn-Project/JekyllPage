@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֶטֶר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מֶטֶר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֶטֶר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מטר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_meter%20%28distance%29> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B6%D7%98%D6%B6%D7%A8_HE/s00052501n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B6%D7%98%D6%B6%D7%A8_HE/s00076103n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B6%D7%98%D6%B6%D7%A8_n_HE> .
+

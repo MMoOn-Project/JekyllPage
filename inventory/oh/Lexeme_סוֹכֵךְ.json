@@ -1,0 +1,100 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E1\u05D5\u05B9\u05DB\u05B5\u05DA\u05B0" : {
+    "http://mmoon.org/lang/heb/schema/oh/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Root_\u05E1\u05DB\u05DA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/polel",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E1\u05D5\u05B9\u05DB\u05B5\u05DA\u05B0",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E1\u05D5\u05DB\u05DA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_awning",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_canopy",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_marquee%20%3B%20%28botany%29%20umbel%3B%3B%3B%20awning",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_sunshade",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20conceal",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cover",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20protect%3B%3B%3B%20cover%20%28to%20protect%29",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Verb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%9B%D6%B5%D7%9A%D6%B0_HE/s00007513n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E1\u05D5\u05B9\u05DB\u05B5\u05DA\u05B0",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%9B%D6%B5%D7%9A%D6%B0_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

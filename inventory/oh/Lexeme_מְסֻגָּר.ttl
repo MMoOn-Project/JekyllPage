@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְסֻגָּר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְסֻגָּר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְסֻגָּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מסוגר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eintrospective>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Elocked>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_closed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indrawn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_locked>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reserved%20%28person%29%3B%3B%3B%20closed%20in%3B%20introverted%3B%3B%3B%20sealed%3B%3Cbr%3Eclosed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shut> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_possibility%3B%20purview%3B%3Cbr%3E%D7%91%D7%90%D7%95%D7%A4%D7%A7%20-%20On%20the%20horizon> a ns2:Sense ;
+    ns2:senseDefinition "possibility; purview;<br>באופק - On the horizon"@en ;
+    ns1:language "en" .
+

@@ -1,0 +1,103 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E9\u05C1\u05B8\u05DC\u05B8\u05D1" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05C1\u05B8\u05DC\u05B8\u05D1",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05DC\u05D1",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%D7%91%D7%A9%D7%9C%D7%91%D7%99%D7%9D%20-%20in%20stages",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Erung%20%28ladder%29%3B%3B%3B%20rung",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Estep%3B%20slat",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Egradation",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_bar%3B%20louvre",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_level",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_phase",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_remove",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_stage",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_step%3B%20phase",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_HE/s00025966n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_HE/s00061898n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E9\u05C1\u05B8\u05DC\u05B8\u05D1",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

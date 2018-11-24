@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pr%C3%A4fix%20%E2%80%9Ca-%E2%80%9D" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "Pr\u00E4fix \u201Ca-\u201D",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

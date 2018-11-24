@@ -1,0 +1,14 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_דַּפְנָה> a ns1:Word ;
+    rdfs:label "דַּפְנָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דַּפְנָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דפנה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%D7%A2%D6%B8%D7%A8%20%D7%90%D6%B8%D7%A6%D6%B4%D7%99%D7%9C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_laurel%20%28plant%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_daphne%20%28plant%29> .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_preparedness%20%3B%20the%20state%20of%20being%20on-call%3B%3B%3B%20state%20of%20alert-readiness" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "preparedness ; the state of being on-call;;; state of alert-readiness",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

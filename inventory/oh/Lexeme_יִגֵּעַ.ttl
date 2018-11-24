@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִגֵּעַ> a ns2:Lexeme ;
+    rdfs:label "יִגֵּעַ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יגע> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִגֵּעַ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ייגע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exhaust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20fatigue>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20tire>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20weary%3B%3B%3B%20tire>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D0%B7%D0%BC%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D1%82%D0%BE%D0%BC%D0%BB%D1%8F%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

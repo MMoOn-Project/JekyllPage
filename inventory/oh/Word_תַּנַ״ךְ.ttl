@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_תַּנַ״ךְ> a ns1:Word ;
+    rdfs:label "תַּנַ״ךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תַּנַ״ךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תנ״ך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Profeten%20und%20Schriften>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Propheten%20und%20Schriften%3B%3B%20%28j%C3%BCdische%29%20Bibel%20%3D%20Tora>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Tora>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Hebrew%20bible> .
+

@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כּוֹזֵב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "כּוֹזֵב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כּוֹזֵב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כוזב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_false>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fraudulant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_incorrect>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

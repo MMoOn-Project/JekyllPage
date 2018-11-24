@@ -1,0 +1,16 @@
+
+{
+  "http://mmoon.org/lang/heb/schema/oh/Adverb" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/core/Adverb",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

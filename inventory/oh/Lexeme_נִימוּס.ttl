@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִימוּס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "נִימוּס"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִימוּס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נימוס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epropriety>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epoliteness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_breeding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_courtesy%3C/div%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_good%20manners>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mannerliness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_politesse%3B%3B%3B%20%D7%9C%D7%94%D7%99%D7%95%D7%AA%20%D7%9E%D7%A0%D7%95%D6%BC%D7%9E%D7%A1%26nbsp%3B%3Cdiv%3Epoliteness> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

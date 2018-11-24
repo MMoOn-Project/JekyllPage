@@ -1,0 +1,18 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D2\u05DC" : {
+    "http://mmoon.org/lang/heb/schema/oh/unvocalizedRepresentation" : [ {
+        "value" : "\u05D2\u05DC",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Representation",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

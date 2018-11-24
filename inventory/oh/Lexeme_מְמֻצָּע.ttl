@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְמֻצָּע> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְמֻצָּע"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְמֻצָּע>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ממוצע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_also%20n.%26nbsp%3B%26nbsp%3Baverage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fair%3B%3Cbr%3E%28mathematics%29%20average>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mean>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mean%3B%20%D7%91%D7%9E%D7%9E%D7%95%D7%A6%D7%A2%20-%20on%20average>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_medial>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mediocre>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_moderate> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

@@ -1,0 +1,93 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D6\u05B0\u05DB\u05D5\u05BC\u05EA" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D6\u05B0\u05DB\u05D5\u05BC\u05EA",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D6\u05DB\u05D5\u05EA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_credit%20%28financial%29",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_entitlement",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_good%20deed%3B%3Cbr%3E%28stock%20market%29%20right",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_jus",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_prerogative%3B%20%28accounting%29%20credit%3B%20virtue",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_prerogative%3B%3B%3B%20merit%3B%20privilege%3B%20right",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_privilege",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_right",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_title%3B%20favor%3B%20acquittal%3B%3B%3B%20right",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%96%D6%B0%D7%9B%D7%95%D6%BC%D7%AA_HE/s00067807n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D6\u05B0\u05DB\u05D5\u05BC\u05EA",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%96%D6%B0%D7%9B%D7%95%D6%BC%D7%AA_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֲנָק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "עֲנָק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֲנָק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ענק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_giant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_necklace> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A2%D6%B2%D7%A0%D6%B8%D7%A7_HE/s00098021a>,
+        <http://babelnet.org/rdf/%D7%A2%D6%B2%D7%A0%D6%B8%D7%A7_HE/s00098905a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D6%B2%D7%A0%D6%B8%D7%A7_a_HE> .
+

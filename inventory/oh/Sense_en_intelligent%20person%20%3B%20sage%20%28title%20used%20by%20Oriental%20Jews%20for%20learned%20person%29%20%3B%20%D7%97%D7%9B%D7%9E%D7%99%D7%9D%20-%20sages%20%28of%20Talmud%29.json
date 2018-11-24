@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_intelligent%20person%20%3B%20sage%20%28title%20used%20by%20Oriental%20Jews%20for%20learned%20person%29%20%3B%20%D7%97%D7%9B%D7%9E%D7%99%D7%9D%20-%20sages%20%28of%20Talmud%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "intelligent person ; sage (title used by Oriental Jews for learned person) ; \u05D7\u05DB\u05DE\u05D9\u05DD - sages (of Talmud)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

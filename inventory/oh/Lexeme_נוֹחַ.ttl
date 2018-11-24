@@ -1,0 +1,27 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נוֹחַ> a ns2:Lexeme ;
+    rdfs:label "נוֹחַ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוח> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נוֹחַ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נוח> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_angenehm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bequem>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_comfortable%3B%20convenient%3B%3B%3B%20comfortable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_easy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_easygoing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_facile%3B%20convenient>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_handy%3B%3Cbr%3Ekind>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ingratiating>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lenient%3B%3B%3B%20comfortable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mild>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pleasant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pleasing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D0%B4%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

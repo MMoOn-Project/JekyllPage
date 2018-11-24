@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּלָה> a ns2:Lexeme ;
+    rdfs:label "תָּלָה"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תלי> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּלָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תלה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20associate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hang>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suspend%3B%20pin%20one%27s%20hopes%20on%3B%3B%3B%20to%20hang>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20hang%20up%3B%3Cbr%20/%3E%28colloquial%29%20to%20be%20hung%3B%3Cbr%20/%3Eto%20ascribe%20to> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

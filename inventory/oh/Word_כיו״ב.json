@@ -1,0 +1,45 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05DB\u05D9\u05D5\u05F4\u05D1" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05DB\u05D9\u05D5\u05F4\u05D1",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_and%20the%20like",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_similarly",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%20%D1%82%D0%BE%D0%BC%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%20%D1%82.%D0%BF.",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05DB\u05D9\u05D5\u05F4\u05D1",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

@@ -1,0 +1,22 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּבֵק> a ns2:Lexeme ;
+    rdfs:label "דָּבֵק"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דבק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּבֵק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דבק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_angeheftet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_eng%20verbunden>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_adherent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_attached>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clinging>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_devoted>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loyal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%80%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

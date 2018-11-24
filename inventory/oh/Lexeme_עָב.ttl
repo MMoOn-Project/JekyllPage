@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "עָב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_עב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20cloud%20%3B%20cumulus%20%28cloud%29%3B%3B%3B%20cloud%3B%20darkness%3B%20density%3B%20thickness.%20%28%D7%A2%D7%91%D7%94%20is%20related%20to%20ideas%20of%20grotesque%20obesity%3F%29.%20%D7%A2%D7%91%D7%99%20is%20used%20to%20describe%20large%20flake%20oatmeal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_as%20opposed%20to%20%D7%93%D7%A7%20for%20the%20smaller%20cut%20usually%20found%20in%20quick%20oatmeal.%3Cbr%20/%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thick>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_voluminous> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

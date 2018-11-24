@@ -1,0 +1,31 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּהִיר> a ns2:Lexeme ;
+    rdfs:label "בָּהִיר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בהר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּהִיר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בהיר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_hell%3B%20heiter%20%28Wetter%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_klar>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eblond%3B%3B%3B%20light>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ebright>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Efair>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ecloudless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eperspicuous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bright%3B%3B%3B%20clear%20%28weather%29%3B%20light%20%28not%20dark%29%3B%3B%3B%20clear%20%28weather%29%3B%20light%20%28color%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clear>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fair>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_limpid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lucid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_luculent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_serene>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sunny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sunshiny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_white> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

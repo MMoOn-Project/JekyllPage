@@ -1,0 +1,39 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חַלָּשׁ> a ns2:Lexeme ;
+    rdfs:label "חַלָּשׁ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חלשׁ> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חַלָּשׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חלש> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_schwach>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_also%20n.%20weak>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_effete>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faint>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feckless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feeble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flabby>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flagging>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flimsy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forceless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fragile>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_frail>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impuissant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_languid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_languorous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_low>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pale>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_puny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rickety>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_small>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tottery>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unmanly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weakly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BB%D0%B0%D0%B1%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

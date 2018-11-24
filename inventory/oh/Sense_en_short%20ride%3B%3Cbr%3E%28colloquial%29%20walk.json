@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_short%20ride%3B%3Cbr%3E%28colloquial%29%20walk" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "short ride;<br>(colloquial) walk",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

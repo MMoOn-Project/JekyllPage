@@ -1,0 +1,51 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05DE\u05B8\u05D7\u05B3\u05E8\u05B8\u05EA" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05DE\u05B8\u05D7\u05B3\u05E8\u05B8\u05EA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ethe%20day%20after",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ethe%20morrow",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_the%20following%20day",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_the%20next%20day",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Adverb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05DE\u05B8\u05D7\u05B3\u05E8\u05B8\u05EA",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

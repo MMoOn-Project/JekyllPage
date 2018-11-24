@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הַגְבָּהָה> a ns1:Lexeme ;
+    rdfs:label "הַגְבָּהָה"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גבהּ> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הַגְבָּהָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הגבהה> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_elevation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5%3B%20%D0%BD%D0%B0%D0%B2%D0%B5%D1%81%20%28%D0%BC%D1%8F%D1%87%D0%B0%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D0%B8%D0%B5> ;
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
+

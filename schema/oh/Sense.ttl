@@ -1,0 +1,11 @@
+@prefix ns1: <http://mmoon.org/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/schema/oh/Sense> a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "Sense"@en ;
+    ns1:usageNote "The senses which are currently contained are German, Englisch and Russian translations of the respective Hebrew lexemes."@en ;
+    rdfs:subClassOf ns1:Sense .
+

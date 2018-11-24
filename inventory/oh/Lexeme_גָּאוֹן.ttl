@@ -1,0 +1,22 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּאוֹן> a ns2:Lexeme ;
+    rdfs:label "גָּאוֹן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גאי> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּאוֹן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גאון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_also%20n.%26nbsp%3B%26nbsp%3Bgenius>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gifted%20person%3Cbr%3E%28flowery%29%20greatness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_glory%20%3B%20%D7%91%D7%92%D7%90%D7%95%D7%9F%20-%20gloriously>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mastermind>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prodigy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proudly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_superiority>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wizard> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_AHaLTeM%3A%20Merkwort%20f%C3%BCr%20Buchstaben%20variabler%20Breite" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "AHaLTeM: Merkwort f\u00FCr Buchstaben variabler Breite",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

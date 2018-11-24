@@ -1,0 +1,56 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05D0\u05B8\u05DE\u05B0\u05E0\u05B8\u05DD" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D0\u05B8\u05DE\u05B0\u05E0\u05B8\u05DD",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D0\u05DE\u05E0\u05DD",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esurely",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_indeed",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_truly",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_verily%3B%3Cbr%20/%3E%D7%94%D7%90%D7%95%D7%9E%D7%A0%D7%9D%20-%20Is%20that%20so%3F%20Is%20it%20true%20that%20...%3F%20Indeed%3F",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Adverb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D0\u05B8\u05DE\u05B0\u05E0\u05B8\u05DD",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

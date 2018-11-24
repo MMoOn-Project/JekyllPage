@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exalt%3B%3Cbr%3E%28Jewish%20ritual%29%20to%20make%20the%20blessing%20over%20wine%20on%20a%20Sabbath%20or%20festival%3B%3B%3B%20sanctify%3B%20wed%20a%20couple> a ns2:Sense ;
+    ns2:senseDefinition "to exalt;<br>(Jewish ritual) to make the blessing over wine on a Sabbath or festival;;; sanctify; wed a couple"@en ;
+    ns1:language "en" .
+

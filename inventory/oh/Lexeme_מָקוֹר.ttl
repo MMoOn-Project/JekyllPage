@@ -1,0 +1,38 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָקוֹר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מָקוֹר"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָקוֹר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מקור> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28Grammatik%29%20Infinitiv>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Egenesis>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eprovenance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eseed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ewell>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_authorship%3B%20original>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_extraction>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_font>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fount>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fountain>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fountainhead>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_infinitive%20%28gram.%29%20%3B%3B%3B%20origin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_origin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_origination>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_paternity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_root>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rootstock>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_source>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_source%3B%20resource>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_text%3B%3Cbr%20/%3Espring>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wellhead> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A7%D7%95%D6%B9%D7%A8_HE/s00009635n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A7%D7%95%D6%B9%D7%A8_HE/s00046667n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A7%D7%95%D6%B9%D7%A8_HE/s00066789n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A7%D7%95%D6%B9%D7%A8_n_HE> .
+

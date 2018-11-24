@@ -1,0 +1,70 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D2\u05BC\u05B4\u05E8\u05B0\u05D2\u05BC\u05B5\u05E8" : {
+    "http://mmoon.org/lang/heb/schema/oh/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Root_\u05D2\u05E8\u05D2\u05E8",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/pi%27el",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D2\u05BC\u05B4\u05E8\u05B0\u05D2\u05BC\u05B5\u05E8",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D2\u05E8\u05D2\u05E8",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%B0%D1%82%D1%8C%20%D0%B3%D0%BE%D1%80%D0%BB%D0%BE",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Verb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%92%D6%BC%D6%B4%D7%A8%D6%B0%D7%92%D6%BC%D6%B5%D7%A8_HE/s00088678v",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%92%D6%BC%D6%B4%D7%A8%D6%B0%D7%92%D6%BC%D6%B5%D7%A8_HE/s00088679v",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D2\u05BC\u05B4\u05E8\u05B0\u05D2\u05BC\u05B5\u05E8",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%92%D6%BC%D6%B4%D7%A8%D6%B0%D7%92%D6%BC%D6%B5%D7%A8_v_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

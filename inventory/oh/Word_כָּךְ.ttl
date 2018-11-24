@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_כָּךְ> a ns1:Word ;
+    rdfs:label "כָּךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כָּךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_so>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_like%20this>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_so>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_this%20is%20how>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_this%20way>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D0%B0%D0%BA> .
+

@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְזִיר> a ns2:Lexeme ;
+    rdfs:label "הֶחְזִיר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְזִיר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_החזיר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20retaliate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20hit%20back%3B%20%3Cbr%20/%3Eto%20reflect%20%28light%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20reinstate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20restore%3B%20%28literary%29%20to%20reply%3B%3Cbr%3Eto%20return%3B%20look%20the%20other%20way%3B%3Cbr%20/%3Eto%20replace%3B%20to%20repay%20in%20kind%3B%3Cbr%20/%3E%28colloquial%29%20to%20give%20tit%20for%20tat> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

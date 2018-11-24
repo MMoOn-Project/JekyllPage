@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּשָׂר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "בָּשָׂר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּשָׂר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בשר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Fleisch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_meat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_flesh> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B8%D7%A9%D7%82%D6%B8%D7%A8_HE/s00035182n>,
+        <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B8%D7%A9%D7%82%D6%B8%D7%A8_HE/s00035183n>,
+        <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B8%D7%A9%D7%82%D6%B8%D7%A8_HE/s00054026n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B8%D7%A9%D7%82%D6%B8%D7%A8_n_HE> .
+

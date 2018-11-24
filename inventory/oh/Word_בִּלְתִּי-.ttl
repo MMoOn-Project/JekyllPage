@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בִּלְתִּי-> a ns1:Word ;
+    rdfs:label "בִּלְתִּי-"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּלְתִּי->,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בלתי-> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_im->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_not-%20%3B%20un-%20%3B%20except%20for%3B%3B%3B%20not>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_un-> .
+

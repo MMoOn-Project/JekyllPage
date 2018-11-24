@@ -1,0 +1,22 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַלְמוֹנִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אַלְמוֹנִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַלְמוֹנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אלמוני> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_anonym>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_namenlos>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_unbekannt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_anonymous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faceless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_innominate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nameless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obscure%3B%3Cbr%3E%3Cbr%3Ealso%20n.%20anonymous%20person>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unknown> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָפוּף> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אָפוּף"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָפוּף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אפוף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_eingeh%C3%BCllt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_immersed%20%3B%20%28slang%29%20daydreaming>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_surrounded>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_umgeben%3B%20%28ugs.%29%20umnachtet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_vertr%C3%A4umt//%28flowery%29%20wrapped> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

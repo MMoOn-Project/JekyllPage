@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִמְשַׁךְ> a ns2:Lexeme ;
+    rdfs:label "נִמְשַׁךְ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_משך> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִמְשַׁךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נמשך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20pulled>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20continuous%3B%3Cbr%3Eto%20extend%20%28beyond%20a%20certain%20time%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20dragged%3B%3Cbr%3E%28banking%29%20to%20be%20withdrawn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20drawn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20redeemed%3B%3Cbr%3Eto%20be%20attracted%20to>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20last> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

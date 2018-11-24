@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שִׁעוּר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "שִׁעוּר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁעוּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שיעור> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Lektion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_class>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proportion%3B%20lesson>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%82%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D0%BC%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D1%80%D0%BE%D0%BA%3B%20%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

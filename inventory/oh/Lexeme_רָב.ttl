@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָב> a ns2:Lexeme ;
+    rdfs:label "רָב"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ריב> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fight>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20quarrel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20quarrel%20with>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrangle%3B%20dispute%20%3B%3B%3B%20to%20argue%20with> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַשְׁכְּנַזִּי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אַשְׁכְּנַזִּי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַשְׁכְּנַזִּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אשכנזי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Aschkenase>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_aschkenasisch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_European%20Jew> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

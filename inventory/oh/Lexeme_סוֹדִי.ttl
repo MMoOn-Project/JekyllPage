@@ -1,0 +1,27 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סוֹדִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "סוֹדִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סוֹדִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_סודי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ecagy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eesoteric>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arcane>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cagey>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clandestine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_confidential>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_covert>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cryptic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_darksome>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mysterious%3B%20%3Cbr%20/%3E%28military%29%20classified>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_occult>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_privileged>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_privy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_secret>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_secretive%3B%3B%3B%20secret> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

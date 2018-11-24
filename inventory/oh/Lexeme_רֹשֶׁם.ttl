@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רֹשֶׁם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "רֹשֶׁם"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רֹשֶׁם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רושם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_appearance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_figure%3B%20effect>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impact>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impression>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_magnificence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_seemingness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_semblance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_show>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trace> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

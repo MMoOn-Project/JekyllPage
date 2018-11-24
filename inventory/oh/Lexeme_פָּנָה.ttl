@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּנָה> a ns2:Lexeme ;
+    rdfs:label "פָּנָה"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּנָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פנה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28sich%29%20wenden%20an%20%E2%80%A6>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apply%3B%20refer%20to>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_speak%20to%20%3B%3B%3B%20to%20face>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn%3B%20approach%3B%20appeal%20to> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

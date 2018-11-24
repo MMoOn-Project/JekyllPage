@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_glorification%3B%3Cbr%3E%28Jewish%20ritual%29%20Hallel%20%28six%20psalms%20recited%20after%20the%20morning%20prayer%20service%3Cbr%3Eon%20festivals%20and%20as%20part%20of%20the%20Passover%20eve%20Seder%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "glorification;<br>(Jewish ritual) Hallel (six psalms recited after the morning prayer service<br>on festivals and as part of the Passover eve Seder)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

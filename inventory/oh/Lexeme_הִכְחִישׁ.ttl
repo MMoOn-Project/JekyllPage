@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִכְחִישׁ> a ns2:Lexeme ;
+    rdfs:label "הִכְחִישׁ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כחש> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִכְחִישׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הכחיש> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20deny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20disavow%3B%20%28talmudic%29%20to%20contradic> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

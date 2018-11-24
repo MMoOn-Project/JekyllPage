@@ -1,0 +1,40 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Root_\u05DE\u05E2\u05DA" : {
+    "http://mmoon.org/mmoon/core/belongsTo" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05DE\u05B8\u05E2\u05B7\u05DA\u05B0",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E0\u05B4\u05DE\u05B0\u05E2\u05B7\u05DA\u05B0",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05DE-\u05E2-\u05DA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/PrimaryRoot",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Root",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05DE\u05E2\u05DA",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

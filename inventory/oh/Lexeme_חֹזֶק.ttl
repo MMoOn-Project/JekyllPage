@@ -1,0 +1,34 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חֹזֶק> a ns2:Lexeme ;
+    rdfs:label "חֹזֶק"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֹזֶק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חוזק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_firmness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impregnability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intenseness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intensity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intensiveness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lustiness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_might>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_muscularity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_orotundity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_potence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_potency>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_powerfulness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_serviceability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_serviceableness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strength>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_toughness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B8%D0%BB%D0%B0> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

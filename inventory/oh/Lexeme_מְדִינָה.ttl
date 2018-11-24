@@ -1,0 +1,20 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְדִינָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְדִינָה"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְדִינָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מדינה> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_state>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_country> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%93%D6%B4%D7%99%D7%A0%D6%B8%D7%94_HE/s00023235n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%93%D6%B4%D7%99%D7%A0%D6%B8%D7%94_HE/s00023236n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%93%D6%B4%D7%99%D7%A0%D6%B8%D7%94_HE/s00064914n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%93%D6%B4%D7%99%D7%A0%D6%B8%D7%94_HE/s00074010n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%93%D6%B4%D7%99%D7%A0%D6%B8%D7%94_n_HE> .
+

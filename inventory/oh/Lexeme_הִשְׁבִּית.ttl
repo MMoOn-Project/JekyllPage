@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִשְׁבִּית> a ns2:Lexeme ;
+    rdfs:label "הִשְׁבִּית"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבת> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִשְׁבִּית>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_השבית> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20stop%20something%20from%20working%3B%3Cbr%20/%3Eto%20cause%20someone%20to%20strike%3B%3B%3B%20shut%20down>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20stop%20work> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

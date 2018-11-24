@@ -1,0 +1,28 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שְׁמִירָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "שְׁמִירָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שְׁמִירָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שמירה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esecurity%3B%20safeguarding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_custody>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_guarding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_keeping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_maintaining%3B%3B%3B%20guarding%3B%20watching%3B%3B%3B%20guard%20duty%3B%20keeping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_observance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_observing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_preserving>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_protection>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_retention>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_retentiveness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_safekeeping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_surveyance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wardership>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_watch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B0> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

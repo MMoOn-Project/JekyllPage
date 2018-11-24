@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_כָּלִיל> a ns1:Word ;
+    rdfs:label "כָּלִיל"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כָּלִיל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כליל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_completely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_consummately>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_entirely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fully>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_roundly%3B%3B%3B%20perfect%3B%20completely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_totally>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_utterly%3B%3B%3B%20totally>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wholly> .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_color%3B%20hue%20%3B%20shade%20%28of%20color%29%20%3B%20nuance%20%3B%20%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D%20-%20dyed%20hair%20tips" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "color; hue ; shade (of color) ; nuance ; \u05D2\u05D5\u05D5\u05E0\u05D9\u05DD - dyed hair tips",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

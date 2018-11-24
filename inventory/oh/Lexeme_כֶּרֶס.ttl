@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כֶּרֶס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "כֶּרֶס"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כֶּרֶס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כרס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_abdomen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_potbelly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_protruding%20abdomen%3B%3B%3B%20belly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5%29%20%D0%BF%D1%83%D0%B7%D0%BE>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D1%80%D1%8E%D1%85%D0%BE%20%28%D0%B6.%D1%80.%29> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9B%D6%BC%D6%B6%D7%A8%D6%B6%D7%A1_HE/s00009796n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9B%D6%BC%D6%B6%D7%A8%D6%B6%D7%A1_n_HE> .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Av%20%28elfter%20Monat%20des%20j%C3%BCdischen%20Kalenders" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "Av (elfter Monat des j\u00FCdischen Kalenders",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

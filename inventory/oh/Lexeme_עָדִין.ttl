@@ -1,0 +1,37 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָדִין> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "עָדִין"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָדִין>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_עדין> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eethereal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Efeminine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eprim>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Egentle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bland%3B%3B%3B%20gentle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_delicate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_etherial>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exquisite>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fine%3B%3B%3B%20gentle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fragile>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kind>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lamblike>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_melting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mild>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_milksop%3B%3Cbr%20/%3Efine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nice>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_polite%3B%20soft>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slender>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_soft>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_subtle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tender>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tenuous> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%93%D6%B4%D7%99%D7%9F_HE/s00101123a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%93%D6%B4%D7%99%D7%9F_a_HE> .
+

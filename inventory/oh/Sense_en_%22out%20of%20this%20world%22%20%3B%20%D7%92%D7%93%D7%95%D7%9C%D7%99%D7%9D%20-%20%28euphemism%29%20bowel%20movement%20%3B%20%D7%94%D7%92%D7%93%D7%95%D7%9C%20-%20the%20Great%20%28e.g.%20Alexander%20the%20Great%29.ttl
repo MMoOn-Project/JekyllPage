@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%22out%20of%20this%20world%22%20%3B%20%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D%20-%20%28euphemism%29%20bowel%20movement%20%3B%20%D7%94%D7%92%D7%93%D7%95%D7%9C%20-%20the%20Great%20%28e.g.%20Alexander%20the%20Great%29> a ns2:Sense ;
+    ns2:senseDefinition "\"out of this world\" ; גדולים - (euphemism) bowel movement ; הגדול - the Great (e.g. Alexander the Great)"@en ;
+    ns1:language "en" .
+

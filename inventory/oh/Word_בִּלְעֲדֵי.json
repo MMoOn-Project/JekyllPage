@@ -1,0 +1,71 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05D1\u05BC\u05B4\u05DC\u05B0\u05E2\u05B2\u05D3\u05B5\u05D9" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05BC\u05B4\u05DC\u05B0\u05E2\u05B2\u05D3\u05B5\u05D9",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05DC\u05E2\u05D3\u05D9",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eif%20not%20for",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ewere%20it%20not%20for%3B%3Cbr%3Ein%20the%20absence%20of%3B%3Cbr%20/%3E%D7%9E%D7%91%D7%9C%D7%A2%D7%93%D7%99%20-%20%28biblical%29%20apart%20from",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_except",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_other%20than",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_without%3B%3B%3B%20without",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%8D%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Preposition",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D1\u05BC\u05B4\u05DC\u05B0\u05E2\u05B2\u05D3\u05B5\u05D9",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

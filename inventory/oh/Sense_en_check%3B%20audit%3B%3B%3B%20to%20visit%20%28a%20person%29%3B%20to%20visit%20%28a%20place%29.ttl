@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_check%3B%20audit%3B%3B%3B%20to%20visit%20%28a%20person%29%3B%20to%20visit%20%28a%20place%29> a ns2:Sense ;
+    ns2:senseDefinition "check; audit;;; to visit (a person); to visit (a place)"@en ;
+    ns1:language "en" .
+

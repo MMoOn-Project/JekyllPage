@@ -1,7 +1,8 @@
 html, body {
     /*background-color: #36b2d9;*/
     /* akzente: #e3c085 */
-    font-family: "Open Sans Regular", "Open Sans", "open_sansregular"
+    font-family: "Open Sans Regular", "Open Sans", "open_sansregular";
+    background-color: rgb(251, 251, 250)
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,7 +25,7 @@ a {
     font-size: 1.3em;
 }
 
-.blog-masthead a {
+.blog-masthead nav a {
     color: white;
 }
 
@@ -39,7 +40,6 @@ a {
   height: 4em;
   padding: .5em;
   margin: .5em;
-  background-color: rgba(255,255,255,.2);
 }
 
 /* Tables */
@@ -65,12 +65,15 @@ ol.exhibit-tileView-body {
  */
 
 .blog-masthead {
-  /*background-color: #428bca;*/
-  /*background-color: #36b2d9;*/
-  background-color: #437799;
+  background-color: #d0e8dd;
 
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+.blog-masthead strong {
+  font-size: 1.5em;
+  color: #1e6d81;
 }
 
 /* Nav links https://getbootstrap.com/examples/blog/ */
@@ -88,7 +91,13 @@ ol.exhibit-tileView-body {
 }
 
 .blog-nav {
+    margin-top: 1em;
     text-align: center;
+    background-color: black;
+    line-height: 1.5em;
+    -webkit-box-shadow: outset 0 -2px 5px rgba(0,0,0,.1);
+            box-shadow: outset 0 -2px 5px rgba(0,0,0,.1);
+    border-radius: 10px 10px 0px 0px;
 }
 
 /* Active state gets a caret at the bottom https://getbootstrap.com/examples/blog/ */

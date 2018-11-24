@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַחְסָן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מַחְסָן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַחְסָן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מחסן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Erepository>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ewarehouse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edepot>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_depositary>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_depository>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dump%3Cbr%20/%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_garner>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_storage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_store>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_storehouse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_storeroom> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

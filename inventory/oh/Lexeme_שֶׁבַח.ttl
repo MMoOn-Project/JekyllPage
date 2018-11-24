@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֶׁבַח> a ns2:Lexeme ;
+    rdfs:label "שֶׁבַח"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שבח> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֶׁבַח>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שבח> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epanegyric>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eimprovement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epraise>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_accolade%3B%3Cbr%3Egain%20betterment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_glorification>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_laud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_laudation> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B6%D7%91%D6%B7%D7%97_HE/s00021834n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B6%D7%91%D6%B7%D7%97_n_HE> .
+

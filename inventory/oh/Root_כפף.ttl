@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Root_כפף> a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot>,
+        <http://mmoon.org/lang/heb/schema/oh/Root> ;
+    rdfs:label "כפף"@he ;
+    ns1:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִכְפִּיף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְכּוֹפְפוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְכּוֹפֵף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כָּפַף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כּוֹפֵף> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כ-פ-ף> .
+

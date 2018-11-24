@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּזְבֵּז> a ns1:Lexeme ;
+    rdfs:label "בִּזְבֵּז"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בזבז> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּזְבֵּז>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בזבז> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_squander>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spend>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_waste>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%80%D0%B0%D0%B7%D0%B1%D0%B0%D0%B7%D0%B0%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%80%D0%B0%D1%81%D1%82%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D1%80%D0%B0%D0%BD%D0%B6%D0%B8%D1%80%D0%B8%D1%82%D1%8C> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

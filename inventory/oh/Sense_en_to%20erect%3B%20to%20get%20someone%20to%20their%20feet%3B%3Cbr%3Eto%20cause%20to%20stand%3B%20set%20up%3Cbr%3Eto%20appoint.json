@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20erect%3B%20to%20get%20someone%20to%20their%20feet%3B%3Cbr%3Eto%20cause%20to%20stand%3B%20set%20up%3Cbr%3Eto%20appoint" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to erect; to get someone to their feet;<br>to cause to stand; set up<br>to appoint",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

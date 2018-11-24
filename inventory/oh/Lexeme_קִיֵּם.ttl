@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִיֵּם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "קִיֵּם"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִיֵּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_קיים> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%28law%29%20to%20affirm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20fulfill>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20arrange>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20confirm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20implement%3B%3B%3B%20to%20exist>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20organize%3B%3Cbr%20/%3Eto%20maintain%3B%20to%20sustain%3B%3Cbr%20/%3Eto%20support>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20provide%20for>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20realize%3B%20to%20perform>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D1%8F%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BB%D1%8F%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%B8%D0%B2%D0%B0%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .
+

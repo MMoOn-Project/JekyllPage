@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20a%20moment%3B%3B%3B%20immediately%3B%20straight%20away> a ns2:Sense ;
+    ns2:senseDefinition "in a moment;;; immediately; straight away"@en ;
+    ns1:language "en" .
+

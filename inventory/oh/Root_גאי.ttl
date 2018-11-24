@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Root_גאי> a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot>,
+        <http://mmoon.org/lang/heb/schema/oh/Root> ;
+    rdfs:label "גאי"@he ;
+    ns1:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גְּאוֹנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּא>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּאֶה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּאַוְתָן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּאַוְתָנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּאָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּאוֹן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְגָּאָה> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ג-א-י> .
+

@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אִי"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אי> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_island>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_isle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B4%D7%99_HE/s00029341n>,
+        <http://babelnet.org/rdf/%D7%90%D6%B4%D7%99_HE/s00047612n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B4%D7%99_n_HE> .
+

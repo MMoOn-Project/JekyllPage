@@ -1,0 +1,11 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_plan%3B%20%3Cbr%20/%3Efigment%20%28product%29%20of%20one%27s%20imagination> a ns1:Sense ;
+    ns1:senseDefinition "plan; <br />figment (product) of one's imagination"@en ;
+    ns2:language "en" .
+

@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִבְצָר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מִבְצָר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִבְצָר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מבצר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bastion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blockhouse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bulwark>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_castle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chartreuse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_citadel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fastness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fort>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fortification>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fortress>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_keep>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stronghold> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

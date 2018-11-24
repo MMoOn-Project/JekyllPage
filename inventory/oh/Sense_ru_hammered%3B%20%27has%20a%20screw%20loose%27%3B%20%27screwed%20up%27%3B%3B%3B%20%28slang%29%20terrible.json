@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_hammered%3B%20%27has%20a%20screw%20loose%27%3B%20%27screwed%20up%27%3B%3B%3B%20%28slang%29%20terrible" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "hammered; 'has a screw loose'; 'screwed up';;; (slang) terrible",
+        "lang" : "ru",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "ru",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

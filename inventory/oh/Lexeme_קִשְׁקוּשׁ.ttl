@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִשְׁקוּשׁ> a ns1:Lexeme ;
+    rdfs:label "קִשְׁקוּשׁ"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קשׁקשׁ> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִשְׁקוּשׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_קשקוש> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28colloquial%29%20scribble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clang%3B%3B%3B%20rattling%3B%20nonsense%3B%20scribble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrawl%20%3B%20%28colloquial%29%20idle%20chatter%20%3B%20rattle> ;
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
+

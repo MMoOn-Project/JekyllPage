@@ -1,0 +1,34 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יַצִּיב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "יַצִּיב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יַצִּיב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יציב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Echangeless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eequable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eimmoveable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Elasting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Estabile>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_balanced>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_constant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_durable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fast>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_firm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_immovable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indissoluble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poised>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_secure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_set>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_smooth>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_solid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stationary>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_steady>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sturdy> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

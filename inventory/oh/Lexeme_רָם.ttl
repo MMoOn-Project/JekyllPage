@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָם> a ns2:Lexeme ;
+    rdfs:label "רָם"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רמם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erhaben%20%28nur%20in%20bestimmten%20Redewendungen%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_hoch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Esoaring%3B%20exalted>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eimportant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esupreme%3B%20supra-%3B%3B%3B%20elevated%3B%20loud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_earsplitting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_esteemed%3B%3Cbr%20/%3Elofty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_high>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_senior>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strong%3B%3B%3B%20tall%3B%20high> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִפְרוּתִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "סִפְרוּתִי"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִפְרוּתִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ספרותי> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_literary> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%B0%D7%A8%D7%95%D6%BC%D7%AA%D6%B4%D7%99_HE/s00106044a>,
+        <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%B0%D7%A8%D7%95%D6%BC%D7%AA%D6%B4%D7%99_HE/s00106046a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%B0%D7%A8%D7%95%D6%BC%D7%AA%D6%B4%D7%99_a_HE> .
+

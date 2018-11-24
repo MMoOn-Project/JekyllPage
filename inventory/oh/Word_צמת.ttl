@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_צמת> a ns1:Word ;
+    rdfs:label "צמת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צמת> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eplexus%26nbsp%3B%26nbsp%3B%28Israeli%20politics%29%20Tzomet%20%28right-wing%20secular%20Zionist%20party%20founded%20in%201984%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_circus>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cross-road>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_crossover>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intersection>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jct.%3B%20node>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_junction> .
+

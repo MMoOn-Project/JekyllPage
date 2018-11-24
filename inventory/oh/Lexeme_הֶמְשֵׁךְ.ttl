@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶמְשֵׁךְ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "הֶמְשֵׁךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶמְשֵׁךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_המשך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_continuance%3B%20%D7%91%D7%94%D7%9E%D7%A9%D7%9A%20-%20later>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_continuation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20due%20course>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20future>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pursuance%3B%20sequel%3B%20prolongation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_resumption>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

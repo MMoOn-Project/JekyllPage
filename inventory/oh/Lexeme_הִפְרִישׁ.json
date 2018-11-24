@@ -1,0 +1,90 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D4\u05B4\u05E4\u05B0\u05E8\u05B4\u05D9\u05E9\u05C1" : {
+    "http://mmoon.org/lang/heb/schema/oh/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Root_\u05E4\u05E8\u05E9\u05C1",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/hif%27il",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D4\u05B4\u05E4\u05B0\u05E8\u05B4\u05D9\u05E9\u05C1",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D4\u05E4\u05E8\u05D9\u05E9",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20discharge",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20separate%3B%3B%3B%20allocate%3B%20secrete",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20spread%20oneself",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20give%20off%3B%20to%20defecate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20secrete%3B%20to%20allocate",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20set%20aside",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Verb",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%94%D6%B4%D7%A4%D6%B0%D7%A8%D6%B4%D7%99%D7%A9%D7%81_HE/s00082539v",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D4\u05B4\u05E4\u05B0\u05E8\u05B4\u05D9\u05E9\u05C1",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%94%D6%B4%D7%A4%D6%B0%D7%A8%D6%B4%D7%99%D7%A9%D7%81_v_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

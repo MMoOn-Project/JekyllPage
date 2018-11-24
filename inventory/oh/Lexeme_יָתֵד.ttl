@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יָתֵד> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "יָתֵד"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָתֵד>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יתד> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brad>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chock>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cotter>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_engine%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_peg%20%28tent%29%3B%20rod%20%28part%20of%20machine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_picket>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spike>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stake>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strut>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tent-peg>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wedge>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BB%D0%B8%D0%BD> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

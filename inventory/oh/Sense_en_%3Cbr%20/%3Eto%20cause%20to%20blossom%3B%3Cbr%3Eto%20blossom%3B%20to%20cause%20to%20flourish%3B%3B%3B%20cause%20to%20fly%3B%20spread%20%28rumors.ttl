@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20cause%20to%20blossom%3B%3Cbr%3Eto%20blossom%3B%20to%20cause%20to%20flourish%3B%3B%3B%20cause%20to%20fly%3B%20spread%20%28rumors> a ns2:Sense ;
+    ns2:senseDefinition "<br />to cause to blossom;<br>to blossom; to cause to flourish;;; cause to fly; spread (rumors"@en ;
+    ns1:language "en" .
+

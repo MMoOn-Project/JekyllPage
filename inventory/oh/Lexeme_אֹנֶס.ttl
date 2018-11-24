@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֹנֶס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אֹנֶס"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֹנֶס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אונס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_force>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rape>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ravishment%3B%20compulsion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_violation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D0%B7%D0%BD%D0%B0%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

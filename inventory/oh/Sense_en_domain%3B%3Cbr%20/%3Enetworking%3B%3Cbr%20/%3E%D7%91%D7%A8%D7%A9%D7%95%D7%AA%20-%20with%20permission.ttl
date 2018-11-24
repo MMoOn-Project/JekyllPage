@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_domain%3B%3Cbr%20/%3Enetworking%3B%3Cbr%20/%3E%D7%91%D7%A8%D7%A9%D7%95%D7%AA%20-%20with%20permission> a ns2:Sense ;
+    ns2:senseDefinition "domain;<br />networking;<br />ברשות - with permission"@en ;
+    ns1:language "en" .
+

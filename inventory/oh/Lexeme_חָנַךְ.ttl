@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָנַךְ> a ns2:Lexeme ;
+    rdfs:label "חָנַךְ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חנך> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָנַךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חנך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dedicate%3B%20train>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inaugurate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_teach> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A0%D6%B7%D7%9A%D6%B0_HE/s00089647v> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A0%D6%B7%D7%9A%D6%B0_v_HE> .
+

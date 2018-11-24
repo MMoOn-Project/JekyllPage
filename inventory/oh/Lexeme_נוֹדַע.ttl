@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נוֹדַע> a ns2:Lexeme ;
+    rdfs:label "נוֹדַע"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ידע> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נוֹדַע>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נודע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20aware>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20brought%20to%20one%27s%20attention%3B%20to%20be%20known%3B%3Cbr%3Eto%20be%20exposed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20aware>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20known%20to>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20learn%20of%3B%20to%20become%20renowned%3B%3B%3B%20became%20known%3B%20obtained%20information%3B%3B%3B%20is%20informed> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

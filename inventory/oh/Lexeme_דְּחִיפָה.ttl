@@ -1,0 +1,32 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דְּחִיפָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "דְּחִיפָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דְּחִיפָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דחיפה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Einducement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Einstance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ejolt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erepercussiveness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Estimulus>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_boost>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fillip>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impulsion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_incentive>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_incitement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inciting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jostle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lunge%3B>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poke>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prod>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_propulsion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_push>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shove>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thrust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_urge> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

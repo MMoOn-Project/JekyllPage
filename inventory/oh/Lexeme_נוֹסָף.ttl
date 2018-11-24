@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נוֹסָף> a ns2:Lexeme ;
+    rdfs:label "נוֹסָף"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יסף> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נוֹסָף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נוסף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zus%C3%A4tzlich>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Emore>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_additional>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_another>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_excess>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_extra>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_further>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_leeway>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_other>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_over>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_second>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spare>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_supernumerary>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_supplemental>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_supplementary%3B%3B%3B%20another> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

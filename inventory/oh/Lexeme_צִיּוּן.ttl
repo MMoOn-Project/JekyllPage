@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִיּוּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "צִיּוּן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִיּוּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ציון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_delineating%3B%20%28mathematics%29%20index%3B%20%28rabbinical%20literature%29%20gravestone>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_grade%3B%20indicator>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_grave%20site%3B%3B%3B%20marking%3B%20grade%20/%20mark>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mark>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mentioning>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_notation%3B%20noting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_outlining>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_score>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%82%D0%BC%D0%B5%D1%82%D0%BA%D0%B0>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%99%D6%BC%D7%95%D6%BC%D7%9F_HE/s00026250n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%99%D6%BC%D7%95%D6%BC%D7%9F_n_HE> .
+

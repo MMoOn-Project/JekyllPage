@@ -1,0 +1,179 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E7\u05B6\u05E9\u05C1\u05B6\u05E8" : {
+    "http://mmoon.org/lang/heb/schema/oh/consistsOfMorph" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Root_\u05E7\u05E9\u05C1\u05E8",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E7\u05B6\u05E9\u05C1\u05B6\u05E8",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E7\u05E9\u05E8",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Econspiracy%3B%20bond",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Econtact",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erelation",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erelevance",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_bend%3B%3Cbr%3Eintercourse%3B%3B%3B%20connection/tie%3B%3B%3B%20knot%3B%20tie%3B%20communication%3B%20connection%3B%20conspiracy",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_communication%3B%20connection",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_communion",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_kinship",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_link",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_mat",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_matt",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_nexus",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_node",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_nodus",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_noose%3B%3Cbr%20/%3Esignaller",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_relationship",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_relevancy",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_signaler",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_signalman%3B%20liaison%20officer%3Cbr%20/%3Eknot",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_tie",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_yoke%3Cbr%20/%3Eloop",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%3B%20%D1%83%D0%B7%D0%B5%D0%BB%3B%20%D0%B7%D0%90%D0%B3%D0%BE%D0%B2%D0%BE%D1%80",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B2%D1%8F%D0%B7%D1%8C",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A7%D6%B6%D7%A9%D7%81%D6%B6%D7%A8_HE/s00049367n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A7%D6%B6%D7%A9%D7%81%D6%B6%D7%A8_HE/s00066995n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A7%D6%B6%D7%A9%D7%81%D6%B6%D7%A8_HE/s00067001n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E7\u05B6\u05E9\u05C1\u05B6\u05E8",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A7%D6%B6%D7%A9%D7%81%D6%B6%D7%A8_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

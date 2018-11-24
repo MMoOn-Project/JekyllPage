@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַצָּה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אַצָּה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַצָּה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אצה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_alga>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_seaweed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D1%81%D0%BB%D1%8C> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

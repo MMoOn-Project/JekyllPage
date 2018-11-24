@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּלוּי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "גָּלוּי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּלוּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גלוי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_aufgedeckt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bekannt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_offen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Emanifest>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Enonconfidential%3B%20frank>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Esincere>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eunconcealed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ebare>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_aboveboard>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apparent%3B%20known%3B%3B%3B%20visible>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exposed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nonsecret>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_open>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_overt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_patent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_straightforward>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_undisguised> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

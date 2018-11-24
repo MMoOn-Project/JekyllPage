@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְקַפֵּל> a ns1:Lexeme ;
+    rdfs:label "הִתְקַפֵּל"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קפל> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְקַפֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_התקפל> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_give%20up>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20folded%20%3B%20to%20collapse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20close%20up%3B%20to%20be%20folded%20into%20%28egg%20whites%20into%20cake%20batter%29%3B%20to%20be%20included%20in%3B%20%28slang%29%20to%20pack%20up>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20fold%20up%3B%20to%20curl%20up>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20prepare%20to%20go%3B%20%28slang%29%20to%20capitulate%3B%3B%3B%20fold%20up%3B%20fold> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_לְבוּשׁ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "לְבוּשׁ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לְבוּשׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_לבוש> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eguise>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apparel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clothing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_costume>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dress>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dressing%20%3B%3B%3B%20attire>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_garb>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_garment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_habiliment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tog>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vesture>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wear> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

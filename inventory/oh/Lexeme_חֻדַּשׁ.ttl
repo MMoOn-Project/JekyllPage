@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חֻדַּשׁ> a ns2:Lexeme ;
+    rdfs:label "חֻדַּשׁ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חדשׁ> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֻדַּשׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חודש> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20instigated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20introduced%20into%20the%20language>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20be%20renewed%3B%20to%20be%20re-established%3B%3Cbr%20/%3Eto%20be%20rejuvenated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_renewed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20initiated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20launched>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20recommenced>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20refurbished%3B%3B%3B%3B%20restored>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28%D0%B2%D0%BE%D0%B7%29%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%91%D0%BD> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

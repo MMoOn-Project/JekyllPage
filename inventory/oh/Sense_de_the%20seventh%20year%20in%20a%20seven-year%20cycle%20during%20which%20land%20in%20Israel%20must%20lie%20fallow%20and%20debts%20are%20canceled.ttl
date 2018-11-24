@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_de_the%20seventh%20year%20in%20a%20seven-year%20cycle%20during%20which%20land%20in%20Israel%20must%20lie%20fallow%20and%20debts%20are%20canceled> a ns2:Sense ;
+    ns2:senseDefinition "the seventh year in a seven-year cycle during which land in Israel must lie fallow and debts are canceled"@de ;
+    ns1:language "de" .
+

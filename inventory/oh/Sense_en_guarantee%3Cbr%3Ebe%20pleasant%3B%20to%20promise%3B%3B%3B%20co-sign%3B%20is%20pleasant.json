@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_guarantee%3Cbr%3Ebe%20pleasant%3B%20to%20promise%3B%3B%3B%20co-sign%3B%20is%20pleasant" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "guarantee<br>be pleasant; to promise;;; co-sign; is pleasant",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

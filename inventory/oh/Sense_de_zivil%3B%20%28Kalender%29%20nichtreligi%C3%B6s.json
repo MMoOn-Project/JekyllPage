@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_zivil%3B%20%28Kalender%29%20nichtreligi%C3%B6s" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "zivil; (Kalender) nichtreligi\u00F6s",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

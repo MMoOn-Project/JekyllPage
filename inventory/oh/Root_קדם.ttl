@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Root_קדם> a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot>,
+        <http://mmoon.org/lang/heb/schema/oh/Root> ;
+    rdfs:label "קדם"@he ;
+    ns1:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִקְדִּים>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְקַדֵּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻקְדַּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻקְדָּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קְדָמִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִדְמִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִדְמָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִדֵּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קַדְמָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קַדְמוֹן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קַדְמוֹנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קָדַם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קֻדַּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קוֹדֵם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Word_קֹדֶם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ק-ד-ם> .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דמוגרפי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "דמוגרפי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דמוגרפי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_demografisch> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%93%D7%9E%D7%95%D7%92%D7%A8%D7%A4%D7%99_HE/s00026160n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%93%D7%9E%D7%95%D7%92%D7%A8%D7%A4%D7%99_n_HE> .
+

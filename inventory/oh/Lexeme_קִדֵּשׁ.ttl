@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִדֵּשׁ> a ns2:Lexeme ;
+    rdfs:label "קִדֵּשׁ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קדש> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִדֵּשׁ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_קידש> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exalt%3B%3Cbr%3E%28Jewish%20ritual%29%20to%20make%20the%20blessing%20over%20wine%20on%20a%20Sabbath%20or%20festival%3B%3B%3B%20sanctify%3B%20wed%20a%20couple>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sanctify%3B%20betroth%3B%20to%20revere> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

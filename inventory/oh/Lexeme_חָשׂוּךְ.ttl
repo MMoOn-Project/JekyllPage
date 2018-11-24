@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָשׂוּךְ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "חָשׂוּךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָשׂוּךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חשוך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_-less>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bereft%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_deprived%20of%3B%20absent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lacking%3A%3A%3A%20lacking> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

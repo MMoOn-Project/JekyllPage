@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_bedding%3B%20platform%20%28political%29%3B%3B%3B%20%28politics%29%20platform%3B%3Cbr%3Ebed%20%28of%20straw" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "bedding; platform (political);;; (politics) platform;<br>bed (of straw",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

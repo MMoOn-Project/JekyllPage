@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַמֵּם> a ns1:Lexeme ;
+    rdfs:label "הִתְחַמֵּם"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמם> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַמֵּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_התחמם> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20%22get%20hot%20under%20the%20collar%22%3B%3B%3B%20warm%20up>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20become%20energized%3B%3Cbr%3E%28slang%29%20to%20get%20%22the%20hots%22%3B%3Cbr%3E%28slang%29%20to%20become%20angry>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20warmer>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20heat%20up%3B%3Cbr%3Eto%20warm%20oneself%3B%3Cbr%3E%28colloquial%29%20to%20become%20excited> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

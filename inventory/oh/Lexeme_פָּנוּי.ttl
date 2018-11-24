@@ -1,0 +1,27 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּנוּי> a ns2:Lexeme ;
+    rdfs:label "פָּנוּי"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּנוּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פנוי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_frei>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_unbesetzt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_available>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_free>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_open>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_single>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spare>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unmarried>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unoccupied>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vacant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BD%D0%B5%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D0%B9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%85%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D0%BE%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

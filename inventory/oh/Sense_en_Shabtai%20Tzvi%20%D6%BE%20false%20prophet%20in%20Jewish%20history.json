@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_Shabtai%20Tzvi%20%D6%BE%20false%20prophet%20in%20Jewish%20history" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "Shabtai Tzvi \u05BE false prophet in Jewish history",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

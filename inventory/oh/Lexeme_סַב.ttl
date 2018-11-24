@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סַב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "סַב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סַב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_סב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_recline%3F%3F%3F>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20revolve>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spin%20%3B%20to%20focus%20on%3B%3B%3B%20to%20cause%3B%3Cbr%3Eto%20endorse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_transfer%3B%20change%3B%3Cbr%3Eto%20turn%3B%20sit%20around> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .
+

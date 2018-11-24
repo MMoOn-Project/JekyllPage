@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כָּסוּף> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "כָּסוּף"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כָּסוּף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כסוף> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9B%D6%BC%D6%B8%D7%A1%D7%95%D6%BC%D7%A3_HE/s00097477a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9B%D6%BC%D6%B8%D7%A1%D7%95%D6%BC%D7%A3_a_HE> .
+

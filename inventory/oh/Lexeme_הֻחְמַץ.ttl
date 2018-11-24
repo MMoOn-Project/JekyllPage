@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻחְמַץ> a ns1:Lexeme ;
+    rdfs:label "הֻחְמַץ"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמץ> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻחְמַץ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הוחמץ> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bus%29%3B%3B%3B%20pickled%3B%20missed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20pickled%3B%3Cbr%3Eto%20go%20sour%3B%3Cbr%3Eto%20be%20leavened%3B%3Cbr%20/%3Eto%20be%20missed%20%28opportunity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%BD%3B%20%D0%B7%D0%B0%D0%BA%D0%B2%D0%B0%D1%88%D0%B5%D0%BD>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D0%BF%D1%83%D1%89%D0%B5%D0%BD> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

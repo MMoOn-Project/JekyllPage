@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַמִּיץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אַמִּיץ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַמִּיץ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אמיץ> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_courageous%20%3B%20strong>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_fearless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_firm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_k%C3%BChn//brave>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mutig>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_tapfer>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brave>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_courageous> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B7%D7%9E%D6%BC%D6%B4%D7%99%D7%A5_HE/s00098827a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B7%D7%9E%D6%BC%D6%B4%D7%99%D7%A5_a_HE> .
+

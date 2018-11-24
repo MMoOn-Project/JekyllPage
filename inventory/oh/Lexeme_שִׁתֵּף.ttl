@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שִׁתֵּף> a ns2:Lexeme ;
+    rdfs:label "שִׁתֵּף"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁתף> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁתֵּף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שיתף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_associate%3B%3Cbr%20/%3Eto%20include%3B%20to%20share>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_join>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20let%20participate> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

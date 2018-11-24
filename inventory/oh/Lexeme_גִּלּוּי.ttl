@@ -1,0 +1,28 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּלּוּי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "גִּלּוּי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּלּוּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גילוי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edivulge>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erevealment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_detection>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_disclosure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_discovery>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_divulgement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_divulgence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exposal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exposing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_exposure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_revelation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_show>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strike%3B%20manifestation> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B4%D7%9C%D6%BC%D7%95%D6%BC%D7%99_HE/s00027489n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B4%D7%9C%D6%BC%D7%95%D6%BC%D7%99_n_HE> .
+

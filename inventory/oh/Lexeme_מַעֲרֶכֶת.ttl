@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַעֲרֶכֶת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מַעֲרֶכֶת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַעֲרֶכֶת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מערכת> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edivision%3B%3B%3B%20system%3B%20editorial%20board%3B%20set>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epublishing%20house%3B%20%28biology%29%20phylum>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apparatus>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_battery%3B%3Cbr%3Eeditorial%20board%20%28staff>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_clothes%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_framework>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_furniture>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_layout>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_office%29%3B%20stereo%3Cbr%20/%3Eset%20%28of%20dishes>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_system> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A2%D6%B2%D7%A8%D6%B6%D7%9B%D6%B6%D7%AA_HE/s00062148n>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A2%D6%B2%D7%A8%D6%B6%D7%9B%D6%B6%D7%AA_HE/s00065111n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A2%D6%B2%D7%A8%D6%B6%D7%9B%D6%B6%D7%AA_n_HE> .
+

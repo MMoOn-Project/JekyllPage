@@ -1,0 +1,35 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְטֹרָף> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְטֹרָף"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְטֹרָף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מטורף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Efrenetical>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Emaniac>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Enympholept>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ephrenetic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eraving>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ewacky>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bats>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_batty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_frantic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_frenetic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_frenzied>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_insane>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loony>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lunatic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mad>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mad%3B%20mad%20about%3B%3B%3B%20crazy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nut>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nympholeptic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_phrenetical>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pixilated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_screwball> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

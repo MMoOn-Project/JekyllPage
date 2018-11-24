@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְבַּזְבֵּז> a ns2:Lexeme ;
+    rdfs:label "הִתְבַּזְבֵּז"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בזבז> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְבַּזְבֵּז> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dissipated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20spent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20squandered>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wasted> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

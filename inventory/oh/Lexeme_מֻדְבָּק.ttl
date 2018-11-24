@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻדְבָּק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מֻדְבָּק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻדְבָּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מודבק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%93%D7%91%D7%95%D7%A7>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%90%D7%95%D7%97%D7%94>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%95%D7%9C%D7%97%D7%9D>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%95%D7%A6%D7%9E%D7%93>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%97%D7%95%D7%91%D7%A8>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%A8%D7%95%D7%AA%D7%9A>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A6%D7%9E%D7%95%D7%93>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A7%D7%91%D7%95%D7%A2>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%AA%D7%A7%D7%95%D7%A2> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אודם> a ns3:Lexeme ;
+    rdfs:label "אודם"@he ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אדם> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אודם> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_%28%D7%90%D7%91%D7%9F_%D7%97%D7%9F_%D7%9E%D7%A7%D7%A8%D7%90%D7%99%D7%AA%29_HE/s05040158n>,
+        <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_%28%D7%99%D7%99%D7%A9%D7%95%D7%91%29_HE/s01234942n>,
+        <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_%28%D7%99%D7%A9%D7%95%D7%91%29_HE/s01234942n>,
+        <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_%28%D7%9E%D7%95%D7%A9%D7%91%29_HE/s01234942n>,
+        <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_HE/s00068490n>,
+        <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_HE/s16488248n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D7%95%D7%93%D7%9D_n_HE> .
+

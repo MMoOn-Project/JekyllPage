@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דּוֹמֵם> a ns2:Lexeme ;
+    rdfs:label "דּוֹמֵם"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דמם> ;
+    ns1:consistsOfMorph ns2:polel ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דּוֹמֵם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דומם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_still>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inanimate%20%28noun%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_silent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_still%20%3B%20inanimate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28art%29%20still%20life>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%B5%D0%B7%D0%BC%D0%BE%D0%BB%D0%B2%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun,
+        ns2:Verb .
+

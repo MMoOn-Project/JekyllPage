@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Root_רחב> a <http://mmoon.org/lang/heb/schema/oh/PrimaryRoot>,
+        <http://mmoon.org/lang/heb/schema/oh/Root> ;
+    rdfs:label "רחב"@he ;
+    ns1:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִרְחִיב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְרַחֵב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻרְחַב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָחַב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָחָב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Word_ר-ח-ב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ר-ח-ב> .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_otherwise%20%3B%20%D7%A9%D7%9C%D7%90%20-%20not%20%3B%20%D7%A9%D7%9C%D7%90%20-%20without" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "otherwise ; \u05E9\u05DC\u05D0 - not ; \u05E9\u05DC\u05D0 - without",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

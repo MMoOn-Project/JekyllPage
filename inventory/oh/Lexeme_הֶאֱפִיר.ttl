@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶאֱפִיר> a ns2:Lexeme ;
+    rdfs:label "הֶאֱפִיר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אפר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶאֱפִיר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_האפיר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_become%20grey>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20color%20gray%3B%20to%20go%20gray>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20make%20gray>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28%D0%BF%D0%BE%29%D1%81%D0%B5%D1%80%D0%B5%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

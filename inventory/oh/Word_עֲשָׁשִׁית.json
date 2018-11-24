@@ -1,0 +1,45 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05E2\u05B2\u05E9\u05C1\u05B8\u05E9\u05C1\u05B4\u05D9\u05EA" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E2\u05B2\u05E9\u05C1\u05B8\u05E9\u05C1\u05B4\u05D9\u05EA",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E2\u05E9\u05E9\u05D9\u05EA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%C3%96llampe",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_Petroleumlampe%3B%20eigentlich%20nur%20Glas%20bzw.%20Glasgef%C3%A4%C3%9F",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_oil%20lamp",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E2\u05B2\u05E9\u05C1\u05B8\u05E9\u05C1\u05B4\u05D9\u05EA",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

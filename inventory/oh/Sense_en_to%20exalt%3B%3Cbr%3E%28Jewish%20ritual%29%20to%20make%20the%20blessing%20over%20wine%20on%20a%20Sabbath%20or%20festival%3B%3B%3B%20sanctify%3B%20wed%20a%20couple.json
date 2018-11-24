@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exalt%3B%3Cbr%3E%28Jewish%20ritual%29%20to%20make%20the%20blessing%20over%20wine%20on%20a%20Sabbath%20or%20festival%3B%3B%3B%20sanctify%3B%20wed%20a%20couple" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to exalt;<br>(Jewish ritual) to make the blessing over wine on a Sabbath or festival;;; sanctify; wed a couple",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

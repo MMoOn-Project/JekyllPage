@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_stylus%20%28pen%29%3Cbr%3E%3Cbr%3Ealso%20nm.%20carnation%20%28flower%29> a ns2:Sense ;
+    ns2:senseDefinition "stylus (pen)<br><br>also nm. carnation (flower)"@en ;
+    ns1:language "en" .
+

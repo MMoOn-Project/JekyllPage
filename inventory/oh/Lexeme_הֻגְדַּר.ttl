@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻגְדַּר> a ns1:Lexeme ;
+    rdfs:label "הֻגְדַּר"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻגְדַּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הוגדר> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B0%D1%82%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B0%D0%BD>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D1%86%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

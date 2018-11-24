@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בְּהֶחְלֵט> a ns1:Word ;
+    rdfs:label "בְּהֶחְלֵט"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּהֶחְלֵט>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בהחלט> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eflatly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Estrictly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_certainly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_decidedly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_definitely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_diametrically>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_easily>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_eminently>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_positively>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_precisely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sure%20%28in%20answer%20to%20a%20question%29%20absolutely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_without%20doubt%3B%20%3Cbr%3Eof%20course> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

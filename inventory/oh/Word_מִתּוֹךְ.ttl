@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_מִתּוֹךְ> a ns1:Word ;
+    rdfs:label "מִתּוֹךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִתּוֹךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מתוך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efrom%20among%3B%3Cbr%3Efrom%20the%20inside>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eout%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_from%20within>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_out%20of%3B%3B%3B%20from> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Preposition> .
+

@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַפָּלָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מַפָּלָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַפָּלָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מפלה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Echeckmate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efiasco>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_collapse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_defeat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_downfall>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_failure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fall>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pounding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reverse>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_setback> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A4%D6%BC%D6%B8%D7%9C%D6%B8%D7%94_HE/s00025855n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A4%D6%BC%D6%B8%D7%9C%D6%B8%D7%94_n_HE> .
+

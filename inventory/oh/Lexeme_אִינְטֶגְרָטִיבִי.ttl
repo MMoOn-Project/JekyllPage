@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִינְטֶגְרָטִיבִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אִינְטֶגְרָטִיבִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִינְטֶגְרָטִיבִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אינטגרטיבי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_integrativ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D7%90%D6%B4%D7%99%D7%A0%D6%B0%D7%98%D6%B6%D7%92%D6%B0%D7%A8%D6%B8%D7%98%D6%B4%D7%99%D7%91%D6%B4%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D7%9B%D6%BC%D6%B4%D7%9C%D6%BC%D7%95%D6%BC%D7%9C%D6%B4%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D7%9E%D6%B0%D7%A9%D7%81%D6%BB%D7%9C%D6%BC%D6%B8%D7%91%3B%20%D7%90%D6%B7%D7%97%D6%B0%D7%93%D7%95%D6%BC%D7%AA%D6%B4%D7%99> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵטִיל> a ns2:Lexeme ;
+    rdfs:label "הֵטִיל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טול> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵטִיל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הטיל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_drop>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impose%3B%20cast>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_throw> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

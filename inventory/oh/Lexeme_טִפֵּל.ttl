@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִפֵּל> a ns2:Lexeme ;
+    rdfs:label "טִפֵּל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טפל> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טִפֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_טיפל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20heal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_care%20for%3B%3B%3B%20look%20after/take%20care%20of%3B%3B%3B%20to%20take%20care%3B%3Cbr%20/%3Eto%20help>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_take%20care%20of> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

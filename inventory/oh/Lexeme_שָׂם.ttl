@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׂם> a ns1:Lexeme ;
+    rdfs:label "שָׂם"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׂים> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׂם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שם> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28hin%29setzen/stellen/legen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_puts>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_puts%20down> ;
+    ns2:hasWordclassAffiliation ns1:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%9D_HE/s00090224v> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%9D_v_HE> .
+

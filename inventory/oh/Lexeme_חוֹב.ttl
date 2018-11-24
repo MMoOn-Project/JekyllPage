@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חוֹב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "חוֹב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חוֹב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חוב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eliability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Escore>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_debit%3B%3Cbr%20/%3Eindebtedness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_debt%20%3B%20obligation%3B%3B%3B%20debt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_due%3B%3Cbr%20/%3Eobligation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_promissory>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B4%D0%BE%D0%BB%D0%B3> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

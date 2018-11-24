@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20profit%3B%3B%3B%20was%20beneficial%3B%20was%20of%20use%3B%20availed%3B%3B%3B%20is%20useful" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to profit;;; was beneficial; was of use; availed;;; is useful",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

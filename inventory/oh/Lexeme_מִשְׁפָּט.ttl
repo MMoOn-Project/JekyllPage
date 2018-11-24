@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִשְׁפָּט> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מִשְׁפָּט"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִשְׁפָּט>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_משפט> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Gesetz>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Plural%3A%20iura>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Recht%20%28ius%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Satz>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trial>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_judgment> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

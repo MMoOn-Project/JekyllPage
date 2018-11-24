@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּעֵר> a ns2:Lexeme ;
+    rdfs:label "בִּעֵר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בער> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּעֵר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ביער> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%28military%29%20to%20mop%20up%3B%3B%3B%20eradicate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20destroy%20completely%3B%3Cbr%20/%3Eto%20burn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ignite%3B%3Cbr%20/%3Eto%20clear>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kindle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exterminate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20root%20out> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

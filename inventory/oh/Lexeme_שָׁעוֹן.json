@@ -1,0 +1,88 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05E9\u05C1\u05B8\u05E2\u05D5\u05B9\u05DF" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05C1\u05B8\u05E2\u05D5\u05B9\u05DF",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05E2\u05D5\u05DF",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Uhr",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_clock",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_watch",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%85%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%87%D0%B0%D1%81%D1%8B%20%28%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%29",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%A2%D7%95%D6%B9%D7%9F_HE/s00019887n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%A2%D7%95%D6%B9%D7%9F_HE/s00077172n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A2%D7%95%D6%B9%D7%9F_HE/s00019887n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E9\u05C1\u05B8\u05E2\u05D5\u05B9\u05DF",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%A2%D7%95%D6%B9%D7%9F_n_HE",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A2%D7%95%D6%B9%D7%9F_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

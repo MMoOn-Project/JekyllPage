@@ -1,0 +1,11 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_ru_hammered%3B%20%27has%20a%20screw%20loose%27%3B%20%27screwed%20up%27%3B%3B%3B%20%28slang%29%20terrible> a ns1:Sense ;
+    ns1:senseDefinition "hammered; 'has a screw loose'; 'screwed up';;; (slang) terrible"@ru ;
+    ns2:language "ru" .
+

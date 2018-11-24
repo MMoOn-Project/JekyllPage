@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20arm%3B%20reinforce%3B%20have%20sex%20with%3B%3B%3B%20%28vulgar%29%20to%20have%20sexual%20intercourse%20%3B%20%28vulgar%29%20to%20%22screw%22%20someone" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to arm; reinforce; have sex with;;; (vulgar) to have sexual intercourse ; (vulgar) to \"screw\" someone",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

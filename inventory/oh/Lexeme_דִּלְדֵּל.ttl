@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דִּלְדֵּל> a ns2:Lexeme ;
+    rdfs:label "דִּלְדֵּל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דלדל> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דִּלְדֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דלדל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_deplete>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D0%B7%D0%BD%D1%83%D1%80%D1%8F%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D1%81%D1%82%D0%BE%D1%89%D0%B0%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

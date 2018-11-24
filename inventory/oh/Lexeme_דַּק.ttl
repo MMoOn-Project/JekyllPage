@@ -1,0 +1,36 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דַּק> a ns2:Lexeme ;
+    rdfs:label "דַּק"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דוק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דַּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_d%C3%BCnn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_fein%20%28von%20Gegenst%C3%A4nden%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eexiguous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efinespun>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esleazy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_diminutive%3B%3B%3B%20thin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faint>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flagelliform>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flimsy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lean%20%3B%20fine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_onionskin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sheer>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slender>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slight>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slight%20%3B%20small>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spindly%3B%20fine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_subtle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tenuous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thin%20%3B%20skinny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thready%3B%20tiny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wispy%3B%3Cbr%3Elean>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

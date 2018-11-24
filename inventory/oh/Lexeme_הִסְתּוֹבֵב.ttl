@@ -1,0 +1,30 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתּוֹבֵב> a ns2:Lexeme ;
+    rdfs:label "הִסְתּוֹבֵב"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סבב> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתּוֹבֵב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הבתובב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הסתובב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eturn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loiter%3B%20rotate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn%20around%3B%20to%20wander%20around%3B%3B%3B%20revolve>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20walk%20about>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_turn%20around%3B%20walk%20around> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00084629v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00084978v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00089375v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00094687v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00095233v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00095235v> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D7%95%D6%B9%D7%91%D6%B5%D7%91_v_HE> .
+

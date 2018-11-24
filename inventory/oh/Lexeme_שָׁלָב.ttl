@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁלָב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "שָׁלָב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁלָב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שלב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%D7%91%D7%A9%D7%9C%D7%91%D7%99%D7%9D%20-%20in%20stages>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Erung%20%28ladder%29%3B%3B%3B%20rung>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Estep%3B%20slat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Egradation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bar%3B%20louvre>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_level>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_phase>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_remove>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_step%3B%20phase> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_HE/s00025966n>,
+        <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_HE/s00061898n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%91_n_HE> .
+

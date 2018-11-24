@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_de_%D7%92%D6%BC%D6%B8%D7%93%D7%95%D6%B9%D7%9C%3B%20%D7%92%D6%BC%D6%B8%D7%9C%D6%B0%D7%9E%D6%B4%D7%99%3B%20%D7%9B%D6%BC%D7%95%D6%B9%D7%9C%D6%B5%D7%9C> a ns2:Sense ;
+    ns2:senseDefinition "גָּדוֹל; גָּלְמִי; כּוֹלֵל"@de ;
+    ns1:language "de" .
+

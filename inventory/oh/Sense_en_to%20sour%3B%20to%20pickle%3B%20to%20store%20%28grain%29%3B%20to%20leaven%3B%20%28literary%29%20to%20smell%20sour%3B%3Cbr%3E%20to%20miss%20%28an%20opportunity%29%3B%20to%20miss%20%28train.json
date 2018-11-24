@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sour%3B%20to%20pickle%3B%20to%20store%20%28grain%29%3B%20to%20leaven%3B%20%28literary%29%20to%20smell%20sour%3B%3Cbr%3E%20to%20miss%20%28an%20opportunity%29%3B%20to%20miss%20%28train" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to sour; to pickle; to store (grain); to leaven; (literary) to smell sour;<br> to miss (an opportunity); to miss (train",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

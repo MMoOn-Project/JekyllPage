@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְמִיץ> a ns2:Lexeme ;
+    rdfs:label "הֶחְמִיץ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמץ> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְמִיץ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_החמיץ> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bus%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sour%3B%20to%20pickle%3B%20to%20store%20%28grain%29%3B%20to%20leaven%3B%20%28literary%29%20to%20smell%20sour%3B%3Cbr%3E%20to%20miss%20%28an%20opportunity%29%3B%20to%20miss%20%28train> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B6%D7%97%D6%B0%D7%9E%D6%B4%D7%99%D7%A5_HE/s00088125v>,
+        <http://babelnet.org/rdf/%D7%94%D6%B6%D7%97%D6%B0%D7%9E%D6%B4%D7%99%D7%A5_HE/s00091610v> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B6%D7%97%D6%B0%D7%9E%D6%B4%D7%99%D7%A5_v_HE> .
+

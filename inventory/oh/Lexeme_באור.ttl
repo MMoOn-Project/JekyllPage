@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_באור> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "באור"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_באור> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erkl%C3%A4rt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erl%C3%A4utert> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%91%D7%90%D7%95%D7%A8_HE/s00051110n>,
+        <http://babelnet.org/rdf/%D7%91%D7%90%D7%95%D7%A8_HE/s00051111n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D7%90%D7%95%D7%A8_n_HE> .
+

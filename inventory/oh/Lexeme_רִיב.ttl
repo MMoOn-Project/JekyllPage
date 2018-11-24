@@ -1,0 +1,34 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רִיב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "רִיב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רִיב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ריב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ealtercation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ehassle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erumpus>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_argument>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_breeze%3B%3B%3B%20quarrel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_conflict>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_contention>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dispute>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dissension>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_embroilment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fight>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jar>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loggerheads>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quarrel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrap>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shindy%3B%20dispute>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_squabble>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strife>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tangle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_upset>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrangle> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

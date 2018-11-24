@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_around%20%28time%29%20%3B%20%D7%91%D7%A1%D7%9E%D7%95%D7%9A%20-%20in%20close%20proximity%20to" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "around (time) ; \u05D1\u05E1\u05DE\u05D5\u05DA - in close proximity to",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

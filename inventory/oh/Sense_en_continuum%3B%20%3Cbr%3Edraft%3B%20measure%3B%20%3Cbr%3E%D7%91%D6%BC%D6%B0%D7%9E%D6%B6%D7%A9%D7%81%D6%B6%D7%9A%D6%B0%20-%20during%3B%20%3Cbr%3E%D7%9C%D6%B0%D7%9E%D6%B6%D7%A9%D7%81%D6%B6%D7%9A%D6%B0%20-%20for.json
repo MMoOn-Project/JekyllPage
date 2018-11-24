@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_continuum%3B%20%3Cbr%3Edraft%3B%20measure%3B%20%3Cbr%3E%D7%91%D6%BC%D6%B0%D7%9E%D6%B6%D7%A9%D7%81%D6%B6%D7%9A%D6%B0%20-%20during%3B%20%3Cbr%3E%D7%9C%D6%B0%D7%9E%D6%B6%D7%A9%D7%81%D6%B6%D7%9A%D6%B0%20-%20for" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "continuum; <br>draft; measure; <br>\u05D1\u05BC\u05B0\u05DE\u05B6\u05E9\u05C1\u05B6\u05DA\u05B0 - during; <br>\u05DC\u05B0\u05DE\u05B6\u05E9\u05C1\u05B6\u05DA\u05B0 - for",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

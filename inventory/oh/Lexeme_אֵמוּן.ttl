@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֵמוּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אֵמוּן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֵמוּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אמון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Econfidentiality>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edependance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efaith>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_confidence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_confidentialness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_credence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_credibleness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_credit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dependence%3B%3Cbr%3Ecredibility>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faith%20or%20confidence%20in%20someone%3B%3B%3B%20trust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fidelity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reliance> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

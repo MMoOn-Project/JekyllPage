@@ -1,0 +1,11 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_room%20%28I%20don%27t%20have%20room%20for%20my%20stuff%29> a ns1:Sense ;
+    ns1:senseDefinition "room (I don't have room for my stuff)"@en ;
+    ns2:language "en" .
+

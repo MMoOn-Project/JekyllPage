@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_חֵצִי> a ns1:Word ;
+    rdfs:label "חֵצִי"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חצי> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֵצִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חצי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-halb>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_H%C3%A4lfte>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_half%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0> .
+

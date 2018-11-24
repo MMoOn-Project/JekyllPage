@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִזֵּן> a ns2:Lexeme ;
+    rdfs:label "אִזֵּן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אזן> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִזֵּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_איזן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ES>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_even>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_level>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_offset>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_temper>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20balance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weigh%20carefully%3Cbr%3E%3Cp%20dir%3D%27rtl%27%3E%28%D7%91%D7%99%D7%9F...%20%D7%9C%D7%91%D7%99%D7%9F%3B%20%D7%90%D7%AA%29%3C/p%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weigh%20carefully%3E%3E%3E%20to%20balance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D1%82%D1%8C%3B%20%D0%BF%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C/%D0%BF%D0%BE%D0%B4%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%88%D0%B8%D0%B2%D0%B0%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

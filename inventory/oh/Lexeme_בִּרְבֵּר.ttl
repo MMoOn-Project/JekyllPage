@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּרְבֵּר> a ns2:Lexeme ;
+    rdfs:label "בִּרְבֵּר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ברבר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּרְבֵּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ברבר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blabber%20%28talk%20a%20lot%20without%20saying%20much%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%B0%D0%BB%D0%B0%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%BE%D0%BB%D1%82%D0%B0%D1%82%D1%8C>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C%20%D1%81%D0%BB%D0%B8%D1%88%D0%BA%D0%BE%D0%BC%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

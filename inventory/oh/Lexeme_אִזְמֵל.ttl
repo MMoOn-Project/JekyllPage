@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִזְמֵל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אִזְמֵל"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִזְמֵל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אזמל> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B4%D7%96%D6%B0%D7%9E%D6%B5%D7%9C_HE/s00018545n>,
+        <http://babelnet.org/rdf/%D7%90%D6%B4%D7%96%D6%B0%D7%9E%D6%B5%D7%9C_HE/s00069487n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B4%D7%96%D6%B0%D7%9E%D6%B5%D7%9C_n_HE> .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_אֵיתָ״ן> a ns1:Word ;
+    rdfs:label "אֵיתָ״ן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֵיתָ״ן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אית״ן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Alef>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Jud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Nun%20%28die%20als%20Pr%C3%A4formative%20f%C3%BCr%20die%20Zukunftsformen%20verwendet%20werden%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Taw> .
+

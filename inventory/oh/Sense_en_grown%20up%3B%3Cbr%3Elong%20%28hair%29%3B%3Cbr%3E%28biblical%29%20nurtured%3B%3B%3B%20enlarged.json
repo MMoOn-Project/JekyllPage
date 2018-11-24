@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_grown%20up%3B%3Cbr%3Elong%20%28hair%29%3B%3Cbr%3E%28biblical%29%20nurtured%3B%3B%3B%20enlarged" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "grown up;<br>long (hair);<br>(biblical) nurtured;;; enlarged",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

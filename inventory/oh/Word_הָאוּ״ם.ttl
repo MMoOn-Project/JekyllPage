@@ -1,0 +1,12 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_הָאוּ״ם> a ns1:Word ;
+    rdfs:label "הָאוּ״ם"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הָאוּ״ם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_UNO%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Vereinte%20Nationen%20%28VN> .
+

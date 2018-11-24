@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בץ> a ns1:Word ;
+    rdfs:label "בץ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בוץ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בץ> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mire>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_morass>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mud>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ooze>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quagmire>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slime>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slob>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slosh>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sludge>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slush> .
+

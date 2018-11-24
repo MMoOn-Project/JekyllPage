@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_luxurious%3B%3B%3B%20%3Cspan%20style%3D%22%20font-style%3A%20normal%3B%20font-weight%3A%20normal%3B%22%3Emagnificent" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "luxurious;;; <span style=\" font-style: normal; font-weight: normal;\">magnificent",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

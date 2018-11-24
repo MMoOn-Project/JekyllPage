@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יְסוֹד> a ns2:Lexeme ;
+    rdfs:label "יְסוֹד"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יסד> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְסוֹד>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יסוד> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%28chemistry%29%20element%3B%3Cbr%20/%3E%D7%99%D7%A1%D7%95%D7%93%D7%95%D7%AA%20%E2%80%93%20foundations%3B%3B%3B%20foundation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eessence%3B%3Cbr%20/%3Eextraction%3B%20%3Cbr%3E%28flowery%29%20origin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efounding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_basis%3B%20element%3B%20essential%3B%3B%3B%20establishment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_foundation%3B%20basis%3B%3B%3B%20basis> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻקְדָּם> a ns2:Lexeme ;
+    rdfs:label "מֻקְדָּם"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קדם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻקְדָּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מוקדם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_fr%C3%BCh>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_fr%C3%BChzeitig>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Ci%3Eadj.%3C/i%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Ci%3Eadv.%3B%20%3C/i%3Eearly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_early>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%80%D0%B0%D0%BD%D0%BE> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

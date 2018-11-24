@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יָשָׁר> a ns2:Lexeme ;
+    rdfs:label "יָשָׁר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ישׁר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָשָׁר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ישר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ehrlich>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gerade>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_geradeaus%3B%20aufrichtig>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_honest>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_upright> ;
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun .
+

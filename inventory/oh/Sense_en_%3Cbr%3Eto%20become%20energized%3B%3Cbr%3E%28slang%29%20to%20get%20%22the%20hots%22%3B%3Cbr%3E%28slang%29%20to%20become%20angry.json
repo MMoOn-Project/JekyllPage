@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20become%20energized%3B%3Cbr%3E%28slang%29%20to%20get%20%22the%20hots%22%3B%3Cbr%3E%28slang%29%20to%20become%20angry" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "<br>to become energized;<br>(slang) to get \"the hots\";<br>(slang) to become angry",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

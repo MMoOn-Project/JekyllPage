@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מוּאָר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מוּאָר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מוּאָר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מואר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eirradiated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esunny>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_alight>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_illuminated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lighted>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_luminous> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

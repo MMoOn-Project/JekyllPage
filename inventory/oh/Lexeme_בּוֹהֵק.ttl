@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בּוֹהֵק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "בּוֹהֵק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בּוֹהֵק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בוהק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gl%C3%A4nzend>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_strahlend>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%91%D6%BC%D7%95%D6%B9%D7%94%D6%B5%D7%A7>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%96%D7%95%D6%B9%D7%94%D6%B5%D7%A8>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%96%D7%A8%D7%95%D7%A2%20%D7%9B%D7%95%D7%9B%D7%91%D7%99%D7%9D%3B%20%D7%9E%D6%B7%D7%91%D6%B0%D7%A8%D6%B4%D7%99%D7%A7> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

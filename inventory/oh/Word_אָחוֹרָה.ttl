@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_אָחוֹרָה> a ns1:Word ;
+    rdfs:label "אָחוֹרָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָחוֹרָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אחורה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_nach%20hinten>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_r%C3%BCckw%C3%A4rts>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_backward>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_backwards>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_in%20reverse%3B%3B%3B%20back>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_rearward> .
+

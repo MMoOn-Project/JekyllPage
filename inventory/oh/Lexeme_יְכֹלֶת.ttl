@@ -1,0 +1,27 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יְכֹלֶת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "יְכֹלֶת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְכֹלֶת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יכולת> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecapableness>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epossibility>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eresource%3B%20potency>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_capability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_competence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_competency>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faculty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_felicity>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_knack>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_potential>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_power> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%9B%D6%B9%D7%9C%D6%B6%D7%AA_HE/s00000317n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B0%D7%9B%D6%B9%D7%9C%D6%B6%D7%AA_n_HE> .
+

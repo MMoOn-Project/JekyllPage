@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִפְרַע> a ns2:Lexeme ;
+    rdfs:label "נִפְרַע"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרע> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִפְרַע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_check%29%3B%3B%3B%20become%20unruly%3F%3F%3F>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20paid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20redeemed%20%28a%20bill> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

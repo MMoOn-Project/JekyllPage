@@ -1,0 +1,28 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יְסוֹדִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "יְסוֹדִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְסוֹדִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יסודי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ediligent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eessential>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Emethodic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_basic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cardinal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_elementary%3B%20elemental%3B%20fundamental>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_methodical>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_neat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_primary%3B%3Cbr%20/%3Esubstantial>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rudimentary>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thorough>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_underlying> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%A1%D7%95%D6%B9%D7%93%D6%B4%D7%99_HE/s00103424a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B0%D7%A1%D7%95%D6%B9%D7%93%D6%B4%D7%99_a_HE> .
+

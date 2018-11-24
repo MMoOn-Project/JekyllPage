@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20tongue-lash%3B%20to%20spread%20%28flames%29%3B%20%28literary%29%20to%20be%20sent%3B%20to%20attack%20verbally" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to tongue-lash; to spread (flames); (literary) to be sent; to attack verbally",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

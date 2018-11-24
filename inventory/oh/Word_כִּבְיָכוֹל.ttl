@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_כִּבְיָכוֹל> a ns1:Word ;
+    rdfs:label "כִּבְיָכוֹל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יכל> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כִּבְיָכוֹל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כביכול> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_allegedly%3B%20seemingly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apparently>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_as%20it%20were%20%3B%20seemingly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hypothetically%3B%3B%3B%20supposedly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pseudo->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quasi->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quasi-%20%3B%20allegedly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_so%20to%20speak>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D1%80%D0%BE%D0%B4%D0%B5>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%B0%D0%BA%20%D0%B1%D1%83%D0%B4%D1%82%D0%BE>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%8F%D0%BA%D0%BE%D0%B1%D1%8B> ;
+    ns1:hasWordclassAffiliation ns2:Adverb .
+

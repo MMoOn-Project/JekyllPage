@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָסוּק> a ns2:Lexeme ;
+    rdfs:label "עָסוּק"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עסק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָסוּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_עסוק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%D7%A2%D6%B8%D7%A1%D7%95%D6%BC%D7%A7>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_besch%C3%A4ftigt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_busy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_engaged>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_involved>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_occupied%20with>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_preoccupied> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

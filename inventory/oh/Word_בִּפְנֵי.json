@@ -1,0 +1,71 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05D1\u05BC\u05B4\u05E4\u05B0\u05E0\u05B5\u05D9" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05BC\u05B4\u05E4\u05B0\u05E0\u05B5\u05D9",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05E4\u05E0\u05D9",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_face%3B%3B%3B%20facing",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20front%20of",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20front%20of%3B%20against%3B%20in%20the%20face%20of",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20presence%20of",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_up%20against%3B%20stand%20up%20against",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%95%D1%80%D0%B5%D0%B4%20%28%D0%BF%D0%BE%20%D0%BC%D0%B5%D1%81%D1%82%D1%83",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Preposition",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D1\u05BC\u05B4\u05E4\u05B0\u05E0\u05B5\u05D9",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

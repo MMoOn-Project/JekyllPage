@@ -1,0 +1,29 @@
+
+{
+  "http://mmoon.org/lang/heb/schema/oh/Singular" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/core/Singular",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "Singular",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\u05D9\u05D7\u05D9\u05D3",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

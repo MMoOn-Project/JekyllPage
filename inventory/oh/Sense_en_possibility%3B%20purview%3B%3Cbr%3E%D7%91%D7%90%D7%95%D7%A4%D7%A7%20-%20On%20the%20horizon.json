@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_possibility%3B%20purview%3B%3Cbr%3E%D7%91%D7%90%D7%95%D7%A4%D7%A7%20-%20On%20the%20horizon" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "possibility; purview;<br>\u05D1\u05D0\u05D5\u05E4\u05E7 - On the horizon",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

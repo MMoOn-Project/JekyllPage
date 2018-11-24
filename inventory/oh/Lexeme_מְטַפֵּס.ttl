@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְטַפֵּס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְטַפֵּס"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְטַפֵּס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מטפס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_creeper%20%28plant%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_mountain%20climber> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%98%D6%B7%D7%A4%D6%BC%D6%B5%D7%A1_HE/s00080013n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%98%D6%B7%D7%A4%D6%BC%D6%B5%D7%A1_n_HE> .
+

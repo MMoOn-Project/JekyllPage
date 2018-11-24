@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דֵּעָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "דֵּעָה"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דֵּעָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דעה> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_idea>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_judgement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_judgment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mind>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_notion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_opinion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_point%20of%20view>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_say>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sentiment%3B%20knowledge> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%93%D6%BC%D6%B5%D7%A2%D6%B8%D7%94_HE/s00059168n>,
+        <http://babelnet.org/rdf/%D7%93%D6%BC%D6%B5%D7%A2%D6%B8%D7%94_HE/s00059169n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%93%D6%BC%D6%B5%D7%A2%D6%B8%D7%94_n_HE> .
+

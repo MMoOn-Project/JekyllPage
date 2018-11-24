@@ -1,0 +1,11 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_reckoned%3Cbr%20/%3E%3Cbr%20/%3E%3Cbr%3E%3Cp%20dir%3D%27rtl%27%3E%D7%94%D7%95%D7%90%20%D7%A0%D7%9E%D7%A0%D7%94%20%D7%91%D7%99%D7%9F%20%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%99%D7%9D%20%3D%20he%20was%20counted%20among%20the%20wealthy%3C/p%3E> a ns2:Sense ;
+    ns2:senseDefinition "reckoned<br /><br /><br><p dir='rtl'>הוא נמנה בין העשירים = he was counted among the wealthy</p>"@en ;
+    ns1:language "en" .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דִּבּוּרִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "דִּבּוּרִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דִּבּוּרִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דיבורי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_alltagssprachlich>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_das%20Sprechen%20betreffend>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_umgangssprachlich> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

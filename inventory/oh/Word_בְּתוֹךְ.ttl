@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בְּתוֹךְ> a ns1:Word ;
+    rdfs:label "בְּתוֹךְ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּתוֹךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בתוך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_drinnen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_among>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20midst%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inside>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_within> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Preposition> .
+

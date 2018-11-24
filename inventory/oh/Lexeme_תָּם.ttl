@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "תָּם"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eunsophisticated%20person>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Jewish%20law%29%20non-dangerous%20%28beast%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_honest%20person>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_naive%20person%3B%20%3Cbr%20/%3E%28talmudic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_naive%3B%3B%3B%20artless%20person> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

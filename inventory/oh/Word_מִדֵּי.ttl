@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_מִדֵּי> a ns1:Word ;
+    rdfs:label "מִדֵּי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִדֵּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מדי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28once%29%20every%3B%3B%3B%20every%20once%20in%20a%20while%3B%20ever%20%28day>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3E-ly%20%28hourly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_daily>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_every>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_every%20time>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_monthly%29%3B%3Cbr%20/%3E%28flowery%29%20whenever>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_week%29%3B%3B%3B%20each> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

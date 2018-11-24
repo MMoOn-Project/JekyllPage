@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּיֵּר> a ns2:Lexeme ;
+    rdfs:label "גִּיֵּר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גיר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּיֵּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גייר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20convert%20to%20Judaism%3B%3B%3B%20to%20convert%20someone%20to%20Judaism>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20proselytize>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B0%D1%82%D1%8C/%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%B8%D1%83%D0%B4%D0%B0%D0%B8%D0%B7%D0%BC>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C/%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D0%B3%D0%B8%D1%8E%D1%80> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_ג'מייקה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "ג'מייקה"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ג'מייקה> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Jamaica> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%27%D7%9E%D7%99%D7%99%D7%A7%D7%94_%28%D7%A0%D7%99%D7%95_%D7%99%D7%95%D7%A8%D7%A7%29_HE/s02418044n>,
+        <http://babelnet.org/rdf/%D7%92%27%D7%9E%D7%99%D7%99%D7%A7%D7%94_%28%D7%A7%D7%95%D7%95%D7%99%D7%A0%D7%A1%29_HE/s02418044n>,
+        <http://babelnet.org/rdf/%D7%92%27%D7%9E%D7%99%D7%99%D7%A7%D7%94_HE/s00047903n>,
+        <http://babelnet.org/rdf/%D7%92%27%D7%9E%D7%99%D7%99%D7%A7%D7%94_HE/s00047908n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%27%D7%9E%D7%99%D7%99%D7%A7%D7%94_n_HE> .
+

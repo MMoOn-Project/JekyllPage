@@ -1,0 +1,43 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזָק> a ns2:Lexeme ;
+    rdfs:label "חָזָק"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָזָק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חזק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_kr%C3%A4ftig%3B%20stabil>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_stark>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_burly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fast>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_firm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forceful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forcible>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forte>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hardy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hearty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hefty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_husky>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intense>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_living>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_masculine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_massive>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mighty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_muscular>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_orotund>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_overpowering>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poten>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_powerful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_robust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strong>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vigorous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B8%D7%A7_HE/s00115420r> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B8%D7%A7_r_HE> .
+

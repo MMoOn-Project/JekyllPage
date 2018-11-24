@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶאֱזִין> a ns1:Lexeme ;
+    rdfs:label "הֶאֱזִין"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אזן> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶאֱזִין>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_האזין> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20listen%20in>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20bug>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20listen%20attentively%3B%3Cbr%3Eto%20eavesdrop>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%82%D1%8C%20%28%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%29> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

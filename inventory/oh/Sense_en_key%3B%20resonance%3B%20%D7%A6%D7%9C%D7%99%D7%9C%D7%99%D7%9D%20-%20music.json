@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_key%3B%20resonance%3B%20%D7%A6%D7%9C%D7%99%D7%9C%D7%99%D7%9D%20-%20music" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "key; resonance; \u05E6\u05DC\u05D9\u05DC\u05D9\u05DD - music",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

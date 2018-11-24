@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִדְאִיג> a ns2:Lexeme ;
+    rdfs:label "הִדְאִיג"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דאג> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִדְאִיג>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הדאיג> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_made%20%28caused%29%20worry>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_worry%20someone> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

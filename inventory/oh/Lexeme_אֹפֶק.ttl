@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֹפֶק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אֹפֶק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֹפֶק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אופק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eprospect>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_horizon%3B%20perspective>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20foreseeable%20future>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20view>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_possibility%3B%20purview%3B%3Cbr%3E%D7%91%D7%90%D7%95%D7%A4%D7%A7%20-%20On%20the%20horizon>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

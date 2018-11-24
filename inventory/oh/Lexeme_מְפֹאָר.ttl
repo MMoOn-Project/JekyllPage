@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְפֹאָר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְפֹאָר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְפֹאָר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מפואר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lavish>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_luxurious%3B%3B%3B%20%3Cspan%20style%3D%22%20font-style%3A%20normal%3B%20font-weight%3A%20normal%3B%22%3Emagnificent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_luxurious%3C/span%3E%3B%3B%3B%20splendid%3B%20magnificent> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

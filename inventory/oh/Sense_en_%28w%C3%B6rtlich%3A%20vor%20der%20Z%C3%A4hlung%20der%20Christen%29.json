@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28w%C3%B6rtlich%3A%20vor%20der%20Z%C3%A4hlung%20der%20Christen%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "(w\u00F6rtlich: vor der Z\u00E4hlung der Christen)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

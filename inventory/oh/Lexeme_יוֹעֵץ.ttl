@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יוֹעֵץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "יוֹעֵץ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יוֹעֵץ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יועץ> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_adviser>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_advisor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assessor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_consultant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_consultative>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_counsellor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_counselor%3B%3Cbr%3E%D7%99%D7%95%D7%A2%D7%A6%D7%AA%20-%20school%20counselor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mentor> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D7%95%D6%B9%D7%A2%D6%B5%D7%A5_HE/s00001598n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D7%95%D6%B9%D7%A2%D6%B5%D7%A5_n_HE> .
+

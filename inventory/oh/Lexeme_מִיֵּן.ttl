@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִיֵּן> a ns2:Lexeme ;
+    rdfs:label "מִיֵּן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מין> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִיֵּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מיין> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_classify>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sort>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20classify> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

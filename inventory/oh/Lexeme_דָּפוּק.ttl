@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּפוּק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "דָּפוּק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּפוּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דפוק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_geschlagen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bekloppt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%22not%20right%20in%20the%20head%22%3B%3Cbr%3E%28slang%29%20badly%20done%20by>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%22several%20cards%20short%20%28shy%29%20of%20a%20full%20deck%22>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Erapped%3B%20mistreated%3B%20defective%3B%3Cbr%3Efucked%20up>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_bad>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_hammered%3B%20%27has%20a%20screw%20loose%27%3B%20%27screwed%20up%27%3B%3B%3B%20%28slang%29%20terrible>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_imperfect%3B%20%28slang%29%20crazy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_oppressed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_ruined>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_taken%20advantage%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_unsuccessful%3B%3Cbr%3E%28slang%29%20faulty> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

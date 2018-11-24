@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%94%D7%9E%D7%9B%D7%99%D7%9C%20%D7%90%D7%95%D7%98%D7%95%D7%91%D7%99%D7%95%D7%92%D7%A8%D7%A4%D7%99%D7%94" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "\u05D4\u05DE\u05DB\u05D9\u05DC \u05D0\u05D5\u05D8\u05D5\u05D1\u05D9\u05D5\u05D2\u05E8\u05E4\u05D9\u05D4",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

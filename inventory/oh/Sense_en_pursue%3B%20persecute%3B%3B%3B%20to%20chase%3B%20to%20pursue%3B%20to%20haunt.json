@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_pursue%3B%20persecute%3B%3B%3B%20to%20chase%3B%20to%20pursue%3B%20to%20haunt" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "pursue; persecute;;; to chase; to pursue; to haunt",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

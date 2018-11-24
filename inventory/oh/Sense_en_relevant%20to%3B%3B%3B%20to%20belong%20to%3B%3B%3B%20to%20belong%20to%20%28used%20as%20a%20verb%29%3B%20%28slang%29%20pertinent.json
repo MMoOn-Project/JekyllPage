@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_relevant%20to%3B%3B%3B%20to%20belong%20to%3B%3B%3B%20to%20belong%20to%20%28used%20as%20a%20verb%29%3B%20%28slang%29%20pertinent" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "relevant to;;; to belong to;;; to belong to (used as a verb); (slang) pertinent",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

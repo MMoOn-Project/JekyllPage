@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "גַּס"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gewagt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_grob>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_roh%3B%20frecht>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_crude>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gross>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obscene%3B%3B%3B%20course>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rough>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rude>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vulgar> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A1_HE/s00100722a>,
+        <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A1_HE/s00109977a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A1_a_HE> .
+

@@ -1,0 +1,39 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַתְאִים> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מַתְאִים"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַתְאִים>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מתאים> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eapplicable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efelicitous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_accordant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_appropriate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_appropriate%3B%3B%3B%20fit/appropriate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_apt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_competent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_concordant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_concurrent%3B%20identical%3B%3B%3B%20suitable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_eligible>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fit%20for>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fitting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_just>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_meet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_opportune>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pertinent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proper>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_propitious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suitable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D0%B9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D1%83%D1%8E%D1%89%D0%B8%D0%B9%3B%20%D0%B2%D0%BF%D0%BE%D1%80%D1%83> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%AA%D6%B0%D7%90%D6%B4%D7%99%D7%9D_HE/s00109117a>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%AA%D6%B0%D7%90%D6%B4%D7%99%D7%9D_HE/s00111427a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%AA%D6%B0%D7%90%D6%B4%D7%99%D7%9D_a_HE> .
+

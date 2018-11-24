@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בְּעִקְבוֹת> a ns1:Word ;
+    rdfs:label "בְּעִקְבוֹת"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עקב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּעִקְבוֹת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בעקבות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Econsequent%20upon>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efollowing%20the%20example%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ein%20someone%27s%20footsteps%3B%3Cbr%3Eas%20a%20result%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ein%20the%20style%20of%3B%3B%3B%20following>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eon%20someone%27s%20track>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_after>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_following>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20footsteps%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20the%20trail%20of> ;
+    ns1:hasWordclassAffiliation ns2:Adverb,
+        ns2:Preposition .
+

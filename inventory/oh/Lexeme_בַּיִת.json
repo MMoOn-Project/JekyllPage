@@ -1,0 +1,103 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D1\u05BC\u05B7\u05D9\u05B4\u05EA" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05BC\u05B7\u05D9\u05B4\u05EA",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D1\u05D9\u05EA",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Haus",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_house",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_home",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasWordclassAffiliation" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/CommonNoun",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.lemon-model.net/lemon#sense" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00014365n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00019480n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00032892n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00044994n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00044997n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00044998n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00045000n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00045003n",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_HE/s00073952n",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Lexeme",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05D1\u05BC\u05B7\u05D9\u05B4\u05EA",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+        "value" : "http://babelnet.org/rdf/%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA_n_HE",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

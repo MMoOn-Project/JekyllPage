@@ -1,0 +1,45 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05E9\u05C1\u05B7\u05D1\u05BC\u05B7\u05F4\u05DB\u05BC" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05C1\u05B7\u05D1\u05BC\u05B7\u05F4\u05DB\u05BC",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E9\u05D1\u05F4\u05DB",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_israelischer%20Inaldnsgeheimdienst",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_Shabak%20%D6%BE%20Israeli%20secret%20service",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_Shin%20Bet",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E9\u05C1\u05B7\u05D1\u05BC\u05B7\u05F4\u05DB\u05BC",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_כַּמּוּבָן> a ns1:Word ;
+    rdfs:label "כַּמּוּבָן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כַּמּוּבָן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כמובן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_certainly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_nat%C3%BCrlich//of%20course>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_selbstverst%C3%A4ndlich>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obviously>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_of%20course> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

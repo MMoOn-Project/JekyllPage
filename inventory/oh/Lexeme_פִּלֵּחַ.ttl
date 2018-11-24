@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פִּלֵּחַ> a ns2:Lexeme ;
+    rdfs:label "פִּלֵּחַ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פלח> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פִּלֵּחַ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פילח> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cut%20through>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_furrow%3B%20split>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_segment%3B%20plough>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slice> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun,
+        ns2:Verb .
+

@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָתוּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מָתוּן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָתוּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מתון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_andante%3B%3B%3B%20moderate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_calm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_deliberative%3B%20slow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gentle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_guarded%3B%20composed>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kind>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mellow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mild>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_moderate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_modest>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_soft>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_staid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_temperate> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%AA%D7%95%D6%BC%D7%9F_HE/s00106826a>,
+        <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%AA%D7%95%D6%BC%D7%9F_HE/s00106827a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%AA%D7%95%D6%BC%D7%9F_a_HE> .
+

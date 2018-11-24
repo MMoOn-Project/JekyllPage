@@ -1,0 +1,21 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "גַּל"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_גל> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Welle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wave> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%D6%B7%D6%BC%D7%9C_HE/s00056171n>,
+        <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%9C_HE/s00001992n>,
+        <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%9C_HE/s00056171n>,
+        <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%9C_HE/s00068327n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%B7%D6%BC%D7%9C_n_HE>,
+        <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%9C_n_HE> .
+

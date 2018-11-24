@@ -1,0 +1,15 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְיַהֲדוּת> a ns2:Lexeme ;
+    rdfs:label "הִתְיַהֲדוּת"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יהד> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְיַהֲדוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_התייהדות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%22%D7%95%D6%B0%D7%A8%D6%B7%D7%91%D6%B4%D6%BC%D7%99%D7%9D%20%D7%9E%D6%B5%D7%A2%D6%B7%D7%9E%D6%B5%D6%BC%D7%99%20%D7%94%D6%B8%D7%90%D6%B8%D7%A8%D6%B6%D7%A5%20%D7%9E%D6%B4%D7%AA%D6%B0%D7%99%D6%B7%D7%94%D6%B2%D7%93%D6%B4%D7%99%D7%9D%22%20%28%D7%9E%D7%92%D7%99%D7%9C%D7%AA%20%D7%90%D7%A1%D7%AA%D7%A8%20%D7%97%27%20%D7%99%22%D7%96%29> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

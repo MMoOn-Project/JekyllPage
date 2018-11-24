@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְאֻבָּק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְאֻבָּק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְאֻבָּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מאובק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_covered%20in%20dust%3B%20dusted>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dusty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_from%20which%20the%20dust%20has%20been%20removed%3B%20dusted>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_powdered%3B%20pollinated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sprayed%20with%20dust> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

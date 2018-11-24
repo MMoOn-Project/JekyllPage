@@ -1,0 +1,34 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִיבוּב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "סִיבוּב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִיבוּב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ecycle%3B%20%28sports%29%20bout%3B%20%28colloquial%29%20spin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ewinding%3B%20gyre%3B%20circle%3Bcurve>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_circuit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_corner%3B%20round>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dogleg%20%3B%3B%3B%20rotation%3B%20round%20%28in%20a%20game%29%20%3B%3B%3B%20circuit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_revolution%3B%20turn>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rotation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_round>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_short%20ride%3B%3Cbr%3E%28colloquial%29%20walk>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slew>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slue>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tour>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_twirl>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wheel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_whirl>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wind> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_HE/s00009869n>,
+        <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_HE/s00012448n>,
+        <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_HE/s00042360n>,
+        <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_HE/s00068323n>,
+        <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_HE/s00078661n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%99%D7%91%D7%95%D6%BC%D7%91_n_HE> .
+

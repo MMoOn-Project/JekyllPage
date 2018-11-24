@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פְּרוּסָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "פְּרוּסָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פְּרוּסָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פרוסה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_K%C3%A4se>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Kuchen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Scheibe>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_St%C3%BCck%20%28Brot>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Wurst%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slice>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_synonym%20for%20%D7%97%D7%AA%D7%99%D7%9B%D7%94> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

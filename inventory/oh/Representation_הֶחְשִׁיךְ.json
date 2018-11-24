@@ -1,0 +1,18 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05D4\u05B6\u05D7\u05B0\u05E9\u05C1\u05B4\u05D9\u05DA\u05B0" : {
+    "http://mmoon.org/lang/heb/schema/oh/vocalizedRepresentation" : [ {
+        "value" : "\u05D4\u05B6\u05D7\u05B0\u05E9\u05C1\u05B4\u05D9\u05DA\u05B0",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Representation",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

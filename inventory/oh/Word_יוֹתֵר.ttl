@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_יוֹתֵר> a ns1:Word ;
+    rdfs:label "יוֹתֵר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יוֹתֵר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_יותר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mehr>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_more>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_more%20than%20%3B%20%D7%91%D7%99%D7%95%D7%AA%D7%A8%20-%20most%20%3B%20%D7%95%D7%99%D7%95%D7%AA%D7%A8%20-%20...%20and%20more>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

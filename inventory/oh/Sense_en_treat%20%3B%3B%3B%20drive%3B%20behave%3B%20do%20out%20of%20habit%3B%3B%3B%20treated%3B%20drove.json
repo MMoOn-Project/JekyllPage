@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_treat%20%3B%3B%3B%20drive%3B%20behave%3B%20do%20out%20of%20habit%3B%3B%3B%20treated%3B%20drove" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "treat ;;; drive; behave; do out of habit;;; treated; drove",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

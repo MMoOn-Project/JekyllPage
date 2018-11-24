@@ -1,0 +1,40 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05E1\u05B0\u05EA\u05B8\u05F4\u05DD" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E1\u05B0\u05EA\u05B8\u05F4\u05DD",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E1\u05EA\u05F4\u05DD",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_phylacteries%20and%20mezuzahs%20%28the%20work%20of%20a%20Jewish%20scribe%29",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_torahs",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E1\u05B0\u05EA\u05B8\u05F4\u05DD",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

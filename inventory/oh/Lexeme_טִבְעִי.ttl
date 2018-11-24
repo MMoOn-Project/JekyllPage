@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִבְעִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "טִבְעִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טִבְעִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_טבעי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eindigenous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Emacrobiotic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Enatural>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erude>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_artless>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_habitual>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inbred>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inherent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_instinctive>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_native>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_natural%3B%3B%3B%20genuine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_physical>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_physio>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unaffected>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unconditioned>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unstudied>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_very> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

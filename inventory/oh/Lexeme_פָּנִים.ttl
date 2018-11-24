@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּנִים> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "פָּנִים"@he ;
+    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine>,
+        <http://mmoon.org/lang/heb/schema/oh/Plural> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּנִים>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פנים> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Gesicht>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_appearance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_face%3B%20surface%3B%20image>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BB%D0%B8%D1%86%D0%BE> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁמֵן> a ns2:Lexeme ;
+    rdfs:label "שָׁמֵן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁמן> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁמֵן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שמן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_dick>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_fett%3B%3B%20fett%28ig%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Efattened>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eporky>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_corpulent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fleshy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fullfaced>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gross>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_heavy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_plump>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_podgy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_puffy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stout>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tubby%3B%20adipose> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20creat%20suspense%3B%3Cbr%3Eto%20pull%20someone%60s%20leg" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "<br>to creat suspense;<br>to pull someone`s leg",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

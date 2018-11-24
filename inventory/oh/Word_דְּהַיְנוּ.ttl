@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_דְּהַיְנוּ> a ns1:Word ;
+    rdfs:label "דְּהַיְנוּ"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דְּהַיְנוּ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_דהיינו> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_i.e.>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20other%20words>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_in%20other%20words%3B%3B%3B%20that%20is%20to%20say>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_namely>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_namely%3B%3B%3B%20%28Aramaic%29%20that%20is>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B0%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D0%BE%20%D0%B5%D1%81%D1%82%D1%8C> .
+

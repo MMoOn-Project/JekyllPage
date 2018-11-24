@@ -1,0 +1,60 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Word_\u05E6\u05B4\u05E4\u05BC\u05B9\u05E8\u05B6\u05DF" : {
+    "http://mmoon.org/mmoon/core/hasRepresentation" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E6\u05B4\u05E4\u05BC\u05B9\u05E8\u05B6\u05DF",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Representation_\u05E6\u05E4\u05E8\u05DF",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://mmoon.org/mmoon/core/hasSense" : [ {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_claw%20%28animal%29",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_nail",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_nib",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_pink%3B%20clove%20%28spice%29",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_stylus%20%28pen%29%3Cbr%3E%3Cbr%3Ealso%20nm.%20carnation%20%28flower%29",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_en_talon%20%28birds%29",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Word",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "\u05E6\u05B4\u05E4\u05BC\u05B9\u05E8\u05B6\u05DF",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

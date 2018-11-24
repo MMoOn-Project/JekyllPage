@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כּוֹנָן> a ns2:Lexeme ;
+    rdfs:label "כּוֹנָן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כנן> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כּוֹנָן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_כונן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_on%20call>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_someone>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_usually%20a%20doctor%20or%20technician>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_who%20is%20on-call%3B%3B%3B%20on%20duty> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

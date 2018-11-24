@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_זְכוּת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "זְכוּת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זְכוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_זכות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_credit%20%28financial%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_entitlement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_good%20deed%3B%3Cbr%3E%28stock%20market%29%20right>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jus>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prerogative%3B%20%28accounting%29%20credit%3B%20virtue>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prerogative%3B%3B%3B%20merit%3B%20privilege%3B%20right>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_privilege>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_right>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_title%3B%20favor%3B%20acquittal%3B%3B%3B%20right> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%96%D6%B0%D7%9B%D7%95%D6%BC%D7%AA_HE/s00067807n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%96%D6%B0%D7%9B%D7%95%D6%BC%D7%AA_n_HE> .
+

@@ -1,0 +1,41 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבּוּר> a ns3:Lexeme ;
+    rdfs:label "חִבּוּר"@he ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבּוּר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חיבור> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affixation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affixion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_combining%3B%20essay>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_composing%3B%20essay>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_composition%3B%20%D7%97%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%9D%20-%20joints>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_composition%3B%3B%3B%20addition>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_connection>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_connections%3B%3B%3Bconnection%3B%20writing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inosculation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_joinder>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_joining%3B%20composition>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_junction%3B%3Cbr%3E%28mathematics%29%20addition%3B%20joining>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_juncture>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_link>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_linkage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_seam>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_splice>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_splicing%3B%20joint>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wedding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_yoke%3B%20joining>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28%D0%BF%D0%BE%D0%B4%29%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5> ;
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00001296n>,
+        <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00007306n>,
+        <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00021410n>,
+        <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00021915n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_n_HE> .
+

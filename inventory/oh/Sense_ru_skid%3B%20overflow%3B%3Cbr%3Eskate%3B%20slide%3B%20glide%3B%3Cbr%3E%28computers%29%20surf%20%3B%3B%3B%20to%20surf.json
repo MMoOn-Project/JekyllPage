@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_ru_skid%3B%20overflow%3B%3Cbr%3Eskate%3B%20slide%3B%20glide%3B%3Cbr%3E%28computers%29%20surf%20%3B%3B%3B%20to%20surf" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "skid; overflow;<br>skate; slide; glide;<br>(computers) surf ;;; to surf",
+        "lang" : "ru",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "ru",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

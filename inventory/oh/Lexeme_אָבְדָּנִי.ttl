@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָבְדָּנִי> a ns2:Lexeme ;
+    rdfs:label "אָבְדָּנִי"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אבד> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָבְדָּנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אבדני> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_suizidal%20%28selbstmordgef%C3%A4hrdet%20oder%20selbstm%C3%B6rderisch%3F%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suicidal> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

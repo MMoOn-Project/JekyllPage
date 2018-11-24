@@ -1,0 +1,29 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פְּנִימִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "פְּנִימִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פְּנִימִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פנימי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edomestic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Einland>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_esoteric>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_home>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_immanent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inboard>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indoor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inherent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inner>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inside>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_interior>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_internal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intimate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intramural>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intrinsic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inward>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mural> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

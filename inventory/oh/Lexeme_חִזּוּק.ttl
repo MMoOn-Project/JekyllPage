@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִזּוּק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "חִזּוּק"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִזּוּק>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חיזוק> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_aggrandizement%3B%3Bstrengthening>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_corroboration>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_education%29%20reinforcement%3Cbr%20/%3Eintensification>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_encouragement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fortification>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_invigoration>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reinforcement%3B%20encouragement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reinforcement%3B%20tightening>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stabilization%3B%20%28psychology>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strengthening> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%96%D6%BC%D7%95%D6%BC%D7%A7_HE/s00077232n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B4%D7%96%D6%BC%D7%95%D6%BC%D7%A7_n_HE> .
+

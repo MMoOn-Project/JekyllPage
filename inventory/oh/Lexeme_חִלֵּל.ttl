@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִלֵּל> a ns2:Lexeme ;
+    rdfs:label "חִלֵּל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חללד> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִלֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חילל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_defile>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_desecrate>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20break%20an%20agreement>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_violate%3B%20play%20the%20flute%3B%3B%3B%20to%20play%20the%20flute%3B%3Cbr%3Eto%20desecrate%3B%20%28literary%29%20to%20renege> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

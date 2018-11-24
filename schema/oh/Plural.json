@@ -1,0 +1,29 @@
+
+{
+  "http://mmoon.org/lang/heb/schema/oh/Plural" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/core/Plural",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "Plural",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      ,
+      {
+        "value" : "\u05E8\u05D1\u05D9\u05DD",
+        "lang" : "he",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

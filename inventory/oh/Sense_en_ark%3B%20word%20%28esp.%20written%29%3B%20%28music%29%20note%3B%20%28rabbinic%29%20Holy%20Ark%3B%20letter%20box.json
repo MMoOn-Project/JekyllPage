@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_ark%3B%20word%20%28esp.%20written%29%3B%20%28music%29%20note%3B%20%28rabbinic%29%20Holy%20Ark%3B%20letter%20box" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "ark; word (esp. written); (music) note; (rabbinic) Holy Ark; letter box",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

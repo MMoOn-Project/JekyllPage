@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קְלִפָּה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "קְלִפָּה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קְלִפָּה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_קליפה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecrust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eparing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epeel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bark>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cortex>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hull>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_husk>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nutshell>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rind%20%28cheese%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rind%3B%3B%3B%20peel>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shell>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shuck>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_skin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tegument%3B%3B%3B%20peel> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

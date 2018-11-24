@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶלֶם> a ns2:Lexeme ;
+    rdfs:label "הֶלֶם"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶלֶם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_הלם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bombshell>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_concussion>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jolt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_petrifaction>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shock>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trauma>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BE%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D1%8F>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%88%D0%BE%D0%BA> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

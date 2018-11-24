@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20irritate%3B%20to%20arouse%20interest%3B%20to%20sexually%20stimulate%3B%20to%20annoy" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to irritate; to arouse interest; to sexually stimulate; to annoy",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

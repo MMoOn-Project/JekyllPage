@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סֻלָּם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "סֻלָּם"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סֻלָּם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_סולם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_etc.%29%3B%3B%3B%20ladder%3B%20scale>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gamut>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ladder%3B%20scale%20%28grading>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_music> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%BB%D7%9C%D6%BC%D6%B8%D7%9D_HE/s00049652n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%BB%D7%9C%D6%BC%D6%B8%D7%9D_n_HE> .
+

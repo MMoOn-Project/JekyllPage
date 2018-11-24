@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_maintain%3B%20claim%20ownership%3B%20load%20%28weapon%29%3B%20charge%20%28battery%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "maintain; claim ownership; load (weapon); charge (battery)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

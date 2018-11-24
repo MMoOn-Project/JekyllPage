@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּגַע> a ns2:Lexeme ;
+    rdfs:label "פָּגַע"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פגע> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּגַע>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_פגע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_damage%3B%20insult>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_harm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_injure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strike>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20hurt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wound%3B%3B%3B%20injure> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%92%D6%B7%D7%A2_HE/s00089215v> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%92%D6%B7%D7%A2_v_HE> .
+

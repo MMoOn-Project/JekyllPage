@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּשֵּׂר> a ns1:Lexeme ;
+    rdfs:label "בִּשֵּׂר"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׂר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּשֵּׂר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_בישר> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20apprise%20%28usu.%20good%20news%29%3B%3B%3B%20bring%20good%20news>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20break%20news%20to%3B%20herald%3B%20announce%3B%3Cbr%3Eto%20inform> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִרְפֵּל> a ns2:Lexeme ;
+    rdfs:label "עִרְפֵּל"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ערפל> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִרְפֵּל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ערפל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blur%3B%20to%20dull%20%28senses%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obscure>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20fog>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20make%20vague> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

@@ -1,0 +1,23 @@
+
+{
+  "http://mmoon.org/lang/heb/schema/oh/Barkali_Mishkal_91" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/lang/heb/schema/oh/Mishkal",
+        "type" : "uri"
+        }
+      ,
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+        "value" : "Barkali Mishkal 91",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

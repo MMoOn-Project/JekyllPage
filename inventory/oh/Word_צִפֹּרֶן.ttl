@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_צִפֹּרֶן> a ns1:Word ;
+    rdfs:label "צִפֹּרֶן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִפֹּרֶן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_צפרן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_claw%20%28animal%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nail>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nib>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pink%3B%20clove%20%28spice%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stylus%20%28pen%29%3Cbr%3E%3Cbr%3Ealso%20nm.%20carnation%20%28flower%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_talon%20%28birds%29> .
+

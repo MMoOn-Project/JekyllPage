@@ -1,0 +1,33 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָהִיר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "זָהִיר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָהִיר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_זהיר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecagy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Emindful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ewise>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epainstaking>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_advertent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cagey>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_calculating>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_careful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cautious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forehanded>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_guarded>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_leery>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_measured>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_observing>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_piker>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_politic>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_provident>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prudential>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_punctilious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_safe>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shy> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

@@ -1,0 +1,22 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תִּוּוּךְ> a ns2:Lexeme ;
+    rdfs:label "תִּוּוּךְ"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תוך> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תִּוּוּךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תיווך> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arbitration%20%3B%20%28business>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brokerage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_center>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mean%3B%20interior%3B%20content%3B%3Cbr%20/%3Emediation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mediation%3B%3B%3B%20medium%3B%20middle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_negotiation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trade%29%20brokerage>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%B0%D0%BA%D0%BB%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%82%D0%BE%D1%80%D0%B0> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

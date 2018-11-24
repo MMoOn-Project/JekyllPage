@@ -1,0 +1,11 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Evanquished%20%28a%20country%20or%20people%29%3B%3Cbr%20/%3Eleveled%20%28stretch%20of%20ground%29%3B%3Cbr%3Epent%20up%20%28emotions%29%3B%3Cbr%20/%3Epreserved%20%28food%29%3B%3B%3B%20conquered> a ns1:Sense ;
+    ns1:senseDefinition "<br>vanquished (a country or people);<br />leveled (stretch of ground);<br>pent up (emotions);<br />preserved (food);;; conquered"@en ;
+    ns2:language "en" .
+

@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טוֹרֵף> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "טוֹרֵף"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טוֹרֵף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_טורף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epredaceous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epredator>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erapacious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_carnivore>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_carnivorous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_edacious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_predacious%3B%3Cbr%3Eshuffler%20%28cards%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_predatory>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrambler>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%85%D0%B8%D1%89%D0%BD%D0%B8%D0%BA> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+        <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִפְתַּח> a ns1:Lexeme ;
+    rdfs:label "נִפְתַּח"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פתח> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִפְתַּח> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_open%20up%3B%20begin>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20opened%3B%20untied%3B%20started%3B%3B%3B%20is%20opened> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
+

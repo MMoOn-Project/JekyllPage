@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְנֻמָּס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מְנֻמָּס"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְנֻמָּס>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מנומס> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecultivated>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epolite>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_civil>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_courteous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_highbred>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mannerly>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suave>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tactful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_urbane%3B%3Cbr%20/%3Ewell-bred>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_well-mannered> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A0%D6%BB%D7%9E%D6%BC%D6%B8%D7%A1_HE/s00108756a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A0%D6%BB%D7%9E%D6%BC%D6%B8%D7%A1_a_HE> .
+

@@ -1,0 +1,20 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִיּוּת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "צִיּוּת"@he ;
+    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִיּוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_ציות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecompliance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eabidance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ediscipline>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_compliancy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_docility>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obeyance>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_obeying%3B%20obedience> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

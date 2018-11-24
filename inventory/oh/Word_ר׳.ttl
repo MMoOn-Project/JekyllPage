@@ -1,0 +1,16 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_ר׳> a ns1:Word ;
+    rdfs:label "ר׳"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ר׳> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_2>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Plural>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Rabbi>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Rabbiner>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Rav>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_see...%20%28reference%29> .
+

@@ -1,0 +1,13 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_סְתָ״ם> a ns1:Word ;
+    rdfs:label "סְתָ״ם"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סְתָ״ם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_סת״ם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_phylacteries%20and%20mezuzahs%20%28the%20work%20of%20a%20Jewish%20scribe%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_torahs> .
+

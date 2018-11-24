@@ -1,0 +1,35 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָנִי> a ns2:Lexeme ;
+    rdfs:label "עָנִי"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ענה> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_עני> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bed%C3%BCrftiger>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Mittelloser>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_arm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bed%C3%BCrftig%3B%20Armer>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mittellos>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eindigent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_almsman>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_destitute>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_humble%3B%3B%3B%20poor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impecunious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_impoverished>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mendicant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_miserable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_necessitous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_needy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pauper>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_penurious>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wretched>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BD%D0%B8%D1%89%D0%B8%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

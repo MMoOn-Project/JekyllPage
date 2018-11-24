@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֶפְשָׁרוּת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אֶפְשָׁרוּת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֶפְשָׁרוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אפשרות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_M%C3%B6glichkeit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Elikelihood>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_contingence>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_contingency>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_eventuality>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feasibility>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_option>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_possibility>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_potential>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_probability>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

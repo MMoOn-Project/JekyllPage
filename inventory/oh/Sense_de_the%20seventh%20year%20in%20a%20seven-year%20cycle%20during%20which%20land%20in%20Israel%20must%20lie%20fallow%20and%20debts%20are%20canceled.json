@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_the%20seventh%20year%20in%20a%20seven-year%20cycle%20during%20which%20land%20in%20Israel%20must%20lie%20fallow%20and%20debts%20are%20canceled" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "the seventh year in a seven-year cycle during which land in Israel must lie fallow and debts are canceled",
+        "lang" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "de",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

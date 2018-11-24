@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_phylacteries%20and%20mezuzahs%20%28the%20work%20of%20a%20Jewish%20scribe%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "phylacteries and mezuzahs (the work of a Jewish scribe)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

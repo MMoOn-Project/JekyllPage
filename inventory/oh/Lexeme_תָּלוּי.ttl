@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּלוּי> a ns2:Lexeme ;
+    rdfs:label "תָּלוּי"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תלי> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּלוּי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תלוי> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_abh%C3%A4ngen%20von>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_aufgeh%C3%A4ngt%3B%20zur%20Bildung%20von%20h%C3%A4ngen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_geh%C3%A4ngt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hanging>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_dependent%20on> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

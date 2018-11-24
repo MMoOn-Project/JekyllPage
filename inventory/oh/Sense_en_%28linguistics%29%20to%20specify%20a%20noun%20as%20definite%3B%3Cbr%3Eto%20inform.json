@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28linguistics%29%20to%20specify%20a%20noun%20as%20definite%3B%3Cbr%3Eto%20inform" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "(linguistics) to specify a noun as definite;<br>to inform",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_לְשֶׁעָבַר> a ns1:Word ;
+    rdfs:label "לְשֶׁעָבַר"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לְשֶׁעָבַר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Equondam>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ex->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_former>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_onetime>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_previous>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sometime%3B%3Cbr%20/%3Eex-%20%28husband>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wife%29%3B%3B%3B%20previously> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

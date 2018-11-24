@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20divert%3B%20to%20refer%20someone%3B%20to%20allocate%3B%20to%20draw%20%28one%27s%20attention%29%3B%3B%3B%20directed%3B%20caused%20to%20turn" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to divert; to refer someone; to allocate; to draw (one's attention);;; directed; caused to turn",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

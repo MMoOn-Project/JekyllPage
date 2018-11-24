@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֲטִיפָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "עֲטִיפָה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֲטִיפָה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_עטיפה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ewrapper>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cover>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_envelope>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jacket>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lap>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_package>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_parcelling%3B%3B%3B%20wrapping%3B%20wrapping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrapping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B7%D0%B0%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B7%D0%B0%D0%BA%D1%83%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%3B%20%D1%84%D0%B0%D0%BD%D1%82%D0%B8%D0%BA>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%B1%D1%91%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3B%20%D0%BE%D0%B1%D1%91%D1%80%D1%82%D0%BA%D0%B0> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

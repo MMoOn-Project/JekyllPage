@@ -1,0 +1,26 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מוֹדֶרְנִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מוֹדֶרְנִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מוֹדֶרְנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מודרני> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%90%D7%99%D7%9F>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%90%D7%99%D7%A0%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%90%D7%A4%D7%A0%D7%AA%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%91%D7%9F%20%D7%96%D7%9E%D7%A0%D7%A0%D7%95>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%91%D7%A8%D7%95%D7%97%20%D7%94%D7%94%D7%95%D7%95%D7%94>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%94%D7%9E%D7%95%D7%93%D7%94%20%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%A0%D7%94>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%97%D7%93%D7%99%D7%A9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%97%D7%93%D7%A9>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%97%D7%93%D7%A9%D7%A0%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%AA%D7%A7%D7%93%D7%9D>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A9%D7%9C%20%D7%94%D7%96%D7%9E%D7%9F%20%D7%94%D7%97%D7%93%D7%A9> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D7%95%D6%B9%D7%93%D6%B6%D7%A8%D6%B0%D7%A0%D6%B4%D7%99_HE/s00100361a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D7%95%D6%B9%D7%93%D6%B6%D7%A8%D6%B0%D7%A0%D6%B4%D7%99_a_HE> .
+

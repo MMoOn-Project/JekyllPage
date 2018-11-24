@@ -1,0 +1,36 @@
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רַךְ> a ns1:Lexeme ;
+    rdfs:label "רַךְ"@he ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רכך> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רַךְ>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רך> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_weich>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_zart>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%20/%3Emellow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%20/%3Ewaxy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Etender>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_cottony>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_doughy%3B%20thin%3B%20waxen>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_feathery>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_fluffy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_fuzzy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_gentle>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_limp>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_melting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_mild>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_pillowy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_silky>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_snug>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_soft>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_squab%3B%20lenient%3B%3B%3B%20soft%3B%20tender%3B%20lenient>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_supple>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_useful>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_velvety> ;
+    ns2:hasWordclassAffiliation ns1:Adjective .
+

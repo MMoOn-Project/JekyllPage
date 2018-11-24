@@ -1,0 +1,18 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תַּרְמִיל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "תַּרְמִיל"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תַּרְמִיל>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תרמיל> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bag>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_carryall%3B%3Cbr%3Ecartridge%20%28bullet%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_haversack>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pannier>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sack>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shell%3B%3Cbr%3Epod%20%28botany%29%3B%3B%3B%20satchel%3F%3F%3F> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+

@@ -1,0 +1,25 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִסְכֵּן> a ns2:Lexeme ;
+    rdfs:label "מִסְכֵּן"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכן> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִסְכֵּן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מסכן> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_arm>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bedauernswert>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bemitleidenswert>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Esqualid%3B%20wretch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_also%20n.%20poor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_miserable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pipsqueak>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pitiable>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wretched> ;
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun .
+

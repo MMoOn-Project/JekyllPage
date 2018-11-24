@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_בְּאֶמְצָעוּת> a ns1:Word ;
+    rdfs:label "בְּאֶמְצָעוּת"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּאֶמְצָעוּת>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_באמצעות> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mit%20Hilfe%20von%20D/G>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mittels>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_by>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_by%20means%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_by%20way%20of>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_per>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_through>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_using>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_via>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_with>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BC>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Preposition> .
+

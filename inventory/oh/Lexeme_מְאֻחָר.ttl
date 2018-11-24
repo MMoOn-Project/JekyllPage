@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְאֻחָר> a ns2:Lexeme ;
+    rdfs:label "מְאֻחָר"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אחר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְאֻחָר>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מאוחר> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sp%C3%A4t>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_versp%C3%A4tet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Ci%3Eadj.%3C/i%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Ci%3Eadv.%3C/i%3E%3B%20late>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_late%3B%20later%3B%3B%3B%20late> ;
+    ns1:hasWordclassAffiliation ns2:Adjective .
+

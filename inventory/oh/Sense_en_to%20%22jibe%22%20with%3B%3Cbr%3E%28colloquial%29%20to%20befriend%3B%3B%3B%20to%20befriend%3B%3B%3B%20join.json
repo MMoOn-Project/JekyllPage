@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20%22jibe%22%20with%3B%3Cbr%3E%28colloquial%29%20to%20befriend%3B%3B%3B%20to%20befriend%3B%3B%3B%20join" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to \"jibe\" with;<br>(colloquial) to befriend;;; to befriend;;; join",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

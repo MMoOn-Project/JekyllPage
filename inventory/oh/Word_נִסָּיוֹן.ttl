@@ -1,0 +1,22 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_נִסָּיוֹן> a ns1:Word ;
+    rdfs:label "נִסָּיוֹן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִסָּיוֹן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_נסיון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_attempt>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_effort>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_essay>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_experience%3B%20experiment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fling>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_go>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ordeal>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_probation>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shot>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_test%3B%20trial>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_try> .
+

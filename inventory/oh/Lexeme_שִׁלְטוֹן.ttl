@@ -1,0 +1,28 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שִׁלְטוֹן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "שִׁלְטוֹן"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁלְטוֹן>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_שלטון> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Esovereignty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Egovernment>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_administration%3B%3B%3B%20reign>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ascendant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_authority>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_government>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_power>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_regime>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rule>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rulership>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ruling>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suzerainty>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sway> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%9C%D6%B0%D7%98%D7%95%D6%B9%D7%9F_HE/s00007299n> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%9C%D6%B0%D7%98%D7%95%D6%B9%D7%9F_n_HE> .
+

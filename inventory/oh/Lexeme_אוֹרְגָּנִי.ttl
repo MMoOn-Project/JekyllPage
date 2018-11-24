@@ -1,0 +1,19 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אוֹרְגָּנִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "אוֹרְגָּנִי"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אוֹרְגָּנִי>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_אורגני> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_organisch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%94%D7%9B%D7%A8%D7%97%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%99%D7%A1%D7%95%D7%93%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D7%97%D7%95%D7%91%D7%A8%3B%20%D7%97%D7%99%D7%95%D7%A0%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A0%D7%97%D7%95%D7%A5%3B%20%D7%92%D7%95%D7%A4%D7%A0%D7%99>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A7%D7%A9%D7%95%D7%A8%20%D7%91%D7%A7%D7%A9%D7%A8%20%D7%90%D7%9E%D7%99%D7%A5>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%A9%D7%9C%20%D7%92%D7%95%D7%A3%20%D7%94%D7%97%D7%99%20%D7%90%D7%95%20%D7%94%D7%A6%D7%95%D7%9E%D7%97%3B%20%D7%91%D7%9C%D7%AA%D7%99%D6%BE%D7%A0%D7%A4%D7%A8%D7%93> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

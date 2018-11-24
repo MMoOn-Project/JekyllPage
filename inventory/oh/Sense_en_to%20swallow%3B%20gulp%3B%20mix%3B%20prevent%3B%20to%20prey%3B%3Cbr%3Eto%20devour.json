@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20swallow%3B%20gulp%3B%20mix%3B%20prevent%3B%20to%20prey%3B%3Cbr%3Eto%20devour" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to swallow; gulp; mix; prevent; to prey;<br>to devour",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

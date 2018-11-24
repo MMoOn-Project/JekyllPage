@@ -1,0 +1,32 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קָבַע> a ns2:Lexeme ;
+    rdfs:label "קָבַע"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קבע> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קָבַע>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_קבע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cb%3Efix%20%28in%20place%29%3C/b%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cb%3Eset%20%28a%20date%29%3C/b%3E>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20make%20%28an%20appointment%29%3B%3Cbr%20/%3Eto%20affix%3B%3B%3B%20fix>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20state>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assert>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_designate...%3B%3B%3B%20to%20fix>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_determine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_determine%3B%3B%3B%20to%20determine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_establish>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prescribe>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_set>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_state>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20announce>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20assert%3B%3Cbr%20/%3Eto%20determine>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20decide>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20rule>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20set%3B%3Cbr%20/%3Eto%20declare> ;
+    ns1:hasWordclassAffiliation ns2:Verb .
+

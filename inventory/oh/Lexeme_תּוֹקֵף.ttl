@@ -1,0 +1,21 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תּוֹקֵף> a ns2:Lexeme ;
+    rdfs:label "תּוֹקֵף"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקף> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹקֵף>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_תוקף> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%AA%D7%90%D7%A8%D7%99%D7%9A%20%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%9F%20%D7%A9%D7%9C%20%D7%9E%D7%A9%D7%94%D7%95%20%28deadline>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_aggressor>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assailant>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assaulter>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_attacker>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_due%20date%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mugger> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

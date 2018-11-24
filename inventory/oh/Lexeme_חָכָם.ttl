@@ -1,0 +1,27 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָכָם> a ns2:Lexeme ;
+    rdfs:label "חָכָם"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חכם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָכָם>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_חכם> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-Weise%3B-ein-Kluger>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-ein-Weiser>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gescheit%3B%20Weiser>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_klug>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_weise>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_idiot%20%28sarcastic%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intelligent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intelligent%20person%20%3B%20sage%20%28title%20used%20by%20Oriental%20Jews%20for%20learned%20person%29%20%3B%20%D7%97%D7%9B%D7%9E%D7%99%D7%9D%20-%20sages%20%28of%20Talmud%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_smart%20%3B%20%28colloquial%29%20fool>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wise>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wise%20person>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%83%D0%BC%D0%BD%D1%8B%D0%B9> ;
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun .
+

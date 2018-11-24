@@ -1,0 +1,23 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָטוּב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "רָטוּב"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָטוּב>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_רטוב> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_damp>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dripping>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_drippy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_humid>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_moist>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_moist%20%28%D7%A8%D7%98%D7%99%D7%91%20moisture%29%3B%3B%3B%20wet>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slobbery>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sloppy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sodden>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_soggy>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wet> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> .
+

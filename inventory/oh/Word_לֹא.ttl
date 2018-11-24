@@ -1,0 +1,24 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Word_לֹא> a ns1:Word ;
+    rdfs:label "לֹא"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לֹא>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_לא> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_im->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_in->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ir-%20%28negative%20prefix%29>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_isn%27t%20%3B%20no%20matter%20%3B%20%D7%95%D7%9C%D7%90%20-%20if%20not>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_nicht->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_no>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_non->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_not%20%3B%20don%27t>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_otherwise%20%3B%20%D7%A9%D7%9C%D7%90%20-%20not%20%3B%20%D7%A9%D7%9C%D7%90%20-%20without>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_de_un->,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_no>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_not> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adverb> .
+

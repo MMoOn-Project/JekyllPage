@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻסְוֶה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מֻסְוֶה"@he ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻסְוֶה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מוסווה> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_camouflaged> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%A1%D6%B0%D7%95%D6%B6%D7%94_HE/s00099163a> ;
+    rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%A1%D6%B0%D7%95%D6%B6%D7%94_a_HE> .
+

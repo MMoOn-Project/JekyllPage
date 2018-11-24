@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20change%20%28money%29%3B%3Cbr%3Eto%20cash%20%28a%20bill%20into%20coins%20or%20smaller%20notes%29%3B%3Cbr%3Edivide%20into%20small%20parts" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "to change (money);<br>to cash (a bill into coins or smaller notes);<br>divide into small parts",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

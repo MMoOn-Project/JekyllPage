@@ -1,0 +1,17 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַצָּע> a ns2:Lexeme ;
+    rdfs:label "מַצָּע"@he ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יצע> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַצָּע>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מצע> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bedding%3B%20platform%20%28political%29%3B%3B%3B%20%28politics%29%20platform%3B%3Cbr%3Ebed%20%28of%20straw>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_leaves>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rags%29%3B%3Cbr%3Ebedding> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
+

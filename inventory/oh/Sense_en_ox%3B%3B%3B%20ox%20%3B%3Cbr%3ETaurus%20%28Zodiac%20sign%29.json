@@ -1,0 +1,24 @@
+
+{
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_en_ox%3B%3B%3B%20ox%20%3B%3Cbr%3ETaurus%20%28Zodiac%20sign%29" : {
+    "http://mmoon.org/mmoon/core/senseDefinition" : [ {
+        "value" : "ox;;; ox ;<br>Taurus (Zodiac sign)",
+        "lang" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://purl.org/dc/elements/1.1/language" : [ {
+        "value" : "en",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://mmoon.org/mmoon/core/Sense",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  }

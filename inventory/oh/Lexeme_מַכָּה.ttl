@@ -1,0 +1,41 @@
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַכָּה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
+    rdfs:label "מַכָּה"@he ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַכָּה>,
+        <http://mmoon.org/lang/heb/inventory/oh/Representation_מכה> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ebuffet%3B%20wound%3B%20defeat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Esock>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ethump>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ehit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epounding>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Etouch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_biff>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bump>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dent>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flap>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hit>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_injury%3B%3Cbr%3E%28colloquial%29%20scratch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_jab>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pasting>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_plague>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_punch%3B%3B%3B%20blow>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_purler>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reverse%3B%3Cbr%20/%3E%D7%91%D7%9E%D7%9B%D7%94%20-%20%28slang%29%20all%20at%20once>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_smack>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_smash>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strike>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stroke>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_swat>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_switch>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_thrust>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wallop>,
+        <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wipe> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> .
+
