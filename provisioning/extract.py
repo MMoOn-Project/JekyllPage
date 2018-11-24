@@ -32,7 +32,7 @@ for sub in graph.subjects():
     destTtl = sub.replace(str(args.base), "", 1) + ".ttl"
     destJson = sub.replace(str(args.base), "", 1) + ".json"
     if i > 50:
-	print("{} write to {}".format(sub, destTtl))
+        print("{} write to {}".format(sub, destTtl))
         i = 0
     resGraph = rdflib.Graph()
     resGraph += graph.triples( (sub, None, None) )
