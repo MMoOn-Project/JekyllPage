@@ -23,24 +23,22 @@ if not args.file or not args.base:
 graph = rdflib.Graph()
 graph.parse(args.file, format="turtle")
 
+i = 0
 for sub in graph.subjects():
+    i += 1
     if not sub.startswith(args.base):
         print("skip")
         continue
     destTtl = sub.replace(str(args.base), "", 1) + ".ttl"
     destJson = sub.replace(str(args.base), "", 1) + ".json"
-    print("{} write to {}".format(sub, destTtl))
+    if i > 50:
+	print("{} write to {}".format(sub, destTtl))
+        i = 0
     resGraph = rdflib.Graph()
     resGraph += graph.triples( (sub, None, None) )
     if not os.path.exists(os.path.dirname(destTtl)):
         os.makedirs(os.path.dirname(destTtl))
     try:
         resGraph.serialize(destTtl, format='turtle')
-        systemCall = "rapper -i turtle -o json '{}'".format(destTtl)
-        print(systemCall)
-        exec(systemCall)
     except Exception as e:
         print(e)
-
-
-print(resGraph.serialize(format='turtle'))
