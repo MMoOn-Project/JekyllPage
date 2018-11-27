@@ -31,6 +31,7 @@
     {% if page.rdf %}
     <link rel="foaf:primarytopic" href="{{ page.rdf.iri }}" />
     <link rel="alternate" type="application/rdf+json" href="{{ page.url | replace: '.html','' | prepend: site.baseurl | prepend: site.url | append: '.json' }}" />
+    <link rel="alternate" type="text/turtle" href="{{ page.url | replace: '.html','' | prepend: site.baseurl | prepend: site.url | append: '.ttl' }}" />
     {% endif %}
 
     <!-- Custom CSS -->
