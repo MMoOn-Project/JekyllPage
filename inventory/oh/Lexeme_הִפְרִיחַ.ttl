@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִפְרִיחַ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִפְרִיחַ> a ns2:Lexeme ;
     rdfs:label "הִפְרִיחַ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרח> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִפְרִיחַ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרח> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִפְרִיחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הפריח> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20cause%20to%20blossom%3B%3Cbr%3Eto%20blossom%3B%20to%20cause%20to%20flourish%3B%3B%3B%20cause%20to%20fly%3B%20spread%20%28rumors>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20cause%20to%20blossom%3B%3Cbr%3Eto%20blossom%3B%20to%20cause%20to%20flourish%3B%3B%3B%20cause%20to%20fly%3B%20spread%20%28rumors>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lies%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cause%20to%20fly%3B%3Cbr%3Eto%20spread%20a%20rumor> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּרַס> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּרַס> a ns3:Lexeme ;
     rdfs:label "פָּרַס"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרס> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּרַס>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרס> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּרַס>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פרס> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stretch%3B%20deploy>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stretch%3B%20deploy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20slice>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spread> ;
-    ns2:hasWordclassAffiliation ns1:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%A8%D6%B7%D7%A1_HE/s00086617v>,
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%A8%D6%B7%D7%A1_HE/s00086617v>,
         <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%A8%D6%B7%D7%A1_HE/s00093868v>,
         <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%A8%D6%B7%D7%A1_HE/s00093869v>,
         <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B8%D7%A8%D6%B7%D7%A1_HE/s00093870v>,

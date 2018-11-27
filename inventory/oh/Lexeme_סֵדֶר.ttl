@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,14 +9,14 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סֵדֶר> a ns3:Lexeme ;
     rdfs:label "סֵדֶר"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סדר> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סֵדֶר>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סֵדֶר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סדר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Ordnung>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Ordnung>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_order>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_organization%3B%20arrangement%3B%20%3Cbr%3E%D7%94%D7%A1%D7%93%D7%A8%20-%20%28Jewish%20ritual%29%20the%20Seder%20%28festive%20meal%20conducted%20on%20the%20first%20night%20of%20Passover%29%3B%20%3Cbr%3E%D7%9B%D7%A1%D7%93%D7%A8%D7%95%20-%20in%20an%20orderly%20fashion>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_properly> ;
-    ns1:hasWordclassAffiliation ns3:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B5%D7%93%D6%B6%D7%A8_HE/s00005863n>,
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A1%D6%B5%D7%93%D6%B6%D7%A8_HE/s00005863n>,
         <http://babelnet.org/rdf/%D7%A1%D6%B5%D7%93%D6%B6%D7%A8_HE/s00059305n>,
         <http://babelnet.org/rdf/%D7%A1%D6%B5%D7%93%D6%B6%D7%A8_HE/s00059307n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B5%D7%93%D6%B6%D7%A8_n_HE> .

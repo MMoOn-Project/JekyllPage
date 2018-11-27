@@ -1,22 +1,22 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָקֵב> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָקֵב> a ns2:Lexeme ;
     rdfs:label "עָקֵב"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עקב> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָקֵב>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עקב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָקֵב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עקב> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eback%20part%20of>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eback%20part%20of>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Etrace%3B%20trail%3B%3Cbr%3Efootprint>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_footstep>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_heel%3B%20footstep%3B%3B%3B%20heel%3B%20rear>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_print%3Cbr%20/%3E%D7%A2%D7%A7%D7%91%D7%95%D7%AA%20-%20footprints%3B%20trace%3Cbr%20/%3E%D7%A2%D7%A7%D7%91%D7%99%D7%9D%20-%20%28colloquial%29%20high%20heeled%20shoes> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%A7%D6%B5%D7%91_HE/s00043531n> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%A7%D6%B5%D7%91_HE/s00043531n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%A7%D6%B5%D7%91_n_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְשׁוֹרֵר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מְשׁוֹרֵר"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְשׁוֹרֵר>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְשׁוֹרֵר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_משורר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chanter>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chanter>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_composer>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lyric%3B%20singer>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_poet>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_songster> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D7%95%D6%B9%D7%A8%D6%B5%D7%A8_HE/s00063196n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D7%95%D6%B9%D7%A8%D6%B5%D7%A8_HE/s00063196n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D7%95%D6%B9%D7%A8%D6%B5%D7%A8_n_HE> .
 

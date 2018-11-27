@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עוֹלָמִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "עוֹלָמִי"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עוֹלָמִי>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עוֹלָמִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עולמי> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_universal>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_universal>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_universal%3B%20world-wide%3B%3B%3B%20world->,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_world%20renowned> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9E%D6%B4%D7%99_HE/s00102774a>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9E%D6%B4%D7%99_HE/s00102774a>,
         <http://babelnet.org/rdf/%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9E%D6%B4%D7%99_HE/s00103624a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9E%D6%B4%D7%99_a_HE> .
 
