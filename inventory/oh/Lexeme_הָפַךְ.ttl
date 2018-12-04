@@ -1,21 +1,21 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הָפַךְ> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הָפַךְ> a ns2:Lexeme ;
     rdfs:label "הָפַךְ"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הפך> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הָפַךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הפך> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הָפַךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הפך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn%3B%20invert%3B%20overturn%3B%20transform%3B%20become%3B%3B%3B%20turn%20upside%20down>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn%3B%20invert%3B%20overturn%3B%20transform%3B%20become%3B%3B%3B%20turn%20upside%20down>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_turn%20over%3B%20turn%20%28something%29%20into> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B8%D7%A4%D6%B7%D7%9A%D6%B0_HE/s00083294v>,
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B8%D7%A4%D6%B7%D7%9A%D6%B0_HE/s00083294v>,
         <http://babelnet.org/rdf/%D7%94%D6%B8%D7%A4%D6%B7%D7%9A%D6%B0_HE/s00083848v>,
         <http://babelnet.org/rdf/%D7%94%D6%B8%D7%A4%D6%B7%D7%9A%D6%B0_HE/s00090558v>,
         <http://babelnet.org/rdf/%D7%94%D6%B8%D7%A4%D6%B7%D7%9A%D6%B0_HE/s00090749v> ;

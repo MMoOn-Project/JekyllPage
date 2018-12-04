@@ -1,6 +1,6 @@
 @prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,10 +9,10 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֹּשֶׂם> a ns1:Lexeme ;
     rdfs:label "בֹּשֶׂם"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׂם> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֹּשֶׂם>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֹּשֶׂם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בושם> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_perfume> ;
-    ns3:hasWordclassAffiliation ns1:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B9%D7%A9%D7%82%D6%B6%D7%9D_HE/s00031629n> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_perfume> ;
+    ns2:hasWordclassAffiliation ns1:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B9%D7%A9%D7%82%D6%B6%D7%9D_HE/s00031629n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B9%D7%A9%D7%82%D6%B6%D7%9D_n_HE> .
 

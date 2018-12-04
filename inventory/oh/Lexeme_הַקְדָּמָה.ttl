@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,9 +7,9 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הַקְדָּמָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הַקְדָּמָה"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הַקְדָּמָה>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הַקְדָּמָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הקדמה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epreamble>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epreamble>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eintroduction>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forestallment>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_foreword>,
@@ -17,8 +17,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prelude>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proem>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prolegomena%3B%3Cbr%20/%3Ein%20advance%3B%20hypothesis> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B7%D7%A7%D6%B0%D7%93%D6%BC%D6%B8%D7%9E%D6%B8%D7%94_HE/s00047289n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B7%D7%A7%D6%B0%D7%93%D6%BC%D6%B8%D7%9E%D6%B8%D7%94_HE/s00047289n>,
         <http://babelnet.org/rdf/%D7%94%D6%B7%D7%A7%D6%B0%D7%93%D6%BC%D6%B8%D7%9E%D6%B8%D7%94_HE/s00064073n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B7%D7%A7%D6%B0%D7%93%D6%BC%D6%B8%D7%9E%D6%B8%D7%94_n_HE> .
 

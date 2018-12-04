@@ -1,14 +1,14 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָבִיב> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָבִיב> a ns3:Lexeme ;
     rdfs:label "חָבִיב"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבב> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבב> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָבִיב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חביב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_herzig>,
@@ -20,7 +20,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B4%D1%80%D1%83%D0%B6%D0%B5%D0%BB%D1%8E%D0%B1%D0%BD%D1%8B%D0%B9%3B%20%D0%BB%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%B8%D0%BB%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D0%BB%D0%B8%D0%B2%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns2:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B4%D7%99%D7%91_HE/s00098277a> ;
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B4%D7%99%D7%91_HE/s00098277a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B4%D7%99%D7%91_a_HE> .
 

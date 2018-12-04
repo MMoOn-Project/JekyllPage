@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָלֵא> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָלֵא> a ns3:Lexeme ;
     rdfs:label "מָלֵא"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מלא> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָלֵא>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מלא> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָלֵא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מלא> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_voll>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_voll>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Epacked>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brimful%3B%20fat%3B%20drunk>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_complete>,
@@ -34,8 +34,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rife>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_whole>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9> ;
-    ns3:hasWordclassAffiliation ns1:Adjective,
-        ns1:Verb ;
+    ns1:hasWordclassAffiliation ns3:Adjective,
+        ns3:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%9C%D6%B5%D7%90_HE/s00103393a>,
         <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%9C%D6%B5%D7%90_HE/s00106408a>,
         <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%9C%D6%B5%D7%90_HE/s00113852a> ;

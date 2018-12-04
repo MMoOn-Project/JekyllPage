@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יְהִירוּת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "יְהִירוּת"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְהִירוּת>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְהִירוּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יהירות> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arrogance>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arrogance>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vanity>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BC%D0%B5%D1%80%D0%B8%D0%B5>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BF%D0%B5%D1%81%D1%8C> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%94%D6%B4%D7%99%D7%A8%D7%95%D6%BC%D7%AA_HE/s00005893n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%94%D6%B4%D7%99%D7%A8%D7%95%D6%BC%D7%AA_HE/s00005893n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B0%D7%94%D6%B4%D7%99%D7%A8%D7%95%D6%BC%D7%AA_n_HE> .
 

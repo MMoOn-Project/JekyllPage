@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_טָעוּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "טָעוּן"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טָעוּן>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טָעוּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טעון> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_freighted%3B%20charged%3B%3Cbr%3E%28flowery%29%20full>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_freighted%3B%20charged%3B%3Cbr%3E%28flowery%29%20full>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_laden>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_loaded>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_needing%3B%3Cbr%3Esensitive%3Cbr%3E%3B%3B%3B%20requiring%3B%20loaded>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_saturate%3B%3Cbr%3Erequiring> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D7%95%D6%BC%D7%9F_HE/s00102084a> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D7%95%D6%BC%D7%9F_HE/s00102084a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D7%95%D6%BC%D7%9F_a_HE> .
 

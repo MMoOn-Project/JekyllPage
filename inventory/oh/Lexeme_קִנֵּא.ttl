@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִנֵּא> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִנֵּא> a ns2:Lexeme ;
     rdfs:label "קִנֵּא"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קנא> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִנֵּא>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קנא> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִנֵּא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קינא> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20jealous%20of%20%28someone%29%3B%20to%20suspect%20infidelity%3B%20to%20protect%20zealously>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20jealous%20of%20%28someone%29%3B%20to%20suspect%20infidelity%3B%20to%20protect%20zealously>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20covet>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20envy> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

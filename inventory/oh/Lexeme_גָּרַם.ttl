@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּרַם> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּרַם> a ns3:Lexeme ;
     rdfs:label "גָּרַם"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּרַם>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרם> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּרַם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גרם> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_give%20rise%20to%3B%3B%3B%20caused%3B%20brought%20about>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_give%20rise%20to%3B%3B%3B%20caused%3B%20brought%20about>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cause> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%A8%D6%B7%D7%9D_HE/s00084699v> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%A8%D6%B7%D7%9D_HE/s00084699v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%A8%D6%B7%D7%9D_v_HE> .
 

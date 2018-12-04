@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,11 +9,11 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֹּשׁ> a ns3:Lexeme ;
     rdfs:label "בֹּשׁ"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בושׁ> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֹּשׁ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֹּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בוש> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%91%D7%95%D7%A9_%28%D7%97%D7%91%D7%A8%D7%94%29_HE/s01624917n>,
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%91%D7%95%D7%A9_%28%D7%97%D7%91%D7%A8%D7%94%29_HE/s01624917n>,
         <http://babelnet.org/rdf/%D7%91%D7%95%D7%A9_%28%D7%9C%D7%94%D7%A7%D7%94%29_HE/s00957856n>,
         <http://babelnet.org/rdf/%D7%91%D7%95%D7%A9_HE/s00011727n>,
         <http://babelnet.org/rdf/%D7%91%D7%95%D7%A9_HE/s00012275n> ;

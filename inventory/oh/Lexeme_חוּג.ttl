@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חוּג> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חוּג> a ns2:Lexeme ;
     rdfs:label "חוּג"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חוג> ;
-    ns2:hasInflectionalCategory ns1:Masculine ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חוּג>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חוג> ;
+    ns1:hasInflectionalCategory ns2:Masculine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חוּג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חוג> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_circle%20%28of%20people%29%3B%20%28geography%29%20tropic>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_circle%20%28of%20people%29%3B%20%28geography%29%20tropic>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_class>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_group%20activity%3B%20group>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_group%3B%3B%3B%20department/club>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sphere%3B%3B%3B%20circle%20%28of%20friends%29%3B%20department%3B%20club> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
 

@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָמוּךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָמוּךְ> a ns2:Lexeme ;
     rdfs:label "סָמוּךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמך> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָמוּךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמך> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָמוּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סמוך> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_angrenzend%20%28%C3%B6rtlich%20oder%20zeitlich%29>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_angrenzend%20%28%C3%B6rtlich%20oder%20zeitlich%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_nahe>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eresting>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_adjacent>,
@@ -26,7 +26,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nearby%20%3B%20close%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nearby%3B%20close%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nearby%3B%3B%3B%20next> ;
-    ns3:hasWordclassAffiliation ns1:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B8%D7%9E%D7%95%D6%BC%D7%9A%D6%B0_HE/s00096455a> ;
+    ns1:hasWordclassAffiliation ns2:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A1%D6%B8%D7%9E%D7%95%D6%BC%D7%9A%D6%B0_HE/s00096455a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B8%D7%9E%D7%95%D6%BC%D7%9A%D6%B0_a_HE> .
 
