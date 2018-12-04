@@ -25,6 +25,6 @@ SELECT ?binyan (max(?label_heA) as ?labelHeA) (min(?label_heB) as ?labelHeB) (mi
 {% assign results = page.rdf | sparql_query: binyan_query %}
 <ul>
   {% for row in results %}
-  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.labelHeA }}, {{ row.labelHeB }}|{{ row.labelEn }}/</a></li>
+  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.labelHeA }}{% if row.labelHeB %}, {{ row.labelHeB }}{% endif %}|{{ row.labelEn }}</a></li>
   {% endfor %}
 </ul>
