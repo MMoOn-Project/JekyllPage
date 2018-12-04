@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סְכָךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סְכָךְ> a ns2:Lexeme ;
     rdfs:label "סְכָךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכך> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סְכָךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכך> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סְכָךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיכך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28Jewish%20ritual%29%20the%20covering%20of%20a%20sukkah%20%28branches>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28Jewish%20ritual%29%20the%20covering%20of%20a%20sukkah%20%28branches>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fronds>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_matting%29%3B%3B%3B%20thatch> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
 

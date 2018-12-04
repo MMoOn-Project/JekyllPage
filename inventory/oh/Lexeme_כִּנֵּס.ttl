@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כִּנֵּס> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כִּנֵּס> a ns1:Lexeme ;
     rdfs:label "כִּנֵּס"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כנס> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כִּנֵּס>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כנס> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כִּנֵּס>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כינס> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20assemble%20%28people%29>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20assemble%20%28people%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20bring%20together%3B%3Cbr%20/%3Eto%20compile%3B%3Cbr%20/%3E%28algebra%29%20to%20combine%20like%20terms%3Cbr%20/%3E>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20call%20a%20meeting%3B%3Cbr%20/%3E%28literary%29%20to%20gather>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20fold> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

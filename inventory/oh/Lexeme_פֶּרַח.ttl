@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֶּרַח> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֶּרַח> a ns1:Lexeme ;
     rdfs:label "פֶּרַח"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרח> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֶּרַח>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרח> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֶּרַח>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פרח> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Blume>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Blume>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_amaranth>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bloom%3B%20cadet%20%28officer%29%20%3B%3B%3B%20flower%3B%20novice>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cadet>,
@@ -18,5 +18,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flower>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D1%82%D0%B0%D0%B6%D1%91%D1%80>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%BA%3B%20%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

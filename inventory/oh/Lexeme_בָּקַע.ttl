@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּקַע> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּקַע> a ns1:Lexeme ;
     rdfs:label "בָּקַע"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בקע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּקַע>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בקע> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּקַע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בקע> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20break%20through%20%3B%20%28literary%29%20to%20split>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20break%20through%20%3B%20%28literary%29%20to%20split>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cleave>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20crack>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20emerge>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20erupt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20rend%20asunder%20%3B%20to%20split> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

@@ -1,24 +1,24 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְרֻצֶּה> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְרֻצֶּה> a ns2:Lexeme ;
     rdfs:label "מְרֻצֶּה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רצה> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְרֻצֶּה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רצה> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְרֻצֶּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מרוצה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zufrieden>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zufrieden>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eglad>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_contended%3B%3B%3B%20satisfied>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_content%3B%20acceptable>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fain>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pleased>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_satisfied> ;
-    ns2:hasWordclassAffiliation ns1:Adjective ;
+    ns1:hasWordclassAffiliation ns2:Adjective ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A8%D6%BB%D7%A6%D6%BC%D6%B6%D7%94_HE/s00100364a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A8%D6%BB%D7%A6%D6%BC%D6%B6%D7%94_a_HE> .
 

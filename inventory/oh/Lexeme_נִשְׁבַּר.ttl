@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁבַּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁבַּר> a ns2:Lexeme ;
     rdfs:label "נִשְׁבַּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁבַּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁבַּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נשבר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20be%20broken%3B%3Cbr%3E%28medicine%29%20to%20be%20fractured%3B%3Cbr%3Eto%20crash%20%28a%20wave%29%3B%3B%3B%20is%20broken>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20be%20broken%3B%3Cbr%3E%28medicine%29%20to%20be%20fractured%3B%3Cbr%3Eto%20crash%20%28a%20wave%29%3B%3B%3B%20is%20broken>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_break%3B%20crack%20%28from%20pressure%29%3B%3B%3B%20broken>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_destroyed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20break> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

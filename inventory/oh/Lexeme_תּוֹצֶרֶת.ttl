@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תּוֹצֶרֶת> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תּוֹצֶרֶת> a ns1:Lexeme ;
     rdfs:label "תּוֹצֶרֶת"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יצר> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹצֶרֶת>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יצר> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹצֶרֶת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תוצרת> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecrop%3B%3Cbr%20/%3Emade%20in%20....>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ecrop%3B%3Cbr%20/%3Emade%20in%20....>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Emanufacture>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eoutput>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Emake>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eproduce>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_products> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

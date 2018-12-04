@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁכַּח> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁכַּח> a ns1:Lexeme ;
     rdfs:label "נִשְׁכַּח"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁכח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁכַּח>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁכח> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁכַּח>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נשכח> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20forgotten> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20forgotten> ;
+    ns2:hasWordclassAffiliation ns1:Verb .
 

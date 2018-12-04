@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּר> a ns2:Lexeme ;
     rdfs:label "תָּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תור> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תור> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20survey%3B%20to%20scout%3B%3Cbr%20/%3Eto%20inquire%3B%20to%20seek%3B%3Cbr%3Eto%20spy>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20survey%3B%20to%20scout%3B%3Cbr%20/%3Eto%20inquire%3B%20to%20seek%3B%3Cbr%3Eto%20spy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20explore>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20tour> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 
