@@ -7,18 +7,24 @@ rdf_prefix_path: "_data/prefix.sparql"
 <h2>The Binyanim</h2>
 
 {% capture binyan_query %}
-SELECT ?binyan ?label_he ?label_en {
+SELECT ?binyan ?label_heA ?label_heB ?label_en
+{
   ?binyan a heb_schema:Binyan ;
-    rdfs:label ?label_he, ?label_en .
-    FILTER (lang(?label_he) = 'he')
-    FILTER (lang(?label_en) = 'en')
-} ORDER BY ?label_he
+    rdfs:label ?label_heA, ?label_en .
+  FILTER (lang(?label_en) = 'en')
+  FILTER (lang(?label_heA) = 'he')
+  FILTER (!strstarts(?label_en, 'Barkali'))
+  OPTIONAL {
+    ?binyan rdfs:label ?label_heB .
+    FILTER (lang(?label_heB) = 'he')
+    FILTER (?label_heA != ?label_heB)
+  }
+} GROUP BY ?binyan ORDER BY ?binyan
 {% endcapture %}
 
 {% assign results = page.rdf | sparql_query: binyan_query %}
 <ul>
   {% for row in results %}
-  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.label_en }}/{{ row.label_he }}</a></li>
+  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.label_heA }}, {{ row.label_heB }}|{{ row.label_en }}/</a></li>
   {% endfor %}
 </ul>
-<p>Sorry, there is some duplication and the <em>Barkali</em> types are currently not linked.</p>
