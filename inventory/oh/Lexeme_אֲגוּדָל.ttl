@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,13 +9,13 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֲגוּדָל> a ns3:Lexeme ;
     rdfs:label "אֲגוּדָל"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדל> ;
-    ns2:hasInflectionalCategory ns3:Masculine ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֲגוּדָל>,
+    ns1:hasInflectionalCategory ns3:Masculine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֲגוּדָל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אגודל> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Daumen>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Daumen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gro%C3%9Fer%20Zeh>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_thumb> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B2%D7%92%D7%95%D6%BC%D7%93%D6%B8%D7%9C_HE/s00063376n> ;
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B2%D7%92%D7%95%D6%BC%D7%93%D6%B8%D7%9C_HE/s00063376n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B2%D7%92%D7%95%D6%BC%D7%93%D6%B8%D7%9C_n_HE> .
 

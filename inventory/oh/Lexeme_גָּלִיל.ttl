@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּלִיל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "גָּלִיל"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּלִיל>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּלִיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גליל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_etc.%29%3B%20cylinder>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_etc.%29%3B%20cylinder>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_roll%20%28of%20paper>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%86%D0%B8%D0%BB%D0%B8%D0%BD%D0%B4%D1%80> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%B8%D6%BC%D7%9C%D6%B4%D7%99%D7%9C_HE/s00061868n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%D6%B8%D6%BC%D7%9C%D6%B4%D7%99%D7%9C_HE/s00061868n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%B8%D6%BC%D7%9C%D6%B4%D7%99%D7%9C_n_HE> .
 

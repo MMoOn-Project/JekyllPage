@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבּוּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבּוּר> a ns3:Lexeme ;
     rdfs:label "חִבּוּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבּוּר>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבּוּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיבור> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affixation>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affixation>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affixion>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_combining%3B%20essay>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_composing%3B%20essay>,
@@ -32,8 +32,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wedding>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_yoke%3B%20joining>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%28%D0%BF%D0%BE%D0%B4%29%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00001296n>,
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00001296n>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00007306n>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00021410n>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D7%95%D6%BC%D7%A8_HE/s00021915n> ;

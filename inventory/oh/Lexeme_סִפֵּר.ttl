@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,10 +9,10 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִפֵּר> a ns3:Lexeme ;
     rdfs:label "סִפֵּר"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ספר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִפֵּר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִפֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיפר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erz%C3%A4hlen>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erz%C3%A4hlen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20read%20aloud>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20talk>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20tell%20%28a%20joke>,
@@ -22,7 +22,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20talk%20about>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20tell>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trim%3B%3B%3B%20recount> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_HE/s00091011v> ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_HE/s00091011v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_v_HE> .
 

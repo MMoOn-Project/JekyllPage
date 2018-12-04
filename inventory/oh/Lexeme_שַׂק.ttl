@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שַׂק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "שַׂק"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שַׂק>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שַׂק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שק> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bag>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bag>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sack>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%B5%D1%88%D0%BE%D0%BA> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%82%D7%A7_HE/s00016261n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%82%D7%A7_HE/s00016261n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%82%D7%A7_n_HE> .
 

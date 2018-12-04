@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְשֻׁלָּשׁ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְשֻׁלָּשׁ> a ns1:Lexeme ;
     rdfs:label "מְשֻׁלָּשׁ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁלשׁ> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְשֻׁלָּשׁ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁלשׁ> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְשֻׁלָּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_משולש>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_משלוש> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Dreieck>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Dreieck>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_triangle> ;
-    ns1:hasWordclassAffiliation ns2:Adjective,
-        ns2:CommonNoun ;
+    ns2:hasWordclassAffiliation ns1:Adjective,
+        ns1:CommonNoun ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D6%BB%D7%9C%D6%BC%D6%B8%D7%A9%D7%81_HE/s00078208n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D6%BB%D7%9C%D6%BC%D6%B8%D7%A9%D7%81_HE/s00078211n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%A9%D7%81%D6%BB%D7%9C%D6%BC%D6%B8%D7%A9%D7%81_HE/s00078212n> ;

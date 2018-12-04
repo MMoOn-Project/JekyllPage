@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֶדֶן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אֶדֶן"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֶדֶן>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֶדֶן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אדן> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_window%20sill>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_window%20sill>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_base> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B6%D7%93%D6%B6%D7%9F_HE/s00024019n>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B6%D7%93%D6%B6%D7%9F_HE/s00024019n>,
         <http://babelnet.org/rdf/%D7%90%D6%B6%D7%93%D6%B6%D7%9F_HE/s00081306n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B6%D7%93%D6%B6%D7%9F_n_HE> .
 

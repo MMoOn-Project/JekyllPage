@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּרֵד> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּרֵד> a ns2:Lexeme ;
     rdfs:label "גֵּרֵד"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרד> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גֵּרֵד>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרד> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גֵּרֵד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גירד> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rub>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rub>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrape%3B%20find%20out%20of%20nowhere%3B%3B%3B%20scratch>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrounge>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20come%20up%20with%3B%3Cbr%20/%3Eto%20scrub>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20ferret%20out>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20scratch%3B%20%28colloquial%29%20to%20itch%3B%20to%20peel%20away%3B%20%28colloquial%29%20to%20grate%3B%20%28slang%29%20to%20lay%20one%27s%20hand%20on> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יָחֵף> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "יָחֵף"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָחֵף>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָחֵף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יחף> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_barefoot>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_barefoot>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%BE%D1%81%D0%BE%D0%B9> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B8%D7%97%D6%B5%D7%A3_HE/s00098063a>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B8%D7%97%D6%B5%D7%A3_HE/s00098063a>,
         <http://babelnet.org/rdf/%D7%99%D6%B8%D7%97%D6%B5%D7%A3_HE/s00114503r> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B8%D7%97%D6%B5%D7%A3_a_HE>,
         <http://babelnet.org/rdf/%D7%99%D6%B8%D7%97%D6%B5%D7%A3_r_HE> .

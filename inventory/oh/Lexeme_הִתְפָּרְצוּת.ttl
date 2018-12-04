@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְפָּרְצוּת> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְפָּרְצוּת> a ns3:Lexeme ;
     rdfs:label "הִתְפָּרְצוּת"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרצ> ;
-    ns3:hasInflectionalCategory ns1:Feminine ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְפָּרְצוּת>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרצ> ;
+    ns1:hasInflectionalCategory ns3:Feminine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְפָּרְצוּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התפרצות> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_breaking%20into%3B%20rebellion>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_breaking%20into%3B%20rebellion>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_outburst> ;
-    ns3:hasWordclassAffiliation ns1:CommonNoun ;
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
     ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%AA%D6%B0%D7%A4%D6%BC%D6%B8%D7%A8%D6%B0%D7%A6%D7%95%D6%BC%D7%AA_HE/s00011469n>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%AA%D6%B0%D7%A4%D6%BC%D6%B8%D7%A8%D6%B0%D7%A6%D7%95%D6%BC%D7%AA_HE/s00012912n>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%AA%D6%B0%D7%A4%D6%BC%D6%B8%D7%A8%D6%B0%D7%A6%D7%95%D6%BC%D7%AA_HE/s00031495n> ;

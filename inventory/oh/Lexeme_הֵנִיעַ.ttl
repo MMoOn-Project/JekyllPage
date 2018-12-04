@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵנִיעַ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵנִיעַ> a ns1:Lexeme ;
     rdfs:label "הֵנִיעַ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵנִיעַ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוע> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵנִיעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הניע> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_motivate>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_motivate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_set%20in%20motion%3B%20prompt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_start%20%28a%20car%29> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

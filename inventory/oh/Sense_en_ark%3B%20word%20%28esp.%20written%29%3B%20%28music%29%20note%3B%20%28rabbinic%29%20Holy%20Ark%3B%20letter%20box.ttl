@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_ark%3B%20word%20%28esp.%20written%29%3B%20%28music%29%20note%3B%20%28rabbinic%29%20Holy%20Ark%3B%20letter%20box> a ns1:Sense ;
-    ns1:senseDefinition "ark; word (esp. written); (music) note; (rabbinic) Holy Ark; letter box"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_ark%3B%20word%20%28esp.%20written%29%3B%20%28music%29%20note%3B%20%28rabbinic%29%20Holy%20Ark%3B%20letter%20box> a ns2:Sense ;
+    ns2:senseDefinition "ark; word (esp. written); (music) note; (rabbinic) Holy Ark; letter box"@en ;
+    ns1:language "en" .
 

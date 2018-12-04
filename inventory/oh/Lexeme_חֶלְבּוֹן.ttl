@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חֶלְבּוֹן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "חֶלְבּוֹן"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֶלְבּוֹן>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֶלְבּוֹן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חלבון> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_protein>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_protein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_egg%20white> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B6%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%B9%D7%9F_HE/s00002491n>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B6%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%B9%D7%9F_HE/s00002491n>,
         <http://babelnet.org/rdf/%D7%97%D6%B6%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%B9%D7%9F_HE/s00064855n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B6%D7%9C%D6%B0%D7%91%D6%BC%D7%95%D6%B9%D7%9F_n_HE> .
 

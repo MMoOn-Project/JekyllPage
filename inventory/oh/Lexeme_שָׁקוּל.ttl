@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁקוּל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "שָׁקוּל"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁקוּל>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁקוּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שקול> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Elevel-headed%3B%20weighed%3B%3Cbr%3Ecomparable%3B%20%3Cbr%20/%3E%28poetry%29%20metered>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Elevel-headed%3B%20weighed%3B%3Cbr%3Ecomparable%3B%20%3Cbr%20/%3E%28poetry%29%20metered>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Erhyming>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_weighed%3B%20equal%3B%20balanced%3B%3B%3B%20equal%3B%20reasonable> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
         <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A7%D7%95%D6%BC%D7%9C_HE/s00109508a> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A7%D7%95%D6%BC%D7%9C_HE/s00109508a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A7%D7%95%D6%BC%D7%9C_a_HE> .
 

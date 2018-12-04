@@ -1,23 +1,23 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָבָר> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָבָר> a ns1:Lexeme ;
     rdfs:label "עָבָר"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבר> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָבָר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבר> ;
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָבָר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עבר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Vergangenheit>,
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Vergangenheit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_past>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_past%20tense>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_record%3B>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B5> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%91%D6%B8%D7%A8_HE/s00023824n>,
+    ns3:hasWordclassAffiliation ns1:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%91%D6%B8%D7%A8_HE/s00023824n>,
         <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%91%D6%B8%D7%A8_HE/s00060927n>,
         <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%91%D6%B8%D7%A8_HE/s00060928n>,
         <http://babelnet.org/rdf/%D7%A2%D6%B8%D7%91%D6%B8%D7%A8_HE/s00060929n> ;

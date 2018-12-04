@@ -1,14 +1,14 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Root_אבטח> a ns1:Root,
-        ns1:SecondaryRoot ;
+<http://mmoon.org/lang/heb/inventory/oh/Root_אבטח> a ns2:Root,
+        ns2:SecondaryRoot ;
     rdfs:label "אבטח"@he ;
-    ns1:consistsOfRoot <http://mmoon.org/lang/heb/inventory/oh/Root_בטח> ;
-    ns2:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻבְטַח> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_א-ב-ט-ח> .
+    ns2:consistsOfRoot <http://mmoon.org/lang/heb/inventory/oh/Root_בטח> ;
+    ns1:belongsTo <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻבְטַח> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_א-ב-ט-ח> .
 

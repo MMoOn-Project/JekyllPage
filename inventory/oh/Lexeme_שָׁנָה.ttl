@@ -1,28 +1,28 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁנָה> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁנָה> a ns2:Lexeme ;
     rdfs:label "שָׁנָה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁני> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns3:hasInflectionalCategory ns1:Feminine ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁנָה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁני> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasInflectionalCategory ns2:Feminine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁנָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שנה> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Jahr>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Jahr>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20teach>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20learn%3B%3Cbr%20/%3Eto%20repeat>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20review>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20study>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_year>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D0%B4> ;
-    ns3:hasWordclassAffiliation ns1:CommonNoun,
-        ns1:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A0%D6%B8%D7%94_HE/s00000562n>,
+    ns1:hasWordclassAffiliation ns2:CommonNoun,
+        ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A0%D6%B8%D7%94_HE/s00000562n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A0%D6%B8%D7%94_HE/s00078738n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A0%D6%B8%D7%94_HE/s00081856n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%A0%D6%B8%D7%94_HE/s00081857n> ;

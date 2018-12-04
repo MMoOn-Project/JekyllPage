@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַרְגָּמָן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אַרְגָּמָן"@he ;
-    ns2:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַרְגָּמָן>,
+    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַרְגָּמָן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ארגמן> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Purpur>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Purpur>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_purple>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%83%D1%80%D0%BF%D1%83%D1%80%28%D0%BD%D1%8B%D0%B9%20%D1%86%D0%B2%D0%B5%D1%82%29> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B7%D7%A8%D6%B0%D7%92%D6%B8%D6%BC%D7%9E%D6%B8%D7%9F_HE/s00023833n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B7%D7%A8%D6%B0%D7%92%D6%B8%D6%BC%D7%9E%D6%B8%D7%9F_HE/s00023833n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B7%D7%A8%D6%B0%D7%92%D6%B8%D6%BC%D7%9E%D6%B8%D7%9F_n_HE> .
 

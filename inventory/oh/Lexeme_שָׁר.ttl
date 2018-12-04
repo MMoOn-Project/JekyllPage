@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁר> a ns1:Lexeme ;
     rdfs:label "שָׁר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁיר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁיר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_singen>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_singen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sing%3B%3B%3B%20%28flowery%29%20to%20behold>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20watch> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 
