@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻמְחֶה> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻמְחֶה> a ns1:Lexeme ;
     rdfs:label "מֻמְחֶה"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מחהג> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻמְחֶה>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מחהג> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻמְחֶה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מומחה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_expert>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_expert>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_specialist> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns2:hasWordclassAffiliation ns1:CommonNoun ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%9E%D6%B0%D7%97%D6%B6%D7%94_HE/s00054125n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%9E%D6%B0%D7%97%D6%B6%D7%94_n_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,16 +7,16 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יְחִידָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "יְחִידָה"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְחִידָה>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יְחִידָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יחידה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_detail>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_detail>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_draft>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_outfit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_posse>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_squad>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_squadron>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unit> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%97%D6%B4%D7%99%D7%93%D6%B8%D7%94_HE/s00013726n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B0%D7%97%D6%B4%D7%99%D7%93%D6%B8%D7%94_HE/s00013726n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B0%D7%97%D6%B4%D7%99%D7%93%D6%B8%D7%94_n_HE> .
 

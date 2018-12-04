@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזָק> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזָק> a ns1:Lexeme ;
     rdfs:label "חָזָק"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָזָק>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָזָק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חזק> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_kr%C3%A4ftig%3B%20stabil>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_kr%C3%A4ftig%3B%20stabil>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_stark>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_burly>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fast>,
@@ -37,7 +37,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strong>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_vigorous>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns2:Adjective ;
+    ns2:hasWordclassAffiliation ns1:Adjective ;
     ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B8%D7%A7_HE/s00115420r> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B8%D7%A7_r_HE> .
 

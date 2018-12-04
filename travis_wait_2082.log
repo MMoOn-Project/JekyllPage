@@ -4,3 +4,90 @@ Configuration file: /home/travis/build/MMoOn-Project/JekyllPage/_config.yml
  Incremental build: disabled. Enable with --incremental
       Generating... 
 Configuration file: /home/travis/build/MMoOn-Project/JekyllPage/_config.yml
+[31mclient error experienced: 
+ prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ prefix dc: <http://purl.org/dc/elements/1.1/>
+ prefix gold: <http://purl.org/linguistics/gold/>
+ prefix heb_inventory: <http://mmoon.org/lang/heb/inventory/oh/>
+ prefix heb_schema: <http://mmoon.org/lang/heb/schema/oh/>
+ prefix mmoon: <http://mmoon.org/mmoon/core/>
+ prefix owl: <http://www.w3.org/2002/07/owl#>
+ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ prefix xml: <http://www.w3.org/XML/1998/namespace>
+ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+ prefix lemon: <http://www.lemon-model.net/lemon#>
+ prefix bn: <http://babelnet.org/rdf/>
+ 
+SELECT ?binyan ?label_heA ?label_heB ?label_en
+{
+  ?binyan a heb_schema:Binyan ;
+    rdfs:label ?label_heA, ?label_en .
+  FILTER (lang(?label_en) = 'en')
+  FILTER (lang(?label_heA) = 'he')
+  FILTER (!strstarts(?label_en, 'Barkali'))
+  OPTIONAL {
+    ?binyan rdfs:label ?label_heB .
+    FILTER (lang(?label_heB) = 'he')
+    FILTER (?label_heA != ?label_heB)
+  }
+} GROUP BY ?binyan ORDER BY ?binyan
+ 
+ Error Message: Error 400: Parse error: 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ prefix dc: <http://purl.org/dc/elements/1.1/>
+ prefix gold: <http://purl.org/linguistics/gold/>
+ prefix heb_inventory: <http://mmoon.org/lang/heb/inventory/oh/>
+ prefix heb_schema: <http://mmoon.org/lang/heb/schema/oh/>
+ prefix mmoon: <http://mmoon.org/mmoon/core/>
+ prefix owl: <http://www.w3.org/2002/07/owl#>
+ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ prefix xml: <http://www.w3.org/XML/1998/namespace>
+ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+ prefix lemon: <http://www.lemon-model.net/lemon#>
+ prefix bn: <http://babelnet.org/rdf/>
+ 
+SELECT ?binyan ?label_heA ?label_heB ?label_en
+{
+  ?binyan a heb_schema:Binyan ;
+    rdfs:label ?label_heA, ?label_en .
+  FILTER (lang(?label_en) = 'en')
+  FILTER (lang(?label_heA) = 'he')
+  FILTER (!strstarts(?label_en, 'Barkali'))
+  OPTIONAL {
+    ?binyan rdfs:label ?label_heB .
+    FILTER (lang(?label_heB) = 'he')
+    FILTER (?label_heA != ?label_heB)
+  }
+} GROUP BY ?binyan ORDER BY ?binyan
+
+Non-group key variable in SELECT: ?label_heA
+
+
+Fuseki - version 3.6.0 (Build date: 2017-12-13T21:13:34+0000)
+ Processing query prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ prefix dc: <http://purl.org/dc/elements/1.1/>
+ prefix gold: <http://purl.org/linguistics/gold/>
+ prefix heb_inventory: <http://mmoon.org/lang/heb/inventory/oh/>
+ prefix heb_schema: <http://mmoon.org/lang/heb/schema/oh/>
+ prefix mmoon: <http://mmoon.org/mmoon/core/>
+ prefix owl: <http://www.w3.org/2002/07/owl#>
+ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ prefix xml: <http://www.w3.org/XML/1998/namespace>
+ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+ prefix lemon: <http://www.lemon-model.net/lemon#>
+ prefix bn: <http://babelnet.org/rdf/>
+ 
+SELECT ?binyan ?label_heA ?label_heB ?label_en
+{
+  ?binyan a heb_schema:Binyan ;
+    rdfs:label ?label_heA, ?label_en .
+  FILTER (lang(?label_en) = 'en')
+  FILTER (lang(?label_heA) = 'he')
+  FILTER (!strstarts(?label_en, 'Barkali'))
+  OPTIONAL {
+    ?binyan rdfs:label ?label_heB .
+    FILTER (lang(?label_heB) = 'he')
+    FILTER (?label_heA != ?label_heB)
+  }
+} GROUP BY ?binyan ORDER BY ?binyan
+ [0m

@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֵׁנָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "שֵׁנָה"@he ;
-    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֵׁנָה>,
+    ns2:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֵׁנָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שינה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Schlaf>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Schlaf>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edreamland>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eslumbers>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_drowsiness>,
@@ -19,8 +19,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sleeping>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slumber>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BE%D0%BD%20%28%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%29> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B5%D7%A0%D6%B8%D7%94_HE/s00056811n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B5%D7%A0%D6%B8%D7%94_HE/s00056811n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B5%D7%A0%D6%B8%D7%94_HE/s00072101n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B5%D7%A0%D6%B8%D7%94_HE/s00072102n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B5%D7%A0%D6%B8%D7%94_HE/s00072249n> ;

@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָעָה> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָעָה> a ns2:Lexeme ;
     rdfs:label "רָעָה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רעי> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָעָה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רעי> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָעָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רעה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_associate>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_associate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bad%20deed%3B%20harm>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_badness>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_befriend%3B%20follow%3B%3B%3B%20tend%20a%20flock%3B%20graze>,
@@ -29,6 +29,6 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trouble>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wickedness>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrong%3B%20calamity> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun,
-        ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:CommonNoun,
+        ns2:Verb .
 

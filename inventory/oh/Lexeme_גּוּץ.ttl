@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גּוּץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "גּוּץ"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גּוּץ>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גּוּץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גוץ> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_klein>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_klein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_untersetzt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_short>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stocky> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D7%95%D6%BC%D7%A5_HE/s00101891a> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D7%95%D6%BC%D7%A5_HE/s00101891a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D7%95%D6%BC%D7%A5_a_HE> .
 

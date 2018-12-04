@@ -1,17 +1,17 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֶלְיוֹן> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֶלְיוֹן> a ns2:Lexeme ;
     rdfs:label "עֶלְיוֹן"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עלה> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֶלְיוֹן>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עלה> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֶלְיוֹן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עליון> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_h%C3%B6chster/-e/-es>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_h%C3%B6chster/-e/-es>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_oberster/-e/-es>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eover>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eprepotent>,
@@ -30,8 +30,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_upper>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_uppermost>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_utmost> ;
-    ns2:hasWordclassAffiliation ns3:Adjective ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A2%D6%B6%D7%9C%D6%B0%D7%99%D7%95%D6%B9%D7%9F_HE/s00113424a>,
+    ns1:hasWordclassAffiliation ns2:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A2%D6%B6%D7%9C%D6%B0%D7%99%D7%95%D6%B9%D7%9F_HE/s00113424a>,
         <http://babelnet.org/rdf/%D7%A2%D6%B6%D7%9C%D6%B0%D7%99%D7%95%D6%B9%D7%9F_HE/s00113425a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D6%B6%D7%9C%D6%B0%D7%99%D7%95%D6%B9%D7%9F_a_HE> .
 

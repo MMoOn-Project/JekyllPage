@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrath%3Cbr%3E%3Cbr%3Ealso%20conj.%20also%3B%20even%3B%20not%20even> a ns2:Sense ;
-    ns2:senseDefinition "wrath<br><br>also conj. also; even; not even"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrath%3Cbr%3E%3Cbr%3Ealso%20conj.%20also%3B%20even%3B%20not%20even> a ns1:Sense ;
+    ns1:senseDefinition "wrath<br><br>also conj. also; even; not even"@en ;
+    ns2:language "en" .
 

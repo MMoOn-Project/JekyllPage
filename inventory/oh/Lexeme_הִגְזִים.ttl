@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִגְזִים> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִגְזִים> a ns1:Lexeme ;
     rdfs:label "הִגְזִים"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גזם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִגְזִים>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גזם> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִגְזִים>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הגזים> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exaggerate>,
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20exaggerate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3Eto%20threaten> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns3:hasWordclassAffiliation ns1:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%92%D6%B0%D7%96%D6%B4%D7%99%D7%9D_HE/s00082587v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%92%D6%B0%D7%96%D6%B4%D7%99%D7%9D_HE/s00087784v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B4%D7%92%D6%B0%D7%96%D6%B4%D7%99%D7%9D_v_HE> .

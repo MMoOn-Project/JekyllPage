@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֲמִתִּי> a ns3:Lexeme ;
     rdfs:label "אֲמִתִּי"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אמת> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֲמִתִּי>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֲמִתִּי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אמיתי> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_echt>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_echt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_eigentlich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_richtig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_wahr>,
@@ -23,8 +23,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_unaffected%3B%20true>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_veracious>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_veritable> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B2%D7%9E%D6%B4%D7%AA%D6%BC%D6%B4%D7%99_HE/s00096399a>,
+    ns2:hasWordclassAffiliation ns3:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B2%D7%9E%D6%B4%D7%AA%D6%BC%D6%B4%D7%99_HE/s00096399a>,
         <http://babelnet.org/rdf/%D7%90%D6%B2%D7%9E%D6%B4%D7%AA%D6%BC%D6%B4%D7%99_HE/s00101997a>,
         <http://babelnet.org/rdf/%D7%90%D6%B2%D7%9E%D6%B4%D7%AA%D6%BC%D6%B4%D7%99_HE/s00103538a>,
         <http://babelnet.org/rdf/%D7%90%D6%B2%D7%9E%D6%B4%D7%AA%D6%BC%D6%B4%D7%99_HE/s00112146a> ;

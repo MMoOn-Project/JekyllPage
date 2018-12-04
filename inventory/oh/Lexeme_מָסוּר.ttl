@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,15 +7,15 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָסוּר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מָסוּר"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָסוּר>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָסוּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מסור> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ededicated%3B%20transferred>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ededicated%3B%20transferred>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ewholehearted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_delivered>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_faithful>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_given%3B%20devoted%3B%3B%3B%20devoted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B5%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A1%D7%95%D6%BC%D7%A8_HE/s00101296a> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A1%D7%95%D6%BC%D7%A8_HE/s00101296a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A1%D7%95%D6%BC%D7%A8_a_HE> .
 

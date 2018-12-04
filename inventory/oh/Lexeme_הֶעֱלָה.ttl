@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,10 +9,10 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶעֱלָה> a ns3:Lexeme ;
     rdfs:label "הֶעֱלָה"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עלי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶעֱלָה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶעֱלָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_העלה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_production%29%3B%3B%3B%20lift>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_production%29%3B%3B%3B%20lift>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rust%29%3B%20to%20put%20on>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20covered%20with%20%28mold>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20bring%20to%20light%3B%20to%20bring%20immigrants%20%28to%20Israel%29%3B%20to%20develop>,
@@ -21,8 +21,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20produce%20%28a%20play>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20raise>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20strengthen%3B%20to%20reveal> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9C%D6%B8%D7%94_HE/s00082768v>,
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9C%D6%B8%D7%94_HE/s00082768v>,
         <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9C%D6%B8%D7%94_HE/s00084110v>,
         <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9C%D6%B8%D7%94_HE/s00084112v>,
         <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9C%D6%B8%D7%94_HE/s00092332v> ;

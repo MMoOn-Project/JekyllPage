@@ -1,23 +1,23 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_לִגְלֵג> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_לִגְלֵג> a ns2:Lexeme ;
     rdfs:label "לִגְלֵג"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לגלג> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לִגְלֵג>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לגלג> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לִגְלֵג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_לגלג> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20belittle>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20belittle>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20disparage>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20ridicule>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%B5%D1%80%D1%82%D0%B5%D1%82%D1%8C%3B%20%D0%BF%D0%BE%D0%B4%D0%BA%D1%80%D1%83%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%B0%D1%82%D0%B8%D1%82%D1%8C> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9C%D6%B4%D7%92%D6%B0%D7%9C%D6%B5%D7%92_HE/s00083536v> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%9C%D6%B4%D7%92%D6%B0%D7%9C%D6%B5%D7%92_HE/s00083536v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9C%D6%B4%D7%92%D6%B0%D7%9C%D6%B5%D7%92_v_HE> .
 
