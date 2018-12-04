@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָשַׁךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָשַׁךְ> a ns2:Lexeme ;
     rdfs:label "מָשַׁךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_משך> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָשַׁךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_משך> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָשַׁךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_משך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20drag%3B%3Cbr%20/%3Eto%20attract%3B%20to%20interest%3B%3Cbr%20/%3E%28banking%29%20to%20withdraw>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20drag%3B%3Cbr%20/%3Eto%20attract%3B%20to%20interest%3B%3Cbr%20/%3E%28banking%29%20to%20withdraw>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20draw%3B%3Cbr%3Eto%20tug>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20pull> ;
-    ns2:hasWordclassAffiliation ns1:Verb ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A9%D7%81%D6%B7%D7%9A%D6%B0_HE/s00087243v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A9%D7%81%D6%B7%D7%9A%D6%B0_v_HE> .
 

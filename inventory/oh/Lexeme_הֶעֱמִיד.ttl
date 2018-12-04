@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,15 +9,15 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶעֱמִיד> a ns3:Lexeme ;
     rdfs:label "הֶעֱמִיד"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עמד> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶעֱמִיד>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶעֱמִיד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_העמיד> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_beget%3B%3B%3B%20raise%20someone%20to%20his%20feet>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_beget%3B%3B%3B%20raise%20someone%20to%20his%20feet>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_nominate%3B%20put%20to%3B%20produce>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20erect%3B%20to%20get%20someone%20to%20their%20feet%3B%3Cbr%3Eto%20cause%20to%20stand%3B%20set%20up%3Cbr%3Eto%20appoint>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20place>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20position%3B%20to%20place%20upright> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9E%D6%B4%D7%99%D7%93_HE/s00091683v> ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9E%D6%B4%D7%99%D7%93_HE/s00091683v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B6%D7%A2%D6%B1%D7%9E%D6%B4%D7%99%D7%93_v_HE> .
 

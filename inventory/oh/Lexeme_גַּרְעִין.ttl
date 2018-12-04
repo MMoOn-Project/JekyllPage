@@ -1,24 +1,24 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּרְעִין> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּרְעִין> a ns3:Lexeme ;
     rdfs:label "גַּרְעִין"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרע> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּרְעִין>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גרע> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּרְעִין>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גרעין> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eseed>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eseed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_grain>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_having%20nuclear%20capabilities%20%3B%20producing%20nuclear%20material%20%3B%20granulation%3B%3B%3B%20%28syntax%29%20head>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kernel%3B%20grain%3B%3Cbr%20/%3E%28biology%29%20nucleus%20%28of%20cell%29%3B%3Cbr%20/%3E%28physics%29%20nucleus%20%28of%20atom%29%3B%3Cbr%20/%3Esmall%20group%20of%20people%3B%3Cbr%3Esmall%20group%20of%20people%20planning%20to%20establish%20a%20new%20settlement%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20grains%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20%28colloquial%29%20sunflower%20seeds>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pumpkin%20seeds>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stone%3B%20nucleus%20%28of%20the%20atom%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_watermelon%20seeds%20%28usu.%20Roasted%29%3B%3B%3B%20kernel%3B%20nucleus%3B%20grain%3B%3B%3B%20kernel> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A8%D6%B0%D7%A2%D6%B4%D7%99%D7%9F_HE/s00058259n> ;
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A8%D6%B0%D7%A2%D6%B4%D7%99%D7%9F_HE/s00058259n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B7%D7%A8%D6%B0%D7%A2%D6%B4%D7%99%D7%9F_n_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,15 +7,15 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָרוּץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "חָרוּץ"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָרוּץ>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָרוּץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חרוץ> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_decided%3B%20%28literary%29%20furrowed>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_decided%3B%20%28literary%29%20furrowed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_diligent>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_industrious%3B%20complete>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pointed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_total>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wrinkled%20%3B%20%28biblical%29%20sharp> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A8%D7%95%D6%BC%D7%A5_HE/s00103970a> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A8%D7%95%D6%BC%D7%A5_HE/s00103970a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A8%D7%95%D6%BC%D7%A5_a_HE> .
 

@@ -1,6 +1,6 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
 @prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נְקֵבָה> a ns2:Lexeme ;
     rdfs:label "נְקֵבָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נקב> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נְקֵבָה>,
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נְקֵבָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נקבה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_weiblich>,
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_weiblich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_female>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feminine> ;
-    ns1:hasWordclassAffiliation ns2:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%A0%D6%B0%D7%A7%D6%B5%D7%91%D6%B8%D7%94_HE/s00034031n> ;
+    ns3:hasWordclassAffiliation ns2:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A0%D6%B0%D7%A7%D6%B5%D7%91%D6%B8%D7%94_HE/s00034031n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B0%D7%A7%D6%B5%D7%91%D6%B8%D7%94_n_HE> .
 

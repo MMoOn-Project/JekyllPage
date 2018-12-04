@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִמֵּם> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִמֵּם> a ns2:Lexeme ;
     rdfs:label "חִמֵּם"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמם> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִמֵּם>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמם> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִמֵּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חימם> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-erhitzen>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-erhitzen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_w%C3%A4rmen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3E%28colloquial%29%20to%20provide%20a%20pleasant%20glow>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20heat>,
@@ -24,5 +24,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20stir%20up>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20warm%3B%20to%20animate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_warm%3B%3B%3B%20%28colloquial%29%20to%20anger> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

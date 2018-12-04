@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,17 +7,17 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָדוֹן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אָדוֹן"@he ;
-    ns2:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָדוֹן>,
+    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָדוֹן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אדון> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Herr>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Herr>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28archaic%29%20Mr.%20%3B%20master>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lord>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lord%20%3B%20%D7%90%D7%93%D7%95%D7%A0%D7%99%20%D6%BE%20Sir%3B%3B%3B%20Mr.%3B%20Sir%3B%20Gentleman%3B%3B%3B%20Mr.%3B%20owner>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_master>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B8%D0%BD> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B8%D7%93%D7%95%D6%B9%D7%9F_HE/s00052017n>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B8%D7%93%D7%95%D6%B9%D7%9F_HE/s00052017n>,
         <http://babelnet.org/rdf/%D7%90%D6%B8%D7%93%D7%95%D6%B9%D7%9F_HE/s00055346n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B8%D7%93%D7%95%D6%B9%D7%9F_n_HE> .
 

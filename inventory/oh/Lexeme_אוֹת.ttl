@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,11 +7,11 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אוֹת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אוֹת"@he ;
-    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine>,
+    ns2:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine>,
         <http://mmoon.org/lang/heb/schema/oh/Masculine> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אוֹת>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אוֹת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אות> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Buchstabe>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Buchstabe>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Zeichen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Auszeichnung>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_letter%20%28of%20alphabet%29>,
@@ -20,8 +20,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_indication%20%3B%20%28military%29%20ribbon>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_sign>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_sign%20%28noun%29%20%3B%20omen> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%AA_HE/s00003057n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%AA_HE/s00003057n>,
         <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%AA_HE/s00046473n>,
         <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%AA_HE/s00071525n>,
         <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%AA_HE/s00071537n> ;

@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֻּנָּה> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֻּנָּה> a ns2:Lexeme ;
     rdfs:label "פֻּנָּה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֻּנָּה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֻּנָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פונה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20cleaned%3B%20to%20be%20vacated%3B%3Cbr%3Eto%20be%20evacuated%20%28an%20injured%20person%29%3A%3A%3A%20evacuated%3B%20vacated>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20cleaned%3B%20to%20be%20vacated%3B%3Cbr%3Eto%20be%20evacuated%20%28an%20injured%20person%29%3A%3A%3A%20evacuated%3B%20vacated>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20cleared%20off>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

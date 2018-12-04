@@ -1,20 +1,20 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֲצָפָה> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֲצָפָה> a ns2:Lexeme ;
     rdfs:label "הֲצָפָה"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צופ> ;
-    ns2:hasInflectionalCategory ns3:Feminine ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֲצָפָה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צופ> ;
+    ns1:hasInflectionalCategory ns2:Feminine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֲצָפָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הצפה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flooding>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_flooding>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_dumping> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B2%D7%A6%D6%B8%D7%A4%D6%B8%D7%94_HE/s00035303n> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B2%D7%A6%D6%B8%D7%A4%D6%B8%D7%94_HE/s00035303n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B2%D7%A6%D6%B8%D7%A4%D6%B8%D7%94_n_HE> .
 

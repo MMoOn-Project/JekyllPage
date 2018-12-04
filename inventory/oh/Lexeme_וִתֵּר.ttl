@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_וִתֵּר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_וִתֵּר> a ns1:Lexeme ;
     rdfs:label "וִתֵּר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ותר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_וִתֵּר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ותר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_וִתֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ויתר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20relinquish>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20relinquish>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cede%3B%3B%3B%20to%20concede>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20give%20up>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20renounce>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20waive>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20yield%3B%20to%20cede> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

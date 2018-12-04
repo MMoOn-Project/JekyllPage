@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָגִיל> a ns3:Lexeme ;
     rdfs:label "רָגִיל"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רגל> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָגִיל>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָגִיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רגיל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCblich>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCblich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Normal-%3B%20gewohnt/gew%C3%B6hnt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gew%C3%B6hnlich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_regular>,
@@ -20,8 +20,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%3B%20%D0%BF%D1%80%D0%B8%D0%B2%D1%8B%D0%BA%D1%88%D0%B8%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B8%D0%B2%D1%8B%D1%87%D0%BD%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%92%D6%B4%D7%99%D7%9C_HE/s00113454a>,
+    ns2:hasWordclassAffiliation ns3:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%92%D6%B4%D7%99%D7%9C_HE/s00113454a>,
         <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%92%D6%B4%D7%99%D7%9C_HE/s00113459a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%92%D6%B4%D7%99%D7%9C_a_HE> .
 

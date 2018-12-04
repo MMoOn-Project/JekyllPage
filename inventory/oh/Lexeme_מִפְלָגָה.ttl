@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִפְלָגָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מִפְלָגָה"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִפְלָגָה>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִפְלָגָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מפלגה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_political%20party> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A4%D6%B0%D7%9C%D6%B8%D7%92%D6%B8%D7%94_HE/s00060834n> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_political%20party> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A4%D6%B0%D7%9C%D6%B8%D7%92%D6%B8%D7%94_HE/s00060834n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A4%D6%B0%D7%9C%D6%B8%D7%92%D6%B8%D7%94_n_HE> .
 

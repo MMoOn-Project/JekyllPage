@@ -1,19 +1,19 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נֶאֱשַׁם> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נֶאֱשַׁם> a ns2:Lexeme ;
     rdfs:label "נֶאֱשַׁם"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אשׁם> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אשׁם> ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נֶאֱשַׁם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נאשם> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20accused> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A0%D6%B6%D7%90%D6%B1%D7%A9%D7%81%D6%B7%D7%9D_HE/s00025884n> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A0%D6%B6%D7%90%D6%B1%D7%A9%D7%81%D6%B7%D7%9D_HE/s00025884n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B6%D7%90%D6%B1%D7%A9%D7%81%D6%B7%D7%9D_n_HE> .
 

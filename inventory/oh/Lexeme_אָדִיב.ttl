@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָדִיב> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָדִיב> a ns2:Lexeme ;
     rdfs:label "אָדִיב"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אדב> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָדִיב>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אדב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָדִיב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אדיב> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_freundlich>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_freundlich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_h%C3%B6flich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_courteous>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_polite> ;
-    ns2:hasWordclassAffiliation ns1:Adjective .
+    ns1:hasWordclassAffiliation ns2:Adjective .
 

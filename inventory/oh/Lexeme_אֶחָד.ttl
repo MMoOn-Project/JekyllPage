@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֶחָד> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אֶחָד"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֶחָד>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֶחָד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אחד> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_at%20one%20and%20the%20same%20time>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_at%20one%20and%20the%20same%20time>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_at%20the%20same%20time>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_former%3B%20someone>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_one%3B%20single%3B%20unique%3B%20first>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_somebody%3B%3Cbr%20/%3E%D7%9B%D7%90%D7%97%D7%93%20-%20simultaneously> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B6%D7%97%D6%B8%D7%93_HE/s14561590n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B6%D7%97%D6%B8%D7%93_HE/s14561590n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B6%D7%97%D6%B8%D7%93_n_HE> .
 
