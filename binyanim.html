@@ -19,7 +19,7 @@ SELECT ?binyan (max(?label_heA) as ?labelHeA) (min(?label_heB) as ?labelHeB) (mi
     FILTER (lang(?label_heB) = 'he')
     FILTER (?label_heA != ?label_heB)
   }
-} GROUP BY ?binyan ORDER BY ?binyan
+} GROUP BY ?binyan ORDER BY ?label_heA
 {% endcapture %}
 
 {% assign results = page.rdf | sparql_query: binyan_query %}
