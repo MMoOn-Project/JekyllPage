@@ -320,17 +320,29 @@ dt.proplabel {
 }
 
 .segment .he {
-  direction: rtl;
-  text-align: right;
   float: left;
   padding-right: 10px;
 }
 
 .segment .en {
-  direction: ltr;
-  text-align: left;
   float: right;
   padding-left: 10px;
+}
+
+.he {
+  direction: rtl;
+  text-align: right;
+}
+
+.en {
+  direction: ltr;
+  text-align: left;
+}
+
+.columns {
+  -webkit-columns: 100px 10;
+  -moz-columns: 100px 10;
+  columns: 100px 10;
 }
 
 .segment .proplabel {

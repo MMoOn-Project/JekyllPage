@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֵּינוֹנִי> a ns3:Lexeme ;
     rdfs:label "בֵּינוֹנִי"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בין> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֵּינוֹנִי>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֵּינוֹנִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בינוני> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_durchschnittlich>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_durchschnittlich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mittelm%C3%A4%C3%9Fig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mittlerer>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_average>,
@@ -19,7 +19,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mediocre%3B%20%28colloquial%29%20so-so>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_medium>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_middling%3B%3Cbr%3Ealso%20%28grammar%29%20participle> ;
-    ns2:hasWordclassAffiliation ns3:Adjective ;
-    ns1:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B5%D7%99%D7%A0%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00060801n> ;
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B5%D7%99%D7%A0%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00060801n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B5%D7%99%D7%A0%D7%95%D6%B9%D7%A0%D6%B4%D7%99_n_HE> .
 

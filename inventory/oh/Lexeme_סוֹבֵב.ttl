@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,13 +9,13 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סוֹבֵב> a ns3:Lexeme ;
     rdfs:label "סוֹבֵב"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סבב> ;
-    ns1:consistsOfMorph ns3:polel ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סוֹבֵב>,
+    ns2:consistsOfMorph ns3:polel ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סוֹבֵב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סובב> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_turn>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_turn>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_surround> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00031074n>,
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00031074n>,
         <http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00083797v>,
         <http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00084629v>,
         <http://babelnet.org/rdf/%D7%A1%D7%95%D6%B9%D7%91%D6%B5%D7%91_HE/s00085773v>,

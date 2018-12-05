@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טֻאטָא> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טֻאטָא> a ns2:Lexeme ;
     rdfs:label "טֻאטָא"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טאטא> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טֻאטָא>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טאטא> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טֻאטָא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טואטא> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_swept>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_swept>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%B4%D0%BC%D0%B5%D1%82%D1%91%D0%BD> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

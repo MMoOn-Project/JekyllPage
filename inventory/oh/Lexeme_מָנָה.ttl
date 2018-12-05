@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,15 +9,15 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מָנָה> a ns3:Lexeme ;
     rdfs:label "מָנָה"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מני> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָנָה>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מָנָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מנה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20to%20count%3B%20to%20include>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20to%20count%3B%20to%20include>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_amount%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20detail%3B%3B%3B%20count%3B%20number>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20number%3B%20to%20enumerate> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A0%D6%B8%D7%94_HE/s00043637n>,
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A0%D6%B8%D7%94_HE/s00043637n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A0%D6%B8%D7%94_HE/s00065765n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A0%D6%B8%D7%94_HE/s00065766n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B8%D7%A0%D6%B8%D7%94_HE/s00066250n>,

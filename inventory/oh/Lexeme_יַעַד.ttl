@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יַעַד> a ns3:Lexeme ;
     rdfs:label "יַעַד"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יעד> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יַעַד>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יַעַד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יעד> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_goal>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_goal>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_destination> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A2%D6%B7%D7%93_HE/s00002179n>,
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A2%D6%B7%D7%93_HE/s00002179n>,
         <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A2%D6%B7%D7%93_HE/s00026601n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A2%D6%B7%D7%93_n_HE> .
 

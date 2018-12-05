@@ -1,17 +1,17 @@
 @prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּדוֹל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּדוֹל> a ns3:Lexeme ;
     rdfs:label "גָּדוֹל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדל> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּדוֹל>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדל> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּדוֹל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גדול> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gro%C3%9F>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gro%C3%9F>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%22out%20of%20this%20world%22%20%3B%20%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D%20-%20%28euphemism%29%20bowel%20movement%20%3B%20%D7%94%D7%92%D7%93%D7%95%D7%9C%20-%20the%20Great%20%28e.g.%20Alexander%20the%20Great%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_big>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_great%20%3B%20older%20%3B%20significant>,
@@ -24,7 +24,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_serious%20%3B%20strong>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_successful%20%3B%20%28slang%29%20wonderful>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_superb> ;
-    ns3:hasWordclassAffiliation ns2:Adjective ;
+    ns2:hasWordclassAffiliation ns3:Adjective ;
     ns1:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%93%D7%95%D6%B9%D7%9C_HE/s00098342a>,
         <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%93%D7%95%D6%B9%D7%9C_HE/s00098345a>,
         <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%93%D7%95%D6%B9%D7%9C_HE/s00102774a>,

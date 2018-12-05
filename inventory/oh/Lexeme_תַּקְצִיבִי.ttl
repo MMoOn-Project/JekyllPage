@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תַּקְצִיבִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "תַּקְצִיבִי"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תַּקְצִיבִי>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תַּקְצִיבִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תקציבי> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_budgetary> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B7%D7%A7%D6%B0%D7%A6%D6%B4%D7%99%D7%91%D6%B4%D7%99_HE/s00098985a> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_budgetary> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B7%D7%A7%D6%B0%D7%A6%D6%B4%D7%99%D7%91%D6%B4%D7%99_HE/s00098985a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B7%D7%A7%D6%B0%D7%A6%D6%B4%D7%99%D7%91%D6%B4%D7%99_a_HE> .
 

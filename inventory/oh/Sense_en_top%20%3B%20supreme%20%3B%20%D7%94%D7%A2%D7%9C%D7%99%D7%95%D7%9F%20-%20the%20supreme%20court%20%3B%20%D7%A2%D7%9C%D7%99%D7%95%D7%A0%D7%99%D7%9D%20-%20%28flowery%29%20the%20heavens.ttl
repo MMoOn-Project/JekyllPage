@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_top%20%3B%20supreme%20%3B%20%D7%94%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20-%20the%20supreme%20court%20%3B%20%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D%20-%20%28flowery%29%20the%20heavens> a ns2:Sense ;
-    ns2:senseDefinition "top ; supreme ; העליון - the supreme court ; עליונים - (flowery) the heavens"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_top%20%3B%20supreme%20%3B%20%D7%94%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20-%20the%20supreme%20court%20%3B%20%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D%20-%20%28flowery%29%20the%20heavens> a ns1:Sense ;
+    ns1:senseDefinition "top ; supreme ; העליון - the supreme court ; עליונים - (flowery) the heavens"@en ;
+    ns2:language "en" .
 

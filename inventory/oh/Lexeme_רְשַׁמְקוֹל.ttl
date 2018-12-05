@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רְשַׁמְקוֹל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "רְשַׁמְקוֹל"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רְשַׁמְקוֹל>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רְשַׁמְקוֹל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רשמקול> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Kassettenrekorder>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Kassettenrekorder>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Tonbandger%C3%A4t>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tape%20recorder> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A8%D6%B0%D7%A9%D7%81%D6%B7%D7%9E%D6%B0%D7%A7%D7%95%D6%B9%D7%9C_HE/s00076107n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A8%D6%B0%D7%A9%D7%81%D6%B7%D7%9E%D6%B0%D7%A7%D7%95%D6%B9%D7%9C_HE/s00076107n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A8%D6%B0%D7%A9%D7%81%D6%B7%D7%9E%D6%B0%D7%A7%D7%95%D6%B9%D7%9C_n_HE> .
 

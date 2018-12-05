@@ -1,6 +1,6 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
 @prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַחְלֵף> a ns2:Lexeme ;
     rdfs:label "מַחְלֵף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חלף> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַחְלֵף>,
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַחְלֵף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מחלף> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B0%D7%9C%D6%B5%D7%A3_HE/s00021266n> ;
+    ns3:hasWordclassAffiliation ns2:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B0%D7%9C%D6%B5%D7%A3_HE/s00021266n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%97%D6%B0%D7%9C%D6%B5%D7%A3_n_HE> .
 

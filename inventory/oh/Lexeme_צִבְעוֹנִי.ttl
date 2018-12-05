@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,15 +7,15 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִבְעוֹנִי> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "צִבְעוֹנִי"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִבְעוֹנִי>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִבְעוֹנִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צבעוני> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chromatic>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chromatic>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_colored>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_colorful>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_garish%3Cbr%3E%3Cbr%20/%3Enm.%26nbsp%3B%26nbsp%3Btulip%20%28flower%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_multicolored> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%91%D6%B0%D7%A2%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00078559n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%91%D6%B0%D7%A2%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00078559n>,
         <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%91%D6%B0%D7%A2%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00100030a>,
         <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%91%D6%B0%D7%A2%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00100037a>,
         <http://babelnet.org/rdf/%D7%A6%D6%B4%D7%91%D6%B0%D7%A2%D7%95%D6%B9%D7%A0%D6%B4%D7%99_HE/s00100038a> ;

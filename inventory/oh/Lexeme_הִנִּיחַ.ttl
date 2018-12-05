@@ -1,26 +1,26 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִנִּיחַ> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִנִּיחַ> a ns1:Lexeme ;
     rdfs:label "הִנִּיחַ"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִנִּיחַ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוח> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִנִּיחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הניח> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assume>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assume>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_place%3B%20suppose>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20survived%20by%20%28refers%20to%20the%20immediate%20family%20of%20a%20deceased%29%3B%3B%3B%20put>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20deposit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20make%20an%20assumption%20%3B%20%28literary%29%20to%20leave>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20place>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20set%20down%20%3B%20to%20assume> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A0%D6%BC%D6%B4%D7%99%D7%97%D6%B7_HE/s00082872v>,
+    ns2:hasWordclassAffiliation ns1:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A0%D6%BC%D6%B4%D7%99%D7%97%D6%B7_HE/s00082872v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A0%D6%BC%D6%B4%D7%99%D7%97%D6%B7_HE/s00089105v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A0%D6%BC%D6%B4%D7%99%D7%97%D6%B7_v_HE> .
 

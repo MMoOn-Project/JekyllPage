@@ -1,22 +1,22 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזַר> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזַר> a ns1:Lexeme ;
     rdfs:label "חָזַר"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזר> ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָזַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חזר> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zur%C3%BCckkehren>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_return%3B%20repeat>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_review> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B7%D7%A8_HE/s00091912v>,
+    ns2:hasWordclassAffiliation ns1:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B7%D7%A8_HE/s00091912v>,
         <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B7%D7%A8_HE/s00092969v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%96%D6%B7%D7%A8_v_HE> .
 

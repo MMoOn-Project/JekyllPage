@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_caption%3B%3Cbr%20/%3Eflower%20petals%3B%3Cbr%3E%28architecture%29%20capitol%3B%3Cbr%3E%28dentistry%29%20crown%20%28of%20a%20tooth%29%3B%3Cbr%20/%3E%D7%91%D7%9B%D7%95%D7%AA%D7%A8%D7%95%D7%AA%20-%20%28colloquial%29%20to%20be%20in%20the%20headlines> a ns2:Sense ;
-    ns2:senseDefinition "caption;<br />flower petals;<br>(architecture) capitol;<br>(dentistry) crown (of a tooth);<br />בכותרות - (colloquial) to be in the headlines"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_caption%3B%3Cbr%20/%3Eflower%20petals%3B%3Cbr%3E%28architecture%29%20capitol%3B%3Cbr%3E%28dentistry%29%20crown%20%28of%20a%20tooth%29%3B%3Cbr%20/%3E%D7%91%D7%9B%D7%95%D7%AA%D7%A8%D7%95%D7%AA%20-%20%28colloquial%29%20to%20be%20in%20the%20headlines> a ns1:Sense ;
+    ns1:senseDefinition "caption;<br />flower petals;<br>(architecture) capitol;<br>(dentistry) crown (of a tooth);<br />בכותרות - (colloquial) to be in the headlines"@en ;
+    ns2:language "en" .
 
