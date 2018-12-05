@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּף> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גַּף> a ns1:Lexeme ;
     rdfs:label "גַּף"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גפפ> ;
-    ns1:hasInflectionalCategory ns2:Masculine ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּף>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גפפ> ;
+    ns2:hasInflectionalCategory ns1:Masculine ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גַּף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גף> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_limb>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_limb>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

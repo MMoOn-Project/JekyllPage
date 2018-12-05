@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָקִי> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָקִי> a ns1:Lexeme ;
     rdfs:label "נָקִי"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נקה> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָקִי>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נקה> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָקִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נקי> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_rein>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_rein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sauber>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Epure>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_aseptic%3B%20innocent%3B%3B%3B%20clean%3B%20acquitted>,
@@ -26,5 +26,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tidy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns2:Adjective .
+    ns2:hasWordclassAffiliation ns1:Adjective .
 

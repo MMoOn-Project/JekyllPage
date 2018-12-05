@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּדֵּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּדֵּר> a ns3:Lexeme ;
     rdfs:label "הִסְתַּדֵּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סדר> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּדֵּר>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סדר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּדֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הסתדר> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20organized%3B%20is%20settled>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20organized%3B%20is%20settled>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20arranged%3B%3Cbr%3Eto%20be%20settled%20down%3B%3Cbr%3Eto%20manage%3B%20to%20fall%20in%3B%3B%3B%20is%20arranged> ;
-    ns3:hasWordclassAffiliation ns1:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D6%B7%D7%93%D6%BC%D6%B5%D7%A8_HE/s00085075v>,
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D6%B7%D7%93%D6%BC%D6%B5%D7%A8_HE/s00085075v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D6%B7%D7%93%D6%BC%D6%B5%D7%A8_HE/s00085334v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D6%B7%D7%93%D6%BC%D6%B5%D7%A8_HE/s00088750v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A1%D6%B0%D7%AA%D6%BC%D6%B7%D7%93%D6%BC%D6%B5%D7%A8_HE/s00095827v> ;

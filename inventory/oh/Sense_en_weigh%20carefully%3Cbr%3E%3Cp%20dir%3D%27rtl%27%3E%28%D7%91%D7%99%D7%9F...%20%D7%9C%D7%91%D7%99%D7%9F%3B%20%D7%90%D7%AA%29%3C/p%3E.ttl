@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_weigh%20carefully%3Cbr%3E%3Cp%20dir%3D%27rtl%27%3E%28%D7%91%D7%99%D7%9F...%20%D7%9C%D7%91%D7%99%D7%9F%3B%20%D7%90%D7%AA%29%3C/p%3E> a ns2:Sense ;
-    ns2:senseDefinition "weigh carefully<br><p dir='rtl'>(בין... לבין; את)</p>"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_weigh%20carefully%3Cbr%3E%3Cp%20dir%3D%27rtl%27%3E%28%D7%91%D7%99%D7%9F...%20%D7%9C%D7%91%D7%99%D7%9F%3B%20%D7%90%D7%AA%29%3C/p%3E> a ns1:Sense ;
+    ns1:senseDefinition "weigh carefully<br><p dir='rtl'>(בין... לבין; את)</p>"@en ;
+    ns2:language "en" .
 

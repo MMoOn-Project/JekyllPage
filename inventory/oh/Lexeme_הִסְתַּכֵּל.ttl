@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּכֵּל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּכֵּל> a ns1:Lexeme ;
     rdfs:label "הִסְתַּכֵּל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּכֵּל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכל> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּכֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הסתכל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-betrachten>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-betrachten>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-hinsehen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ansehen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_observe>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20look>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_watch> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

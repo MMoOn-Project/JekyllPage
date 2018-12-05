@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַגָּדָתִי> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אַגָּדָתִי> a ns3:Lexeme ;
     rdfs:label "אַגָּדָתִי"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נגד> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַגָּדָתִי>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נגד> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אַגָּדָתִי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אגדתי> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_m%C3%A4rchenhaft>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_m%C3%A4rchenhaft>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sagenhaft> ;
-    ns2:hasWordclassAffiliation ns1:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%90%D6%B7%D7%92%D6%BC%D6%B8%D7%93%D6%B8%D7%AA%D6%B4%D7%99_HE/s00102682a>,
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B7%D7%92%D6%BC%D6%B8%D7%93%D6%B8%D7%AA%D6%B4%D7%99_HE/s00102682a>,
         <http://babelnet.org/rdf/%D7%90%D6%B7%D7%92%D6%BC%D6%B8%D7%93%D6%B8%D7%AA%D6%B4%D7%99_HE/s00105853a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B7%D7%92%D6%BC%D6%B8%D7%93%D6%B8%D7%AA%D6%B4%D7%99_a_HE> .
 

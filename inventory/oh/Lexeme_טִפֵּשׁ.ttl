@@ -1,14 +1,14 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִפֵּשׁ> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִפֵּשׁ> a ns1:Lexeme ;
     rdfs:label "טִפֵּשׁ"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טפשׁ> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טפשׁ> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טִפֵּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טיפש> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bl%C3%B6d%3B%20Dummkopf>,
@@ -17,8 +17,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dumb%3B%3Cbr%3Efoolish>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fool>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stupid%3B%20silly%3B%3B%3B%20stupid> ;
-    ns2:hasWordclassAffiliation ns3:Adjective ;
-    ns1:sense <http://babelnet.org/rdf/%D7%98%D6%B4%D7%A4%D6%B5%D6%BC%D7%A9%D7%81_HE/s00111343a>,
+    ns2:hasWordclassAffiliation ns1:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%98%D6%B4%D7%A4%D6%B5%D6%BC%D7%A9%D7%81_HE/s00111343a>,
         <http://babelnet.org/rdf/%D7%98%D6%B4%D7%A4%D6%BC%D6%B5%D7%A9%D7%81_HE/s00035672n>,
         <http://babelnet.org/rdf/%D7%98%D6%B4%D7%A4%D6%BC%D6%B5%D7%A9%D7%81_HE/s00111343a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%98%D6%B4%D7%A4%D6%B5%D6%BC%D7%A9%D7%81_a_HE>,

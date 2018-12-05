@@ -1,14 +1,14 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִפְרִישׁ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִפְרִישׁ> a ns3:Lexeme ;
     rdfs:label "הִפְרִישׁ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרשׁ> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרשׁ> ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִפְרִישׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הפריש> ;
@@ -18,7 +18,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20give%20off%3B%20to%20defecate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20secrete%3B%20to%20allocate>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20set%20aside> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A4%D6%B0%D7%A8%D6%B4%D7%99%D7%A9%D7%81_HE/s00082539v> ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A4%D6%B0%D7%A8%D6%B4%D7%99%D7%A9%D7%81_HE/s00082539v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A4%D6%B0%D7%A8%D6%B4%D7%99%D7%A9%D7%81_v_HE> .
 

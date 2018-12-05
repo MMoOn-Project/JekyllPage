@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּרַט> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּרַט> a ns2:Lexeme ;
     rdfs:label "פָּרַט"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרט> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּרַט>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרט> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּרַט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פרט> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20give%20in%20detail>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20give%20in%20detail>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20detail>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20strum%20%3Cbr%20/%3E%3B%3B%3B%20change%20%28money%29%3B%20pluck%20%28instrument%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20change%20%28money%29%3B%3Cbr%3Eto%20cash%20%28a%20bill%20into%20coins%20or%20smaller%20notes%29%3B%3Cbr%3Edivide%20into%20small%20parts>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20specify> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 
