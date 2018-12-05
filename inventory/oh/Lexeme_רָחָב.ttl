@@ -1,23 +1,23 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָחָב> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָחָב> a ns3:Lexeme ;
     rdfs:label "רָחָב"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רחב> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָחָב>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רחב> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָחָב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רחב> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_breit>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_breit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_weit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_broad%3B%20large%3B%20spacious>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_roomy%3B%20comprehensive>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wide>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D0%B8%D0%B9> ;
-    ns2:hasWordclassAffiliation ns1:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%97%D6%B8%D7%91_HE/s00098887a> ;
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%97%D6%B8%D7%91_HE/s00098887a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A8%D6%B8%D7%97%D6%B8%D7%91_a_HE> .
 

@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תּוֹאֵם> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תּוֹאֵם> a ns1:Lexeme ;
     rdfs:label "תּוֹאֵם"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תאם> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹאֵם>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תאם> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תּוֹאֵם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תואם> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_coincident%3B%20similar%3B%3B%3B%20matching>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_coincident%3B%20similar%3B%3B%3B%20matching>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_compatible>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_compatible%20with>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_corresponding>,
@@ -18,5 +18,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fitted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_matching>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_suitable> ;
-    ns1:hasWordclassAffiliation ns2:Adjective .
+    ns2:hasWordclassAffiliation ns1:Adjective .
 

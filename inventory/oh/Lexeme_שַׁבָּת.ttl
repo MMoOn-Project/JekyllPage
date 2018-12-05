@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שַׁבָּת> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שַׁבָּת> a ns3:Lexeme ;
     rdfs:label "שַׁבָּת"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבת> ;
-    ns2:hasInflectionalCategory ns1:Feminine ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבת> ;
+    ns2:hasInflectionalCategory ns3:Feminine ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שַׁבָּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שבת> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Sabbath%20%3B%20Saturday%20%3B%20%28talmudic%29%20week%20%3B%20sabbath>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rest%20day>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%81%D7%91%D6%B8%D6%BC%D7%AA_HE/s00068696n>,
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%81%D7%91%D6%B8%D6%BC%D7%AA_HE/s00068696n>,
         <http://babelnet.org/rdf/%D7%A9%D6%B7%D7%81%D7%91%D6%B8%D6%BC%D7%AA_HE/s02243441n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B7%D7%91%D6%BC%D6%B8%D7%AA_HE/s00068691n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B7%D7%91%D6%BC%D6%B8%D7%AA_HE/s00068696n> ;

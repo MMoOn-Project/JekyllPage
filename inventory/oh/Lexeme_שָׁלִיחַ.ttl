@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁלִיחַ> a ns3:Lexeme ;
     rdfs:label "שָׁלִיחַ"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁלח> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁלִיחַ>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁלִיחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שליח> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%26quot%3Bdeliverer%26quot%3B%20%28ex.%20delivery%20boy%29>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%26quot%3Bdeliverer%26quot%3B%20%28ex.%20delivery%20boy%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Erunner>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eenvoy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Emercury>,
@@ -23,8 +23,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_messenger>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_minister>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pageboy%3B%3B%3B%20messanger> ;
-    ns1:hasWordclassAffiliation ns3:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%9C%D6%B4%D7%99%D7%97%D6%B7_HE/s00026063n>,
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%9C%D6%B4%D7%99%D7%97%D6%B7_HE/s00026063n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B4%D7%99%D7%97%D6%B7_HE/s00030563n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D6%B8%D7%81%D7%9C%D6%B4%D7%99%D7%97%D6%B7_n_HE>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B4%D7%99%D7%97%D6%B7_n_HE> .

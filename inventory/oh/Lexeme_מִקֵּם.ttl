@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִקֵּם> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִקֵּם> a ns1:Lexeme ;
     rdfs:label "מִקֵּם"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מקם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִקֵּם>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מקם> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִקֵּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיקם> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_place>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_place>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_position> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns2:hasWordclassAffiliation ns1:Verb ;
     ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A7%D6%BC%D6%B5%D7%9D_HE/s00091872v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A7%D6%BC%D6%B5%D7%9D_v_HE> .
 

@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תֹּקֶף> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_תֹּקֶף> a ns2:Lexeme ;
     rdfs:label "תֹּקֶף"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקף> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תֹּקֶף>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקף> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תֹּקֶף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תוקף> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_by%20the%20power%20of%3B>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_by%20the%20power%20of%3B>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_force%3B%20%28flowery%29%20power>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_legality>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_might>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_might%3B%20%D7%9E%D7%AA%D7%95%D7%A7%D7%A3%20-%20by%20virtue%20of>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_power%3B%20validity>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_strength> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
 

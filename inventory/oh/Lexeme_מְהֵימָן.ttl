@@ -1,19 +1,19 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְהֵימָן> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְהֵימָן> a ns1:Lexeme ;
     rdfs:label "מְהֵימָן"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אמן> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אמן> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְהֵימָן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מהימן> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_reliable> ;
-    ns2:hasWordclassAffiliation ns3:Adjective ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%94%D6%B5%D7%99%D7%9E%D6%B8%D7%9F_HE/s00101186a>,
+    ns2:hasWordclassAffiliation ns1:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%94%D6%B5%D7%99%D7%9E%D6%B8%D7%9F_HE/s00101186a>,
         <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%94%D6%B5%D7%99%D7%9E%D6%B8%D7%9F_HE/s00102940a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%94%D6%B5%D7%99%D7%9E%D6%B8%D7%9F_a_HE> .
 

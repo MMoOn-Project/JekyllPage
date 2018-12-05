@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֲלָכָה> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֲלָכָה> a ns1:Lexeme ;
     rdfs:label "הֲלָכָה"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלך> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֲלָכָה>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלך> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֲלָכָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הלכה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edogma%3B%3Cbr%3Etheory%3B%3Cbr%20/%3EJewish%20religious%20laws%3B%3B%3B%20Jewish%20religious%20law>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Edogma%3B%3Cbr%3Etheory%3B%3Cbr%20/%3EJewish%20religious%20laws%3B%3B%3B%20Jewish%20religious%20law>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_law>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rule>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%93%D0%B0%D0%BB%D0%B0%D1%85%D0%B0%20%28%D0%B8%D1%83%D0%B4%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BB%D0%B8%D0%B3%D0%B8%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%29> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

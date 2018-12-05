@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבֵּר> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבֵּר> a ns1:Lexeme ;
     rdfs:label "חִבֵּר"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבֵּר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיבר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_combine%3B%20bind%3B%3B%20join>,
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_combine%3B%20bind%3B%3B%20join>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_put%20together%3B%20compose>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20add%20up%20%3B%20to%20compose>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20attach%20%3B%20%28mathematics%29%20to%20sum>,
@@ -21,7 +21,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20write>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20write%3B%3B%3B%20to%20join>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_write> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns3:hasWordclassAffiliation ns1:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%A8_HE/s00082320v>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%A8_HE/s00082321v>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%A8_HE/s00082893v>,

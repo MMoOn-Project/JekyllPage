@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כְּלִיל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_כְּלִיל> a ns1:Lexeme ;
     rdfs:label "כְּלִיל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כלל> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כְּלִיל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כלל> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כְּלִיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כליל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_allgemein>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_allgemein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_universal%3B%20General->,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28flowery%29%20crown>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_coronet>,
@@ -19,6 +19,6 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_total>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_whole%3B%3Cbr%3E%3Cbr%3Ealso%20nm.%20%28flowery%29%20crown>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wreath> ;
-    ns1:hasWordclassAffiliation ns2:Adjective,
-        ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:Adjective,
+        ns1:CommonNoun .
 

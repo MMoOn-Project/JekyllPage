@@ -1,21 +1,21 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הָלַךְ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הָלַךְ> a ns3:Lexeme ;
     rdfs:label "הָלַךְ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלך> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלך> ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הָלַךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הלך> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gehen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_go>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_walk> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%94%D6%B8%D7%9C%D6%B7%D7%9A%D6%B0_HE/s00083286v> ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B8%D7%9C%D6%B7%D7%9A%D6%B0_HE/s00083286v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B8%D7%9C%D6%B7%D7%9A%D6%B0_v_HE> .
 
