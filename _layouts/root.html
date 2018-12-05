@@ -4,54 +4,77 @@ rdf_prefix_path: "_data/prefix.sparql"
 title: "Root"
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1>{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
-    {% assign types = page.rdf | rdf_property: "rdf:type", nil, true %}
-    <div>
-      Type:
-      {% for type in types %}
-      <span>{{ type }}</span>
-      {% endfor %}
-    </div>
-  </header>
-
+{% assign types = page.rdf | rdf_property: "rdf:type", nil, true %}
+{% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
 {% assign roots = page.rdf | rdf_property: "heb_schema:consistsOfRoot", nil, true %}
 {% assign belongsTo = page.rdf | rdf_property: "mmoon:belongsTo", nil, true %}
 {% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
 
-  <dl>
-
-    <dt>Representations</dt>
-    {% for representation in representations %}
-    <dd class="representation">{{ representation | rdf_property: "rdfs:label" }}</dd>
-    {% endfor %}
-
-    {% if roots.first %}
-    <dt>Consists of Root</dt>
-    {% for root in roots %}
-    <dd>{{ root.iri }}</dd>
-    {% endfor %}
-    {% endif %}
-
-    <dt>Belongs To</dt>
-    {% for belongsTo_ in belongsTo %}
-    <dd class="representation"><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ | rdf_property: "rdfs:label" }}</a></dd>
-    {% endfor %}
-
-    {% if seeAlso.first %}
-    <dt>See Also</dt>
-    {% for link in seeAlso %}
-    <a href="{{link}}">{{ link | url_decode }}</a>,
-    {% endfor %}
-    {% endif %}
-
-    {% if lemon_sense.first %}
-    <dt>Lemon Links</dt>
-    {% for lemon_link in lemon_sense %}
-    <a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>,
-    {% endfor %}
-    {% endif %}
-  </dl>
-
+<div class="segment">
+  <div class="he">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
+  </div>
+  <div class="clearfix"></div>
 </div>
+
+{% if types.first %}
+<div class="segment">
+  <div class="en">
+    <span class="proplabel propheading">Type (rdf:type)</span>
+    <ul>
+    {% for type in types %}
+    <span>{{ type }}</span>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
+
+{% if representations.first %}
+<div class="segment">
+  <div class="he">
+    <ul>
+      {% for representation in representations %}
+      <li class="representation">{{ representation | rdf_property: "rdfs:label" }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Representations (mmoon:hasRepresentation)</p>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
+
+{% if roots.first %}
+<div class="segment">
+  <div class="he">
+    <ul>
+      {% for root in roots %}
+      <li>{{ root.iri }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Consists of Root (heb_schema:consistsOfRoot)</p>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
+
+{% if belongsTo.first %}
+<div class="segment">
+  <div class="he">
+    <ul>
+      {% for belongsTo_ in belongsTo %}
+      <li><a href="{{ belongsTo_.page_url | prepend: site.baseurl }}">{{ belongsTo_ | rdf_property: "rdfs:label" }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Belongs To (mmoon:belongsTo)</p>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}

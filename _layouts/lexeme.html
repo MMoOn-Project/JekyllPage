@@ -4,82 +4,162 @@ rdf_prefix_path: "_data/prefix.sparql"
 title: "Lexeme"
 ---
 
-{% assign inflections = page.rdf | rdf_property: "mmoon:hasInflectionalCategory", nil, true %}
-{% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
-{% assign senses = page.rdf | rdf_property: "mmoon:hasSense", nil, true %}
 {% assign wordclasses = page.rdf | rdf_property: "mmoon:hasWordclassAffiliation", nil, true %}
+{% assign inflections = page.rdf | rdf_property: "mmoon:hasInflectionalCategory", nil, true %}
 {% assign mmoon_morphs = page.rdf | rdf_property: "mmoon:consistsOfMorph", nil, true %}
 {% assign heb_schema_morphs = page.rdf | rdf_property: "heb_schema:consistsOfMorph", nil, true %}
+{% assign representations = page.rdf | rdf_property: "mmoon:hasRepresentation", nil, true %}
+{% assign senses = page.rdf | rdf_property: "mmoon:hasSense", nil, true %}
 
-{% assign lemon_sense = page.rdf | rdf_property: "lemon:sense", nil, true %}
 {% assign seeAlso = page.rdf | rdf_property: "rdfs:seeAlso", nil, true %}
+{% assign lemon_sense = page.rdf | rdf_property: "lemon:sense", nil, true %}
 
-<div class="post">
-  <header class="post-header">
-    {% if wordclasses.first %}
-    <div>
-      <em>Wordclass Affiliation: </em>
+
+<div class="segment">
+  <h1 class="he">{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
+  <div class="clearfix"></div>
+</div>
+
+{% if wordclasses.first %}
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading">חלק דיבר</p>
+    {% for class in wordclasses %}
+    <p>{{ class | rdf_property: "rdfs:label", "he" }}</p>
+    {% endfor %}
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Wordclass Affiliation (mmoon:hasWordclassAffiliation)</p>
+    <p>
       {% for class in wordclasses %}
-      <strong>{{ class | rdf_property: "rdfs:label", "en" }}/{{ class | rdf_property: "rdfs:label", "he" }}</strong>
+      {{ class | rdf_property: "rdfs:label", "en" }}
       {% endfor %}
-    </div>
-    {% endif %}
-    <h1>{{ page.rdf | rdf_property: "rdfs:label" }}</h1>
-  </header>
+    </p>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
 
 {% if inflections.first %}
-<div>
-{% for category in inflections %}
-<strong>{{ category | rdf_property: "rdfs:label", "en" }}/{{ category | rdf_property: "rdfs:label", "he" }}</strong>
-{% endfor %}
-<em>Inflection Category</em>
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading"></p>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Inflection Category (mmoon:hasInflectionalCategory)</p>
+  </div>
+  <div class="clearfix"></div>
+  <div class="he">
+    <p>
+      {% for category in inflections %}
+      {{ category | rdf_property: "rdfs:label", "he" }}
+      {% endfor %}
+    </p>
+  </div>
+  <div class="en">
+    <p>
+      {% for category in inflections %}
+      {{ category | rdf_property: "rdfs:label", "en" }}
+      {% endfor %}
+    </p>
+  </div>
+  <div class="clearfix"></div>
 </div>
 {% endif %}
 
 {% if mmoon_morphs.first or heb_schema_morphs.first %}
-<div>
-    <dt>Morph (heb_schema:consistsOfMorph and mmoon:consistsOfMorph)</dt>
+<div class="segment">
+  <div class="he">
+    <ul>
     {% for morph in mmoon_morphs %}
-    <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label", "he" }}</a></dd>
+    <li class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label", "he" }}</a></li>
     {% endfor %}
     {% for morph in heb_schema_morphs %}
-    <dd class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label" }}</a></dd>
+    <li class="representation"><a href="{{ morph.page_url | prepend: site.baseurl }}">{{ morph | rdf_property: "rdfs:label", "he" }}</a></li>
     {% endfor %}
+  </ul>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Morphs (heb_schema:consistsOfMorph and mmoon:consistsOfMorph)</p>
+  </div>
+  <div class="clearfix"></div>
 </div>
 {% endif %}
 
-
-  <dl>
-    {% if representations.first %}
-    <dt>Representation</dt>
-    {% for representation in representations %}
-    <dd>{% include representation.html representation=representation %}</dd>
-    {% endfor %}
-    {% endif %}
-
-    {% if senses.first %}
-    <dt>Sense</dt>
-    {% for sense in senses %}
-    <dd>{% include sense.html sense=sense %}</dd>
-    {% endfor %}
-    {% endif %}
-
-    {% if seeAlso.first %}
-    <dt>See Also</dt>
-    {% for link in seeAlso %}
-    <a href="{{link}}">{{ link | url_decode }}</a>,
-    {% endfor %}
-    {% endif %}
-
-    {% if lemon_sense.first %}
-    <dt>Lemon Links</dt>
-    {% for lemon_link in lemon_sense %}
-    <a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>,
-    {% endfor %}
-    {% endif %}
-
-  </dl>
-
-
-
+{% if representations.first %}
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading"></p>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Representations (mmoon:hasRepresentation)</p>
+  </div>
+  <div class="clearfix"></div>
+  {% for representation in representations %}
+  {% include representation.html representation=representation %}
+  <div class="clearfix"></div>
+  {% endfor %}
 </div>
+{% endif %}
+
+{% if senses.first %}
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading"></p>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Sense (mmoon:hasSense)</p>
+  </div>
+  <div class="clearfix"></div>
+  <div class="he">
+  </div>
+  <div class="en">
+  {% for sense in senses %}
+  <dl>
+    {% include sense.html sense=sense %}
+  </dl>
+  {% endfor %}
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
+
+{% if seeAlso.first %}
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading"></p>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">See Also (rdfs:seeAlso)</p>
+  </div>
+  <div class="clearfix"></div>
+  <div class="he">
+  </div>
+  <div class="en">
+  {% for link in seeAlso %}
+  <a href="{{link}}">{{ link | url_decode }}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}
+
+{% if lemon_sense.first %}
+<div class="segment">
+  <div class="he">
+    <p class="proplabel propheading"></p>
+  </div>
+  <div class="en">
+    <p class="proplabel propheading">Lemon Links (lemon:sense)</p>
+  </div>
+  <div class="clearfix"></div>
+  <div class="he">
+  </div>
+  <div class="en">
+  {% for lemon_link in lemon_sense %}
+  <a href="{{ lemon_link }}">{{ lemon_link | url_decode }}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endif %}

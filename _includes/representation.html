@@ -2,19 +2,15 @@
 {% assign vocalized = representation | rdf_property: "heb_schema:vocalizedRepresentation" %}
 {% assign unvocalized = representation | rdf_property: "heb_schema:unvocalizedRepresentation" %}
 
-  <dl>
-    {% if orthographic %}
-    <dt>Orthographic Representation</dt>
-    <dd class="representation">{{ orthographic }}</dd>
-    {% endif %}
-
-    {% if vocalized %}
-    <dt>Vocalized Representation</dt>
-    <dd class="representation">{{ vocalized }}</dd>
-    {% endif %}
-
-    {% if unvocalized %}
-    <dt>Unvocalized Representation</dt>
-    <dd class="representation">{{ unvocalized }}</dd>
-    {% endif %}
-  </dl>
+{% if orthographic %}
+<p class="he representation">{{ orthographic }}</p>
+<p class="en proplabel">Orthographic Representation</p>
+{% endif %}
+{% if vocalized %}
+<p class="he representation">{{ vocalized }}</p>
+<p class="en proplabel">Vocalized Representation</p>
+{% endif %}
+{% if unvocalized %}
+<p class="he representation">{{ unvocalized }}</p>
+<p class="en proplabel">Unvocalized Representation</p>
+{% endif %}

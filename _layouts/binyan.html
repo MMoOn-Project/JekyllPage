@@ -4,13 +4,6 @@ rdf_prefix_path: "_data/prefix.sparql"
 title: "Binyan"
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1>{{ page.rdf | rdf_property: "rdfs:label", nil, true | join: ", " }}</h1>
-  </header>
-
-{% include filter.html %}
-
 {% capture word_query %}
 SELECT ?word ?label WHERE {
   ?word mmoon:consistsOfMorph ?resourceUri ;
@@ -18,11 +11,24 @@ SELECT ?word ?label WHERE {
 } ORDER BY ?label
 {% endcapture %}
 
-{% assign results = page.rdf | sparql_query: word_query %}
-<ul>
-  {% for row in results %}
-  <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
-  {% endfor %}
-</ul>
+<div class="segment">
+  <div class="he">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label", "he", true | join: ", " }}</h1>
+  </div>
+  <div class="en">
+    <h1>{{ page.rdf | rdf_property: "rdfs:label", "en", true | join: ", " }}</h1>
+  </div>
+  <div class="clearfix"></div>
+</div>
 
+{% include filter.html %}
+
+{% assign results = page.rdf | sparql_query: word_query %}
+<div class="segment">
+  <ul class="he">
+    {% for row in results %}
+    <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
+    {% endfor %}
+  </div>
+  <div class="clearfix"></div>
 </div>

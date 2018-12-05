@@ -10,20 +10,19 @@ SELECT ?root ?label WHERE {
 } ORDER BY ?label
 {% endcapture %}
 
+<p>This page is built from the MMoOn Open Hebrew Inventory.</p>
 <div class="segment">
   <span class="he">
     <p></p>
     <h2>ה שורשים</h2>
   </span>
   <span class="en">
-    <p>This page is built from the MMoOn Open Hebrew Inventory.</p>
     <h2>The Roots</h2>
   </span>
   <div class="clearfix"></div>
 </div>
 
 {% include filter.html %}
-
 
 {% assign results = page.rdf | sparql_query: root_query %}
 <div class="segment">

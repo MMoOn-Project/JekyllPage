@@ -266,13 +266,13 @@ dl.bildunterschrift dd {
     text-align: left;
 }
 
-dd.representation {
-    font-size: 300%
-}
-
-.he {
+p.he, .he p {
   line-height: 1.2em;
   font-size: 1.2em;
+}
+
+.he.representation, .he .representation {
+  font-size: 1.7em;
 }
 
 .en {
@@ -280,17 +280,43 @@ dd.representation {
   line-height: 1.5em;
 }
 
+
+.propheading {
+  font-weight: bold;
+}
+
+.proplabel {
+  font-style: oblique;
+}
+
+dt.proplabel {
+  font-weight: normal;
+}
+
 .segment {
   direction: ltr;
   text-align: justify;
   display: block;
+  vertical-align: middle;
+  margin-top: 1em;
+  background-color: #eee;
+  background-image: linear-gradient(to right, #fbfbfa, #eeeeec, #fbfbfa);
+  padding-bottom: .5em;
+  border-bottom: solid 1px rgba(255,255,255,0);
+}
+
+.segment:hover {
+  background-color: #e0e0e0;
+  background-image: none;
+  border-bottom: solid 1px #aaa;
 }
 
 .segment .he, .segment .en {
-width: 50%;
-margin: none;
-border: none;
-display: block;
+  width: 50%;
+  margin: 0;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .segment .he {
@@ -305,6 +331,10 @@ display: block;
   text-align: left;
   float: right;
   padding-left: 10px;
+}
+
+.segment .proplabel {
+  color: #333;
 }
 
 .alphabet {
