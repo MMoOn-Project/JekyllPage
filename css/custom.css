@@ -270,6 +270,57 @@ dd.representation {
     font-size: 300%
 }
 
+.he {
+  line-height: 1.2em;
+  font-size: 1.2em;
+}
+
+.en {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.segment {
+  direction: ltr;
+  text-align: justify;
+  display: block;
+}
+
+.segment .he, .segment .en {
+width: 50%;
+margin: none;
+border: none;
+display: block;
+}
+
+.segment .he {
+  direction: rtl;
+  text-align: right;
+  float: left;
+  padding-right: 10px;
+}
+
+.segment .en {
+  direction: ltr;
+  text-align: left;
+  float: right;
+  padding-left: 10px;
+}
+
+.alphabet {
+  float: right;
+  margin-top: .2em;
+  margin-bottom: .5em;
+}
+
+.alphabet span {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
+  border: solid 1px grey;
+}
+
 @media screen and (max-width: 600px) {
     .post-header
     .poststempel svg {

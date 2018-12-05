@@ -2,9 +2,6 @@
 layout: default
 rdf_prefix_path: "_data/prefix.sparql"
 ---
-<p>This page is built from the MMoOn Open Hebrew Inventory.</p>
-
-<h2>The Binyanim</h2>
 
 {% capture binyan_query %}
 SELECT ?binyan (max(?label_heA) as ?labelHeA) (min(?label_heB) as ?labelHeB) (min(?label_en) as ?labelEn)
@@ -22,9 +19,23 @@ SELECT ?binyan (max(?label_heA) as ?labelHeA) (min(?label_heB) as ?labelHeB) (mi
 } GROUP BY ?binyan ORDER BY ?label_heA
 {% endcapture %}
 
+<div class="segment">
+  <span class="he">
+    <p></p>
+    <h2>ה בניינים</h2>
+  </span>
+  <span class="en">
+    <p>This page is built from the MMoOn Open Hebrew Inventory.</p>
+    <h2>The Binyanim</h2>
+  </span>
+  <div class="clearfix"></div>
+</div>
+
 {% assign results = page.rdf | sparql_query: binyan_query %}
-<ul>
-  {% for row in results %}
-  <li><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.labelHeA }}{% if row.labelHeB %}, {{ row.labelHeB }}{% endif %}|{{ row.labelEn }}</a></li>
-  {% endfor %}
-</ul>
+{% for row in results %}
+<div class="segment">
+  <p class="he"><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.labelHeA }}{% if row.labelHeB %}, {{ row.labelHeB }}{% endif %}</a></p>
+  <p class="en"><a href="{{ row.binyan.page_url | prepend: site.baseurl }}">{{ row.labelEn }}</a></p>
+  <div class="clearfix"></div>
+</div>
+{% endfor %}
