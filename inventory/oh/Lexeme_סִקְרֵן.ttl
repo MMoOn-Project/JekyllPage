@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִקְרֵן> a ns3:Lexeme ;
     rdfs:label "סִקְרֵן"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סקרן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִקְרֵן>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִקְרֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סקרן> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arouse%20couriosity>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_arouse%20couriosity>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intrigue> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A7%D6%B0%D7%A8%D6%B5%D7%9F_HE/s00089814v> ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A7%D6%B0%D7%A8%D6%B5%D7%9F_HE/s00089814v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A7%D6%B0%D7%A8%D6%B5%D7%9F_v_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,13 +9,13 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יָשַׁב> a ns3:Lexeme ;
     rdfs:label "יָשַׁב"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ישׁב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָשַׁב>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָשַׁב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ישב> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sitzen>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sitzen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_reside> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B8%D7%A9%D7%81%D6%B7%D7%91_HE/s00087441v> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B8%D7%A9%D7%81%D6%B7%D7%91_HE/s00087441v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B8%D7%A9%D7%81%D6%B7%D7%91_v_HE> .
 

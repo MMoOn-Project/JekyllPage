@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִיֵּן> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִיֵּן> a ns2:Lexeme ;
     rdfs:label "עִיֵּן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עין> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִיֵּן>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עין> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִיֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עיין> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_look%20into%3B%20read%3B%3B%3B%20to%20consider>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_look%20into%3B%20read%3B%3B%3B%20to%20consider>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_study>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_study%3B%20reflect> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

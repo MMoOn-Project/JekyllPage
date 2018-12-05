@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%22several%20cards%20short%20%28shy%29%20of%20a%20full%20deck%22> a ns2:Sense ;
-    ns2:senseDefinition "<br>\"several cards short (shy) of a full deck\""@ru ;
-    ns1:language "ru" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%22several%20cards%20short%20%28shy%29%20of%20a%20full%20deck%22> a ns1:Sense ;
+    ns1:senseDefinition "<br>\"several cards short (shy) of a full deck\""@ru ;
+    ns2:language "ru" .
 

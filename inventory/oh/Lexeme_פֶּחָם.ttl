@@ -1,21 +1,21 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֶּחָם> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פֶּחָם> a ns2:Lexeme ;
     rdfs:label "פֶּחָם"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פחמ> ;
-    ns2:hasInflectionalCategory ns3:Masculine ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֶּחָם>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פחמ> ;
+    ns1:hasInflectionalCategory ns2:Masculine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פֶּחָם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פחם> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_carbon>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_carbon>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_charcoal>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_coal> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B6%D7%97%D6%B8%D7%9D_HE/s00017777n> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B6%D7%97%D6%B8%D7%9D_HE/s00017777n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A4%D6%BC%D6%B6%D7%97%D6%B8%D7%9D_n_HE> .
 

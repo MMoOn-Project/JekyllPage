@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צוֹנֵן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "צוֹנֵן"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צוֹנֵן>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צוֹנֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צונן> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cool> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A6%D7%95%D6%B9%D7%A0%D6%B5%D7%9F_HE/s00104485a> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cool> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A6%D7%95%D6%B9%D7%A0%D6%B5%D7%9F_HE/s00104485a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A6%D7%95%D6%B9%D7%A0%D6%B5%D7%9F_a_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַר> a ns3:Lexeme ;
     rdfs:label "מַר"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מרר> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַר>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bitter>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_bitter>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eacerb>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_acerbic%3B%20embittered>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_acidulous>,
@@ -25,7 +25,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tart>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wry>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9> ;
-    ns2:hasWordclassAffiliation ns3:Adjective ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A8_HE/s00055346n> ;
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A8_HE/s00055346n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%A8_n_HE> .
 

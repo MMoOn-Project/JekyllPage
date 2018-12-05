@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׂעִיר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "שָׂעִיר"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׂעִיר>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׂעִיר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שעיר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D1%82%D1%8B%D0%B9>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D1%82%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BA%D0%BE%D1%81%D0%BC%D0%B0%D1%82%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%A2%D6%B4%D7%99%D7%A8_HE/s00010447n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%A2%D6%B4%D7%99%D7%A8_HE/s00010447n>,
         <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%A2%D6%B4%D7%99%D7%A8_HE/s00103869a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%A2%D6%B4%D7%99%D7%A8_a_HE>,
         <http://babelnet.org/rdf/%D7%A9%D7%82%D6%B8%D7%A2%D6%B4%D7%99%D7%A8_n_HE> .

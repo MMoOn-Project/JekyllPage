@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִמֵּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִמֵּר> a ns2:Lexeme ;
     rdfs:label "סִמֵּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִמֵּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִמֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סימר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rivet>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rivet>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20nail>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20stiffen%3B%20cause%20to%20stand%20on%20end%3B%20nail> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

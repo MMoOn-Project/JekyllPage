@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִין> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִין> a ns3:Lexeme ;
     rdfs:label "מִין"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מינ> ;
-    ns1:hasInflectionalCategory ns2:Masculine ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִין>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מינ> ;
+    ns2:hasInflectionalCategory ns3:Masculine ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִין>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מין> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28Grammatik%29%20grammatisches%20Geschlecht>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28Grammatik%29%20grammatisches%20Geschlecht>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28rabbinische%20Literatur%29%20Her%C3%A4tiker>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_class%3B%20sex%3B%20gender>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_feather>,
@@ -22,8 +22,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_race>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_species>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_type> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun ;
-    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%99%D7%9F_HE/s00035907n>,
+    ns2:hasWordclassAffiliation ns3:CommonNoun ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%99%D7%9F_HE/s00035907n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%99%D7%9F_HE/s00037633n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%99%D7%9F_HE/s00037634n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%99%D7%9F_HE/s00070773n> ;

@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָבַר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָבַר> a ns2:Lexeme ;
     rdfs:label "עָבַר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָבַר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עבר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-%28Ort%29-wechseln>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-%28Ort%29-wechseln>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-durch-/vorbei/vor%C3%BCber-gehen/fahren>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_queren>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%D7%A9%D7%A2%D7%91%D7%A8%20-%20last>,
@@ -23,5 +23,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20go%20by%3B%3Cbr%3Eto%20study%3B%20to%20undergo%3B%20to%20surpass%3B%3Cbr%20/%3Eto%20cross%20%28a%20street>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20pass>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_year%29> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

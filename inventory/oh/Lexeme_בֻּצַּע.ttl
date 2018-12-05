@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֻּצַּע> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֻּצַּע> a ns1:Lexeme ;
     rdfs:label "בֻּצַּע"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בצע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֻּצַּע>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בצע> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֻּצַּע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בוצע> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20carried%20out>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20carried%20out>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20executed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20done>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BB%D1%91%D0%BD>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

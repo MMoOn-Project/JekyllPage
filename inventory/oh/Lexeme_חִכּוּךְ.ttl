@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִכּוּךְ> a ns3:Lexeme ;
     rdfs:label "חִכּוּךְ"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חכך> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִכּוּךְ>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִכּוּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיכוך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rubbing>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rubbing>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_friction> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%9B%D6%BC%D7%95%D6%BC%D7%9A%D6%B0_HE/s00026670n>,
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%9B%D6%BC%D7%95%D6%BC%D7%9A%D6%B0_HE/s00026670n>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%9B%D6%BC%D7%95%D6%BC%D7%9A%D6%B0_HE/s00036520n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B4%D7%9B%D6%BC%D7%95%D6%BC%D7%9A%D6%B0_n_HE> .
 

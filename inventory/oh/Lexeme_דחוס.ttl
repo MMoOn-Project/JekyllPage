@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דחוס> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "דחוס"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דחוס> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCberf%C3%BCllt>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דחוס> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCberf%C3%BCllt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zusammengepresst>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_crowded>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stuffy>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B6%D0%B0%D1%82%D1%8B%D0%B9%3B%20%D0%BD%D0%B0%D0%B1%D0%B8%D1%82%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%93%D7%97%D7%95%D7%A1_HE/s00100112a> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%93%D7%97%D7%95%D7%A1_HE/s00100112a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%93%D7%97%D7%95%D7%A1_a_HE> .
 

@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֶׁקֶט> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֶׁקֶט> a ns1:Lexeme ;
     rdfs:label "שֶׁקֶט"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁקט> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֶׁקֶט>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁקט> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֶׁקֶט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שקט> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Ruhe>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Ruhe>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Stille>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quiet>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%BF%D0%BE%D0%BA%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B0>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%88%D1%82%D0%B8%D0%BB%D1%8C> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 
