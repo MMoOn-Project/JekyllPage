@@ -24,13 +24,11 @@ SELECT ?word ?label WHERE {
 {% include filter.html %}
 
 {% assign results = page.rdf | sparql_query: word_query %}
-<div class="segment">
+<div class="segment columns he">
   <ul class="he">
     {% for row in results %}
     <li><a href="{{ row.word.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
     {% endfor %}
-  </div>
-  <ul class="en">
-  </div>
+  </ul>
   <div class="clearfix"></div>
 </div>

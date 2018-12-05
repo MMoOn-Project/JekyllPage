@@ -25,11 +25,11 @@ SELECT ?root ?label WHERE {
 {% include filter.html %}
 
 {% assign results = page.rdf | sparql_query: root_query %}
-<div class="segment">
-<ul class="he">
-{% for row in results %}
-  <li><a href="{{ row.root.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
-{% endfor %}
-</ul>
-<div class="clearfix"></div>
+<div class="segment columns he">
+  <ul class="he">
+    {% for row in results %}
+    <li><a href="{{ row.root.page_url | prepend: site.baseurl }}">{{ row.label }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="clearfix"></div>
 </div>
