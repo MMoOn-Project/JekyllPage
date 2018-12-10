@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תְּשׁוּאוֹת> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "תְּשׁוּאוֹת"@he ;
-    ns1:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine>,
+    ns2:hasInflectionalCategory <http://mmoon.org/lang/heb/schema/oh/Feminine>,
         <http://mmoon.org/lang/heb/schema/oh/Plural> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תְּשׁוּאוֹת>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תְּשׁוּאוֹת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תשואות> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_applause>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_applause>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cheers> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B0%D7%A9%D7%81%D7%95%D6%BC%D7%90%D7%95%D6%B9%D7%AA_HE/s00005053n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B0%D7%A9%D7%81%D7%95%D6%BC%D7%90%D7%95%D6%B9%D7%AA_HE/s00005053n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%AA%D6%BC%D6%B0%D7%A9%D7%81%D7%95%D6%BC%D7%90%D7%95%D6%B9%D7%AA_n_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,9 +7,9 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יוֹבֵל> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "יוֹבֵל"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יוֹבֵל>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יוֹבֵל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יובל> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D7%95%D6%B9%D7%91%D6%B5%D7%9C_HE/s01597321n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D7%95%D6%B9%D7%91%D6%B5%D7%9C_HE/s01597321n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D7%95%D6%B9%D7%91%D6%B5%D7%9C_n_HE> .
 

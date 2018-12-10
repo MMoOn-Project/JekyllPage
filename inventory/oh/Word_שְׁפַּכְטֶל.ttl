@@ -1,14 +1,14 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Word_שְׁפַּכְטֶל> a ns1:Word ;
+<http://mmoon.org/lang/heb/inventory/oh/Word_שְׁפַּכְטֶל> a ns2:Word ;
     rdfs:label "שְׁפַּכְטֶל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפכטל> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שְׁפַּכְטֶל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפכטל> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שְׁפַּכְטֶל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שפכטל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%D7%9E%D6%B8%D7%A8%D6%B4%D7%99%D7%AA> .
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%D7%9E%D6%B8%D7%A8%D6%B4%D7%99%D7%AA> .
 

@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוּנַף> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוּנַף> a ns2:Lexeme ;
     rdfs:label "הוּנַף"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוף> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוּנַף>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נוף> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוּנַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הונף> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brandished%3B%20tossed%3B%20to%20be%20raised%20%28flag%29>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_brandished%3B%20tossed%3B%20to%20be%20raised%20%28flag%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_hoisted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_raised%3B%3B%3B%20be%20waved>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_swung>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BE%D0%B4%D1%80%D1%83%D0%B6%D1%91%D0%BD>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D1%8B%D0%B2%D0%B5%D1%88%D0%B5%D0%BD> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

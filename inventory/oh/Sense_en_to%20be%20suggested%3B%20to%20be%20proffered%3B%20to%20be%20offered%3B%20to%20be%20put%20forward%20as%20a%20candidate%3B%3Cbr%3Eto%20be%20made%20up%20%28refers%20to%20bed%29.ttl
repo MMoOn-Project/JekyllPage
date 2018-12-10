@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20suggested%3B%20to%20be%20proffered%3B%20to%20be%20offered%3B%20to%20be%20put%20forward%20as%20a%20candidate%3B%3Cbr%3Eto%20be%20made%20up%20%28refers%20to%20bed%29> a ns1:Sense ;
-    ns1:senseDefinition "to be suggested; to be proffered; to be offered; to be put forward as a candidate;<br>to be made up (refers to bed)"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20suggested%3B%20to%20be%20proffered%3B%20to%20be%20offered%3B%20to%20be%20put%20forward%20as%20a%20candidate%3B%3Cbr%3Eto%20be%20made%20up%20%28refers%20to%20bed%29> a ns2:Sense ;
+    ns2:senseDefinition "to be suggested; to be proffered; to be offered; to be put forward as a candidate;<br>to be made up (refers to bed)"@en ;
+    ns1:language "en" .
 

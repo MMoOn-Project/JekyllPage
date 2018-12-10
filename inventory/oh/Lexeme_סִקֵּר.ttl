@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִקֵּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִקֵּר> a ns2:Lexeme ;
     rdfs:label "סִקֵּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סקר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִקֵּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סקר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִקֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיקר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%28communications%20media%29%20to%20cover>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3E%28communications%20media%29%20to%20cover>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cover%20%28media%29%3B%3B%3B%20to%20review>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_glance> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

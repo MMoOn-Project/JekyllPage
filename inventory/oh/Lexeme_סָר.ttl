@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָר> a ns1:Lexeme ;
     rdfs:label "סָר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סור> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סור> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28formal%29%20to%20enter>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28formal%29%20to%20enter>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20approach%3B%3Cbr%20/%3E%28literary%29%20to%20turn%20aside>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20deviate%20%28from%20a%20path%29%3B%20%3Cbr%20/%3E%28flowery%29%20to%20depart>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20drop%20in%3B%3Cbr%3Eto%20go%20aside%3B%20to%20go%20away%3B%20to%20remove%3B%3Cbr%3Eto%20leave>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20go%20to%3B%20to%20hop%20in>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20take%20leave%20of%3Cbr%20/%3Eto%20move%20away%20from%3B%3B%3B%3B%20turn%20aside%3B%20sullen%20%28adj%29%20%28literary%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20withdraw> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

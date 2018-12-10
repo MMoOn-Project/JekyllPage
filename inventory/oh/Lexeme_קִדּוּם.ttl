@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִדּוּם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "קִדּוּם"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִדּוּם>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִדּוּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קידום> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_advancement>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_advancement>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_promotion%3B%3B%3B%20promotion%20%28to%20a%20higher%20rank%29%3B%20advancing> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A7%D6%B4%D7%93%D6%BC%D7%95%D6%BC%D7%9D_HE/s00001556n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A7%D6%B4%D7%93%D6%BC%D7%95%D6%BC%D7%9D_HE/s00001556n>,
         <http://babelnet.org/rdf/%D7%A7%D6%B4%D7%93%D6%BC%D7%95%D6%BC%D7%9D_HE/s00001557n>,
         <http://babelnet.org/rdf/%D7%A7%D6%B4%D7%93%D6%BC%D7%95%D6%BC%D7%9D_HE/s00064703n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A7%D6%B4%D7%93%D6%BC%D7%95%D6%BC%D7%9D_n_HE> .

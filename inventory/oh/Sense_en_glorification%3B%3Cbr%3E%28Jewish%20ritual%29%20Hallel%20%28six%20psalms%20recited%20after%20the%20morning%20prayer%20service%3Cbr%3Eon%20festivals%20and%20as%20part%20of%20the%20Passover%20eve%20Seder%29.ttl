@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_glorification%3B%3Cbr%3E%28Jewish%20ritual%29%20Hallel%20%28six%20psalms%20recited%20after%20the%20morning%20prayer%20service%3Cbr%3Eon%20festivals%20and%20as%20part%20of%20the%20Passover%20eve%20Seder%29> a ns1:Sense ;
-    ns1:senseDefinition "glorification;<br>(Jewish ritual) Hallel (six psalms recited after the morning prayer service<br>on festivals and as part of the Passover eve Seder)"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_glorification%3B%3Cbr%3E%28Jewish%20ritual%29%20Hallel%20%28six%20psalms%20recited%20after%20the%20morning%20prayer%20service%3Cbr%3Eon%20festivals%20and%20as%20part%20of%20the%20Passover%20eve%20Seder%29> a ns2:Sense ;
+    ns2:senseDefinition "glorification;<br>(Jewish ritual) Hallel (six psalms recited after the morning prayer service<br>on festivals and as part of the Passover eve Seder)"@en ;
+    ns1:language "en" .
 

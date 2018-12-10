@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,16 +7,16 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַדְרֵגָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מַדְרֵגָה"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַדְרֵגָה>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַדְרֵגָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מדרגה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_footstep%3B%20degree>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_footstep%3B%20degree>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_grade>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_level>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rung>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_stair>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_step>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tier> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%93%D6%B0%D7%A8%D6%B5%D7%92%D6%B8%D7%94_HE/s00073848n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%93%D6%B0%D7%A8%D6%B5%D7%92%D6%B8%D7%94_HE/s00073848n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%93%D6%B0%D7%A8%D6%B5%D7%92%D6%B8%D7%94_n_HE> .
 

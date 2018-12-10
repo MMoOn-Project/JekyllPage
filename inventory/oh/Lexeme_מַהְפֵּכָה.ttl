@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,15 +9,15 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מַהְפֵּכָה> a ns3:Lexeme ;
     rdfs:label "מַהְפֵּכָה"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הפך> ;
-    ns2:hasInflectionalCategory ns3:Feminine ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַהְפֵּכָה>,
+    ns1:hasInflectionalCategory ns3:Feminine ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מַהְפֵּכָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מהפכה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chaos>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chaos>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_revolution>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_upheaval>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_upset%3B%20destruction%3B%3B%3B%20revolution> ;
-    ns2:hasWordclassAffiliation ns3:CommonNoun ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%94%D6%B0%D7%A4%D6%BC%D6%B5%D7%9B%D6%B8%D7%94_HE/s00067567n>,
+    ns1:hasWordclassAffiliation ns3:CommonNoun ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%94%D6%B0%D7%A4%D6%BC%D6%B5%D7%9B%D6%B8%D7%94_HE/s00067567n>,
         <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%94%D6%B0%D7%A4%D6%BC%D6%B5%D7%9B%D6%B8%D7%94_HE/s00067568n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B7%D7%94%D6%B0%D7%A4%D6%BC%D6%B5%D7%9B%D6%B8%D7%94_n_HE> .
 

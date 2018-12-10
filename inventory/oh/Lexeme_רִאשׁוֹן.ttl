@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רִאשׁוֹן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "רִאשׁוֹן"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רִאשׁוֹן>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רִאשׁוֹן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ראשון> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_first>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_first>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_freshman%3Cbr%3Ealso%20n.%26nbsp%3B%26nbsp%3BSunday%20%3B%3B%3B%20first%3B%20best%3B%20earliest>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_primary%3B%20former%3B%20principal>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_prime%3B%20initial>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A8%D6%B4%D7%90%D7%A9%D7%81%D7%95%D6%B9%D7%9F_HE/s00034741n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A8%D6%B4%D7%90%D7%A9%D7%81%D7%95%D6%B9%D7%9F_HE/s00034741n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A8%D6%B4%D7%90%D7%A9%D7%81%D7%95%D6%B9%D7%9F_n_HE> .
 
