@@ -2,8 +2,8 @@
 title: Open Hebrew
 email:
 description: ""
-baseurl: "/JekyllPage"
-url: "https://mmoon-project.github.io"
+baseurl: "/oh"
+url: "https://mmoon.org"
 pingback_to: "https://pingback.feedback.aksw.org/"
 pingback_service: "https://pingback.feedback.aksw.org/"
 resourcehostingservice: "https://resource.feedback.aksw.org/"
