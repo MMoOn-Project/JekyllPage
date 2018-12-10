@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִתְחַם> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "נִתְחַם"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִתְחַם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נתחם> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20demarcated> ;

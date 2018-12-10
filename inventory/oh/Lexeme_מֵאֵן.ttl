@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֵאֵן> a ns3:Lexeme ;
     rdfs:label "מֵאֵן"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מאן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֵאֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיאן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_refuse> ;

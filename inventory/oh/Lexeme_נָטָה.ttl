@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָטָה> a ns2:Lexeme ;
     rdfs:label "נָטָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נטי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָטָה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20predisposed%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lean%20toward%3B%20pitch%20a%20tent%3B%20conjugate%3B%3B%3B%20tilt%3B%20tend%20to>,

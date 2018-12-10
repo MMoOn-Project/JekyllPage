@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִלֵּל> a ns3:Lexeme ;
     rdfs:label "יִלֵּל"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ילל> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִלֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יילל> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_meow>,

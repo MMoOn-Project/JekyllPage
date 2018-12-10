@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יֹהַד> a ns2:Lexeme ;
     rdfs:label "יֹהַד"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יהד> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יֹהַד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יוהד> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20converted%20to%20Judaism>,

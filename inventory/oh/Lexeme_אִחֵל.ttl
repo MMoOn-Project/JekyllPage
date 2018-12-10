@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִחֵל> a ns2:Lexeme ;
     rdfs:label "אִחֵל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אחל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִחֵל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איחל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20congratulate%D7%AA%20to%20wish%20%28someone%20luck%29>,

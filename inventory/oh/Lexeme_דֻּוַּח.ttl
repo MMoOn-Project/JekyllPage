@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דֻּוַּח> a ns2:Lexeme ;
     rdfs:label "דֻּוַּח"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דוח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דֻּוַּח>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דווח> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20reported>,

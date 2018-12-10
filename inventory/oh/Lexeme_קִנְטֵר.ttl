@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִנְטֵר> a ns2:Lexeme ;
     rdfs:label "קִנְטֵר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קנטר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִנְטֵר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קנטר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tease> ;

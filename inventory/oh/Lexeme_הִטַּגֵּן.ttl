@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִטַּגֵּן> a ns2:Lexeme ;
     rdfs:label "הִטַּגֵּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עגן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִטַּגֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_היטגן> ;
     ns1:hasWordclassAffiliation ns2:Verb .

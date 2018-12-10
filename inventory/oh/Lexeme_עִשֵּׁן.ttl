@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִשֵּׁן> a ns3:Lexeme ;
     rdfs:label "עִשֵּׁן"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עשן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִשֵּׁן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עישן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_rauchen>,

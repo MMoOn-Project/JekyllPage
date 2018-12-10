@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָע> a ns2:Lexeme ;
     rdfs:label "זָע"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זוע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_budge%3B%20flinch%3B%20tremble>,

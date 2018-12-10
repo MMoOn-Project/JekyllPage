@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רִטֵּשׁ> a ns2:Lexeme ;
     rdfs:label "רִטֵּשׁ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רטשׁ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רִטֵּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ריטש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tear%20to%20pieces>,

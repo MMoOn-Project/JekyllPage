@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִתֵּן> a ns2:Lexeme ;
     rdfs:label "חִתֵּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חתן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִתֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיתן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20marry%20%28refers%20to%20the%20celebrant%29%20%3B%20to%20matchmake%3B%3B%3B%20to%20marry%20off>,

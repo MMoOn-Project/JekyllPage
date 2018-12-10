@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָטַף> a ns2:Lexeme ;
     rdfs:label "עָטַף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עטף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָטַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עטף> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cover>,

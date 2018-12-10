@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִכֵּךְ> a ns2:Lexeme ;
     rdfs:label "סִכֵּךְ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סכך> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִכֵּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיכך>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סכך> ;

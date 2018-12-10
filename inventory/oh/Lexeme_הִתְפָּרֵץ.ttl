@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְפָּרֵץ> a ns2:Lexeme ;
     rdfs:label "הִתְפָּרֵץ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרץ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְפָּרֵץ> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_break%20%28into>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_burst%20%28into%29>,

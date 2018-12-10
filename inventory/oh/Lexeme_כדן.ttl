@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כדן> a ns1:Lexeme ;
     rdfs:label "כדן"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כדן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כדן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כידן> ;
     ns2:hasWordclassAffiliation ns1:Verb .

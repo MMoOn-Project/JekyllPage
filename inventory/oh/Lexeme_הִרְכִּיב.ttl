@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִרְכִּיב> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִרְכִּיב> a ns3:Lexeme ;
     rdfs:label "הִרְכִּיב"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רכב> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִרְכִּיב>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רכב> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִרְכִּיב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הרכיב> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20assemble>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20assemble>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20carry>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20put%20together%3B%3Cbr%20/%3Eto%20install> ;
-    ns3:hasWordclassAffiliation ns1:Verb ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A8%D6%B0%D7%9B%D6%BC%D6%B4%D7%99%D7%91_HE/s00082845v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A8%D6%B0%D7%9B%D6%BC%D6%B4%D7%99%D7%91_HE/s00085487v>,
         <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A8%D6%B0%D7%9B%D6%BC%D6%B4%D7%99%D7%91_HE/s00087635v>,

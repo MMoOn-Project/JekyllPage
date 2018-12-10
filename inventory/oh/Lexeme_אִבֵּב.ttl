@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִבֵּב> a ns2:Lexeme ;
     rdfs:label "אִבֵּב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אבב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִבֵּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איבב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_8> ;

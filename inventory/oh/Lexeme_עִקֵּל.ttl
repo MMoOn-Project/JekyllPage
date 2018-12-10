@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִקֵּל> a ns1:Lexeme ;
     rdfs:label "עִקֵּל"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עקל> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִקֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עיקל> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_seize> ;

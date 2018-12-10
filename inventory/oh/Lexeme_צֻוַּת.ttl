@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צֻוַּת> a ns2:Lexeme ;
     rdfs:label "צֻוַּת"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צות> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צֻוַּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צוות> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28military%29%20to%20be%20assigned%20to%20a%20team> ;

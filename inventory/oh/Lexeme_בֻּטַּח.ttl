@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֻּטַּח> a ns1:Lexeme ;
     rdfs:label "בֻּטַּח"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בטח> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֻּטַּח>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בוטח> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_insured>,

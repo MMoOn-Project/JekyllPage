@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְכִּים> a ns2:Lexeme ;
     rdfs:label "הֶחְכִּים"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חכם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְכִּים>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_החכים> ;
     ns1:hasWordclassAffiliation ns2:Verb .

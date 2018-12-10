@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִכְזֵב> a ns3:Lexeme ;
     rdfs:label "אִכְזֵב"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אכזב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִכְזֵב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אכזב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20disillusion>,

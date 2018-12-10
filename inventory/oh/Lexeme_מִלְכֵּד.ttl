@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִלְכֵּד> a ns1:Lexeme ;
     rdfs:label "מִלְכֵּד"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מלכד> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִלְכֵּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מלכד> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trap%20%28booby%20trap%29> ;

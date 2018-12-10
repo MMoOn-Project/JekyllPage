@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אוֹגֵד> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אוֹגֵד> a ns1:Lexeme ;
     rdfs:label "אוֹגֵד"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אגד> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אוֹגֵד>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אגד> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אוֹגֵד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אוגד> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_verbindend> ;
-    ns1:hasWordclassAffiliation ns3:Adjective,
-        ns3:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%92%D6%B5%D7%93_HE/s00022523n> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_verbindend> ;
+    ns2:hasWordclassAffiliation ns1:Adjective,
+        ns1:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%92%D6%B5%D7%93_HE/s00022523n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D7%95%D6%B9%D7%92%D6%B5%D7%93_n_HE> .
 

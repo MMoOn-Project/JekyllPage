@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִתְיַתֵּם> a ns1:Lexeme ;
     rdfs:label "נִתְיַתֵּם"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יתם> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִתְיַתֵּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נתייתם> ;
     ns2:hasWordclassAffiliation ns1:Verb .

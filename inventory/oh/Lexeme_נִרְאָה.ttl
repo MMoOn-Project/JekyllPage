@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִרְאָה> a ns2:Lexeme ;
     rdfs:label "נִרְאָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ראי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִרְאָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נראה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20be%20seen>,

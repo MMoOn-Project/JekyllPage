@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻנְחָה> a ns2:Lexeme ;
     rdfs:label "הֻנְחָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נחי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻנְחָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הונחה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20be%20guided%3B%20to%20be%20instructed%3B%3B%3B%20guided>,

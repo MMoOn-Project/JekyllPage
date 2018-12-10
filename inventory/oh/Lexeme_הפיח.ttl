@@ -9,7 +9,7 @@
     rdfs:label "הפיח"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נפח>,
         <http://mmoon.org/lang/heb/inventory/oh/Root_פוח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הפיח> ;
     ns1:hasWordclassAffiliation ns2:Verb .
 

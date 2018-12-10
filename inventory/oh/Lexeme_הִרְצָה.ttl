@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִרְצָה> a ns2:Lexeme ;
     rdfs:label "הִרְצָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רצי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִרְצָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הרצה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20give%20a%20lecture>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נֶעֱלַב> a ns2:Lexeme ;
     rdfs:label "נֶעֱלַב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עלב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נֶעֱלַב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נעלב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Ehuffy>,

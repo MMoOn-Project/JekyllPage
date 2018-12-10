@@ -9,7 +9,7 @@
     rdfs:label "רוֹצֵץ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רצץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Root_רצצ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el>,
         ns2:polel ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רוֹצֵץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רוצץ> ;

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_זֻקַּק> a ns2:Lexeme ;
     rdfs:label "זֻקַּק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זקק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זֻקַּק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זוקק> ;
     ns1:hasWordclassAffiliation ns2:Verb .

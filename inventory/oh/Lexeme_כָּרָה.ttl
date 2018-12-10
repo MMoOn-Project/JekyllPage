@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כָּרָה> a ns3:Lexeme ;
     rdfs:label "כָּרָה"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כרי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כָּרָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כרה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_a%20pit%20or%20a%20grave>,

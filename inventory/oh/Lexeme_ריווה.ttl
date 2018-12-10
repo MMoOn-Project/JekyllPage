@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_ריווה> a ns2:Lexeme ;
     rdfs:label "ריווה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רוי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_ריווה> ;
     ns1:hasWordclassAffiliation ns2:Verb ;
     ns3:sense <http://babelnet.org/rdf/%D7%A8%D7%99%D7%95%D7%95%D7%94_HE/s03488999n> ;

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יָהַב> a ns2:Lexeme ;
     rdfs:label "יָהַב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יהב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יָהַב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יהב> ;
     ns1:hasWordclassAffiliation ns2:Verb .

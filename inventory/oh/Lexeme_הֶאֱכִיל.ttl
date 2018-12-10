@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶאֱכִיל> a ns2:Lexeme ;
     rdfs:label "הֶאֱכִיל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אכל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶאֱכִיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_האכיל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cause%20to%20eat>,

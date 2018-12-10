@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_פלג> a ns3:Lexeme ;
     rdfs:label "פלג"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פלג> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פולג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פלג> ;
     ns1:hasWordclassAffiliation ns3:Verb ;

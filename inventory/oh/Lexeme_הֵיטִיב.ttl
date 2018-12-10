@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵיטִיב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הֵיטִיב"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵיטִיב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_היטיב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20nice%20to%20someone>,

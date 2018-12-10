@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִהֵר> a ns2:Lexeme ;
     rdfs:label "מִהֵר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מהר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִהֵר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיהר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-in-Eile-sein>,

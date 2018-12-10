@@ -1,6 +1,6 @@
 
 {
-  "http://mmoon.org/lang/heb/schema/oh/pu%27lel" : {
+  "http://mmoon.org/lang/heb/schema/oh/pu'lel" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://mmoon.org/lang/heb/schema/oh/Binyan",
         "type" : "uri"

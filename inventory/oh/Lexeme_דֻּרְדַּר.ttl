@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דֻּרְדַּר> a ns2:Lexeme ;
     rdfs:label "דֻּרְדַּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דרדר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דֻּרְדַּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דורדר> ;
     ns1:hasWordclassAffiliation ns2:Verb .

@@ -8,7 +8,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
-        "value" : "http://mmoon.org/lang/heb/schema/oh/hitpa%27el",
+        "value" : "http://mmoon.org/lang/heb/schema/oh/hitpa'el",
         "type" : "uri"
         }
       
@@ -25,7 +25,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/hasSense" : [ {
-        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Hitpa%27el",
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Hitpa'el",
         "type" : "uri"
         }
       ,

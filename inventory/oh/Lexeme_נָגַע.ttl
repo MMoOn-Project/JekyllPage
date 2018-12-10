@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָגַע> a ns3:Lexeme ;
     rdfs:label "נָגַע"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נגע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָגַע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נגע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3E%28colloquial%29%20to%20taste%20%28food%29%3B%3Cbr%20/%3E%28colloquial%29%20to%20hurt>,

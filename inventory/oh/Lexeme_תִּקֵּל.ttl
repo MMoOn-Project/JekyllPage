@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תִּקֵּל> a ns2:Lexeme ;
     rdfs:label "תִּקֵּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תִּקֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תיקל> ;
     ns1:hasWordclassAffiliation ns2:Verb .

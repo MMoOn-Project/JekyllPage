@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁבַר> a ns2:Lexeme ;
     rdfs:label "שָׁבַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_quench>,

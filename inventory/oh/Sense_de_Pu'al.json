@@ -1,8 +1,8 @@
 
 {
-  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pa%27al" : {
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pu'al" : {
     "http://mmoon.org/mmoon/core/senseDefinition" : [ {
-        "value" : "Pa'al",
+        "value" : "Pu'al",
         "lang" : "de",
         "type" : "literal"
         }

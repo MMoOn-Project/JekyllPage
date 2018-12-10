@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָתַר> a ns3:Lexeme ;
     rdfs:label "חָתַר"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חתר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָתַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חתר> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_paddle%3B%20strive>,

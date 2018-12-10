@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְבָּרֵג> a ns2:Lexeme ;
     rdfs:label "הִתְבָּרֵג"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ברג> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְבָּרֵג> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20screwed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20unscrewed%20%28a%20screw%29%3B%20%28colloquial%29%20to%20find%20a%20way%20into>,

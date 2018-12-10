@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִכְפִּיף> a ns1:Lexeme ;
     rdfs:label "הִכְפִּיף"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כפף> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִכְפִּיף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הכפיף> ;
     ns2:hasWordclassAffiliation ns1:Verb .

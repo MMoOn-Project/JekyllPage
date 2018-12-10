@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חֻיַּב> a ns2:Lexeme ;
     rdfs:label "חֻיַּב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֻיַּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חויב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20coerced%3B%20to%20be%20required%3B%20%28accounting%29%20to%20be%20debited%3B%3B%3B%20made/forced%20%28to%29%3B%20debited>,

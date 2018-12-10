@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִתְקַע> a ns2:Lexeme ;
     rdfs:label "נִתְקַע"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִתְקַע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נתקע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20stuck%20%28with%20a%20sharp%20object%29> ;

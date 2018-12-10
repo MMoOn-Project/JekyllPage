@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כִּחְכֵּחַ> a ns2:Lexeme ;
     rdfs:label "כִּחְכֵּחַ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כחכח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כִּחְכֵּחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כחכח> ;
     ns1:hasWordclassAffiliation ns2:Verb .

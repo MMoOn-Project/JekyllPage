@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִפְעַל> a ns2:Lexeme ;
     rdfs:label "נִפְעַל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פעל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִפְעַל> ;
     ns1:hasWordclassAffiliation ns2:Verb .
 

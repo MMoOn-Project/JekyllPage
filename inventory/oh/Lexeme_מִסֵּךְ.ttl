@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִסֵּךְ> a ns2:Lexeme ;
     rdfs:label "מִסֵּךְ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מסך> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִסֵּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיסך> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28military%29%20to%20screen>,

@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִקֵּד> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִקֵּד> a ns3:Lexeme ;
     rdfs:label "מִקֵּד"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מקד> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִקֵּד>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מקד> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִקֵּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מיקד> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_focus> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A7%D6%BC%D6%B5%D7%93_HE/s00084726v> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_focus> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A7%D6%BC%D6%B5%D7%93_HE/s00084726v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B4%D7%A7%D6%BC%D6%B5%D7%93_v_HE> .
 

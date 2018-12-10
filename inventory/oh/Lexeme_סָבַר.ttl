@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָבַר> a ns2:Lexeme ;
     rdfs:label "סָבַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erkl%C3%A4ren>,

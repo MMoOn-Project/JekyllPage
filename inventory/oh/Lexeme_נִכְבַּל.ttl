@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִכְבַּל> a ns1:Lexeme ;
     rdfs:label "נִכְבַּל"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כבל> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִכְבַּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נכבל> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20tied/chained> ;

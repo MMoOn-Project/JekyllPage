@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָעַק> a ns2:Lexeme ;
     rdfs:label "זָעַק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זעק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָעַק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זעק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cry%20out> ;

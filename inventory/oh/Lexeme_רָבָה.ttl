@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רָבָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "רָבָה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רָבָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רבה> ;
     ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .

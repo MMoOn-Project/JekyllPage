@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִמֵּץ> a ns2:Lexeme ;
     rdfs:label "קִמֵּץ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קמץ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִמֵּץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קימץ> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_doesn%27t%20want%20to%20spend/use>,

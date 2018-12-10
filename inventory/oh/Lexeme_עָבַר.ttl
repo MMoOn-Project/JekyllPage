@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָבַר> a ns2:Lexeme ;
     rdfs:label "עָבַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-%28Ort%29-wechseln>,

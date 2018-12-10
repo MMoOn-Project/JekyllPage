@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צֻנְזַר> a ns2:Lexeme ;
     rdfs:label "צֻנְזַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צנזר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צֻנְזַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צונזר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_censored>,

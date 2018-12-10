@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִסְקַר> a ns2:Lexeme ;
     rdfs:label "נִסְקַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סקר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִסְקַר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20described%3B%3Cbr%3Eto%20be%20investigated>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20examined%3B%3Cbr%3Eto%20be%20studied>,

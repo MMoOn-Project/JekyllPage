@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רֻסַּן> a ns2:Lexeme ;
     rdfs:label "רֻסַּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רסן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רֻסַּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רוסן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_restrained>,

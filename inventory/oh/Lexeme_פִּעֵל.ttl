@@ -10,6 +10,6 @@
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פעל> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פִּעֵל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פיעל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pi%27el> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pi'el> ;
     ns1:hasWordclassAffiliation ns2:CommonNoun .
 

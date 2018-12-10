@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִשְׁבֵּן> a ns1:Lexeme ;
     rdfs:label "חִשְׁבֵּן"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חשׁבן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִשְׁבֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חשבן> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_add%20up>,

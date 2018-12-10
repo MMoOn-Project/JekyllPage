@@ -1,8 +1,8 @@
 
 {
-  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Hitpa%27el" : {
+  "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pa'al" : {
     "http://mmoon.org/mmoon/core/senseDefinition" : [ {
-        "value" : "Hitpa'el",
+        "value" : "Pa'al",
         "lang" : "de",
         "type" : "literal"
         }

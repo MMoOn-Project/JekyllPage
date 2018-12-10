@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִטְרִיחַ> a ns2:Lexeme ;
     rdfs:label "הִטְרִיחַ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טרח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִטְרִיחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הטריח> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trouble> ;

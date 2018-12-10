@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשֵּׁק> a ns2:Lexeme ;
     rdfs:label "נִשֵּׁק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נשק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשֵּׁק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נישק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kiss> ;

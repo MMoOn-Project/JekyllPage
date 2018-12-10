@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20known%3B%3Cbr%3Eto%20be%20accepted%3B%20to%20be%20realized%3Cbr%20/%3E%20%20%20%20%20%20%20%20%3Cbr%20/%3E%3B%3B%3B%20recognized%3B%20is%20approved> a ns1:Sense ;
-    ns1:senseDefinition "to be known;<br>to be accepted; to be realized<br />        <br />;;; recognized; is approved"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20known%3B%3Cbr%3Eto%20be%20accepted%3B%20to%20be%20realized%3Cbr%20/%3E%20%20%20%20%20%20%20%20%3Cbr%20/%3E%3B%3B%3B%20recognized%3B%20is%20approved> a ns2:Sense ;
+    ns2:senseDefinition "to be known;<br>to be accepted; to be realized<br />        <br />;;; recognized; is approved"@en ;
+    ns1:language "en" .
 

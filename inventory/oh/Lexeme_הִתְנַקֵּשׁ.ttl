@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְנַקֵּשׁ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הִתְנַקֵּשׁ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְנַקֵּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התנקש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_assassinate> ;

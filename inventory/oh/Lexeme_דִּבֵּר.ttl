@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דִּבֵּר> a ns2:Lexeme ;
     rdfs:label "דִּבֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דִּבֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דיבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_sprechen>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִקֵּר> a ns2:Lexeme ;
     rdfs:label "יִקֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יקר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִקֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ייקר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_raise%20price>,

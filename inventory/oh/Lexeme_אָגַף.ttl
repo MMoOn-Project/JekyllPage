@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָגַף> a ns2:Lexeme ;
     rdfs:label "אָגַף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אגף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָגַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אגף> ;
     ns1:hasWordclassAffiliation ns2:Verb .

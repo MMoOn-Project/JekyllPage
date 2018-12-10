@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִכֵּן> a ns2:Lexeme ;
     rdfs:label "אִכֵּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אכן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִכֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איכן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_identify>,

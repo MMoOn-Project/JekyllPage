@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹצִיא> a ns1:Lexeme ;
     rdfs:label "הוֹצִיא"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יצא> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹצִיא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוציא> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_remove%3B%20spend>,

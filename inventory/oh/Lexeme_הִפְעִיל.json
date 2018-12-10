@@ -8,7 +8,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
-        "value" : "http://mmoon.org/lang/heb/schema/oh/hif%27il",
+        "value" : "http://mmoon.org/lang/heb/schema/oh/hif'il",
         "type" : "uri"
         }
       
@@ -25,7 +25,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/hasSense" : [ {
-        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Hif%27il",
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Hif'il",
         "type" : "uri"
         }
       ,

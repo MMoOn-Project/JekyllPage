@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻחְלַשׁ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הֻחְלַשׁ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻחְלַשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוחלש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20be%20feeble%3B%20to%20be%20enfeebled%3B%3B%3B%3B%20weakened>,

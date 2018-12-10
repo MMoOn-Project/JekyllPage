@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹלִיךְ> a ns2:Lexeme ;
     rdfs:label "הוֹלִיךְ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_הלך> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹלִיךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוליך> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lead%20to%20%28road%29>,

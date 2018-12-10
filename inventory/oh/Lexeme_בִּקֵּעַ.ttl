@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּקֵּעַ> a ns2:Lexeme ;
     rdfs:label "בִּקֵּעַ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בקע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּקֵּעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ביקע> ;
     ns1:hasWordclassAffiliation ns2:Verb .

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִמֵּד> a ns2:Lexeme ;
     rdfs:label "עִמֵּד"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עמד> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִמֵּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עימד> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28publishing%29%20to%20lay%20out>,

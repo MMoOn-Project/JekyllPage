@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְרַגֵּז> a ns2:Lexeme ;
     rdfs:label "הִתְרַגֵּז"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רגז> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְרַגֵּז> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_become%20angry>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indignant>,

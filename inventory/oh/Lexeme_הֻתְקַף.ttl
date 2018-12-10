@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻתְקַף> a ns1:Lexeme ;
     rdfs:label "הֻתְקַף"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תקף> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻתְקַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הותקף> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20attacked>,

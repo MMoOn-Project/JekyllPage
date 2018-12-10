@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רִצָּה> a ns2:Lexeme ;
     rdfs:label "רִצָּה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רצי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רִצָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ריצה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_appease>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּסַע> a ns2:Lexeme ;
     rdfs:label "פָּסַע"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פסע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּסַע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פסע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_step>,

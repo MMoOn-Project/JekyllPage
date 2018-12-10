@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְקַפֵּל> a ns2:Lexeme ;
     rdfs:label "הִתְקַפֵּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קפל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְקַפֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התקפל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_give%20up>,

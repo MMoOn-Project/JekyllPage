@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִמֵּץ> a ns2:Lexeme ;
     rdfs:label "אִמֵּץ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אמץ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִמֵּץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אימץ> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20adopt%20%28a%20child%29%3B%3Cbr%20/%3Eto%20take%20responsibility%20for>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֻבָּה> a ns2:Lexeme ;
     rdfs:label "עֻבָּה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עבי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֻבָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עובה> ;
     ns1:hasWordclassAffiliation ns2:Verb .

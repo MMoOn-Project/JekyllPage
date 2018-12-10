@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שִׁדֵּד> a ns2:Lexeme ;
     rdfs:label "שִׁדֵּד"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁדד> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁדֵּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שידד> ;
     ns1:hasWordclassAffiliation ns2:Verb .

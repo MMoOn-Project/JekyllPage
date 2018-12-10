@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָזַר> a ns1:Lexeme ;
     rdfs:label "חָזַר"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָזַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חזר> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zur%C3%BCckkehren>,

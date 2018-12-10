@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּדֵּל> a ns2:Lexeme ;
     rdfs:label "גִּדֵּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּדֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גידל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20bring%20up%20%28children%29%3B%3Cbr%3Eto%20rear%20%28animals%29%3B%3Cbr%3Eto%20grow%20%28plants%29%3B%3Cbr%20/%3E%28biblical%29%20to%20promote>,

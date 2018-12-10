@@ -3,9 +3,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/schema/oh/pu%27al> a <http://mmoon.org/lang/heb/schema/oh/Binyan>,
+<http://mmoon.org/lang/heb/schema/oh/hif'il> a <http://mmoon.org/lang/heb/schema/oh/Binyan>,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    rdfs:label "Pu'al"@en,
-        "פֻּעַל"@he,
-        "פועל"@he .
+    rdfs:label "Hif'il"@en,
+        "הִפְעִיל"@he,
+        "הפעיל"@he .
 

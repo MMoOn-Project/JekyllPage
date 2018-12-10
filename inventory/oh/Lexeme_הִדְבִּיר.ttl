@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִדְבִּיר> a ns2:Lexeme ;
     rdfs:label "הִדְבִּיר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִדְבִּיר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הדביר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_disinfest%3B%20subdue>,

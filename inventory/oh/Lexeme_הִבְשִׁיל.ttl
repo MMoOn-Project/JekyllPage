@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִבְשִׁיל> a ns2:Lexeme ;
     rdfs:label "הִבְשִׁיל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׁל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִבְשִׁיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הבשיל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mature%3Cbr%3E%28see%20%D7%9C%D7%91%D7%A9%D7%9C%29>,

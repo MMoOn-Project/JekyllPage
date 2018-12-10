@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Elevel-headed%3B%20weighed%3B%3Cbr%3Ecomparable%3B%20%3Cbr%20/%3E%28poetry%29%20metered> a ns2:Sense ;
-    ns2:senseDefinition "<br>level-headed; weighed;<br>comparable; <br />(poetry) metered"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Elevel-headed%3B%20weighed%3B%3Cbr%3Ecomparable%3B%20%3Cbr%20/%3E%28poetry%29%20metered> a ns1:Sense ;
+    ns1:senseDefinition "<br>level-headed; weighed;<br>comparable; <br />(poetry) metered"@en ;
+    ns2:language "en" .
 

@@ -8,7 +8,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
-        "value" : "http://mmoon.org/lang/heb/schema/oh/pa%27al",
+        "value" : "http://mmoon.org/lang/heb/schema/oh/pa'al",
         "type" : "uri"
         }
       
@@ -25,7 +25,7 @@
       
       ],
     "http://mmoon.org/mmoon/core/hasSense" : [ {
-        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pa%27al",
+        "value" : "http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pa'al",
         "type" : "uri"
         }
       ,

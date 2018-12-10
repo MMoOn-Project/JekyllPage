@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_לָאָה> a ns2:Lexeme ;
     rdfs:label "לָאָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לאי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לָאָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_לאה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28flowery%29%20to%20tire> ;

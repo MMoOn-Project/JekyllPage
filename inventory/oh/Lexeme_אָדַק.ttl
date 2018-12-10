@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָדַק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אָדַק"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָדַק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אדק> ;
     ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .

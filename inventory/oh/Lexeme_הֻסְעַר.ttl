@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻסְעַר> a ns2:Lexeme ;
     rdfs:label "הֻסְעַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סער> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻסְעַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוסער> ;
     ns1:hasWordclassAffiliation ns2:Verb .

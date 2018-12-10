@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִעֵל> a ns2:Lexeme ;
     rdfs:label "יִעֵל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יעל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִעֵל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ייעל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B0%D1%82%D1%8C%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%3B%20%D0%B2%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%20%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%B8>,

@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עָץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "עָץ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עָץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עץ> ;
     ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .

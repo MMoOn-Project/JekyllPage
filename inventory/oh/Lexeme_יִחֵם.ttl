@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִחֵם> a ns2:Lexeme ;
     rdfs:label "יִחֵם"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יחם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִחֵם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ייחם> ;
     ns1:hasWordclassAffiliation ns2:Verb .

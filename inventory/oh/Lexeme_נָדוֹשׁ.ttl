@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָדוֹשׁ> a ns2:Lexeme ;
     rdfs:label "נָדוֹשׁ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דושׁ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָדוֹשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נדוש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_banal>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻכְסַן> a ns2:Lexeme ;
     rdfs:label "אֻכְסַן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אכסן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֻכְסַן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אוכסן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D1%91%D0%BD>,

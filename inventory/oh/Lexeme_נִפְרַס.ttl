@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִפְרַס> a ns1:Lexeme ;
     rdfs:label "נִפְרַס"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פרס> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִפְרַס>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נפרס> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20cut%3B%20to%20deploy%3B%3Cbr%3Eto%20be%20spread%20out%3B%20to%20cover%20%28an%20area%29%3B%20to%20be%20extended%20%28an%20arm>,

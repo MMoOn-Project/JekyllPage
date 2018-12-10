@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּג> a ns2:Lexeme ;
     rdfs:label "דָּג"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דוג> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דג> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Fisch>,

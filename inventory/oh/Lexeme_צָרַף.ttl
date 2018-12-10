@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צָרַף> a ns2:Lexeme ;
     rdfs:label "צָרַף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צָרַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צרף> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28biblical%29%20to%20refine>,

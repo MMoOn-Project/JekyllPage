@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּשׁ> a ns2:Lexeme ;
     rdfs:label "דָּשׁ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דושׁ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דש> ;
     ns1:hasWordclassAffiliation ns2:Verb .

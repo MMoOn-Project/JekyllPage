@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוּמַר> a ns2:Lexeme ;
     rdfs:label "הוּמַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מור> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוּמַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הומר> ;
     ns1:hasWordclassAffiliation ns2:Verb .

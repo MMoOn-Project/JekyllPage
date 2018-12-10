@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִסְעַר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "נִסְעַר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִסְעַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נסער> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20enraged/agitated> ;

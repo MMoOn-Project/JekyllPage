@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הודְבַּר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הודְבַּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הודְבַּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הודבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20have%20been%20eliminated%20%28pests%29%20to%20have%20overcome%20noxious%20or%20harmful%20entities>,

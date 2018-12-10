@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְעוֹרֵר> a ns2:Lexeme ;
     rdfs:label "הִתְעוֹרֵר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עור> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְעוֹרֵר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_get%20up%3B%20rise>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_occur>,

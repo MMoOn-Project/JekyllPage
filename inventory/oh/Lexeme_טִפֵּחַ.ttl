@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_טִפֵּחַ> a ns2:Lexeme ;
     rdfs:label "טִפֵּחַ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טפח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טִפֵּחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טיפח> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_cultivate>,

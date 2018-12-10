@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תֻּכַּן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "תֻּכַּן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תֻּכַּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תוכן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20designed> ;

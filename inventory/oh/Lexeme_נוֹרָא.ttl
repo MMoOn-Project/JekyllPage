@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,14 +9,14 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נוֹרָא> a ns3:Lexeme ;
     rdfs:label "נוֹרָא"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ירא> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נוֹרָא>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נוֹרָא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נורא> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_entsetzlich>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_entsetzlich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_furchtbar>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_schrecklich>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_very%20/%20terrible> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A0%D7%95%D6%B9%D7%A8%D6%B8%D7%90_HE/s00096165a>,
+    ns2:hasWordclassAffiliation ns3:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A0%D7%95%D6%B9%D7%A8%D6%B8%D7%90_HE/s00096165a>,
         <http://babelnet.org/rdf/%D7%A0%D7%95%D6%B9%D7%A8%D6%B8%D7%90_HE/s00097890a>,
         <http://babelnet.org/rdf/%D7%A0%D7%95%D6%B9%D7%A8%D6%B8%D7%90_HE/s00116789r> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D7%95%D6%B9%D7%A8%D6%B8%D7%90_a_HE>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִלֵּק> a ns2:Lexeme ;
     rdfs:label "סִלֵּק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סלק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִלֵּק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סילק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_remove>,

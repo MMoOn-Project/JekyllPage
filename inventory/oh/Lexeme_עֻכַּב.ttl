@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֻכַּב> a ns2:Lexeme ;
     rdfs:label "עֻכַּב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עכב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֻכַּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עוכב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_delayed>,

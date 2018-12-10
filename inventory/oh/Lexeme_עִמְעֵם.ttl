@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עִמְעֵם> a ns3:Lexeme ;
     rdfs:label "עִמְעֵם"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_עמעם> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עִמְעֵם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עמעם> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dim>,

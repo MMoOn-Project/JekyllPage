@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִשְׁתַּתֵּק> a ns2:Lexeme ;
     rdfs:label "הִשְׁתַּתֵּק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁתק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִשְׁתַּתֵּק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_השתתק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fall%20silent%3Cbr%3Eto%20stop%20speaking%3B%3Cbr%3Eto%20calm%20down>,

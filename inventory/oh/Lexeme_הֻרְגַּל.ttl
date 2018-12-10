@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻרְגַּל> a ns2:Lexeme ;
     rdfs:label "הֻרְגַּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רגל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻרְגַּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הורגל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_accustomed%20%28to%29> ;

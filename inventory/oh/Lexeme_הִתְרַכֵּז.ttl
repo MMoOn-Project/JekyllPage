@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְרַכֵּז> a ns2:Lexeme ;
     rdfs:label "הִתְרַכֵּז"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רכז> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְרַכֵּז>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התרכז> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_concentrate>,

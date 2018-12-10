@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִבֵּב> a ns3:Lexeme ;
     rdfs:label "יִבֵּב"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יבב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִבֵּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ייבב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wail>,

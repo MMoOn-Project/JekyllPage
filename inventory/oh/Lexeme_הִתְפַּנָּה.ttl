@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְפַּנָּה> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְפַּנָּה> a ns1:Lexeme ;
     rdfs:label "הִתְפַּנָּה"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְפַּנָּה>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פני> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְפַּנָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התפנה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20evacuate%20%28one%27s%20bladder>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20evacuate%20%28one%27s%20bladder>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bowels%29%3B%3B%3B%20take%20the%20time%3B%20vacate%3B%20evacuate%20%28bowels%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20free>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20have%20free%20time%3B%3Cbr%3Eto%20be%20available%3B%20to%20be%20removed%3B%3Cbr%3Eto%20be%20vacated%3B%20to%20vacate%3B%20to%20be%20open> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

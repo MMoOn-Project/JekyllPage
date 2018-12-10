@@ -8,5 +8,5 @@
     rdfs:label "בֶּשְׁ״ט"@he ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֶּשְׁ״ט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בש״ט> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Ba%27al%20Schem%20Tov> .
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_Ba'al%20Schem%20Tov> .
 

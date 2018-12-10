@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּחַם> a ns2:Lexeme ;
     rdfs:label "תָּחַם"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תחם> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּחַם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תחם> ;
     ns1:hasWordclassAffiliation ns2:Verb .

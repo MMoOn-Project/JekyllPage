@@ -2,7 +2,7 @@
 {
   "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D4\u05B5\u05E7\u05B4\u05D9\u05DD" : {
     "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
-        "value" : "http://mmoon.org/lang/heb/schema/oh/hif%27il",
+        "value" : "http://mmoon.org/lang/heb/schema/oh/hif'il",
         "type" : "uri"
         }
       

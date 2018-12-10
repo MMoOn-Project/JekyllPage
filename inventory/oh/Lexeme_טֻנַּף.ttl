@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_טֻנַּף> a ns2:Lexeme ;
     rdfs:label "טֻנַּף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טנף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טֻנַּף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טונף> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_made%20filthy> ;

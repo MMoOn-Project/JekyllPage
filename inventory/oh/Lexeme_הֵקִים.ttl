@@ -7,7 +7,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵקִים> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הֵקִים"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵקִים>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הקים> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20awake%3B%3Cbr%3Eto%20cause>,

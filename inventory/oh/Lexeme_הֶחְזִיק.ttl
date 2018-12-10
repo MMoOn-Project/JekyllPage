@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְזִיק> a ns2:Lexeme ;
     rdfs:label "הֶחְזִיק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְזִיק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_החזיק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20think%20highly%20of%20someone%3B%3Cbr%20/%3E%28talmudic%29%20to%20contain%20%28capacity%29>,

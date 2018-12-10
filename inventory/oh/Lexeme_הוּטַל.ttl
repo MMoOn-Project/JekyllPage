@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוּטַל> a ns2:Lexeme ;
     rdfs:label "הוּטַל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טול> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוּטַל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוטל> ;
     ns1:hasWordclassAffiliation ns2:Verb .

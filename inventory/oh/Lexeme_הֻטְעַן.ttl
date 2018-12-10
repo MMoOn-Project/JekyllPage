@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻטְעַן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הֻטְעַן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻטְעַן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוטען> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20loaded>,

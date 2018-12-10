@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִמְרִיץ> a ns2:Lexeme ;
     rdfs:label "הִמְרִיץ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מרץ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִמְרִיץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_המריץ> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_urge> ;

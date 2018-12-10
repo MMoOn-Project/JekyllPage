@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צֻנַּן> a ns2:Lexeme ;
     rdfs:label "צֻנַּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צנן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צֻנַּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צונן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BE%D1%81%D1%82%D1%83%D0%B6%D0%B5%D0%BD>,

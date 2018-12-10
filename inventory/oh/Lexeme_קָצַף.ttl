@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קָצַף> a ns2:Lexeme ;
     rdfs:label "קָצַף"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קצף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קָצַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קצף> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20angry> ;

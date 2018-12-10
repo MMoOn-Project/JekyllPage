@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִגְמַר> a ns2:Lexeme ;
     rdfs:label "נִגְמַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גמר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִגְמַר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20concluded%3B%3Cbr%3E%28slang%29%20to%20die>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20extinguished%20%28life%29%3B%3Cbr%3E%28slang%29%20to%20be%20sick%20of>,

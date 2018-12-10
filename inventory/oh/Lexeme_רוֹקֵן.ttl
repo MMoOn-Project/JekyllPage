@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_רוֹקֵן> a ns2:Lexeme ;
     rdfs:label "רוֹקֵן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רקן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el>,
         ns2:polel ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רוֹקֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רוקן> ;

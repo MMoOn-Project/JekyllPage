@@ -1,6 +1,6 @@
 
 {
-  "http://mmoon.org/lang/heb/schema/oh/hitpa%27el" : {
+  "http://mmoon.org/lang/heb/schema/oh/pi'el" : {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
         "value" : "http://mmoon.org/lang/heb/schema/oh/Binyan",
         "type" : "uri"
@@ -13,19 +13,19 @@
       
       ],
     "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-        "value" : "Hitpa'el",
+        "value" : "Pi'el",
         "lang" : "en",
         "type" : "literal"
         }
       ,
       {
-        "value" : "\u05D4\u05B4\u05EA\u05B0\u05E4\u05B7\u05BC\u05E2\u05B5\u05DC",
+        "value" : "\u05E4\u05B4\u05BC\u05E2\u05B5\u05DC",
         "lang" : "he",
         "type" : "literal"
         }
       ,
       {
-        "value" : "\u05D4\u05EA\u05E4\u05E2\u05DC",
+        "value" : "\u05E4\u05D9\u05E2\u05DC",
         "lang" : "he",
         "type" : "literal"
         }

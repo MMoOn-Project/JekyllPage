@@ -3,9 +3,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/schema/oh/pi%27el> a <http://mmoon.org/lang/heb/schema/oh/Binyan>,
+<http://mmoon.org/lang/heb/schema/oh/nif'al> a <http://mmoon.org/lang/heb/schema/oh/Binyan>,
         <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-    rdfs:label "Pi'el"@en,
-        "פִּעֵל"@he,
-        "פיעל"@he .
+    rdfs:label "Nif'al"@en,
+        "נִפְעַל"@he,
+        "נפעל"@he .
 

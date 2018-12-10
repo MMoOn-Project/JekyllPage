@@ -2,7 +2,7 @@
 {
   "http://mmoon.org/lang/heb/inventory/oh/Lexeme_\u05D0\u05BB\u05E9\u05C1\u05B0\u05DB\u05BC\u05B8\u05E3" : {
     "http://mmoon.org/mmoon/core/consistsOfMorph" : [ {
-        "value" : "http://mmoon.org/lang/heb/schema/oh/pu%27al",
+        "value" : "http://mmoon.org/lang/heb/schema/oh/pu'al",
         "type" : "uri"
         }
       

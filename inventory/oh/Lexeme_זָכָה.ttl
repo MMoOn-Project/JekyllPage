@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_זָכָה> a ns2:Lexeme ;
     rdfs:label "זָכָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זכי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זָכָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זכה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20attain%3B%20%3Cbr%20/%3Eto%20be%20acquitted%3B%3Cbr%20/%3Eto%20be%20worthy%3B%3B%3B%20win%3B%20fulfill%3B%20is%20acquitted%3B%3B%3B%20win%3B%20fulfill%3B%20is%20acquitted>,

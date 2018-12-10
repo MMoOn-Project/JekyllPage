@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִיֵּב> a ns2:Lexeme ;
     rdfs:label "חִיֵּב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִיֵּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חייב> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28talmudic%29%20to%20find%20guilty>,

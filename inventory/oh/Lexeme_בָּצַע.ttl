@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּצַע> a ns2:Lexeme ;
     rdfs:label "בָּצַע"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בצע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּצַע>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בצע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20cut%3B%3Cbr%20/%3Eto%20break%3B%3Cbr%20/%3Eto%20reach%20a%20compromise>,

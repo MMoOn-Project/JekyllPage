@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תָּלַשׁ> a ns2:Lexeme ;
     rdfs:label "תָּלַשׁ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תלשׁ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תָּלַשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תלש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_pluck>,

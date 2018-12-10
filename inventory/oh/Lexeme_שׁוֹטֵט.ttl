@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שׁוֹטֵט> a ns2:Lexeme ;
     rdfs:label "שׁוֹטֵט"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁוט> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שׁוֹטֵט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שוטט> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_roam>,

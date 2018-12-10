@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֻׁוַּק> a ns2:Lexeme ;
     rdfs:label "שֻׁוַּק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שוק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֻׁוַּק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שווק> ;
     ns1:hasWordclassAffiliation ns2:Verb .

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בֻּיַּל> a ns2:Lexeme ;
     rdfs:label "בֻּיַּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ביל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בֻּיַּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בויל> ;
     ns1:hasWordclassAffiliation ns2:Verb .

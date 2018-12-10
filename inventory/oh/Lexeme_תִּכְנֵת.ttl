@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תִּכְנֵת> a ns3:Lexeme ;
     rdfs:label "תִּכְנֵת"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תכנת> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תִּכְנֵת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תכנת> ;
     ns1:hasWordclassAffiliation ns3:Verb ;

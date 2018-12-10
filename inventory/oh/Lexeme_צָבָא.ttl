@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צָבָא> a ns3:Lexeme ;
     rdfs:label "צָבָא"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צבא> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צָבָא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צבא> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-Milit%C3%A4r>,

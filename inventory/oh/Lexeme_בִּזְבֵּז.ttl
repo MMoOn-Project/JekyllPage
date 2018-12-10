@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּזְבֵּז> a ns2:Lexeme ;
     rdfs:label "בִּזְבֵּז"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בזבז> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּזְבֵּז>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בזבז> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_squander>,

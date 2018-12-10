@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִיֵּת> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִיֵּת> a ns1:Lexeme ;
     rdfs:label "אִיֵּת"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אית> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִיֵּת>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אית> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִיֵּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איית> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spell>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spell>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D1%8C%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%20%28%D1%87%D0%B0%D1%89%D0%B5%20%D0%B2%D1%81%D0%B5%D0%B3%D0%BE%20%D0%B8%D0%BC%D1%8F%29%20%D0%BF%D0%BE%D0%B1%D1%83%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

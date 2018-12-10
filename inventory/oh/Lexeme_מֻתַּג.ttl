@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻתַּג> a ns1:Lexeme ;
     rdfs:label "מֻתַּג"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מתג> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻתַּג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מותג> ;
     ns2:hasWordclassAffiliation ns1:Verb .

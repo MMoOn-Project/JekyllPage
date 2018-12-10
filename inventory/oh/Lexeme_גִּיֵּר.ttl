@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּיֵּר> a ns2:Lexeme ;
     rdfs:label "גִּיֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גיר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּיֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גייר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20convert%20to%20Judaism%3B%3B%3B%20to%20convert%20someone%20to%20Judaism>,

@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִבְזִיק> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִבְזִיק> a ns2:Lexeme ;
     rdfs:label "הִבְזִיק"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בזק> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִבְזִיק>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בזק> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִבְזִיק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הבזיק> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scatter>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scatter>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20appear%20briefly%3B%20sprinkle>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20flare%3B%20to%20flash%20by>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20flash>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D1%81%D0%BF%D1%8B%D1%85%D0%BD%D1%83%D1%82%D1%8C>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%81%D0%B2%D0%B5%D1%80%D0%BA%D0%BD%D1%83%D1%82%D1%8C> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

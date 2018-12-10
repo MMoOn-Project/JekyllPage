@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִצְדִּיק> a ns2:Lexeme ;
     rdfs:label "הִצְדִּיק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צדק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִצְדִּיק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הצדיק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_justify> ;

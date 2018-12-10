@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_קֵרָה> a ns2:Lexeme ;
     rdfs:label "קֵרָה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קרה> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קֵרָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קירה> ;
     ns1:hasWordclassAffiliation ns2:Verb .

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִתֵּת> a ns2:Lexeme ;
     rdfs:label "סִתֵּת"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סתת> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִתֵּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיתת> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_chisel> ;

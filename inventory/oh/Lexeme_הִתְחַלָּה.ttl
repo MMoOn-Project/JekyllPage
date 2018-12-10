@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַלָּה> a ns2:Lexeme ;
     rdfs:label "הִתְחַלָּה"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חלי> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַלָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התחלה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_feign%20sickness> ;

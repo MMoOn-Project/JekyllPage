@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִבֵּק> a ns2:Lexeme ;
     rdfs:label "אִבֵּק"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אבק> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִבֵּק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איבק> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_powder%3B%20raise%20dust%3B%20remove%20dust>,

@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁנָה> a ns1:Lexeme ;
     rdfs:label "שָׁנָה"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁני> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns2:hasInflectionalCategory ns1:Feminine ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁנָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שנה> ;

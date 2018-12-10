@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּרְבֵּר> a ns2:Lexeme ;
     rdfs:label "בִּרְבֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ברבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּרְבֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ברבר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_blabber%20%28talk%20a%20lot%20without%20saying%20much%29>,

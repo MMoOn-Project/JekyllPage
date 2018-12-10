@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_תִּמְרֵן> a ns1:Lexeme ;
     rdfs:label "תִּמְרֵן"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_תרמן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_תִּמְרֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_תמרן> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20maneuver>,

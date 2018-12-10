@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּבֵּךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִסְתַּבֵּךְ> a ns2:Lexeme ;
     rdfs:label "הִסְתַּבֵּךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סבך> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa%27el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּבֵּךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סבך> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִסְתַּבֵּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הסתבך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20embroiled%3B%20to%20be%20confused>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20embroiled%3B%20to%20be%20confused>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20emotionally%20involve%20%3B%20%28colloquial%29%20to%20become%20involved>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20entangled>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20intertwined%3B%20to%20encounter%20difficulties>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20get%20into%20an%20argument%20%28with%20someone%29%3B%3B%3B%20become%20entangled%3B%20get%20in%20trouble>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20lose%20one%27s%20way%3B%20to%20become%20more%20complicated%3B%20%28medicine%29%20to%20develop%20complications%20%3B%20%28colloquial%29%20to%20get%20into%20trouble%20%28with%20the%20Law%29%3B%20%28colloquial%29%20to%20fall%20in%20love> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

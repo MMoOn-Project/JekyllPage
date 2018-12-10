@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִנְחִית> a ns2:Lexeme ;
     rdfs:label "הִנְחִית"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נחת> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִנְחִית>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הנחית> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_responsibility%29%3B%3Cbr%20/%3Eto%20bring%20about>,

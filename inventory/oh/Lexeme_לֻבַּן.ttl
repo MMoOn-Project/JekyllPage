@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_לֻבַּן> a ns1:Lexeme ;
     rdfs:label "לֻבַּן"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לבן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_לֻבַּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_לובן> ;
     ns2:hasWordclassAffiliation ns1:Verb .

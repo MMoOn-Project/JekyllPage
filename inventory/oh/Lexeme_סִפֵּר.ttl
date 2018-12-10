@@ -1,15 +1,15 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִפֵּר> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִפֵּר> a ns2:Lexeme ;
     rdfs:label "סִפֵּר"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ספר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ספר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִפֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סיפר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_erz%C3%A4hlen>,
@@ -22,7 +22,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20talk%20about>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20tell>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trim%3B%3B%3B%20recount> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_HE/s00091011v> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_HE/s00091011v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A1%D6%B4%D7%A4%D6%BC%D6%B5%D7%A8_v_HE> .
 

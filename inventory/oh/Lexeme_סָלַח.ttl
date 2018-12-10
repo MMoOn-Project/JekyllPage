@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_סָלַח> a ns2:Lexeme ;
     rdfs:label "סָלַח"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סלח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סָלַח>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סלח> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_forgive> ;

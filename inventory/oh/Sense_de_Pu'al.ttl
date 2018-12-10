@@ -5,7 +5,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pa%27al> a ns2:Sense ;
-    ns2:senseDefinition "Pa'al"@de ;
+<http://mmoon.org/lang/heb/inventory/oh/Sense_de_Pu'al> a ns2:Sense ;
+    ns2:senseDefinition "Pu'al"@de ;
     ns1:language "de" .
 

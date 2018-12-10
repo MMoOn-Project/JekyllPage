@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּוְנֵן> a ns2:Lexeme ;
     rdfs:label "גִּוְנֵן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גונן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27lel> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'lel> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּוְנֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גוונן> ;
     ns1:hasWordclassAffiliation ns2:Verb .

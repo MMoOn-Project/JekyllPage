@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁתָּה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "נִשְׁתָּה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁתָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נשתה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28a%20drink%29%20is%20drunk> ;

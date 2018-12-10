@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_פִּחְמֵן> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "פִּחְמֵן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פִּחְמֵן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פחמן> ;
     ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .

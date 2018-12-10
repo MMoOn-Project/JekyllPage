@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵזִיעַ> a ns1:Lexeme ;
     rdfs:label "הֵזִיעַ"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יזע> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵזִיעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הזיע> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20shake>,

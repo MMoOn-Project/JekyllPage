@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻשְׁכַּן> a ns1:Lexeme ;
     rdfs:label "מֻשְׁכַּן"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁכן> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻשְׁכַּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מושכן> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20mortgaged> ;

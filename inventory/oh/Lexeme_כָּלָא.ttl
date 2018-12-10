@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כָּלָא> a ns3:Lexeme ;
     rdfs:label "כָּלָא"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כלא> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כָּלָא>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כלא> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_imprison> ;

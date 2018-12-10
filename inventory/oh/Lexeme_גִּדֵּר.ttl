@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גִּדֵּר> a ns2:Lexeme ;
     rdfs:label "גִּדֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גדר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גִּדֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גידר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fence> ;

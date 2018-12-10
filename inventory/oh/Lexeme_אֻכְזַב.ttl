@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻכְזַב> a ns2:Lexeme ;
     rdfs:label "אֻכְזַב"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אכזב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֻכְזַב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אוכזב> ;
     ns1:hasWordclassAffiliation ns2:Verb .

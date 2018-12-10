@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_דִּלְדֵּל> a ns2:Lexeme ;
     rdfs:label "דִּלְדֵּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דלדל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דִּלְדֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דלדל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_deplete>,

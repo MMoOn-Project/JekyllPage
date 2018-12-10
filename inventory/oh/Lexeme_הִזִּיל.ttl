@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִזִּיל> a ns2:Lexeme ;
     rdfs:label "הִזִּיל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נזל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִזִּיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הזיל> ;
     ns1:hasWordclassAffiliation ns2:Verb .

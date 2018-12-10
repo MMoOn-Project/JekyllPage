@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָנַט> a ns1:Lexeme ;
     rdfs:label "חָנַט"@he ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חנט> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָנַט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חנט> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_embalm> ;

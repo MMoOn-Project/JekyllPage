@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_פִּשְׁפֵּשׁ> a ns2:Lexeme ;
     rdfs:label "פִּשְׁפֵּשׁ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פשׁפשׁ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פִּשְׁפֵּשׁ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פשפש> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_scrutinize>,

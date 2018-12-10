@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָבַט> a ns3:Lexeme ;
     rdfs:label "נָבַט"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נבט> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָבַט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נבט> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sprout> ;

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻתַּר> a ns2:Lexeme ;
     rdfs:label "הֻתַּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_נתר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻתַּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הותר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_permitted>,

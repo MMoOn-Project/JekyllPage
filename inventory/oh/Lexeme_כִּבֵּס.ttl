@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_כִּבֵּס> a ns2:Lexeme ;
     rdfs:label "כִּבֵּס"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כבש> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_כִּבֵּס>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_כיבס> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_launder> ;

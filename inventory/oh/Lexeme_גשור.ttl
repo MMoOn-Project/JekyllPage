@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_גשור> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "גשור"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גשור> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCberbr%C3%BCckt> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%92%D7%A9%D7%95%D7%A8_%28%D7%9E%D7%9E%D7%9C%D7%9B%D7%94%29_HE/s02376049n>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גשור> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%C3%BCberbr%C3%BCckt> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%92%D7%A9%D7%95%D7%A8_%28%D7%9E%D7%9E%D7%9C%D7%9B%D7%94%29_HE/s02376049n>,
         <http://babelnet.org/rdf/%D7%92%D7%A9%D7%95%D7%A8_HE/s00013083n>,
         <http://babelnet.org/rdf/%D7%92%D7%A9%D7%95%D7%A8_HE/s00726445n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D7%A9%D7%95%D7%A8_n_HE> .

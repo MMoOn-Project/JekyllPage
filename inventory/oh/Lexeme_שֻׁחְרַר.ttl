@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֻׁחְרַר> a ns2:Lexeme ;
     rdfs:label "שֻׁחְרַר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁחרר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֻׁחְרַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שוחרר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_allowed%20to%20leave>,

@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִטְבִּיעַ> a ns2:Lexeme ;
     rdfs:label "הִטְבִּיעַ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טבע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִטְבִּיעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הטביע> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20immerse%20something%20or%20someone%3B%3Cbr%3E%28basketball%29%20to%20%22dunk%22%3B%3B%3B%20drown%3B%20dunk%20%28basketball%29%3B%20coin>,

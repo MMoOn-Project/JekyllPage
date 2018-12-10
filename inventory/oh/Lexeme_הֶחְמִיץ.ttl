@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְמִיץ> a ns3:Lexeme ;
     rdfs:label "הֶחְמִיץ"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חמץ> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְמִיץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_החמיץ> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bus%29>,

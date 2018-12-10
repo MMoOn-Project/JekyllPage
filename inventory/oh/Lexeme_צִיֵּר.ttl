@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_צִיֵּר> a ns2:Lexeme ;
     rdfs:label "צִיֵּר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ציר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צִיֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צייר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_draw>,

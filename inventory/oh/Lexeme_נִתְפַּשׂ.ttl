@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִתְפַּשׂ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "נִתְפַּשׂ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִתְפַּשׂ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נתפש> ;
     ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Verb> .

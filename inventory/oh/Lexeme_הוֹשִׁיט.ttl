@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹשִׁיט> a ns2:Lexeme ;
     rdfs:label "הוֹשִׁיט"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ישט> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹשִׁיט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הושיט> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_extend%3B%3Cbr%20/%3Ereach%20out>,

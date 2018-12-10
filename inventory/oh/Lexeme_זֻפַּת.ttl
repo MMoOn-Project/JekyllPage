@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_זֻפַּת> a ns2:Lexeme ;
     rdfs:label "זֻפַּת"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_זפת> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_זֻפַּת>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_זופת> ;
     ns1:hasWordclassAffiliation ns2:Verb .

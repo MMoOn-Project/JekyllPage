@@ -6,7 +6,7 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֻחְסַר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "הֻחְסַר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf%27al> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/huf'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֻחְסַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוחסר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28mathematics%29%20to%20be%20subtracted>,

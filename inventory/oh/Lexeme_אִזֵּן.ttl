@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִזֵּן> a ns2:Lexeme ;
     rdfs:label "אִזֵּן"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אזן> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִזֵּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איזן> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ES>,

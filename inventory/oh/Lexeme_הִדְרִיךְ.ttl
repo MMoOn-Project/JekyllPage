@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִדְרִיךְ> a ns2:Lexeme ;
     rdfs:label "הִדְרִיךְ"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דרך> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִדְרִיךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הדריך> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_direct>,

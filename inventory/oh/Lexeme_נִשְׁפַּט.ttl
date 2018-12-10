@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁפַּט> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִשְׁפַּט> a ns2:Lexeme ;
     rdfs:label "נִשְׁפַּט"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפט> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif%27al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁפַּט>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפט> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִשְׁפַּט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נשפט> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20sentenced>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20sentenced>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20tried> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

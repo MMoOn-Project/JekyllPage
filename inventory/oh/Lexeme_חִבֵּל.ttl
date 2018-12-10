@@ -9,7 +9,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבֵּל> a ns2:Lexeme ;
     rdfs:label "חִבֵּל"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi%27el> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיבל> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_damage%3B%3Cbr%3Eto%20plot>,

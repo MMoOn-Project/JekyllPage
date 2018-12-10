@@ -8,7 +8,7 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹתִיר> a ns2:Lexeme ;
     rdfs:label "הוֹתִיר"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יתר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif%27il> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹתִיר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הותיר> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_leave%20behind> ;
