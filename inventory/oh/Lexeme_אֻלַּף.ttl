@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻלַּף> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֻלַּף> a ns3:Lexeme ;
     rdfs:label "אֻלַּף"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אלף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֻלַּף>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אלף> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֻלַּף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אולף> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%90%D6%BB%D7%9C%D6%BC%D6%B7%D7%A3_HE/s00087147v> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%BB%D7%9C%D6%BC%D6%B7%D7%A3_HE/s00087147v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%BB%D7%9C%D6%BC%D6%B7%D7%A3_v_HE> .
 

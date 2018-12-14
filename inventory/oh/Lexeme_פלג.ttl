@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,11 +9,11 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_פלג> a ns3:Lexeme ;
     rdfs:label "פלג"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פלג> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פולג>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פולג>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פלג> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A4%D7%9C%D7%92_%28%D7%93%D7%9E%D7%95%D7%AA_%D7%9E%D7%A7%D7%A8%D7%90%D7%99%D7%AA%29_HE/s03164487n>,
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A4%D7%9C%D7%92_%28%D7%93%D7%9E%D7%95%D7%AA_%D7%9E%D7%A7%D7%A8%D7%90%D7%99%D7%AA%29_HE/s03164487n>,
         <http://babelnet.org/rdf/%D7%A4%D7%9C%D7%92_HE/s00013340n>,
         <http://babelnet.org/rdf/%D7%A4%D7%9C%D7%92_HE/s00055067n>,
         <http://babelnet.org/rdf/%D7%A4%D7%9C%D7%92_HE/s00067860n>,

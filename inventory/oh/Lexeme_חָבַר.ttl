@@ -1,23 +1,23 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָבַר> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָבַר> a ns1:Lexeme ;
     rdfs:label "חָבַר"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָבַר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבר> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חבר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20friends%20with%3B%20%28talmudic%29%20to%20band%20up%20against>,
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20friends%20with%3B%20%28talmudic%29%20to%20band%20up%20against>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20join%20%28people%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20join%20forces%20with%3B%20%28flowery%29%20to%20associate%20with>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20join%20in>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20team%20up%20with> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns3:hasWordclassAffiliation ns1:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B7%D7%A8_HE/s00085279v>,
         <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B7%D7%A8_HE/s00088013v>,
         <http://babelnet.org/rdf/%D7%97%D6%B8%D7%91%D6%B7%D7%A8_HE/s00089983v> ;

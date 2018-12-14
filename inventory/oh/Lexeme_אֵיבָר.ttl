@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_אֵיבָר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "אֵיבָר"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֵיבָר>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אֵיבָר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איבר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_limb>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_limb>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_member%3B%20term%20%28math.%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_organ> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B5%D7%99%D7%91%D6%B8%D7%A8_HE/s00054278n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%90%D6%B5%D7%99%D7%91%D6%B8%D7%A8_HE/s00054278n>,
         <http://babelnet.org/rdf/%D7%90%D6%B5%D7%99%D7%91%D6%B8%D7%A8_HE/s00059458n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B5%D7%99%D7%91%D6%B8%D7%A8_n_HE> .
 

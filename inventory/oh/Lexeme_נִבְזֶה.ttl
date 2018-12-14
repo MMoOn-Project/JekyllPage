@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,11 +7,11 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִבְזֶה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "נִבְזֶה"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִבְזֶה>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִבְזֶה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נבזה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_despicable> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_despicable> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective>,
         <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%91%D6%B0%D7%96%D6%B6%D7%94_HE/s00100362a> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%91%D6%B0%D7%96%D6%B6%D7%94_HE/s00100362a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%91%D6%B0%D7%96%D6%B6%D7%94_a_HE> .
 

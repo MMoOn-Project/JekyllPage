@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,12 +7,12 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מֻרְכָּב> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מֻרְכָּב"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻרְכָּב>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מֻרְכָּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מורכב> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_complex>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_complex>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_complicated>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_intricate%3B%20composed> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%A8%D6%B0%D7%9B%D6%BC%D6%B8%D7%91_HE/s00100148a> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%A8%D6%B0%D7%9B%D6%BC%D6%B8%D7%91_HE/s00100148a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%BB%D7%A8%D6%B0%D7%9B%D6%BC%D6%B8%D7%91_a_HE> .
 

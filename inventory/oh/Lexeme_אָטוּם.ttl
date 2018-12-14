@@ -1,22 +1,22 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָטוּם> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָטוּם> a ns3:Lexeme ;
     rdfs:label "אָטוּם"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אטם> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אטם> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָטוּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אטום> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_dicht>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_verschlossen%3B%20undurchsichtig%3B%20undurchl%C3%A4ssig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_opaque>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_sealed> ;
-    ns1:hasWordclassAffiliation ns2:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%90%D6%B8%D7%98%D7%95%D6%BC%D7%9D_HE/s00107704a>,
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%90%D6%B8%D7%98%D7%95%D6%BC%D7%9D_HE/s00107704a>,
         <http://babelnet.org/rdf/%D7%90%D6%B8%D7%98%D7%95%D6%BC%D7%9D_HE/s00107877a>,
         <http://babelnet.org/rdf/%D7%90%D6%B8%D7%98%D7%95%D6%BC%D7%9D_HE/s00110217a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%90%D6%B8%D7%98%D7%95%D6%BC%D7%9D_a_HE> .

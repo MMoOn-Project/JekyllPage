@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רֶגֶל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_רֶגֶל> a ns1:Lexeme ;
     rdfs:label "רֶגֶל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רגל> ;
-    ns1:hasInflectionalCategory ns2:Feminine,
-        ns2:Masculine ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רֶגֶל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_רגל> ;
+    ns2:hasInflectionalCategory ns1:Feminine,
+        ns1:Masculine ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_רֶגֶל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_רגל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bein>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Bezeichnung%20f%C3%BCr%20die%20einzelnen%20Pilgerfeste%3A%20Pessach>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Fu%C3%9F>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Schawuot>,
@@ -23,5 +23,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wineglass%29%20%3B%20foot%20%3B%20%28prosody%29%20meter%20%3B%20%D7%91%D7%A8%D7%92%D7%9C%20-%20on%20foot>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BD%D0%BE%D0%B3%D0%B0>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

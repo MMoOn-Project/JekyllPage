@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִצְנִיחַ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִצְנִיחַ> a ns1:Lexeme ;
     rdfs:label "הִצְנִיחַ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צנח> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִצְנִיחַ> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bring%20down%20%3B%3B%3B%20parachute%3B%20appoint%20an%20outsider>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צנח> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִצְנִיחַ> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bring%20down%20%3B%3B%3B%20parachute%3B%20appoint%20an%20outsider>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20cause%20to%20plummet%3B%3Cbr%3E%28colloquial%29%20to%20appoint%20someone%20from%20without%20the%20system>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20parachute%3B%20to%20cause%20a%20nose-dive> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 
