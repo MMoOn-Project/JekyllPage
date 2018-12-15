@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּעִיל> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_פָּעִיל> a ns1:Lexeme ;
     rdfs:label "פָּעִיל"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פעל> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּעִיל>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_פעל> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_פָּעִיל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_פעיל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_alive>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_alive>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_also%20n.%20active>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dapper>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_dynamic>,
@@ -21,6 +21,6 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_rousing>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_spry>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_wight> ;
-    ns1:hasWordclassAffiliation ns2:Adjective,
-        ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:Adjective,
+        ns1:CommonNoun .
 

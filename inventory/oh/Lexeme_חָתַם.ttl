@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,15 +9,15 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָתַם> a ns3:Lexeme ;
     rdfs:label "חָתַם"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חתם> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָתַם>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָתַם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חתם> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20affix%20a%20seal>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20affix%20a%20seal>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20bring%20to%20an%20end%3B%3Cbr%20/%3Eto%20subscribe%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20finish>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sign%3B%20close%20%28a%20deal%29%3B%3Cbr%20/%3Eto%20complete> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%AA%D6%B7%D7%9D_HE/s00085475v>,
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%AA%D6%B7%D7%9D_HE/s00085475v>,
         <http://babelnet.org/rdf/%D7%97%D6%B8%D7%AA%D6%B7%D7%9D_HE/s00094547v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%AA%D6%B7%D7%9D_v_HE> .
 

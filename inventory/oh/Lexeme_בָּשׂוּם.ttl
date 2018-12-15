@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּשׂוּם> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּשׂוּם> a ns2:Lexeme ;
     rdfs:label "בָּשׂוּם"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׂם> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּשׂוּם>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בשׂם> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּשׂוּם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בשום> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_duftend>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_duftend>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_parf%C3%BCmiert> ;
-    ns2:hasWordclassAffiliation ns1:Adjective .
+    ns1:hasWordclassAffiliation ns2:Adjective .
 

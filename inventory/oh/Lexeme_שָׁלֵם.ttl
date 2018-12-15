@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,9 +9,9 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שָׁלֵם> a ns3:Lexeme ;
     rdfs:label "שָׁלֵם"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁלם> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁלֵם>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שָׁלֵם>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שלם> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-gesamt>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-gesamt>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-vollst%C3%A4ndig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_ganz>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eundivided>,
@@ -35,8 +35,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_whole>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%86%D0%B5%D0%BB%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B5%D7%9D_HE/s00103876a>,
+    ns2:hasWordclassAffiliation ns3:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B5%D7%9D_HE/s00103876a>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B5%D7%9D_HE/s00113852a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B8%D7%9C%D6%B5%D7%9D_a_HE> .
 

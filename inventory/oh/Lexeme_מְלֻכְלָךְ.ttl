@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְלֻכְלָךְ> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְלֻכְלָךְ> a ns1:Lexeme ;
     rdfs:label "מְלֻכְלָךְ"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לכלך> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְלֻכְלָךְ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_לכלך> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְלֻכְלָךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מלוכלך> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_dreckig>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_dreckig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_schmutzig>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_soiled>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%BE>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D1%8B%D0%B9> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%9C%D6%BB%D7%9B%D6%B0%D7%9C%D6%B8%D7%9A%D6%B0_HE/s00101431a> ;
+    ns2:hasWordclassAffiliation ns1:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%9C%D6%BB%D7%9B%D6%B0%D7%9C%D6%B8%D7%9A%D6%B0_HE/s00101431a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%9C%D6%BB%D7%9B%D6%B0%D7%9C%D6%B8%D7%9A%D6%B0_a_HE> .
 

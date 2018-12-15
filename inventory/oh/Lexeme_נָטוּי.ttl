@@ -1,20 +1,20 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָטוּי> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נָטוּי> a ns3:Lexeme ;
     rdfs:label "נָטוּי"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טוי> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טוי> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נָטוּי>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נטוי> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bent>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_inclined%3B%20pitched%3B%20conjugated%3B%3B%3B%20tilted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_slanted%3B%20conjugated> ;
-    ns1:hasWordclassAffiliation ns2:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%A0%D6%B8%D7%98%D7%95%D6%BC%D7%99_HE/s00097693a> ;
+    ns1:hasWordclassAffiliation ns3:Adjective ;
+    ns2:sense <http://babelnet.org/rdf/%D7%A0%D6%B8%D7%98%D7%95%D6%BC%D7%99_HE/s00097693a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B8%D7%98%D7%95%D6%BC%D7%99_a_HE> .
 

@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִבֵּל> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִבֵּל> a ns2:Lexeme ;
     rdfs:label "קִבֵּל"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קבל> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִבֵּל>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קבל> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִבֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קיבל> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-akzeptieren>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-akzeptieren>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-annehmen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-annehmen%3B%20empfangen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_-auf->,
@@ -23,5 +23,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20have%3B%20to%20welcome>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20receive>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20take%20%28a%20decision%29%3B%3B%3B%20receive%3B%20accept> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

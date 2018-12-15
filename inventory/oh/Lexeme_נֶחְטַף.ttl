@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נֶחְטַף> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נֶחְטַף> a ns1:Lexeme ;
     rdfs:label "נֶחְטַף"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חטף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_להיחטף>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חטף> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_להיחטף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_נֶחְטַף> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20abducted>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_be%20abducted>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_grasped>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_kidnapped%3B%20snatched>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%20%D1%80%D0%B0%D1%81%D0%BA%D1%83%D0%BF%D0%B0%D1%82%D1%8C%D1%81%D1%8F>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%80%D0%B0%D1%81%D1%85%D0%B2%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

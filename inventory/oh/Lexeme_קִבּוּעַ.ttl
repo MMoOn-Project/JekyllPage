@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִבּוּעַ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_קִבּוּעַ> a ns1:Lexeme ;
     rdfs:label "קִבּוּעַ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קבע> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִבּוּעַ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קבע> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_קִבּוּעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_קיבוע> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixation>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixation>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixedness%3B%20installing>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_fixing> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹרִיד> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הוֹרִיד> a ns3:Lexeme ;
     rdfs:label "הוֹרִיד"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ירד> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹרִיד>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_ירד> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הוֹרִיד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הוריד> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lower>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_lower>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20drop%20off%20a%20passenger%3B%20%3Cbr%20/%3E%28colloquial%29%20to%20remove%3B%20%28colloquial%29%20to%20lose%20weight%3B%20%3Cbr%20/%3E%28colloquial%29%20to%20lower%20the%20price>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20lower%3B%20to%20remove%20a%20piece%20of%20clothing%3B%20to%20reduce%3B%20%3Cbr%20/%3Eto%20enable%20a%20passenger%20to%20alight>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20reduce%20the%20cost%3B%20%3Cbr%20/%3E%28computing%29%20to%20download%3B%3B%3B%20take%20off> ;
-    ns3:hasWordclassAffiliation ns1:Verb ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_HE/s00087203v>,
         <http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_HE/s00090497v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D7%95%D6%B9%D7%A8%D6%B4%D7%99%D7%93_v_HE> .

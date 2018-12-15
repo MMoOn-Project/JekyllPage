@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
 @prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טָעִים> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_טָעִים> a ns3:Lexeme ;
     rdfs:label "טָעִים"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טעם> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_טעם> ;
     ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_טָעִים>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_טעים> ;
     ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_gut%20%28im%20Geschmack%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_wohlschmeckend%D7%AA%20schmackhaft>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tasty%20/%20delicious>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D1%8B%D0%B9> ;
-    ns2:hasWordclassAffiliation ns1:Adjective ;
-    ns3:sense <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D6%B4%D7%99%D7%9D_HE/s00106985a> ;
+    ns2:hasWordclassAffiliation ns3:Adjective ;
+    ns1:sense <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D6%B4%D7%99%D7%9D_HE/s00106985a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%98%D6%B8%D7%A2%D6%B4%D7%99%D7%9D_a_HE> .
 

@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,11 +7,11 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_יַקִּיר> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "יַקִּיר"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יַקִּיר>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יַקִּיר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_יקיר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B9>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BC%D0%B8%D0%BB%D1%8B%D0%B9> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A7%D6%BC%D6%B4%D7%99%D7%A8_HE/s00025256n> ;
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A7%D6%BC%D6%B4%D7%99%D7%A8_HE/s00025256n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B7%D7%A7%D6%BC%D6%B4%D7%99%D7%A8_n_HE> .
 

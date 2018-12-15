@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ewere%20it%20not%20for%3B%3Cbr%3Ein%20the%20absence%20of%3B%3Cbr%20/%3E%D7%9E%D7%91%D7%9C%D7%A2%D7%93%D7%99%20-%20%28biblical%29%20apart%20from> a ns2:Sense ;
-    ns2:senseDefinition "<br />were it not for;<br>in the absence of;<br />מבלעדי - (biblical) apart from"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ewere%20it%20not%20for%3B%3Cbr%3Ein%20the%20absence%20of%3B%3Cbr%20/%3E%D7%9E%D7%91%D7%9C%D7%A2%D7%93%D7%99%20-%20%28biblical%29%20apart%20from> a ns1:Sense ;
+    ns1:senseDefinition "<br />were it not for;<br>in the absence of;<br />מבלעדי - (biblical) apart from"@en ;
+    ns2:language "en" .
 

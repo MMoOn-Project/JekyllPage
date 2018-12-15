@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּקֵּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בִּקֵּר> a ns2:Lexeme ;
     rdfs:label "בִּקֵּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בקר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּקֵּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בקר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בִּקֵּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ביקר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_besuchen>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_besuchen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_check%3B%20audit%3B%3B%3B%20to%20visit%20%28a%20person%29%3B%20to%20visit%20%28a%20place%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20visit%3B%3Cbr%3Eto%20criticize%3B%20inspect> ;
-    ns2:hasWordclassAffiliation ns1:Verb ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
     ns3:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%A7%D6%BC%D6%B5%D7%A8_HE/s00086046v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B4%D7%A7%D6%BC%D6%B5%D7%A8_v_HE> .
 

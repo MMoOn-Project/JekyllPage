@@ -1,20 +1,20 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִחוּד> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_יִחוּד> a ns2:Lexeme ;
     rdfs:label "יִחוּד"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יחד> ;
-    ns1:hasInflectionalCategory ns3:Masculine ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יחד> ;
+    ns1:hasInflectionalCategory ns2:Masculine ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_יִחוּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ייחוד> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_selection%3B%3B%3B%20uniqueness%3B%20allocating>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_uniqueness%20%3B%20designation> ;
-    ns1:hasWordclassAffiliation ns3:CommonNoun ;
-    ns2:sense <http://babelnet.org/rdf/%D7%99%D6%B4%D7%97%D7%95%D6%BC%D7%93_HE/s00071763n> ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
+    ns3:sense <http://babelnet.org/rdf/%D7%99%D6%B4%D7%97%D7%95%D6%BC%D7%93_HE/s00071763n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%99%D6%B4%D7%97%D7%95%D6%BC%D7%93_n_HE> .
 

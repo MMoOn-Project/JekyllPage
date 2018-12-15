@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִצְרַךְ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִצְרַךְ> a ns1:Lexeme ;
     rdfs:label "נִצְרַךְ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרך> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִצְרַךְ> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20need>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרך> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִצְרַךְ> ;
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20need>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20used%3B%3Cbr%3Eto%20be%20consumed>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20require%3B%3B%3B%20is%20in%20need%20of%3B%20is%20consumed/used> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

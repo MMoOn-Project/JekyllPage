@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָצַר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אָצַר> a ns2:Lexeme ;
     rdfs:label "אָצַר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אצר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָצַר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אצר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אָצַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_אצר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20guard>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20guard>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20keep%20under%20lock%20and%20key>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20place%20in%20safekeeping>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20hoard>,
@@ -19,5 +19,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20collect>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20store>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20treasure> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

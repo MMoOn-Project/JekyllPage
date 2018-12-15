@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,16 +7,16 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_עֵסֶק> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "עֵסֶק"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֵסֶק>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_עֵסֶק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_עסק> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affair>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affair>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_affaire%3B%20occupation%3B%3B%3B%20business%3B%20matter%3B%20connection>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_business>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shop%3B%20matter%3B%20concern>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B4%D0%B5%D0%BB%D0%BE> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A2%D6%B5%D7%A1%D6%B6%D7%A7_HE/s00008568n>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%A2%D6%B5%D7%A1%D6%B6%D7%A7_HE/s00008568n>,
         <http://babelnet.org/rdf/%D7%A2%D6%B5%D7%A1%D6%B6%D7%A7_HE/s00014136n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A2%D6%B5%D7%A1%D6%B6%D7%A7_n_HE> .
 

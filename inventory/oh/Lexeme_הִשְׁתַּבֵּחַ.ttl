@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִשְׁתַּבֵּחַ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִשְׁתַּבֵּחַ> a ns2:Lexeme ;
     rdfs:label "הִשְׁתַּבֵּחַ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבח> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִשְׁתַּבֵּחַ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁבח> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִשְׁתַּבֵּחַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_השתבח> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20brag>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20brag>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20%22blow%20one%27s%20own%20horn%22>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20boast%3B%20to%20improve%3B%3Cbr%3Eto%20be%20praised%20for> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 
