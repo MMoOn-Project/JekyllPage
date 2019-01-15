@@ -1,5 +1,5 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,13 +7,13 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חֻלְיָה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "חֻלְיָה"@he ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֻלְיָה>,
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חֻלְיָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חוליה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_link%3B%20vertebra%20%28spine%29>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_link%3B%20vertebra%20%28spine%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ring>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%B7%D0%B2%D0%B5%D0%BD%D0%BE> ;
-    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
-    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%BB%D7%9C%D6%B0%D7%99%D6%B8%D7%94_HE/s00073698n>,
+    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun> ;
+    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%BB%D7%9C%D6%B0%D7%99%D6%B8%D7%94_HE/s00073698n>,
         <http://babelnet.org/rdf/%D7%97%D6%BB%D7%9C%D6%B0%D7%99%D6%B8%D7%94_HE/s00079831n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%BB%D7%9C%D6%B0%D7%99%D6%B8%D7%94_n_HE> .
 

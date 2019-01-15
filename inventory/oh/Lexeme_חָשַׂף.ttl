@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,12 +9,12 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חָשַׂף> a ns3:Lexeme ;
     rdfs:label "חָשַׂף"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חשׁף> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָשַׂף>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חָשַׂף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חשף> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_expose>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_expose>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_uncover> ;
-    ns1:hasWordclassAffiliation ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A9%D7%82%D6%B7%D7%A3_HE/s00083912v> ;
+    ns2:hasWordclassAffiliation ns3:Verb ;
+    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A9%D7%82%D6%B7%D7%A3_HE/s00083912v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B8%D7%A9%D7%82%D6%B7%D7%A3_v_HE> .
 

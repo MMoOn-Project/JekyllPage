@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַיֵּב> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִתְחַיֵּב> a ns2:Lexeme ;
     rdfs:label "הִתְחַיֵּב"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַיֵּב>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hitpa'el> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִתְחַיֵּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_התחייב> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20obligated%3B%20is%20liable%3B%3B%3B%20to%20promise>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20obligated%3B%20is%20liable%3B%3B%3B%20to%20promise>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20commit%20oneself>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20necessitate%3B%20to%20be%20obligated%20%28to%20do%20something%29%3B%20to%20be%20liable%20%28for%20something%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20obligate%20oneself%3B%20to%20be%20necessary>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20require> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

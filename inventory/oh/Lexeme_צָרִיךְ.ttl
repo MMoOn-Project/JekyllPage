@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צָרִיךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צָרִיךְ> a ns2:Lexeme ;
     rdfs:label "צָרִיךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרך> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צָרִיךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרך> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צָרִיךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צריך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mit%20Personalpronomen%20zur%20Bildung%20der%20Gegenwart%20von%20m%C3%BCssen%20und%20brauchen>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_mit%20Personalpronomen%20zur%20Bildung%20der%20Gegenwart%20von%20m%C3%BCssen%20und%20brauchen>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_important%20%3B%20essential%20%3B%20required%20%3B%20to%20need%20%28used%20as%20a%20verb%29%20%3B%20must>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_necessary>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_should%20%28used%20as%20a%20verb%29>,
@@ -19,5 +19,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BD%D1%83%D0%B6%D0%B4%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B2%20%28%D0%BC.%D1%80.%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BD%D1%83%D0%B6%D0%BD%D0%BE>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D1%80%D0%B5%D0%B1%D1%83%D0%B5%D1%82%D1%81%D1%8F> ;
-    ns2:hasWordclassAffiliation ns1:Adjective .
+    ns1:hasWordclassAffiliation ns2:Adjective .
 

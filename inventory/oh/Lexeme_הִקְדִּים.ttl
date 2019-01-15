@@ -1,19 +1,19 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִקְדִּים> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הִקְדִּים> a ns1:Lexeme ;
     rdfs:label "הִקְדִּים"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קדם> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִקְדִּים> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20early>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_קדם> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הִקְדִּים> ;
+    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_is%20early>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_precedes> ;
-    ns2:hasWordclassAffiliation ns3:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A7%D6%B0%D7%93%D6%BC%D6%B4%D7%99%D7%9D_HE/s00090247v> ;
+    ns3:hasWordclassAffiliation ns1:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A7%D6%B0%D7%93%D6%BC%D6%B4%D7%99%D7%9D_HE/s00090247v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%94%D6%B4%D7%A7%D6%B0%D7%93%D6%BC%D6%B4%D7%99%D7%9D_v_HE> .
 

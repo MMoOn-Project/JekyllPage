@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_merely%3B%3Cbr%20/%3E%D7%9B%D7%95%D7%9C%D7%95%20-%20whole%3B%3Cbr%20/%3E%D7%9E%D7%9B%D7%9C%20-%20of%20all%3B%3B%3B%20all> a ns1:Sense ;
-    ns1:senseDefinition "merely;<br />כולו - whole;<br />מכל - of all;;; all"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_merely%3B%3Cbr%20/%3E%D7%9B%D7%95%D7%9C%D7%95%20-%20whole%3B%3Cbr%20/%3E%D7%9E%D7%9B%D7%9C%20-%20of%20all%3B%3B%3B%20all> a ns2:Sense ;
+    ns2:senseDefinition "merely;<br />כולו - whole;<br />מכל - of all;;; all"@en ;
+    ns1:language "en" .
 

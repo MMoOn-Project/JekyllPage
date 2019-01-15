@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דֹּפֶק> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דֹּפֶק> a ns2:Lexeme ;
     rdfs:label "דֹּפֶק"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דפק> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דֹּפֶק>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דפק> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דֹּפֶק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דופק> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Efailure>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Efailure>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_beat%3B%20pulse%3B%3Cbr%20/%3Erap>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_knock%3B%3Cbr%20/%3Ebad%20luck>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D1%83%D0%BB%D1%8C%D1%81> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
 

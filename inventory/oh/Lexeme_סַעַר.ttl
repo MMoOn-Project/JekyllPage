@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סַעַר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סַעַר> a ns1:Lexeme ;
     rdfs:label "סַעַר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סער> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סַעַר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סער> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סַעַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סער> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20gale>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20gale>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_confusion>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gale>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_gust>,
@@ -18,5 +18,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tempest%3B%20noise>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_tempest%3B%3B%3B%20storm>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_trouble%3B%3B%3B%20storm> ;
-    ns1:hasWordclassAffiliation ns2:CommonNoun .
+    ns2:hasWordclassAffiliation ns1:CommonNoun .
 

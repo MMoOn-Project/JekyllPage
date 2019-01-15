@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵזִיעַ> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֵזִיעַ> a ns1:Lexeme ;
     rdfs:label "הֵזִיעַ"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יזע> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵזִיעַ>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_יזע> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֵזִיעַ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_הזיע> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20shake>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eto%20shake>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20%22sweat%20blood%22%3B%3B%3B%20to%20sweat>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20budge>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20perspire>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20perspire%3B%3Cbr%20/%3Eto%20remove>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sweat%20%3B%20%28colloquial%29%20to%20try%20hard%20to%20achieve%20something> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

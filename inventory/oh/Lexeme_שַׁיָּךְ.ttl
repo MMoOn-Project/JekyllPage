@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שַׁיָּךְ> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שַׁיָּךְ> a ns2:Lexeme ;
     rdfs:label "שַׁיָּךְ"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁיך> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שַׁיָּךְ>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁיך> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שַׁיָּךְ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שייך> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zur%20Bildung%20der%20Gegenwart%20von%20geh%C3%B6ren>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_zur%20Bildung%20der%20Gegenwart%20von%20geh%C3%B6ren>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_belonging%20to>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_relevant>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_relevant%20to%3B%3B%3B%20to%20belong%20to%3B%3B%3B%20to%20belong%20to%20%28used%20as%20a%20verb%29%3B%20%28slang%29%20pertinent> ;
-    ns2:hasWordclassAffiliation ns1:Adjective .
+    ns1:hasWordclassAffiliation ns2:Adjective .
 

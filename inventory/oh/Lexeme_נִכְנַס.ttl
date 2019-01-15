@@ -1,6 +1,6 @@
-@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,11 +9,11 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_נִכְנַס> a ns2:Lexeme ;
     rdfs:label "נִכְנַס"@he ;
     ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_כנס> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִכְנַס> ;
-    ns3:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20enter> ;
-    ns3:hasWordclassAffiliation ns2:Verb ;
-    ns1:sense <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%9B%D6%B0%D7%A0%D6%B7%D7%A1_HE/s00084235v>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/nif'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_נִכְנַס> ;
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20enter> ;
+    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns3:sense <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%9B%D6%B0%D7%A0%D6%B7%D7%A1_HE/s00084235v>,
         <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%9B%D6%B0%D7%A0%D6%B7%D7%A1_HE/s00085363v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A0%D6%B4%D7%9B%D6%B0%D7%A0%D6%B7%D7%A1_v_HE> .
 

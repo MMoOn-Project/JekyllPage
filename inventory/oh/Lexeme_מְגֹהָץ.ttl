@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,9 +7,9 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_מְגֹהָץ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "מְגֹהָץ"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְגֹהָץ>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מְגֹהָץ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מגוהץ> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%92%D6%B9%D7%94%D6%B8%D7%A5_HE/s00105423a> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%92%D6%B9%D7%94%D6%B8%D7%A5_HE/s00105423a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%9E%D6%B0%D7%92%D6%B9%D7%94%D6%B8%D7%A5_a_HE> .
 

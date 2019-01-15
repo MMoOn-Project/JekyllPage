@@ -1,11 +1,11 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_residence%20%3B%20%D7%94%D7%9E%D7%A9%D7%9B%D7%9F%20-%20%28Jewish%20history%29%20the%20Tabernacle%20%28portable%20temple%20built%20in%20the%20desert%20after%20the%20Exodus%20from%20Egypt%29%3B%3B%3B%20dwelling> a ns2:Sense ;
-    ns2:senseDefinition "residence ; המשכן - (Jewish history) the Tabernacle (portable temple built in the desert after the Exodus from Egypt);;; dwelling"@en ;
-    ns1:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_residence%20%3B%20%D7%94%D7%9E%D7%A9%D7%9B%D7%9F%20-%20%28Jewish%20history%29%20the%20Tabernacle%20%28portable%20temple%20built%20in%20the%20desert%20after%20the%20Exodus%20from%20Egypt%29%3B%3B%3B%20dwelling> a ns1:Sense ;
+    ns1:senseDefinition "residence ; המשכן - (Jewish history) the Tabernacle (portable temple built in the desert after the Exodus from Egypt);;; dwelling"@en ;
+    ns2:language "en" .
 

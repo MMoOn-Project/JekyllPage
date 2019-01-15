@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,14 +7,14 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_בְּרוּטוֹ> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "בְּרוּטוֹ"@he ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּרוּטוֹ>,
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בְּרוּטוֹ>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_ברוטו> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%91%D6%BC%D6%B0%D7%A8%D7%95%D6%BC%D7%98%D7%95%D6%B9>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%91%D6%BC%D6%B0%D7%A8%D7%95%D6%BC%D7%98%D7%95%D6%B9>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%92%D6%BC%D6%B8%D7%93%D7%95%D6%B9%D7%9C%3B%20%D7%92%D6%BC%D6%B8%D7%9C%D6%B0%D7%9E%D6%B4%D7%99%3B%20%D7%9B%D6%BC%D7%95%D6%B9%D7%9C%D6%B5%D7%9C>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%93%D6%BC%D7%95%D6%B9%D7%97%D6%B6%D7%94>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9B%D6%BC%D6%B0%D7%A8%D6%B7%D7%A1%D6%B0%D7%AA%D6%BC%D6%B8%D7%A0%D6%B4%D7%99>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%D7%9E%D6%B7%D7%92%D6%B0%D7%A2%D6%B4%D7%99%D7%9C%3B%20%D7%92%D6%BC%D6%B7%D7%A1%3B%20%D7%A9%D7%81%D6%B8%D7%9E%D6%B5%D7%9F> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B0%D7%A8%D7%95%D6%BC%D7%98%D7%95%D6%B9_HE/s00041868n> ;
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/Adjective> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B0%D7%A8%D7%95%D6%BC%D7%98%D7%95%D6%B9_HE/s00041868n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%91%D6%BC%D6%B0%D7%A8%D7%95%D6%BC%D7%98%D7%95%D6%B9_n_HE> .
 

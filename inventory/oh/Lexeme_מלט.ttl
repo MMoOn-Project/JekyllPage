@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
 @prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/mmoon/core/> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מלט> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מלט> a ns3:Lexeme ;
     rdfs:label "מלט"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מלט> ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
-    ns3:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מולט>,
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_מלט> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מולט>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מלט> ;
-    ns3:hasWordclassAffiliation ns1:Verb ;
+    ns1:hasWordclassAffiliation ns3:Verb ;
     ns2:sense <http://babelnet.org/rdf/%D7%9E%D7%9C%D7%98_HE/s00017081n>,
         <http://babelnet.org/rdf/%D7%9E%D7%9C%D7%98_HE/s00055077n>,
         <http://babelnet.org/rdf/%D7%9E%D7%9C%D7%98_HE/s00055944n>,

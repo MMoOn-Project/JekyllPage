@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֻׁדַּר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שֻׁדַּר> a ns2:Lexeme ;
     rdfs:label "שֻׁדַּר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שדר> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֻׁדַּר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שדר> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שֻׁדַּר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שודר> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%BD%20%D0%BF%D0%BE%20%D1%80%D0%B0%D0%B4%D0%B8%D0%BE/%D0%A2%D0%92>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%BD%20%D0%BF%D0%BE%20%D1%80%D0%B0%D0%B4%D0%B8%D0%BE/%D0%A2%D0%92>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

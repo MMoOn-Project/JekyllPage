@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,14 +9,14 @@
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִבֵּל> a ns3:Lexeme ;
     rdfs:label "חִבֵּל"@he ;
     ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חבל> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבֵּל>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִבֵּל>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חיבל> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_damage%3B%3Cbr%3Eto%20plot>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_damage%3B%3Cbr%3Eto%20plot>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_devise%3B%20conceive>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20sabotage> ;
-    ns1:hasWordclassAffiliation ns3:CommonNoun,
+    ns2:hasWordclassAffiliation ns3:CommonNoun,
         ns3:Verb ;
-    ns2:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%9C_HE/s00085873v> ;
+    ns1:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%9C_HE/s00085873v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B4%D7%91%D6%BC%D6%B5%D7%9C_v_HE> .
 

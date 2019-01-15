@@ -1,17 +1,17 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִמּוּן> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_סִמּוּן> a ns2:Lexeme ;
     rdfs:label "סִמּוּן"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמנ> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִמּוּן>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_סמנ> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_סִמּוּן>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_סימון> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indication%20%3B%20marking>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_indication%20%3B%20marking>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sign>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_signal> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun .
+    ns1:hasWordclassAffiliation ns2:CommonNoun .
 
