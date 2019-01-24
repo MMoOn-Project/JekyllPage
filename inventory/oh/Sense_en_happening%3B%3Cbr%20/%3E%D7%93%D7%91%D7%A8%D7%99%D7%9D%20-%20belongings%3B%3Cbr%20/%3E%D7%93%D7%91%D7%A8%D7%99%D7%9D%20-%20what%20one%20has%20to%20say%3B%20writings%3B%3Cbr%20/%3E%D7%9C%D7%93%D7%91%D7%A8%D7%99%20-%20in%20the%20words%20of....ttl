@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_happening%3B%3Cbr%20/%3E%D7%93%D7%91%D7%A8%D7%99%D7%9D%20-%20belongings%3B%3Cbr%20/%3E%D7%93%D7%91%D7%A8%D7%99%D7%9D%20-%20what%20one%20has%20to%20say%3B%20writings%3B%3Cbr%20/%3E%D7%9C%D7%93%D7%91%D7%A8%D7%99%20-%20in%20the%20words%20of...> a ns1:Sense ;
-    ns1:senseDefinition "happening;<br />דברים - belongings;<br />דברים - what one has to say; writings;<br />לדברי - in the words of..."@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_happening%3B%3Cbr%20/%3E%D7%93%D7%91%D7%A8%D7%99%D7%9D%20-%20belongings%3B%3Cbr%20/%3E%D7%93%D7%91%D7%A8%D7%99%D7%9D%20-%20what%20one%20has%20to%20say%3B%20writings%3B%3Cbr%20/%3E%D7%9C%D7%93%D7%91%D7%A8%D7%99%20-%20in%20the%20words%20of...> a ns2:Sense ;
+    ns2:senseDefinition "happening;<br />דברים - belongings;<br />דברים - what one has to say; writings;<br />לדברי - in the words of..."@en ;
+    ns1:language "en" .
 

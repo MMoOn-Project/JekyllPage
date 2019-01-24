@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA%20-%20the%20media> a ns1:Sense ;
-    ns1:senseDefinition "<br>התקשורת - the media"@ru ;
-    ns2:language "ru" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_ru_%3Cbr%3E%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA%20-%20the%20media> a ns2:Sense ;
+    ns2:senseDefinition "<br>התקשורת - the media"@ru ;
+    ns1:language "ru" .
 

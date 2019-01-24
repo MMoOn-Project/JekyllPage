@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שׁוֹפָר> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_שׁוֹפָר> a ns2:Lexeme ;
     rdfs:label "שׁוֹפָר"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפר> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שׁוֹפָר>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_שׁפר> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שׁוֹפָר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_‫שופר‬> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Schofar%20%28Widderhorn%29>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_Schofar%20%28Widderhorn%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_mouthpiece%3B%3B%3B%20%28Jewish%20ritual%29%20shofar>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_ram%27s%20horn>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_shofar%3B%20organ> ;
-    ns2:hasWordclassAffiliation ns1:CommonNoun ;
+    ns1:hasWordclassAffiliation ns2:CommonNoun ;
     ns3:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D7%95%D6%B9%D7%A4%D6%B8%D7%A8_HE/s14343165n> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D7%95%D6%B9%D7%A4%D6%B8%D7%A8_n_HE> .
 

@@ -1,11 +1,11 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Sense_en_kernel%3B%20grain%3B%3Cbr%20/%3E%28biology%29%20nucleus%20%28of%20cell%29%3B%3Cbr%20/%3E%28physics%29%20nucleus%20%28of%20atom%29%3B%3Cbr%20/%3Esmall%20group%20of%20people%3B%3Cbr%3Esmall%20group%20of%20people%20planning%20to%20establish%20a%20new%20settlement%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20grains%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20%28colloquial%29%20sunflower%20seeds> a ns1:Sense ;
-    ns1:senseDefinition "kernel; grain;<br />(biology) nucleus (of cell);<br />(physics) nucleus (of atom);<br />small group of people;<br>small group of people planning to establish a new settlement;<br />גרעינים - grains;<br />גרעינים - (colloquial) sunflower seeds"@en ;
-    ns2:language "en" .
+<http://mmoon.org/lang/heb/inventory/oh/Sense_en_kernel%3B%20grain%3B%3Cbr%20/%3E%28biology%29%20nucleus%20%28of%20cell%29%3B%3Cbr%20/%3E%28physics%29%20nucleus%20%28of%20atom%29%3B%3Cbr%20/%3Esmall%20group%20of%20people%3B%3Cbr%3Esmall%20group%20of%20people%20planning%20to%20establish%20a%20new%20settlement%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20grains%3B%3Cbr%20/%3E%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%9D%20-%20%28colloquial%29%20sunflower%20seeds> a ns2:Sense ;
+    ns2:senseDefinition "kernel; grain;<br />(biology) nucleus (of cell);<br />(physics) nucleus (of atom);<br />small group of people;<br>small group of people planning to establish a new settlement;<br />גרעינים - grains;<br />גרעינים - (colloquial) sunflower seeds"@en ;
+    ns1:language "en" .
 

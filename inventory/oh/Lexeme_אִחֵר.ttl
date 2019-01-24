@@ -1,19 +1,19 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִחֵר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_אִחֵר> a ns1:Lexeme ;
     rdfs:label "אִחֵר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אחר> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִחֵר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אחר> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_אִחֵר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_איחר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28sich%29%20versp%C3%A4ten>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28sich%29%20versp%C3%A4ten>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_%28zu%29%20sp%C3%A4t%20sein>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20late>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20come%20late%3B%20be%20slow%3B%20to%20delay> ;
-    ns1:hasWordclassAffiliation ns2:Verb .
+    ns2:hasWordclassAffiliation ns1:Verb .
 

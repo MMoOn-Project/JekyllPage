@@ -1,21 +1,21 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּחָה> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_דָּחָה> a ns2:Lexeme ;
     rdfs:label "דָּחָה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דחי> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּחָה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_דחי> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_דָּחָה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_דחה> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20rebuff%3B%20to%20veto>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20rebuff%3B%20to%20veto>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20defer%3B%20to%20reject>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20postpone>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20push%20aside>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20spurn%3B%3Cbr%3Eto%20jilt%3B%20to%20cast%20aside%3B%20to%20override%3B%20to%20repel%3B%3Cbr%20/%3E%28physics%29%20to%20displace%3B%3Cbr%3E%28medicine%29%20to%20reject>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20turn%20down%3B%3Cbr%20/%3Eto%20oust> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

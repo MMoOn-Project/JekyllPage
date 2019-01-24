@@ -1,18 +1,18 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִיֵּב> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_חִיֵּב> a ns1:Lexeme ;
     rdfs:label "חִיֵּב"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִיֵּב>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חיב> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_חִיֵּב>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_חייב> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28talmudic%29%20to%20find%20guilty>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28talmudic%29%20to%20find%20guilty>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_bind%3B%20find%20guilty%3B%20debit%20%28finance%29%3B%26nbsp%3B%26nbsp%3Bto%20agree%20with>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_charge%3B%20approve%20of%3B%3B%3B%20to%20commit>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20approve>,
@@ -20,7 +20,7 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20convict%3B%3B%3B%20to%20force%20someone>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20favor>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20necessitate%20%3B%20%28accounting%29%20to%20debit%3B%20to%20charge%20%3B%20to%20bind%20%28be%20binding%29%3B%3B%3B%20force%3B%20debit> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
+    ns2:hasWordclassAffiliation ns1:Verb ;
     ns3:sense <http://babelnet.org/rdf/%D7%97%D6%B4%D7%99%D6%BC%D6%B5%D7%91_HE/s00085252v>,
         <http://babelnet.org/rdf/%D7%97%D6%B4%D7%99%D6%BC%D6%B5%D7%91_HE/s00086344v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%97%D6%B4%D7%99%D6%BC%D6%B5%D7%91_v_HE> .

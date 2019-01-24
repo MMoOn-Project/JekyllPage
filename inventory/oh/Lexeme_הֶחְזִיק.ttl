@@ -1,20 +1,20 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְזִיק> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_הֶחְזִיק> a ns2:Lexeme ;
     rdfs:label "הֶחְזִיק"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְזִיק>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_חזק> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/hif'il> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_הֶחְזִיק>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_החזיק> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20think%20highly%20of%20someone%3B%3Cbr%20/%3E%28talmudic%29%20to%20contain%20%28capacity%29>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%3Eto%20think%20highly%20of%20someone%3B%3Cbr%20/%3E%28talmudic%29%20to%20contain%20%28capacity%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_opinion%29%3B%3Cbr%20/%3Eto%20comprise>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20in%20possession%20of%3B%3Cbr%20/%3Eto%20maintain%20%28idea>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20consist%20of%3B%3Cbr%3Eto%20hold%3B%20to%20put%20aside>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20store%3B%3Cbr%20/%3E%28colloquial%29%20to%20respect%20someone> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

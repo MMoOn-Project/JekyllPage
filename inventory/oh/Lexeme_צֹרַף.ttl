@@ -1,22 +1,22 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צֹרַף> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_צֹרַף> a ns2:Lexeme ;
     rdfs:label "צֹרַף"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרף> ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צֹרַף>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_צרף> ;
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pu'al> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_צֹרַף>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_צורף> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28biblical%29%20to%20be%20refined>,
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28biblical%29%20to%20be%20refined>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_added>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20cleansed%3B%3Cbr%3Eto%20be%20added>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20connected>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20joined>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20be%20purified>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_ru_combined> ;
-    ns2:hasWordclassAffiliation ns1:Verb .
+    ns1:hasWordclassAffiliation ns2:Verb .
 

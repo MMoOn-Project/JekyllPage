@@ -1,5 +1,5 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns1: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,16 +7,16 @@
 
 <http://mmoon.org/lang/heb/inventory/oh/Lexeme_שִׁטָּה> a <http://mmoon.org/lang/heb/schema/oh/Lexeme> ;
     rdfs:label "שִׁטָּה"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁטָּה>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pi'el> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_שִׁטָּה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_שיטה> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20to%20make%20fun%20of>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%28literary%29%20to%20make%20fun%20of>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_acacia%20%28plant%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20poke%20fun%20at>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20ridicule> ;
-    ns1:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun>,
+    ns2:hasWordclassAffiliation <http://mmoon.org/lang/heb/schema/oh/CommonNoun>,
         <http://mmoon.org/lang/heb/schema/oh/Verb> ;
-    ns2:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%98%D6%BC%D6%B8%D7%94_HE/s00000541n>,
+    ns1:sense <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%98%D6%BC%D6%B8%D7%94_HE/s00000541n>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%98%D6%BC%D6%B8%D7%94_HE/s00083536v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%98%D6%BC%D6%B8%D7%94_n_HE>,
         <http://babelnet.org/rdf/%D7%A9%D7%81%D6%B4%D7%98%D6%BC%D6%B8%D7%94_v_HE> .

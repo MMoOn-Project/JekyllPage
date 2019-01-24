@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns2: <http://mmoon.org/mmoon/core/> .
+@prefix ns1: <http://mmoon.org/mmoon/core/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִתְאַבֵּד> a ns1:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_מִתְאַבֵּד> a ns2:Lexeme ;
     rdfs:label "מִתְאַבֵּד"@he ;
-    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אבד> ;
-    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִתְאַבֵּד>,
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_אבד> ;
+    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_מִתְאַבֵּד>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_מתאבד> ;
-    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_1.%20one%20who%20commits%20suicide%202.%20suicide%20terrorist> ;
-    ns2:hasWordclassAffiliation ns1:Adjective,
-        ns1:CommonNoun .
+    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_en_1.%20one%20who%20commits%20suicide%202.%20suicide%20terrorist> ;
+    ns1:hasWordclassAffiliation ns2:Adjective,
+        ns2:CommonNoun .
 

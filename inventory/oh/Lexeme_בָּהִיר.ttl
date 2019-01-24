@@ -1,16 +1,16 @@
-@prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns1: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/mmoon/core/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּהִיר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_בָּהִיר> a ns1:Lexeme ;
     rdfs:label "בָּהִיר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בהר> ;
-    ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּהִיר>,
+    ns1:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_בהר> ;
+    ns2:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_בָּהִיר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_בהיר> ;
-    ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_hell%3B%20heiter%20%28Wetter%29>,
+    ns2:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_hell%3B%20heiter%20%28Wetter%29>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_klar>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Eblond%3B%3B%3B%20light>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_%3Cbr%20/%3Ebright>,
@@ -27,5 +27,5 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sunny>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_sunshiny>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_white> ;
-    ns1:hasWordclassAffiliation ns2:Adjective .
+    ns2:hasWordclassAffiliation ns1:Adjective .
 

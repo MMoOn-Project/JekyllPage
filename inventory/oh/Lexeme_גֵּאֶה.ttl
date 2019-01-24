@@ -1,20 +1,20 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://www.lemon-model.net/lemon#> .
-@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
+@prefix ns3: <http://www.lemon-model.net/lemon#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּאֶה> a ns3:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גֵּאֶה> a ns2:Lexeme ;
     rdfs:label "גֵּאֶה"@he ;
-    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גאי> ;
+    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גאי> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גֵּאֶה>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גאה> ;
     ns1:hasSense <http://mmoon.org/lang/heb/inventory/oh/Sense_de_selbstbewu%C3%9Ft>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_de_stolz>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_proud> ;
-    ns1:hasWordclassAffiliation ns3:Adjective ;
-    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B5%D7%90%D6%B6%D7%94_HE/s00109157a> ;
+    ns1:hasWordclassAffiliation ns2:Adjective ;
+    ns3:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B5%D7%90%D6%B6%D7%94_HE/s00109157a> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B5%D7%90%D6%B6%D7%94_a_HE> .
 

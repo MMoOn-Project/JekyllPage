@@ -1,14 +1,14 @@
 @prefix ns1: <http://mmoon.org/mmoon/core/> .
-@prefix ns2: <http://mmoon.org/lang/heb/schema/oh/> .
-@prefix ns3: <http://www.lemon-model.net/lemon#> .
+@prefix ns2: <http://www.lemon-model.net/lemon#> .
+@prefix ns3: <http://mmoon.org/lang/heb/schema/oh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּבַר> a ns2:Lexeme ;
+<http://mmoon.org/lang/heb/inventory/oh/Lexeme_גָּבַר> a ns3:Lexeme ;
     rdfs:label "גָּבַר"@he ;
-    ns2:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גבר> ;
+    ns3:consistsOfMorph <http://mmoon.org/lang/heb/inventory/oh/Root_גבר> ;
     ns1:consistsOfMorph <http://mmoon.org/lang/heb/schema/oh/pa'al> ;
     ns1:hasRepresentation <http://mmoon.org/lang/heb/inventory/oh/Representation_גָּבַר>,
         <http://mmoon.org/lang/heb/inventory/oh/Representation_גבר> ;
@@ -17,8 +17,8 @@
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20become%20stronger>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20gain%20power%3B%3Cbr%3Eto%20conquer>,
         <http://mmoon.org/lang/heb/inventory/oh/Sense_en_to%20vanquish> ;
-    ns1:hasWordclassAffiliation ns2:Verb ;
-    ns3:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%91%D6%B7%D7%A8_HE/s00086442v>,
+    ns1:hasWordclassAffiliation ns3:Verb ;
+    ns2:sense <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%91%D6%B7%D7%A8_HE/s00086442v>,
         <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%91%D6%B7%D7%A8_HE/s00086448v> ;
     rdfs:seeAlso <http://babelnet.org/rdf/%D7%92%D6%BC%D6%B8%D7%91%D6%B7%D7%A8_v_HE> .
 
